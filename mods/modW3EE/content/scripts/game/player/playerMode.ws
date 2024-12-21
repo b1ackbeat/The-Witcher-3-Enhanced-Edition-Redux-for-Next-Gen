@@ -87,8 +87,8 @@ class W3PlayerMode
 					minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
 					objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
 					
-					//Kolaris - NextGen Update (Disabled)
-					/*if(minimapModule)
+					// b1ackbeat's Minimap and Quests modules for NG - Start
+					if(minimapModule)
 					{
 						minimapModule.SetIsInCombat(true);
 					}
@@ -96,7 +96,8 @@ class W3PlayerMode
 					if(objectiveModule)
 					{
 						objectiveModule.SetIsInCombat(true);
-					}*/
+					}
+					// b1ackbeat's Minimap and Quests modules for NG - End
 				}				
 				
 			}
@@ -109,8 +110,8 @@ class W3PlayerMode
 					minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
 					objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
 					
-					//Kolaris - NextGen Update (Disabled)
-					/*if(minimapModule)
+					// b1ackbeat's Minimap and Quests modules for NG - Start
+					if(minimapModule)
 					{
 						minimapModule.SetIsInCombat(false);
 					}
@@ -118,7 +119,8 @@ class W3PlayerMode
 					if(objectiveModule)
 					{
 						objectiveModule.SetIsInCombat(false);
-					}*/
+					}
+					// b1ackbeat's Minimap and Quests modules for NG - End
 				}
 				
 				

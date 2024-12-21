@@ -553,6 +553,13 @@ class CR4ScriptedHud extends CR4Hud
 	
 	public function UpdateHudConfigs():void
 	{
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		var minimapModule : CR4HudModuleMinimap2;
+		var objectiveModule : CR4HudModuleQuests;
+		// b1ackbeat's Minimap and Quests modules for NG - End
+		
+
 		UpdateHudConfig('Subtitles', false);
 		
 		
@@ -573,12 +580,40 @@ class CR4ScriptedHud extends CR4Hud
 		UpdateHudConfig('HorseStaminaBarModule', false);
 		UpdateHudConfig('ItemInfoModule', false);
 		
-		UpdateHudConfig('Minimap2Module', false);
+		
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		minimapModule = (CR4HudModuleMinimap2)GetHudModule("Minimap2Module");
+		if(minimapModule)
+		{
+			if(!minimapModule.GetMinimapDuringFocusCombat())
+			{
+				UpdateHudConfig('Minimap2Module', false);
+			}
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End	
+		
+		
 		UpdateHudConfig('DayWeatherIndicator',false);
 		UpdateHudConfig('TrackedMonster',false);
 		UpdateHudConfig('OnelinersModule', false);
 		UpdateHudConfig('OxygenBarModule', false);
-		UpdateHudConfig('QuestsModule', false);
+		
+		
+		
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		objectiveModule = (CR4HudModuleQuests)GetHudModule("QuestsModule");
+		if(objectiveModule)
+		{
+			if(!objectiveModule.GetObjectiveDuringFocusCombat())
+			{
+				UpdateHudConfig('QuestsModule', false);
+			}
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End	
+		
+		
 		UpdateHudConfig('WolfMedalion',false);
 		UpdateHudConfig('MessageModule', false);
 		UpdateHudConfig('MinimapRotation', false);
@@ -1675,6 +1710,23 @@ class CR4ScriptedHud extends CR4Hud
 	
 	public function OnCutsceneStarted()
 	{
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		var qst : CR4HudModuleQuests;		
+		var mm : CR4HudModuleMinimap2;
+
+		mm = (CR4HudModuleMinimap2)GetHudModule("Minimap2Module");
+		qst = (CR4HudModuleQuests)GetHudModule("QuestsModule");
+		
+		if(mm)
+			mm.SetIsInDlg(true);
+			
+		if(qst)
+			qst.SetIsInDlg(true);	
+		// b1ackbeat's Minimap and Quests modules for NG - End			
+		
+	
+	
 		ForceShow( true, HVS_Scene );
 		
 		m_fxOnCutscene.InvokeSelfOneArg( FlashArgBool( true ) );
@@ -1682,6 +1734,22 @@ class CR4ScriptedHud extends CR4Hud
 	
 	public function OnCutsceneEnded()
 	{
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		var qst : CR4HudModuleQuests;		
+		var mm : CR4HudModuleMinimap2;
+
+		mm = (CR4HudModuleMinimap2)GetHudModule("Minimap2Module");
+		qst = (CR4HudModuleQuests)GetHudModule("QuestsModule");
+		
+		if(mm)
+			mm.SetIsInDlg(false);
+			
+		if(qst)
+			qst.SetIsInDlg(false);	
+		// b1ackbeat's Minimap and Quests modules for NG - End			
+		
+	
 		ForceShow( false, HVS_Scene );
 		
 		m_fxOnCutscene.InvokeSelfOneArg( FlashArgBool( false ) );

@@ -64,6 +64,9 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 		var manager : CCommonMapManager;
 		var flashModule : CScriptedFlashSprite;
 		var hud : CR4ScriptedHud;
+		
+		
+		var inGameConfigWrapper : CInGameConfigWrapper; // b1ackbeat's Minimap module for NG
 
 		m_flashValueStorage = GetModuleFlashValueStorage();
 		m_anchorName = "mcAnchorMiniMap"; 
@@ -125,8 +128,115 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 				, HINT_WAYPOINTS_PATHFIND_TOLERANCE
 				, HINT_WAYPOINTS_MAX_COUNT );
 		}
+		
+		
+		// b1ackbeat's Minimap module for NG - Start
+		inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
+		minimapDuringFocusCombat = inGameConfigWrapper.GetVarValue('Hud', 'MinimapDuringFocusCombat');
+		
 	}
 	
+	
+	private var isInCombat : bool;
+	private var isInFocus : bool;
+	private var dlgPlaying : bool;
+	public function SetIsInDlg(dlg : bool)
+	{
+		if(!minimapDuringFocusCombat)
+			return;
+	
+		dlgPlaying = dlg;
+		
+		if(dlg)
+		{			
+			currentlyFading = false;
+			isFading = false;
+			SetEnabled(false);
+		}
+		else
+		{
+			currentlyFading = false;
+			isFading = false;
+		}
+	}
+	
+	public function SetIsInCombat(combat : bool)
+	{
+		isInCombat = combat;
+	}
+	
+	public function SetIsInFocus(focus : bool)
+	{
+		isInFocus = focus;
+	}
+	
+	private var minimapDuringFocusCombat : bool;
+	public function GetMinimapDuringFocusCombat() : bool
+	{
+		return minimapDuringFocusCombat;
+	}
+	
+	public function SetMinimapDuringFocusCombat(enable : bool)
+	{
+		var hud : CR4ScriptedHud;
+	
+		minimapDuringFocusCombat = enable;
+		if(!minimapDuringFocusCombat)
+		{
+			hud = (CR4ScriptedHud)theGame.GetHud();
+			if ( hud )
+				hud.UpdateHudConfig('Minimap2Module', true);	
+		}
+		else
+		{
+			fadeInTimer = 5.5;
+		}
+		// b1ackbeat's Minimap module for NG - End
+	}
+	
+	// b1ackbeat's Minimap module for NG - Start
+	private var fadeInTimer : float;
+	private var isFading, currentlyFading : bool;
+	private var fadeOutTime : float;	default fadeOutTime = 0.3f;
+	//private var fadeTime : float; //modFriendlyHUD
+	
+	private function FadeMinimapOut(dt : float)
+	{		
+		//---=== modFriendlyHUD ===---
+		var fModule	: CScriptedFlashSprite;
+		var mAlpha	: float;
+		//---=== modFriendlyHUD ===---
+		if(dlgPlaying)
+			return;
+	
+		fadeInTimer -= dt;
+		if(fadeInTimer > 0)
+			return;
+	
+		currentlyFading = true;
+		//---=== modFriendlyHUD ===---
+		//this is what happens when you copy-paste...
+		//fadeTime -= dt;
+		
+		if(!theGame.IsDialogOrCutscenePlaying() && !theGame.IsFading())
+		{
+			fModule = GetModuleFlash();
+			mAlpha = fModule.GetAlpha() - 100 * dt / fadeOutTime;
+			fModule.SetAlpha( MaxF( 0, mAlpha ) );
+			//GetModuleFlash().SetAlpha( 100 * MaxF( 0, fadeTime / fadeOutTime ) );
+		}
+		
+		//if(fadeTime <= 0)
+		if( mAlpha <= 0 )
+		{
+			SetEnabled(false);
+			currentlyFading = false;
+			isFading = false;
+		}
+		//---=== modFriendlyHUD ===---
+	}
+	// b1ackbeat's Minimap module for NG - End
+
 	//---=== modFriendlyHUD ===---
 	public function UpdateZoomForced()
 	{
@@ -158,6 +268,46 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 	
 	event  OnTick( timeDelta : float )
 	{
+		
+		// b1ackbeat's Minimap module for NG - Start
+		var hud : CR4ScriptedHud;		
+		var horseRacing, dlg : bool;
+		
+		horseRacing = false;
+
+		if(!dlgPlaying && minimapDuringFocusCombat)
+		{		
+			if(thePlayer.GetIsHorseRacing())
+				horseRacing = true;
+		
+			if(currentlyFading || (isFading && !isInFocus && !isInCombat && !horseRacing))
+			{
+				FadeMinimapOut(timeDelta);
+				UpdatePlayerPositionAndRotation( timeDelta );
+				
+			}		
+		
+			else if(!currentlyFading && (isInFocus || isInCombat || horseRacing))
+			{
+				hud = (CR4ScriptedHud)theGame.GetHud();
+				if ( hud )
+				{
+					hud.UpdateHudConfig('Minimap2Module', true);
+					fadeInTimer = 5.5f;
+					isFading = false;
+				}
+			}
+			else if (!isFading && GetEnabled())
+			{
+				isFading = true;
+				//fadeTime = fadeOutTime; //modFriendlyHUD
+				FadeMinimapOut(timeDelta);
+				
+			}
+		}
+		// b1ackbeat's Minimap module for NG - End
+		
+	
 		UpdateZoom();
 		UpdatePlayerPositionAndRotation( timeDelta );
 		

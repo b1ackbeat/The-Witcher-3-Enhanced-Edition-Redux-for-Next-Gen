@@ -52,11 +52,18 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 	private const var FOCUS_INTERACION_RADIUS					: float;	default FOCUS_INTERACION_RADIUS						= 10;	
 	private const var FOCUS_INTERACTION_OPAQUE_ICON_RADIUS		: float;	default FOCUS_INTERACTION_OPAQUE_ICON_RADIUS		= 100;	
 	private const var FOCUS_INTERACTION_TRANSPARENT_ICON_RADIUS	: float;	default FOCUS_INTERACTION_TRANSPARENT_ICON_RADIUS	= 500;	
+	
+	
+	// b1ackbeat's Interactions module for NG - Start
+	private var hud : CR4ScriptedHud;
+	private var isIconVisible : bool;
+	// b1ackbeat's Interactions module for NG - End
+	
  
 	event  OnConfigUI()
 	{		
 		var flashModule : CScriptedFlashSprite;
-		
+
 		flashModule 			= GetModuleFlash();
 		m_anchorName = "ScaleOnly";
 		m_fxEnableHoldIndicator						= flashModule.GetMemberFlashFunction( "EnableHoldIndicator" );
@@ -87,6 +94,9 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 		ShowElement( false ); 
 		
 		theGame.GetGuiManager().checkHoldIndicator();
+		
+		
+		hud = (CR4ScriptedHud)theGame.GetHud(); // b1ackbeat's Interactions module for NG
 	}
 	
 	event  OnRequestShowHold()
@@ -127,6 +137,14 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 		var keys				: array< EInputKey >;
 		
 		var showInteractionIcon : bool;
+		
+		
+		// b1ackbeat's Interactions module for NG - Start
+		var screenMargin : float = 0.085; 
+		var marginLeftTop : Vector;
+		var marginRightBottom : Vector;	
+		// b1ackbeat's Interactions module for NG - End
+		
 
 		//---=== modFriendlyHUD ===---
 		var showInteractionText	: bool;
@@ -192,8 +210,11 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 				{
 					showInteractionIcon = false;
 				}
+
 				m_fxSetInteractionKeyIconAndTextSFF.InvokeSelfFourArgs( FlashArgInt( key ), FlashArgInt( key2 ), FlashArgString( actionName ), FlashArgString( GetLocStringByKeyExt( actionText ) ) );
 				m_fxSetVisibilityExSFF.InvokeSelfFiveArgs( FlashArgBool( true ), FlashArgBool( false ), FlashArgBool( true ), FlashArgBool( showInteractionIcon ), FlashArgBool( showInteractionText ) );
+				
+				isIconVisible = showInteractionIcon; // b1ackbeat's Interactions module for NG
 				//---=== modFriendlyHUD ===---
 			}
 			else if ( displayEntity )
@@ -205,23 +226,54 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 					showEntityText = GetFHUDConfig().ShowEntityText(actionName);
 					m_fxSetInteractionIconAndTextSFF.InvokeSelfTwoArgs( FlashArgString( actionName ), FlashArgString( GetLocStringByKeyExt( actionText ) ) );
 					m_fxSetVisibilityExSFF.InvokeSelfFiveArgs( FlashArgBool( true ), FlashArgBool( showEntityIcon ), FlashArgBool( true ), FlashArgBool( false ), FlashArgBool( showEntityText ) );
+					
+					isIconVisible = showEntityIcon; // b1ackbeat's Interactions module for NG
 					//---=== modFriendlyHUD ===---
 				}
 				else
 				{
 					m_fxSetVisibilityExSFF.InvokeSelfFiveArgs( FlashArgBool( true ), FlashArgBool( false ), FlashArgBool( true ), FlashArgBool( false ), FlashArgBool( false ) );
+					
+					isIconVisible = true; // b1ackbeat's Interactions module for NG
 				}
 			}
 			else
 			{
 				m_fxSetVisibilitySFF.InvokeSelfTwoArgs( FlashArgBool( false ), FlashArgBool( false ) );
+				
+				isIconVisible = false; // b1ackbeat's Interactions module for NG
 			}
 		}
 		
 		if ( _interactionEntity )
 		{
 			if ( GetInteractionScreenPosition( _interactionEntity, _interactionEntityComponent, screenPos ) )
-			{
+			{			
+				
+				// b1ackbeat's Interactions module for NG - Start
+				marginLeftTop     = hud.GetScaleformPoint( screenMargin,     screenMargin );
+				marginRightBottom = hud.GetScaleformPoint( 1 - screenMargin, 1 - screenMargin );
+
+				if ( screenPos.X < marginLeftTop.X )
+				{
+					screenPos.X = marginLeftTop.X;
+				}
+				else if ( screenPos.X > marginRightBottom.X )
+				{
+					screenPos.X = marginRightBottom.X;
+				}
+				
+				if ( screenPos.Y < marginLeftTop.Y )
+				{
+					screenPos.Y = marginLeftTop.Y;
+				}
+				else if ( screenPos.Y > marginRightBottom.Y )
+				{
+					screenPos.Y = marginRightBottom.Y;
+				}
+				// b1ackbeat's Interactions module for NG - End
+				
+			
 				m_fxSetPositionsSFF.InvokeSelfTwoArgs( FlashArgNumber( screenPos.X ), FlashArgNumber( screenPos.Y ) );			
 			}
 		}
@@ -229,6 +281,31 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 		{
 			if ( GetInteractionScreenPosition( displayEntity, NULL, screenPos ) )
 			{
+				
+				// b1ackbeat's Interactions module for NG - Start
+				marginLeftTop     = hud.GetScaleformPoint( screenMargin,     screenMargin );
+				marginRightBottom = hud.GetScaleformPoint( 1 - screenMargin, 1 - screenMargin );
+
+				if ( screenPos.X < marginLeftTop.X )
+				{
+					screenPos.X = marginLeftTop.X;
+				}
+				else if ( screenPos.X > marginRightBottom.X )
+				{
+					screenPos.X = marginRightBottom.X;
+				}
+				
+				if ( screenPos.Y < marginLeftTop.Y )
+				{
+					screenPos.Y = marginLeftTop.Y;
+				}
+				else if ( screenPos.Y > marginRightBottom.Y )
+				{
+					screenPos.Y = marginRightBottom.Y;
+				}
+				// b1ackbeat's Interactions module for NG - End
+				
+			
 				m_fxSetPositionsSFF.InvokeSelfTwoArgs( FlashArgNumber( screenPos.X ), FlashArgNumber( screenPos.Y ) );
 			}
 		}
@@ -358,6 +435,13 @@ class CR4HudModuleInteractions extends CR4HudModuleBase
 		{
 			return false;
 		}
+		
+		
+		// b1ackbeat's Interactions module for NG - Start
+		if(isIconVisible)
+			return true;
+		// b1ackbeat's Interactions module for NG - End
+		
 		
 		
 		if ( GetInteractionScreenPosition( interactionEntity, interactionComponent, screenPos, true ) )

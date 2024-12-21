@@ -23,6 +23,10 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 
 	event  OnConfigUI()
 	{
+		
+		var inGameConfigWrapper : CInGameConfigWrapper; // b1ackbeat's Oneliners module for NG
+	
+	
 		m_anchorName = "ScaleOnly";
 		
 		m_flashModule 			= GetModuleFlash();
@@ -39,6 +43,12 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 		{
 			m_hud.UpdateHudConfig('OnelinersModule', true);
 		}
+		
+		
+		// b1ackbeat's Oneliners module for NG - Start
+		inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
+		onelinerScale = StringToInt(inGameConfigWrapper.GetVarValue('Hud', 'OnelinerScale'));
+		// b1ackbeat's Oneliners module for NG - End
 		
 		//modFriendlyHUD begin
 		modMarkers = new CModMarkers in this;
@@ -95,7 +105,10 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 		//modFriendlyHUD end
 		
 		LogChannel( 'Oneliner', "SHOW " + ID + ": " + value + " [" + target.GetName() + "]" );
-
+		
+		
+		value = "<font size = '"+ IntToString( 25 + onelinerScale ) + "' >" + value + "</font>"; // b1ackbeat's Oneliners module for NG
+		
 		if( ( theGame.isDialogDisplayDisabled || !m_hud.IsOnelinersModuleEnabled() ) ) //modFriendlyHUD
 		{
 			value = "";
@@ -108,7 +121,7 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 		
 		m_fxCreateOnelinerSFF.InvokeSelfTwoArgs(FlashArgInt(ID),FlashArgString(value));
 	}		
-	
+
 	event OnRemoveOneliner( ID : int )
 	{
 		var i : int;
@@ -125,6 +138,18 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 			}
 		}
 	}
+	
+	// b1ackbeat's Oneliners module for NG - Start
+	private function IsTargetCloseEnough( target : CEntity ) : bool //modFriendlyHUD
+	{
+		return VecDistanceSquared( target.GetWorldPosition(), thePlayer.GetWorldPosition() ) < VISIBILITY_DISTANCE_SQUARED;
+	}
+	
+	protected function UpdateScale( scale : float, flashModule : CScriptedFlashSprite ) : bool
+	{
+		return false;
+	}
+	// b1ackbeat's Oneliners module for NG - End
 	
 	//modFriendlyHUD begin
 	public function FXGetOneliner( ID : int ) : CScriptedFlashSprite
@@ -152,16 +177,16 @@ class CR4HudModuleOneliners extends CR4HudModuleBase
 		return modMarkers.SignalCache3DMarkers( questPins );
 	}
 	//modFriendlyHUD end
-
-	private function IsTargetCloseEnough( target : CEntity ) : bool //modFriendlyHUD
-	{
-		return VecDistanceSquared( target.GetWorldPosition(), thePlayer.GetWorldPosition() ) < VISIBILITY_DISTANCE_SQUARED;
-	}
 	
-	protected function UpdateScale( scale : float, flashModule : CScriptedFlashSprite ) : bool
+	// b1ackbeat's Oneliners module for NG - Start
+	private var onelinerScale : int;
+	default onelinerScale = 0;
+	
+	public function SetOnelinerScale(scale : int)
 	{
-		return false;
+		onelinerScale = scale;
 	}
+	// b1ackbeat's Oneliners module for NG - End
 }
 
 exec function sayoneliner( value : string, id : int )

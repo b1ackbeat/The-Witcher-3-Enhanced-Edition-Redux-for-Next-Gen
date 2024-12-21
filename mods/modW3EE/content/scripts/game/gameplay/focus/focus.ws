@@ -201,10 +201,41 @@ import class CFocusModeController extends IGameSystem
 	
 	private function ActivateInternal()
 	{
+		
+		// b1ackbeat's Minimap and Questss modules for NG - Start
+		var hud : CR4ScriptedHud;
+		var minimapModule : CR4HudModuleMinimap2;
+		var objectiveModule : CR4HudModuleQuests;
+		// b1ackbeat's Minimap and Quests modules for NG - End
+		
+	
 		if ( IsActive() || !CanUseFocusMode() )
 		{
 			return;
 		}
+
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		if(thePlayer.IsCiri())
+		{
+			hud = (CR4ScriptedHud)theGame.GetHud();
+			if(hud)
+			{
+				minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+				objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
+				
+				if(minimapModule)
+				{
+					minimapModule.SetIsInFocus(true);
+				}
+				
+				if(objectiveModule)
+				{
+					objectiveModule.SetIsInFocus(true);
+				}
+			}
+			return;
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 		SetActive( true );
 		EnableVisuals( true );
@@ -219,14 +250,42 @@ import class CFocusModeController extends IGameSystem
 		if ( theGame.GetEngineTimeAsSeconds() - activationSoundTimer > activationSoundInterval )
 		{
 			activationSoundTimer = theGame.GetEngineTimeAsSeconds();
-			theSound.SoundEvent( 'expl_focus_start' );
+			theSound.SoundEvent( 'expl_focus_start' );			
 		}
+		
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		hud = (CR4ScriptedHud)theGame.GetHud();
+		if(hud)
+		{
+			minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+			objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
+			
+			if(minimapModule)
+			{
+				minimapModule.SetIsInFocus(true);
+			}
+			
+			if(objectiveModule)
+			{
+				objectiveModule.SetIsInFocus(true);
+			}
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End
+		
 	}
 
 	public function Deactivate()
 	{
 		var hud : CR4ScriptedHud;
 		var module : CR4HudModuleInteractions;
+		
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		var minimapModule : CR4HudModuleMinimap2;
+		var objectiveModule : CR4HudModuleQuests;
+		// b1ackbeat's Minimap and Quests modules for NG - End
+		
 		
 		//---=== modFriendlyHUD ===---
 		if( GetFHUDConfig().enableWitcherSensesModules )
@@ -236,6 +295,28 @@ import class CFocusModeController extends IGameSystem
 		//---=== modFriendlyHUD ===---
 
 		ActivateFastFocus( false );
+
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		if(thePlayer.IsCiri())
+		{
+			hud = ( CR4ScriptedHud )theGame.GetHud();
+			if(hud)
+			{
+				minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+				objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
+				
+				if(minimapModule)
+				{
+					minimapModule.SetIsInFocus(false);
+				}
+				
+				if(objectiveModule)
+				{
+					objectiveModule.SetIsInFocus(false);
+				}
+			}
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End
 
 		if ( !IsActive() )
 		{
@@ -295,6 +376,26 @@ import class CFocusModeController extends IGameSystem
 				module.RemoveAllFocusInteractionIcons();
 			}
 		}
+		
+		
+		// b1ackbeat's Minimap and Quests modules for NG - Start
+		if(hud)
+		{
+			minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+			objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
+			
+			if(minimapModule)
+			{
+				minimapModule.SetIsInFocus(false);
+			}
+			
+			if(objectiveModule)
+			{
+				objectiveModule.SetIsInFocus(false);
+			}
+		}
+		// b1ackbeat's Minimap and Quests modules for NG - End
+		
 	}
 
 	function CanUseFocusMode() : bool

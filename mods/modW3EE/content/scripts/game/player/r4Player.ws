@@ -3246,12 +3246,13 @@ statemachine abstract import class CR4Player extends CPlayer
 			mm = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
 			qst = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
 			
-			//disabling for now
-			/*if(mm)
+			// b1ackbeat's Minimap and Quests modules for NG - Start
+			if(mm)
 				mm.SetIsInDlg(true);
 				
 			if(qst)
-				qst.SetIsInDlg(true);*/	
+				qst.SetIsInDlg(true);
+			// b1ackbeat's Minimap and Quests modules for NG - End	
 		}
 	
 		if( inv.GetItemEquippedOnSlot(EES_SilverSword, silver) && inv.IsItemHeld(silver))
