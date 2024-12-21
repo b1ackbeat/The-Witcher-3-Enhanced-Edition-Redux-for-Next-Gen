@@ -34,11 +34,12 @@ class CGhost extends CNewNPC
 			}
 		}
 		
-		//Kolaris - NextGen (Disabled)
-		/*if( FactsQuerySum( "q106_magic_oillamp_used" ) > 0  )
+		// b1ackbeat's DualSense Support - Start
+		if( FactsQuerySum( "q106_magic_oillamp_used" ) > 0  )
 		{
 			theGame.HapticStart( "haptic_lamp_discovery" );
-		}*/
+		}
+		// b1ackbeat's DualSense Support - End
 	}
 	
 	event OnFireHit(source : CGameplayEntity)

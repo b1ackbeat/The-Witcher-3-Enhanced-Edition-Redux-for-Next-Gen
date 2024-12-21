@@ -105,8 +105,9 @@ class PhotomodeManager
 		theGame.RequestMenu( GetPhotomodeMenuName() );
 		
 		m_photomodeEnabled = true;
-		//Kolaris - NextGen Update (Disabled)
-		//thePlayer.ApplyCastSettings();
+		// b1ackbeat's DualSense Support - Start
+		thePlayer.ApplyCastSettings();
+		// b1ackbeat's DualSense Support - End
 		thePlayer.SetPhotoModeHorseKick(true);
 	}
 	
@@ -124,8 +125,9 @@ class PhotomodeManager
 		theInput.SetContext( m_lastActiveContext );	
 			
 		m_photomodeEnabled = false;
-		//Kolaris - NextGen Update (Disabled)
-		//thePlayer.ApplyCastSettings();
+		// b1ackbeat's DualSense Support - Start
+		thePlayer.ApplyCastSettings();
+		// b1ackbeat's DualSense Support - End
 	}
 	
 	private function PauseFx()

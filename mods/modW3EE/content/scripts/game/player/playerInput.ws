@@ -3124,6 +3124,12 @@ class CPlayerInput
 	{
 		var signSkill : ESkill;
 		
+		// b1ackbeat's DualSense Support - Start
+		if( altSignCasting )
+			thePlayer.ApplyCastSettings(); 
+		// b1ackbeat's DualSense Support - End
+		
+		
 		//Kolaris - NG Quick Cast
 		if(altSignCasting && !theInput.LastUsedPCInput())
 		{
