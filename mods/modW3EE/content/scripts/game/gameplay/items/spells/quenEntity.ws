@@ -128,7 +128,9 @@ statemachine class W3QuenEntity extends W3SignEntity
 	event OnTargetHit( out damageData : W3DamageAction )
 	{
 		if(owner.GetActor() == thePlayer && !damageData.IsDoTDamage() && !damageData.WasDodged())
-			theGame.VibrateControllerHard();
+			// b1ackbeat's DualSense Support - Start
+			thePlayer.OnShieldHit();
+			// b1ackbeat's DualSense Support - End
 	}
 		
 	protected function GetSignStats()

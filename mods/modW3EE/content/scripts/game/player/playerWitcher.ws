@@ -49,6 +49,12 @@ statemachine class W3PlayerWitcher extends CR4Player
 	public				var yrdenEntities				: array<W3YrdenEntity>;
 	public saved		var m_quenReappliedCount		: int;
 	public saved		var m_quickInventorySaveData	: WmkQuickInventorySaveData; // -= WMK:modQuickSlots =-
+	// b1ackbeat's DualSense Support - Start
+	private				var m_quenHitFxTTL				: float;
+	private				var m_TriggerEffectDisablePending : bool;
+	private				var m_TriggerEffectDisabled		: bool;
+	private				var m_TriggerEffectDisableTTW	: float;
+	// b1ackbeat's DualSense Support - End
 	
 	default				equippedSign	= ST_Aard;
 	default				m_quenReappliedCount = 1;
@@ -140,6 +146,10 @@ statemachine class W3PlayerWitcher extends CR4Player
 	private var invUpdateTransaction : bool;
 		default invUpdateTransaction = false;
 	
+	// b1ackbeat's DualSense Support - Start
+	public var lastPressedWithNovigor : bool;
+		default lastPressedWithNovigor = false;
+	// b1ackbeat's DualSense Support - End
 	
 	
 	
@@ -789,7 +799,27 @@ statemachine class W3PlayerWitcher extends CR4Player
 			ModNoDuplicatesAddInventoryComponentFacts(GetHorseManager().GetInventoryComponent());
 		}
 		//modNoDuplicates - End
+		
+		// b1ackbeat's DualSense Support - Start
+		m_quenHitFxTTL = 0;
+		m_TriggerEffectDisablePending = false;
+		m_TriggerEffectDisabled = false;
+		ApplyGamepadTriggerEffect( equippedSign );
+      	AddTimer( 'UpdateGamepadTriggerEffect', 0.1, true );
+		// b1ackbeat's DualSense Support - End
 	}
+
+	// b1ackbeat's DualSense Support - Start
+	event OnDestroyed()
+	{
+		RemoveTimer( 'UpdateGamepadTriggerEffect' );
+
+		theGame.ClearTriggerEffect(0);
+		theGame.ClearTriggerEffect(1);
+
+		super.OnDestroyed();
+	}
+	// b1ackbeat's DualSense Support - End
 	
 	private function HACK_UnequipWolfLiver()
 	{
@@ -2098,7 +2128,222 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}
 	}
 		
-	
+	// b1ackbeat's DualSense Support - Start
+	public function OnShieldHit()
+	{
+		m_quenHitFxTTL = 0.2;
+		ApplyGamepadTriggerEffect( equippedSign );
+	}
+
+	timer function UpdateGamepadTriggerEffect( dt : float, id : int )
+	{
+		if( m_TriggerEffectDisablePending )
+		{
+			m_TriggerEffectDisableTTW -= dt;
+
+			if( m_TriggerEffectDisableTTW < 0 )
+			{
+				m_TriggerEffectDisabled = true;
+				m_TriggerEffectDisablePending = false;
+			}
+		}
+
+		if( m_TriggerEffectDisabled  &&  !theInput.IsActionPressed('CastSign') )
+			m_TriggerEffectDisabled = false;
+
+		m_quenHitFxTTL -= dt;
+		ApplyGamepadTriggerEffect( equippedSign );
+	}
+
+	public function ApplyCastSettings()
+	{
+		ApplyGamepadTriggerEffect( equippedSign );
+	}
+
+	private function ApplyGamepadTriggerEffect( type : ESignType )
+	{
+		var mode : int;
+		var param : array<Vector>;
+		var cur_sign : W3SignEntity;
+		var sign_skill : ESkill;
+
+		sign_skill = SignEnumToSkillEnum( type );
+
+		if( !thePlayer.CanUseSkill(sign_skill)  ||  !HasVigorToUseSkill(sign_skill) )
+		{
+			theGame.SetTriggerEffect( 1, GTFX_Off, param );
+			theGame.SetTriggerEffect( 0, GTFX_Off, param );
+			if(theInput.IsActionPressed('CastSign'))
+			{
+				lastPressedWithNovigor = true;
+			}
+			return;
+		}
+		if(lastPressedWithNovigor && !theInput.IsActionPressed('CastSign'))
+		{
+			lastPressedWithNovigor = false;
+		}
+
+		if(lastPressedWithNovigor)
+		{
+			return;
+		}
+
+		if( type == ST_Igni  &&  IsCurrentSignChanneled() )
+		{
+			mode = GTFX_MultiVibration;
+			
+			param.Resize( 10 );
+			param[0].Y = 0.3; 
+			param[0].X = 0.0;
+			param[1].X = 0.0;
+			param[2].X = 0.0;
+			param[3].X = 0.0;
+			param[4].X = 0.0;
+			param[5].X = 0.0;
+			param[6].X = 0.8;
+			param[7].X = 0.8;
+			param[8].X = 0.8;
+			param[9].X = 0.9;
+
+			theGame.SetTriggerEffect( 1, mode, param );
+			return;
+		}
+
+		if( type == ST_Quen  &&  m_quenHitFxTTL > 0  &&  HasBuff( EET_BasicQuen ) )
+		{
+			mode = GTFX_MultiVibration;
+			
+			param.Resize( 10 );
+			param[0].Y = 0.5; 
+			param[0].X = 0.0;
+			param[1].X = 0.0;
+			param[2].X = 0.0;
+			param[3].X = 0.0;
+			param[4].X = 0.0;
+			param[5].X = 0.0;
+			param[6].X = 0.8;
+			param[7].X = 0.8;
+			param[8].X = 0.99;
+			param[9].X = 0.99;
+
+			theGame.SetTriggerEffect( 1, mode, param );
+			return;
+		}
+
+		
+		if( m_TriggerEffectDisabled )
+		{
+			theGame.SetTriggerEffect( 1, GTFX_Off, param );
+			theGame.SetTriggerEffect( 0, GTFX_Off, param );
+			return;
+		}
+
+		if( 	
+			theGame.IsPaused() 
+			|| theGame.GetPhotomodeEnabled() 
+			|| theGame.IsDialogOrCutscenePlaying() 
+			|| thePlayer.IsInCutsceneIntro() 
+			|| theGame.IsCurrentlyPlayingNonGameplayScene()
+			)
+		{
+			theGame.SetTriggerEffect( 1, GTFX_Off, param );
+			theGame.SetTriggerEffect( 0, GTFX_Off, param );
+
+			return;
+		}
+
+		mode = GTFX_Off;
+		
+		if( GetInputHandler().GetIsAltSignCasting() )
+		{
+			mode = GTFX_Vibration;
+			
+			param.Resize( 1 );
+			param[0].X = 0.9; 
+			param[0].Y = 0.1; 
+			param[0].Z = 0.15; 
+
+			theGame.SetTriggerEffect( 1, mode, param );
+			
+			if( GetInputHandler().GetIsAltSignCastingPressed() )
+			{
+				mode = GTFX_Weapon;
+
+				param.Resize( 1 );
+				param[0].X = 0.1; 
+				param[0].Y = 0.5; 
+				param[0].Z = 1.0; 
+				
+				theGame.SetTriggerEffect( 0, mode, param );
+			}
+			else
+			{
+				theGame.SetTriggerEffect( 0, GTFX_Off, param );
+			}
+		}
+		else
+		{
+			if( type == ST_Aard )
+			{
+				mode = GTFX_MultiFeedback;
+				
+				param.Resize( 10 );
+				param[0].X = 0.0;
+				param[1].X = 0.0;
+				param[2].X = 0.0;
+				param[3].X = 0.1;
+				param[4].X = 0.2;
+				param[5].X = 0.2;
+				param[6].X = 0.0;
+				param[7].X = 0.0;
+				param[8].X = 0.4;
+				param[9].X = 0.4;
+			}
+			else if( type == ST_Axii )
+			{
+				mode = GTFX_Vibration;
+				
+				param.Resize( 1 );
+				param[0].X = 0.8; 
+				param[0].Y = 0.15; 
+				param[0].Z = 0.2; 
+			}
+			else if( type == ST_Igni )
+			{
+				mode = GTFX_Weapon;
+
+				param.Resize( 1 );
+				param[0].X = 0.5; 
+				param[0].Y = 0.7; 
+				param[0].Z = 1.0; 
+			}
+			else if( type == ST_Quen )
+			{
+				mode = GTFX_Vibration;
+				
+				param.Resize( 1 );
+				param[0].X = 0.8; 
+				param[0].Y = 0.25; 
+				param[0].Z = 0.7; 
+			}
+			else if( type == ST_Yrden )
+			{
+				mode = GTFX_Vibration;
+				
+				param.Resize( 1 );
+				param[0].X = 0.9; 
+				param[0].Y = 0.5; 
+				param[0].Z = 0.99; 
+			}
+			
+			theGame.SetTriggerEffect( 1, mode, param );
+			theGame.SetTriggerEffect( 0, GTFX_Off, param );
+		}		
+
+	}
+	// b1ackbeat's DualSense Support - End
+
 	function SetEquippedSign( signType : ESignType )
 	{
 		var items : array<SItemUniqueId>;
@@ -2111,6 +2356,9 @@ statemachine class W3PlayerWitcher extends CR4Player
 		{
 			equippedSign = signType;
 			FactsSet("CurrentlySelectedSign", equippedSign);
+			// b1ackbeat's DualSense Support - Start
+			ApplyGamepadTriggerEffect( signType );
+			// b1ackbeat's DualSense Support - End
 		}
 		
 		//Kolaris - Invocation
@@ -3753,11 +4001,17 @@ statemachine class W3PlayerWitcher extends CR4Player
 				{
 					SetupCombatAction( EBAT_SpecialAttack_Heavy, BS_Pressed );
 					RemoveTimer('IsSpecialHeavyAttackInputHeld');
+					// b1ackbeat's DualSense Support - Start
+					theGame.HapticStart( "haptic_rend_stop" );
+					// b1ackbeat's DualSense Support - End
 				}
 				else if(!playedSpecialAttackMissingResourceSound)
 				{
 					SetShowToLowStaminaIndication(1.f);
 					playedSpecialAttackMissingResourceSound = true;
+					// b1ackbeat's DualSense Support - Start
+					theGame.HapticStart( "haptic_rend_stop" );
+					// b1ackbeat's DualSense Support - End
 				}
 			}
 		}
@@ -3765,6 +4019,9 @@ statemachine class W3PlayerWitcher extends CR4Player
 		{
 			CancelHoldAttacks();
 			RemoveTimer('IsSpecialHeavyAttackInputHeld');
+			// b1ackbeat's DualSense Support - Start
+			theGame.HapticStart( "haptic_rend_stop" );
+			// b1ackbeat's DualSense Support - End
 		}
 		// W3EE - End
 	}
@@ -7369,6 +7626,11 @@ statemachine class W3PlayerWitcher extends CR4Player
 			if(target)
 				target.SignalGameplayEvent( 'DodgeSign' );
 		}
+
+		// b1ackbeat's DualSense Support - Start
+		m_TriggerEffectDisablePending = true;
+		m_TriggerEffectDisableTTW = 0.3; 
+		// b1ackbeat's DualSense Support - End
 		
 		newSignEnt = (W3SignEntity)theGame.CreateEntity( signs[equippedSign].template, spawnPos, GetWorldRotation() );
 		return newSignEnt.Init( signOwner, signs[equippedSign].entity );

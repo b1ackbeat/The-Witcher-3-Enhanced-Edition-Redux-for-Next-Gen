@@ -459,11 +459,17 @@ class W3MagicOilLamp extends W3QuestUsableItem
 	{
 		super.OnUsed ( usedBy );
 		this.PlayEffect( 'light_on' );
+		// b1ackbeat's DualSense Support - Start
+		theGame.HapticStart( "haptic_lamp_start" );
+		// b1ackbeat's DualSense Support - End
 	}
 	event OnHidden( usedBy : CEntity )
 	{
 		super.OnHidden ( usedBy );
 		this.StopEffect( 'light_on' );
+		// b1ackbeat's DualSense Support - Start
+		theGame.HapticStart( "haptic_lamp_stop" );
+		// b1ackbeat's DualSense Support - End
 	}
 	
 }

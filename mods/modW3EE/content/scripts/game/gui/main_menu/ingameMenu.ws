@@ -1387,7 +1387,9 @@ class CR4IngameMenu extends CR4MenuBase
 				thePlayer.GetInputHandler().SetIsAltSignCasting(false);
 				FactsSet( "nge_alt_sign_casting_chosen", 0 );
 			}
-			//thePlayer.ApplyCastSettings();
+			// b1ackbeat's DualSense Support - Start
+			thePlayer.ApplyCastSettings();
+			// b1ackbeat's DualSense Support - End
 		}
 		
 		

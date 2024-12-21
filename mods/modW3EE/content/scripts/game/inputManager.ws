@@ -69,7 +69,7 @@ import class CInputManager
 				return IDT_PS4;
 				break;
 			case 'ps5pad':
-				return IDT_PS5;
+				return IDT_PS4; // b1ackbeat's DualSense Support - Quick Workaround for Control Hints
 				break;
 			case 'steampad':
 				return IDT_Steam;

@@ -664,6 +664,11 @@ statemachine abstract import class CR4Player extends CPlayer
 		return 0;
 	}
 	
+	// b1ackbeat's DualSense Support - Start
+	public function ApplyCastSettings()
+	{
+	}
+	// b1ackbeat's DualSense Support - End
 	
 	
 	
@@ -984,7 +989,12 @@ statemachine abstract import class CR4Player extends CPlayer
 		
 		theGame.ReleaseNoSaveLock( noSaveLock );
 	}
-	
+
+	// b1ackbeat's DualSense Support - Start
+	public function OnShieldHit()
+	{
+	}
+	// b1ackbeat's DualSense Support - End
 	
 	
 	
@@ -11331,6 +11341,9 @@ statemachine abstract import class CR4Player extends CPlayer
 				PushCombatActionOnBuffer( EBAT_SpecialAttack_Heavy, BS_Released );
 				ProcessCombatActionBuffer();
 				
+				// b1ackbeat's DualSense Support - Start
+				theGame.HapticStart( "haptic_rend_stop" );
+				// b1ackbeat's DualSense Support - End
 			}
 		}
 	}	
