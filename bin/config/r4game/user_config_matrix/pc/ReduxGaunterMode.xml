@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-16"?>
+<UserConfig>
+	<Group id="GaunterMode" displayName="Mods.W3EE_w3ee.W3EE_addons.GaunterMode">
+		<PresetsArray>
+			<Preset id="0" displayName="Default">
+				<Entry varId="GMEnabled" 			value="0" />
+				<Entry varId="GMSkillReq" 			value="5" />
+				<Entry varId="GMSkillMod" 			value="0" />
+				<Entry varId="GMQuestMod" 			value="0" />
+				<Entry varId="GMDeathMod" 			value="0" />
+				<Entry varId="GMDeathLimit" 		value="0" />
+				<Entry varId="GMVitality" 			value="100" />
+				<Entry varId="GMStamina" 			value="1" />
+				<Entry varId="GMToxicity" 			value="1" />
+				<Entry varId="GMIntensity" 			value="1" />
+				<Entry varId="GMXPMod" 				value="0" />
+				<Entry varId="GMDurability" 		value="50" />
+				<Entry varId="GMMark" 				value="0" />
+				<Entry varId="GMLethalMark" 		value="1" />
+			</Preset>
+		</PresetsArray>
+		<VisibleVars>
+			<Var id="GMEnabled"			displayName="Redux_GMEnabled"			displayType="TOGGLE"	/>
+			<Var id="GMSkillReq"		displayName="Redux_GMSkillReq"			displayType="SLIDER;0;20;20"	/>
+			<Var id="GMSkillMod"		displayName="Redux_GMSkillMod"			displayType="SLIDER;0;50;10"	/>
+			<Var id="GMQuestMod"		displayName="Redux_GMQuestMod"			displayType="SLIDER;0;10;10"	/>
+			<Var id="GMDeathMod"		displayName="Redux_GMDeathMod"			displayType="SLIDER;0;10;10"	/>
+			<Var id="GMDeathLimit"		displayName="Redux_GMDeathLimit"		displayType="SLIDER;0;50;50"	/>
+			<Var id="GMVitality"		displayName="Redux_GMVitality"			displayType="SLIDER;0;5000;500"	/>
+			<Var id="GMStamina"			displayName="Redux_GMStamina"			displayType="SLIDER;0;50;50"	/>
+			<Var id="GMToxicity"		displayName="Redux_GMToxicity"			displayType="SLIDER;0;50;50"	/>
+			<Var id="GMIntensity"		displayName="Redux_GMIntensity"			displayType="SLIDER;0;50;50"	/>
+			<Var id="GMXPMod"			displayName="Redux_GMXPModifier"		displayType="SLIDER;-5;5;10"	/>
+			<Var id="GMDurability"		displayName="Redux_GMDurability"		displayType="SLIDER;0;90;18"	/>
+			<Var id="GMMark"			displayName="Redux_GMMark"				displayType="TOGGLE"	/>
+			<Var id="GMLethalMark"		displayName="Redux_GMLethalMark"		displayType="TOGGLE"	/>
+		</VisibleVars>
+	</Group>
+</UserConfig>

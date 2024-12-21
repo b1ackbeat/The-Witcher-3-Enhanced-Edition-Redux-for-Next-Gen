@@ -1,0 +1,715 @@
+;meta[language=es]
+; id      |key(hex)|key(str)| text
+2118472000|1f70c020||Consume $I$% menos vigor.<br>El daño cuerpo a cuerpo entrante se reduce en $I$%.<br>$I$% de probabilidad de no aturdirte cuando giras y recibes daño.
+2118472001|1f70c022||Aumenta la eficiencia defensiva en $I$%.<br>Reduce el daño recibido a través de los contraataques y los bloqueos en $I$%.<br>$I$% de probabilidad de evitar aturdimiento mientras bloqueas los ataques de enemigos de tamaño humano .
+2118472002|1f70c024||Los ataques rápidos tienen un $I$% más de probabilidad de aplicar lesiones.<br>Los ataques rápidos reducen la velocidad del enemigo en $F$%, hasta un máximo de $F$%.<br>La velocidad del enemigo se recupera después de no recibir daño durante $I$ segundos.
+2118472003|bcff1d6b||Golpes desgarradores
+2118472004|1f70c025||Los ataques potentes reducen el equilibrio del enemigo en $I$%.<br>Los ataques potentes hacen un $I$% más de daño a través de los bloqueos enemigos.
+2118472005|cea74410||La probabilidad de recibir lesiones es $F$% menor.<br>El coste de equilibrio cuando eres atacado por la espalda se reduce a $F$%.<br>Desviar y redirigir proyectiles cuesta $F$% menos de vigor y equilibrio.
+2118472006|bcff1d6e||Juego de pies
+2118472007|1f70c028||Aumenta la eficiencia de movimiento en $I$%.<br>Reduce el daño por roce recibido en $I$%.<br>$I$% de probabilidad de evitar aturdimiento al recibir golpes esquivando.
+2118472008|e2e48f8d||Disparo firme
+2118472009|cea74413||El daño a distancia aumenta en $I$%.<br>La ralentización del tiempo al apuntar armas a distancia aumenta a $I$%.
+2118472010|cea74416||Aumenta la posibilidad de resistir al aturdimiento en $I$%.<br>Reduce la deficiencia de velocidad por bajo vigor en $I$%.<br>Reduce la deficiencia de intensidad de señal por baja energía en $I$%.
+2118472011|163a8e70||Modo de señal alternativa:<br>Aard golpea en un círculo, pero reduce el daño y el retroceso.<br>El daño se reduce un $I$%.<br>El retroceso se reduce un $I$%.
+2118472012|163a8e71||Modo de señal alternativa:<br>Emite un flujo continuo de fuego que causa $F$ de daño y ralentiza a los oponentes en $F$%.<br>Causa $I$% de daño a los enemigos en llamas.<br>Se reduce el coste de energía en $I$%.
+2118472013|163a8e72||Modo de señal alternativa:<br>Crea un glifo protector que electrocuta a los oponentes que realizan acciones ofensivas contra Geralt.<br>Causa $I$ de daño y tiene la posibilidad de interrumpir los ataques según el nivel de habilidad y equilibrio del enemigo. Cada objetivo puede ser alcanzado una vez cada $F$ segundos.<br>Destruye flechas y virotes que atraviesan el área.
+2118472014|163a8e73||Modo de señal alternativa:<br>Crea un escudo activo. Mantenerlo y bloquear los ataques drena la energía.<br>El daño absorbido por el escudo restaura el vigor.<br>Reduce el coste de energía de los ataques bloqueados en $I$%.<br>Aumenta el vigor restaurado en $I$%.
+2118472015|163a8e74||Modo de señal alternativa:<br>El enemigo objetivo se convierte en aliado durante $I$ segundos.<br>Probabilidad de éxito base de $I$%, -$I$% por marioneta actual.<br>Los enemigos que atacan o son atacados por una marioneta pierden $I$ de agresividad.<br>El efecto puede interrumpirse cuando la vitalidad del objetivo cae por debajo del $I$%.
+2118472016|0083ce62||Disolución
+2118472017|8d17aa9c||Aumenta la producción al destilar sustancias en $I$%.<br>Aumenta la magnitud y duración de Nigredo en $I$%.
+2118472018|0083ce63||Purificación
+2118472019|8d17aa9d||Reduce el aumento de toxicidad por beber varias pociones a $I$%.<br>Aumenta la magnitud y la duración del Albedo en $I$%.
+2118472020|0083ce64||Coagulación
+2118472021|8d17aa9e||Las pociones (excepto Miel Blanca) restauran $I$% de vitalidad cuando se beben.<br>Aumenta la magnitud y duración de Rubedo en $I$%.
+2118472022|0083ce65||Saturación
+2118472023|8d17aa9f||Aumenta la duración de las pociones en $I$%.<br>Aumenta la toxicidad de las pociones en $I$%.
+2118472024|15dda916||Los aceites aplicados son un $I$% más potentes.<br>Los aceites aplicados pierden un $I$% menos de potencia a medida que se agotan.
+2118472025|0083ce66||Fijador
+2118472026|8d17aaa0||Los aceites aplicados duran un $I$% más.<br>Los aceites aplicados reducen la pérdida de durabilidad del arma hasta en un $I$%.
+2118472027|0083ce67||Transfusión
+2118472028|8d17aaa1||Los efectos del aceite aumentan un $I$% por nivel de hemorragia del enemigo.<br>$I$% de probabilidad por nivel de hemorragia del enemigo de que los aceites aplicados no pierdan carga.
+2118472029|8d17aaa4||Aumenta la distancia máxima de lanzamiento de las bombas en $I$%.<br>La ralentización del tiempo al apuntar bombas aumenta a $I$%.
+2118472030|0ff5fe16||Afinidad
+2118472031|15dda91c||Los extractos activos reducen el daño recibido de los monstruos de esa familia en un $I$%.<br>Las mutaciones activas reducen el daño recibido de los monstruos de esa familia en un $I$%.<br>Las mutaciones investigadas reducen el daño recibido de los monstruos de esa familia en un $I$%.
+2118472032|0ff5fe11||Instinto de cazador
+2118472033|15dda917||Los Archimutágenos equipados aumentan el daño infligido a los monstruos de esa familia en un $I$% por nivel.<br>Las mutaciones activas aumentan el daño infligido a los monstruos de esa familia en un $I$%.<br>Las mutaciones investigadas aumentan el daño infligido a los monstruos de esa familia en un $I$%.
+2118472034|0ff5fe17||Aclimatación
+2118472035|0ff5fe12||Aislamiento de tensión
+2118472036|15dda918||Prolonga la duración de todos los extractos de mutágenos en $I$% y reduce su toxicidad en $I$.<br>$I$% de probabilidad de obtener mutágenos normales como subproducto de la alquimia.
+2118472037|15dda91a||Aumenta la velocidad hasta un $I$% según el porcentaje de toxicidad actual.<br>Aumenta la generación de adrenalina hasta un $I$% según el porcentaje de toxicidad actual.
+2118472038|15dda933||Reduce el daño recibido hasta en $I$% según el porcentaje de toxicidad actual.<br>Reduce los costes de equilibrio hasta en $I$% según el porcentaje de toxicidad actual.
+2118472039|0ff5fe13||Tolerancia
+2118472040|15dda919||Reduce los efectos continuos de fiebre por toxicidad en $I$%.<br>Reduce el daño recibido por sobredosis de toxicidad en $I$%.
+2118472041|0ff5fe15||Control Metabólico
+2118472042|15dda91b||Aumenta el drenaje de toxicidad en $I$%.<br>Reduce la deficiencia de regeneración de energía por toxicidad en $I$%.
+2118472043|306f5267||Jinete
+2118472044|da7e5ba1||Aumenta el daño a caballo en $I$%.<br>Reduce el miedo de las monturas en $I$%.<br>Galopar consume $I$% menos de vigor.
+2118472045|306f5269||Estudios Alquímicos
+2118472046|da7e5ba3||Aumenta el botín alquímico de monstruos y hierbas en un $I$%.
+2118472047|da7e5ba4||Por cada pieza de armadura ligera equipada:<br>+$I$ ángulo de esquiva seguro<br>+$F$% de generación de adrenalina<br>-$F$% de probabilidad de sufrir lesiones.
+2118472048|da7e5ba5||Por cada pieza de armadura media equipada:<br>+$I$% de resistencias secundarias<br>-$F$% de retraso en la regeneración de vigor<br>-$F$% de retraso en la regeneración de equilibrio.
+2118472049|da7e5ba6||Por cada pieza de armadura pesada equipada:<br>+$F$ regeneración de vigor<br>+$F$ regeneración de equilibrio<br>+$F$% de probabilidad de derribo al realizar bloqueos perfectos y contragolpes.
+2118472050|754d1890||Gana $I$ de adrenalina al comienzo del combate y permite que los bloqueos generen adrenalina.
+2118472051|dd7afa8b||Golpe de gracia
+2118472052|754d1891||La probabilidad de golpe crítico aumenta en $I$% por cada lesión del enemigo.<br>Los golpes críticos ahora multiplican la probabilidad de lesionar por $F$, en lugar de $F$.
+2118472053|dd7afa8c||Refinamiento alquímico
+2118472054|754d1892||Al elaborar pociones, aceites o bombas, un ingrediente sucio o de calidad será tratado como $I$ nivel de calidad superior.
+2118472055|dd7afa8d||Pies flotantes
+2118472056|754d1893||Aumenta la velocidad de movimiento en $I$%.<br>Correr en combate no agota el vigor durante los primeros $I$ segundos.
+2118472057|754d1895||Los efectos beneficiosos de los alimentos y las bebidas duran $I$% más.<br>Mientras estés bien alimentado e hidratado, obtendrás $I$ vitalidad.
+2118472058|dd7afa90||Posicionamiento
+2118472059|754d1896||Aumenta el poder de ataque de flanqueo en $I$%.<br>Aumenta el ángulo de esquiva seguro en $I$.
+2118472060|dd7afa92||Mantenimiento avanzado
+2118472061|754d1898||Los beneficios de mantenimiento del equipo duran el doble.<br>Los kits de reparación aplican beneficios de mantenimiento.<br>$I$% de probabilidad de que un kit de reparación no se consuma al usarlo.
+2118472062|dd7afa93||Cazador
+2118472063|754d1899||Aumenta el daño contra objetivos de contratos de monstruos en $I$%.<br>Los trofeos se venden por $I$% más.
+2118472064|dd7afaaa||Peleador
+2118472065|754d18b0||Añade armadura de guantelete al daño sin armas.<br>Elimina la penalización por daño sin armas contra monstruos.<br>Aumenta el equilibrio en $I$.
+2118472066|754d18b1||El peso máximo de carga aumenta en $I$.<br>Las penalizaciones por armadura equipada se reducen en $I$%.
+2118472067|cea74418||Cuando tienes menos del $F$% de vitalidad, cada punto de adrenalina aumenta la regeneración de vitalidad hasta en $F$ y reduce el daño recibido hasta en $F$.
+2118472068|6dcf4535||Nivel de habilidad de aclimatación para desbloquear
+2118472069|09e37be1||Drenaje de toxicidad
+2118472070|9ac99c6f||Daño a sobrenaturales
+2118472071|d083d32c||Daño por hielo
+2118472072|3ff69286||Probabilidad de congelar
+2118472073|1935a008||Daño por veneno
+2118472074|1b47b2ca||Probabilidad de causar lesiones
+2118472075|4daea6a8||Probabilidad de aturdir
+2118472076|8cda7a5f||La dimerita del aceite de velo impide temporalmente algunas habilidades mágicas y sobrenaturales.<br>Bloquea habilidades durante $S$ segundos.
+2118472077|252e4c38||Aunque originalmente se desarrolló como una herramienta para las crueldades de Falka, la ética del uso de este aceite se ve eclipsada fácilmente por sus aplicaciones.
+2118472078|d835eee2||Un aceite con motas de plata, que permite que las espadas de acero dañen a las criaturas sobrenaturales y les provoquen quemaduras por plata que detienen su regeneración.<br>Quema a las criaturas sobrenaturales durante $S$ segundos, causando $S$ de daño por segundo.
+2118472079|c32c566a||Aumenta la resistencia a la hemorragia. Cuando vampiros o necrófagos te atacan, les devuelves daño y reduces su equilibrio.
+2118472080|c32c566b||Aumenta la resistencia a la hemorragia. Cuando vampiros o necrófagos te atacan, les devuelves daño y reduces su equilibrio.
+2118472081|c32c566c||Aumenta la resistencia a la hemorragia. Cuando vampiros o necrófagos te atacan, les devuelves daño y reduces su equilibrio.<br><br>Poción superior: envenena a los enemigos según el daño devuelto.
+2118472082|1b06cd08||Aumenta la generación de adrenalina, y cuando un enemigo comienza un ataque, el tiempo se ralentiza durante un breve período.
+2118472083|1b06cd09||Aumenta la generación de adrenalina, y cuando un enemigo comienza un ataque, el tiempo se ralentiza durante un breve período.
+2118472084|1b06cd0a||Aumenta la generación de adrenalina y, cuando un enemigo comienza un ataque, el tiempo se ralentiza durante un breve período.<br><br>Poción superior: La velocidad se compensa proporcionalmente a la adrenalina actual.
+2118472085|874e9f86||Aumenta la velocidad de movimiento, la eficiencia de movimiento y el ángulo de esquiva seguro.
+2118472086|874e9f87||Aumenta la velocidad de movimiento, la eficiencia de movimiento y el ángulo de esquiva seguro.
+2118472087|874e9f88||Aumenta la velocidad de movimiento, la eficiencia de movimiento y el ángulo de esquiva seguro.<br><br>Poción superior: Reduce el aturdimeinto al esquivar.
+2118472088|be845121||Aumenta la vitalidad máxima y la resistencia a las lesiones.
+2118472089|be845122||Aumenta la vitalidad máxima y la resistencia a las lesiones.
+2118472090|be845123||Aumenta la vitalidad máxima y la resistencia a las lesiones.<br><br>Poción superior: Por la noche, los ataques recibidos no pueden causar más de 1/5 de la vitalidad máxima. En luna llena, 1/6 de vitalidad máxima.
+2118472091|3a84c328||Aumenta la resistencia al envenenamiento y al daño por veneno, y acelera la reducción de acumulaciones de veneno.
+2118472092|3a84c329||Aumenta la resistencia al envenenamiento y al daño por veneno, y acelera la reducción de acumulaciones de veneno.
+2118472093|3a84c32a||Aumenta la resistencia al envenenamiento y al daño por veneno, y acelera la reducción de acumulaciones de veneno..<br><br>Poción superior: Cuando se ingiere, cura un porcentaje de vitalidad igual al porcentaje de toxicidad actual.
+2118472094|7e132eab||Aumenta el equilibrio, la eficiencia defensiva y reduce el daño recibido a través de contraataques y bloqueos.
+2118472095|7e132eac||Aumenta el equilibrio, la eficiencia defensiva y reduce el daño recibido a través de contraataques y bloqueos.
+2118472096|7e132ead||Aumenta el equilibrio, la eficiencia defensiva y reduce el daño recibido a través de contraataques y bloqueos.<br><br>Poción superior: Reduce el aturdimiento mientras detienes los ataques de enemigos de tamaño humano.
+2118472097|27d6f7d6||Aumenta la regeneración de energía.
+2118472098|27d6f7d7||Aumenta la regeneración de energía.
+2118472099|27d6f7d8||Aumenta la regeneración de energía.<br><br>Poción superior: La regeneración de vigor no se ve obstaculizada por la toxicidad.
+2118472100|9e58d1f3||Aumenta la intensidad de las señales.
+2118472101|9e58d1f4||Aumenta la intensidad de las señales.
+2118472102|9e58d1f5||Aumenta la intensidad de las señales.<br><br>Poción superior: Las señales siempre aplican sus efectos especiales.
+2118472103|56747c55||Aumenta la regeneración de vitalidad. El efecto se detiene durante 2 segundos al recibir daño.
+2118472104|56747c56||Aumenta la regeneración de vitalidad. El efecto se detiene durante 2 segundos al recibir daño.
+2118472105|56747c57||Aumenta la regeneración de vitalidad. El efecto se detiene durante 2 segundos al recibir daño.<br><br>Poción superior: La duración se detiene con la vitalidad al máximo.
+2118472106|437e276a||Aumenta la regeneración de vigor y la eficiencia de ataque.
+2118472107|437e276b||Aumenta la regeneración de vigor y la eficiencia de ataque.
+2118472108|437e276c||Aumenta la regeneración de vigor y la eficiencia de ataque.<br><br>Poción superior: La duración se detiene por la noche.
+2118472109|295c2a69||Aumenta la penetración de armadura, el daño a través de bloqueos y reduce el equilibrio del enemigo.
+2118472110|295c2a6a||Aumenta la penetración de armadura, el daño a través de bloqueos y reduce el equilibrio del enemigo.
+2118472111|295c2a6b||Aumenta la penetración de armadura, el daño a través de bloqueos y reduce el equilibrio del enemigo.<br><br>Poción superior: los golpes críticos tienen la posibilidad de desencadenar un frenesí, ralentizando el tiempo mientras aumenta la velocidad.
+2118472112|de026195||Drena la toxicidad activa y latente y cura la fiebre de toxicidad, pero cancela todas las pociones activas.
+2118472113|de026196||Drena la toxicidad activa y latente y cura la fiebre de toxicidad, pero cancela todas las pociones activas.
+2118472114|de026197||Drena la toxicidad activa y latente y cura la fiebre de toxicidad, pero cancela todas las pociones activas.<br><br>Poción superior: la cancelación de los efectos de la poción se retrasa 10 segundos.
+2118472115|9ec8a224||Aumenta considerablemente la regeneración de vitalidad.
+2118472116|9ec8a225||Aumenta considerablemente la regeneración de vitalidad.
+2118472117|9ec8a226||Aumenta considerablemente la regeneración de vitalidad.<br><br>Poción superior: cuando se ingiere, cura el 30% de la vitalidad restante.
+2118472118|739e1e2c||Por cada pieza equipada: Los ataques tienen $S$% de poder de ataque de flanqueo y probabilidad de causar lesiones durante $S$ segundos después de esquivar, y las esquivas tienen $S$% de eficiencia de vigor y reducción de daño por roce durante $S$ segundos después de un ataque.
+2118472119|739e1e2d||Las lesiones que causas reducen la velocidad y el daño del enemigo en un $S$%.
+2118472120|8ed43e3f||Por cada pieza equipada: $S$% del daño etéreo que causas reduce permanentemente la fuerza y las resistencias al frío, fuego, eléctrico y mentales. Puede romper las inmunidades al daño, pero no el estado.
+2118472121|8ed43e3e||Mientras estás dentro de un círculo de Yrden, tienes +$S$% de ralentización de tiempo aumentada, +$S$% de regeneración de energía y +$S$% de intensidad para otras señales.
+2118472122|d23efdaf||Por cada pieza equipada: Los bloqueos perfectos reducen $S$% el equilibrio del enemigo, romper el equilibrio de un enemigo restaura $S$ de vigor y los ataques contra enemigos desequilibrados causan $S$% más de daño.
+2118472123|d23efdb0||Cada punto de equilibrio actual reduce la penetración de armadura del enemigo en un $S$% y el daño recibido a través de contraataques y bloqueos en un $S$%. Cada punto de equilibrio perdido aumenta la velocidad de ataque en $S$% y reduce el equilibrio enemigo en $S$%. El equilibrio no se regenerará a menos que bloquees o te quedes quieto.
+2118472124|85e8fbd1||Por cada pieza equipada: Aplicar hemorragia genera $S$ de adrenalina y cada punto de adrenalina ganado por encima de $S$ restaura $S$ de vitalidad y $S$ de vigor.
+2118472125|85e8fbd2||La adrenalina máxima aumenta a $S$. Las acumulaciones de hemorragia reducen la fuerza del enemigo y la resistencia al frío en un $S$%.
+2118472126|6c1d3ba3||Por cada pieza equipada: +$S$% de daño a distancia (bombas incluidas) y +$S$% de poder de ataque por efecto de estado en el objetivo.
+2118472127|6c1d3ba4||Los efectos que escalan con el porcentaje de toxicidad escalan con la toxicidad plana en su lugar. +$S$% de poder de ataque y +$S$ de regeneración de vitalidad por punto de toxicidad activa.
+2118472128|90f6cc99||Por cada pieza equipada: La probabilidad de golpe crítico aumenta en $S$% por cada acumulación de veneno en el objetivo, y Axia aplica $S$ acumulaciones de veneno en un lanzamiento exitoso.
+2118472129|90f6cc9a||Puedes aplicar un aceite adicional, y cualquier pérdida de potencia de los aceites adicionales se reduce en $S$%. Cada aceite aplicado aumenta la potencia de los golpes críticos del aceite adicional en $S$%.
+2118472130|4080bc95||Los enemigos que te dañan cuerpo a cuerpo tienen la posibilidad de sangrar.
+2118472131|4080bc96||Los enemigos asesinados cuerpo a cuerpo restauran tu vitalidad en $S$ por acumulación de hemorragia.
+2118472132|4080bc97||Los enemigos que te dañan cuerpo a cuerpo tienen la posibilidad de quedar aturdidos o convertirse en tu marioneta.
+2118472133|4080bc98||Axia elimina toda la hemorragia del objetivo para restaurar tu vitalidad en $S$ por cada acumulación de hemorragia.
+2118472134|7147041d||Los ataques potentes aumentan el daño de tu próximo ataque rápido en $S$ y viceversa.
+2118472135|c99bd20f||Atacar a un oponente que esté por debajo del $S$ de vitalidad otorga $S$ de daño etéreo adicional, y atacar a un oponente mientras tengas menos del $S$ de vitalidad otorga $S$ de daño etéreo adicional y $S$ de ganancia de adrenalina.<br>Estos efectos pueden acumularse
+2118472136|4c4bdd7a||Cuando tienes menos del $S$ de vitalidad, causas hasta un $S$ más de daño a melé.
+2118472137|fca08245||Gláeddyv Blathanna
+2118472138|942307fe||Ballesta Mantícora
+2118472139|0e7bf6b8||Un arma de proyectiles robusta y cómoda.
+2118472140|9e52384c||Diagrama: Ballesta Manticora
+2118472141|d23992f7||Daño
+2118472142|89dfeac9||Probabilidad de golpe crítico
+2118472143|69d8dd89||Daño de golpe crítico
+2118472144|3c4a6af2||Daño
+2118472145|bc4297c4||Probabilidad de golpe crítico
+2118472146|5806ca6e||Daño de golpe crítico
+2118472147|c7b0b7d7||Daño
+2118472148|73d42fa9||Probabilidad de golpe crítico
+2118472149|3375c4a9||Daño de golpe crítico
+2118472150|b08bd7d2||Daño
+2118472151|fa3924a4||Probabilidad de golpe crítico
+2118472152|2e06698e||Daño de golpe crítico
+2118472153|9ee36bde||Resistencias secundarias
+2118472154|d77df5a3||Modificador de costes de vigor
+2118472155|bb4c164a||Modificador de regeneración de vigor
+2118472156|611eba4c||Eficiencias
+2118472157|a853b90c||Ataque
+2118472158|a853c270||Defensa
+2118472159|a853e57f||Movimiento
+2118472160|a873c1a4||Tasas de Generación
+2118472161|660463ab||Multiplicador de corriente
+2118472162|5a563e63||Adrenalina ganada en contraataque
+2118472163|a873acf5||Adrenalina ganada en ataque
+2118472164|6606538a||Adrenalina ganada al matar
+2118472165|a873c5e7||Adrenalina ganada al ser golpeado
+2118472166|ad65ad94||Bonificación de daño
+2118472167|34b0307a||Compensación de velocidad
+2118472168|61215338||Intensidad de señal - Inundación de ira
+2118472169|9b0279d0||Ratios
+2118472170|6634a559||Ganancia de toxicidad
+2118472171|603d5b5e||Drenaje de toxicidad
+2118472172|60379d1e||Cambio por segundo
+2118472173|610fe1ad||Bonus de velocidad base - Frenesí
+2118472174|c97d7b95||Bonus de generación de adrenalina - Frenesí
+2118472175|c97d7d42||Reducción de daño recibido - Soporte de dolor
+2118472176|60e53782||Reducción de costes de equilibrio - Soporte de dolor
+2118472177|31530a11||Reducción de regeneración de energía - Fiebre por toxicidad
+2118472178|6cca3390||Reducción de regeneración de vigor - Fiebre por toxicidad
+2118472179|2c95c79e||Reducción de velocidad base - Fiebre por toxicidad
+2118472180|fa5fe1ca||Intensidad de Igni
+2118472181|69a5ef8d||Reducción de regeneración de energía - Vitalidad
+2118472182|cb182f78||Reducción de regeneración de energía - Toxicidad
+2118472183|b05bd39a||Bonus de regeneración de energía - Adrenalina
+2118472184|634d93e6||Modificador de costes
+2118472185|a5980d0f||Redux
+2118472186|fea6c717||Mostrar nombres de elementos internos
+2118472187|dc78246f||Soltar objetos de misión
+2118472188|f582d556||Eliminar elementos descartados
+2118472189|850ab239||Ejecuciones - Deshabilitar ejecuciones por equilibrio
+2118472190|a9f59285||Multiplicador de regeneración de vigor
+2118472191|a926ec8e||Multiplicador de costes de vigor
+2118472192|01be5517||Agresión - Vigor
+2118472193|842f2c7b||Agresión - Comportamiento
+2118472194|34537901||Eficiencia de equilibrio
+2118472195|51517d52||aumenta el drenaje de toxicidad en $I$%
+2118472196|51517d53||aumenta la regeneración de vitalidad en $I$
+2118472197|51517d54||aumenta el daño infligido en $I$%
+2118472198|28bf4ac7||Sardinilla
+2118472199|28cfaa13||Alijo
+2118472200|db33e095||en Sardinilla
+2118472201|11bda277||Alternar Sardinilla
+2118472202|28cfaa13||Alijo
+2118472203|e4718bad||Alijo
+2118472204|7aae494d||Sentidos de brujo - Alternar
+2118472205|81426c9e||Durabilidad
+2118472206|2ae9db22||Robo de vida
+2118472207|c5548b41||Letargo
+2118472208|b1173fc7||Cuando Axia finaliza, los objetivos pierden un $I$% de su vigor y equilibrio máximos y se ralentizan durante $I$ segundos.<br>Estos efectos se reducen en función de la vitalidad máxima del objetivo.
+2118472218|952c6052||Deshabilitar efectos especiales de espada
+2118472219|392e560f||Bonus de evasión de Gato
+2118472220|e7cb8710||Bonus de ataque de Gato
+2118472221|8c7e03a5||Muestra cuántos artículos tienes en Sardinilla
+2118472222|d67df7c9||Regeneración de vigor y bonificación de eficiencia
+2118472223|c7cde2ed||Reducción de velocidad
+2118472224|fb0b1ca2||Pen. de daños: Reducción por gastar vigor
+2118472225|b65455e4||<font size="19">Desactivar modificadores de distancia cuando se sobreesfuerza</font>
+2118472226|c215a129||Depuración oculta
+2118472227|d78475c2||Toxicidad - Multiplicador
+2118472228|fca9f3f4||Los golpes críticos restauran completamente el equilibrio y curan una herida.
+2118472229|7e7c0f49||Establecer bonus: Primer requisito
+2118472230|7e7c0f4a||Establecer bonus: Segundo requisito
+2118472231|0335ddd4||Redux - Dinámico
+2118472232|04070793||Redux - Estratégico
+2118472233|b17c1616||El daño crítico aumenta hasta $S$% cuanto más armadura tenga el objetivo. Después de 5 segundos sin atacar, tu próximo ataque tiene un $S$% de probabilidad de crítico y penetración de armadura.
+2118472234|5aeb007f||Tus contraatques cuestan $S$% menos de equilibrio. Golpear a un enemigo con menos equilibrio que tú restaura hasta $S$ de vigor.
+2118472235|4bb57a89||Los enemigos que te golpean cuerpo a cuerpo pueden congelarse. Cuando atacas con un arma secundaria a dos manos, causas un $S$% más de daño y eres inmune al aturdimiento.
+2118472236|50f4a279||Todos los Glifos equipados (incluidos los componentes del Encantador) proporcionan bonificaciones adicionales.<br>Señales: +$S$% de intensidad de señal respectiva<br>Reparación: +$S$ de regeneración de vitalidad<br>Liberación: +$S$ de regeneración de vigor<br>Atadura: +$S$% de drenaje de toxicidad<br>Protección: +$S$ de armadura
+2118472237|733c86a3||Lanzar cuchillos aturde a los oponentes durante sus ataques. Por la noche, la velocidad total aumenta en $S$% y las ventanas de esquivar se alargan.
+2118472238|690ddece||Pantalones de Kaer Morhen mejorados
+2118472239|21c8d889||Botas de Kaer Morhen mejoradas
+2118472240|277a3552||Guanteletes de Kaer Morhen mejorados
+2118472241|b962f101||Espada de acero Kaer Morhen mejorada
+2118472242|c9e11bdd||Espada de plata Kaer Morhen mejorada
+2118472243|846e5350||Pantalones de Kaer Morhen mejorados
+2118472244|dda11bf5||Botas de Kaer Morhen mejoradas
+2118472245|86c4fc3c||Guanteletes de Kaer Morhen mejorados
+2118472246|1a08a47d||Espada de acero Kaer Morhen mejorada
+2118472247|8c1ae811||Espada de plata Kaer Morhen mejorada
+2118472248|59bcba77||Aumenta el daño de Corriente de fuego en $I$, el daño de Igni en $I$ y el daño de quemadura en $I$.
+2118472249|7aadffbb||Deshabilitar comentarios de artefactos
+2118472250|d7da4873||Contador de muertes
+2118472251|8905ccf1||Modo Gaunter
+2118472252|c4821010||Habilitado
+2118472253|e99195be||Requisito de puntos de habilidad
+2118472254|e9918422||Modificador de habilidad gastado
+2118472255|629d3698||Límite de muerte
+2118472256|c992d233||Pérdida máxima de vitalidad por muerte
+2118472257|b35b573e||Pérdida máxima de vigor por muerte
+2118472258|3e75e328||Máxima pérdida por toxicidad por muerte
+2118472259|efa7a542||Pérdida de intensidad de señal por muerte
+2118472260|a65aaea0||Modificador XP por muerte
+2118472261|955bb0da||Pérdida máxima de durabilidad del equipo
+2118472262|64404c5e||La marca de DIOS
+2118472263|33e40636||La marca de DIOS - Solo letal
+2118472264|24605ff1||Decremento de muerte de misiones
+2118472265|88c2a51f||Incremento de muertes de muertes recientes
+2118472266|04b97da3||Eficiencia de ataque
+2118472267|08ea54c5||Eficiencia defensiva
+2118472268|e804f558||Eficiencia de movimiento
+2118472269|5866c933||Velocidad de movimiento
+2118472270|b4725d95||Velocidad de movimiento
+2118472271|18812868||Velocidad de movimiento
+2118472272|39faab0f||Glifo menor de Liberación
+2118472273|9249f156||Glifo de Liberación
+2118472274|123d4e11||Gran Glifo de Liberación
+2118472275|87f67099||¿Estás seguro de que deseas eliminar las mejoras?
+2118472276|1016d7f5||Probabilidad de quemar
+2118472277|162c60aa||Daño etéreo
+2118472278|163a8e75||Aard reduce el equilibrio del enemigo en $I$%.<br>Aumenta la probabilidad de aturdir a $I$%.
+2118472279|b1173fc2||Aard causa $I$ de daño adicional por frío.<br>Aard tiene un $I$% de probabilidad base de congelar durante $I$ segundos.<br>La probabilidad aumenta contra objetivos con poco vigor o equilibrio.<br>Los enemigos congelados se ralentizan, tienen una regeneración de vigor reducida y reciben más daño físico.
+2118472281|b1173fc3||Quen explota cuando recibes el $I$% de su vitalidad, aturdiendo a los enemigos cercanos e infligiendo $I$ de daño eléctrico.<br>El daño reflejado de Quen aumenta a $I$%.
+2118472282|b1173fc4||Reduce el mantenimiento de energía de Quen en $I$%.<br>Quen regenera $I$ de su vitalidad por segundo.<br>Escudo activo regenera $I$% de tu equilibrio por segundo.
+2118472283|b1173fc5||Aumenta la resistencia al aturdimiento de Quen a $I$%.<br>Reduce el coste de equilibrio de Quen a $I$%.<br>Aumenta la reducción de daño del contraataque de Quen a $I$%.
+2118472284|c5548b3e||Escudo renovador
+2118472285|7df48461||Escudo protector que absorbe el daño, bloquea el veneno y la hemorragia, reduce los costes de equilibrio y aumenta la resistencia al aturdimiento.<br>Reduce la regeneración de energía en un $I$% mientras está activo.<br>Activar un escudo Quen justo antes de que caiga un ataque enemigo contrarrestará el golpe.<br><br>Vitalidad del escudo: $I$<br>Duración del escudo: $I$ segundos
+2118472286|e6604b13||Desintegración I
+2118472287|e65bcf19||Aard aplica hasta $I$ acumulaciones de hemorragia.<br><br>+$I$ daño de Aard
+2118472288|e81523b2||Desintegración II
+2118472289|e810a7b8||Aard debilita permanentemente la armadura del enemigo y la resistencia de la fuerza en $I$%.<br><br>+$I$ de daño de Aard
+2118472290|e9c9fc51||Desintegración III
+2118472291|e9c58057||La probabilidad de congelar de Aard aumenta un $I$%. Si un objetivo es congelado y derribado por Aard, muere instantáneamente. De lo contrario, congelar causa un daño adicional de $I$.<br><br>+$I$ de daño de Aard
+2118472292|eb7ed4f0||Aceleración I
+2118472293|eb7a58f6||El tiempo se ralentiza un $I$% durante $I$ segundos al esquivar o lanzar Aard.<br><br>+$I$% de velocidad de movimiento
+2118472294|ed33ad8f||Aceleración II
+2118472295|ed2f3195||Lanzar Aard mientras se corre aumenta la intensidad en un $I$% por cada segundo de carrera. Las bonificaciones de velocidad de movimiento aumentan la intensidad de Aard.<br><br>+$I$% de velocidad de movimiento
+2118472296|eee8862e||Aceleración III
+2118472297|eee40a34||Cuando el tiempo se ralentiza por esquivar o lanzar Aard, tu velocidad se compensa.<br><br>+$I$% Velocidad de movimiento
+2118472298|f09d5ecd||Inmolación I
+2118472299|f098e2d3||Eres inmune a las quemaduras. Por encima de $I$ de adrenalina tu armadura se enciende y quema a los enemigos que te atacan cuerpo a cuerpo.<br><br>+$I$% de ganancia de adrenalina
+2118472300|f252376c||Inmolación II
+2118472301|f24dbb72||Lanzas una ola de llamas cuando pierdes el equilibrio, tomas $I$% de vitalidad en daño o bloqueas perfectamente con el equilibrioal máximo.<br><br>+$I$% de ganancia de adrenalina
+2118472302|f407100b||Inmolación III
+2118472303|f4029411||Causas continuamente hasta $I$ de daño de fuego por punto de adrenalina a los enemigos cercanos.<br><br>+$I$% de ganancia de adrenalina
+2118472304|1991adb5||Purgación I
+2118472305|198d31bb||Igni y quemadura reducen la agresividad del enemigo, haciendo que se comporte de forma menos agresiva en combate. Las quemaduras ya no aumentan la resistencia a las quemaduras del enemigo.<br><br>+$I$ de daño de Igni
+2118472306|1b468654||Purgación II
+2118472307|1b420a5a||Los enemigos asesinados por Igni o mientras arden, explotan, lo que causa $I$ de daño por fuego a los enemigos cercanos.<br><br>+$I$ de daño de Igni
+2118472308|1cfb5ef3||Purgación III
+2118472309|1cf6e2f9||Quemar a un enemigo restaura $F$ de energía . Matar a un enemigo con Igni o mientras se quema restaura $F$ de energía.<br><br>+$I$ de daño de Igni
+2118472310|1eb03792||Absorción I
+2118472311|1eabbb98||Los enemigos asesinados en un anillo de Yrden restauran tu vitalidad y energía en función de su vitalidad máxima.<br><br>+$I$% de robo de vida
+2118472312|20651031||Absorción II
+2118472313|20609437||Los enemigos que gastan vigor mientras están en un anillo de Yrden restauran tu vigor.<br><br>+$I$% de robo de vida
+2118472314|2219e8d0||Absorción III
+2118472315|22156cd6||Los enemigos dañados mientras están en un anillo de Yrden o por un glifo de protección restauran tu vitalidad y energía según el daño infligido.<br><br>+$I$% de robo de vida
+2118472316|23cec16f||Enervación I
+2118472317|23ca4575||Los enemigos pierden $I$% de su vigor máximo por segundo mientras están en un anillo de Yrden, o $I$% cuando son golpeados por un Glifo de protección.<br><br>El Glifo de protección aplica $I$ acumulaciones de veneno
+2118472318|25839a0e||Enervación II
+2118472319|257f1e14||Los enemigos pierden $F$% de su vitalidad máxima por segundo mientras están en un anillo de Yrden, o $I$% cuando son golpeados por un Glifo de protección.<br><br>El Glifo de protección aplica $I$ acumulaciones de veneno
+2118472320|273872ad||Enervación III
+2118472321|2733f6b3||Los enemigos pierden $F$% de velocidad por segundo mientras están en un anillo de Yrden. Se reinicia al salir o relanzar Yrden. Duplica la desventaja de daño de Glifo de protección.<br><br>El Glifo de protección aplica $I$ acumulaciones de veneno
+2118472322|28ed4b4c||Retribución I
+2118472323|28e8cf52||El daño de Escudo Explosivo se incrementa en $I$.<br><br>Quen refleja $I$% + de daño
+2118472324|4e77e8f6||Retribución II
+2118472325|4e736cfc||Los enemigos que golpean un escudo de Quen quedan electrocutados.<br><br>Quen refleja $I$% + de daño
+2118472326|502cc195||Retribución III
+2118472327|5028459b||Los contraataques de Quen descargan una onda adicional de energía en la dirección del atacante, electrocutando e infligiendo $I$ de daño.<br><br>Quen refleja $I$% + de daño
+2118472328|51e19a34||Bastión I
+2118472329|51dd1e3a||El daño a Quen se reduce en $I$%.<br><br>+$I$% de intensidad de Quen
+2118472330|539672d3||Bastión II
+2118472331|5391f6d9||Al canalizar un escudo activo, la regeneración de vitalidad y vigor aumentan en $I$%.<br><br>+$I$% de intensidad de Quen
+2118472332|554b4b72||Bastión III
+2118472333|5546cf78||El mantenimiento de energía de Quen se reduce en $I$%.<br><br>+$I$% de intensidad de Quen
+2118472334|57002411||Conjunción I
+2118472335|56fba817||Los efectos de estado tienen la probabilidad de extenderse por Enlace de Axia.<br><br>+$I$% de intensidad de Axia
+2118472336|58b4fcb0||Conjunción II
+2118472337|58b080b6||Una parte del daño que causas a un objetivo se multiplica y se reparte por Enlace de Axia.<br><br>+$I$ Intensidad de Axia
+2118472338|5a69d54f||Conjunción III
+2118472339|5a655955||Una parte del daño que recibes se redirige a través de Enlace de Axia o a tus marionetas.<br><br>+$I$% de intensidad de Axia
+2118472340|5c1eadee||Posesión I
+2118472341|5c1a31f4||Cuando marioneta termina, el objetivo recibe $I$ de daño etéreo.<br><br>Tus marionetas causan $I$% + de daño
+2118472342|5dd3868d||Posesión II
+2118472343|5dcf0a93||La resistencia mental del enemigo se reduce en $I$% al lanzar Axia.<br><br>Tus marionetas causan $I$% + de daño
+2118472344|835e2437||Posesión III
+2118472345|8359a83d||Marioneta tiene una duración infinita y no puedes dañar a tus marionetas. Lanza Axia sobre ellos para eliminar el efecto.<br><br>Tus marionetas causan $I$% + de daño
+2118472346|8512fcd6||Protección I
+2118472347|850e80dc||La mejora de mantenimiento de armadura aumenta tu armadura en $I$.<br><br>+$I$ de equilibrio
+2118472348|86c7d575||Protección II
+2118472349|86c3597b||La armadura equipada no sufre pérdida de durabilidad estándar.<br><br>+$I$ de equilibrio
+2118472350|887cae14||Protección III
+2118472351|8878321a||El daño fatal se bloquea a costa de la durabilidad de la armadura.<br><br>+$I$ de equilibrio
+2118472352|8a3186b3||Desviación I
+2118472353|8a2d0ab9||Tu armadura desvía las flechas y los virotes, evitando todo el daño.<br><br>+$I$ de armadura
+2118472354|8be65f52||Desviación II
+2118472355|8be1e358||Tu armadura desvía cualquier ataque entrante, evitando todo el daño. Luego, esta habilidad entra en enfriamiento según el daño evitado.<br><br>+$I$ de armadura
+2118472356|8d9b37f1||Desviación III
+2118472357|8d96bbf7||Tu armadura desvía todos los proyectiles entrantes, evitando todo daño.<br><br>+$I$ de armadura
+2118472358|8f501090||Regeneración I
+2118472359|8f4b9496||El vigor o energía ganados al máximo restaura la vitalidad.<br><br>+$I$ de regeneración de vitalidad
+2118472360|9104e92f||Regeneración II
+2118472361|91006d35||La regeneración de vitalidad aumenta hasta un $I$% cuanto menor sea tu vitalidad actual. La vitalidad restaurada a partir del vigor y la energía se duplica al permanecer inmóvil.<br><br>+$I$ de regeneración de vitalidad
+2118472362|92b9c1ce||Regeneración III
+2118472363|92b545d4||Regeneras la mitad del daño que recibes de un ataque durante $I$ segundos. Se reinicia al ser golpeado.<br><br>+$I$ de regeneración de vitalidad
+2118472364|b8445f78||Perfección I
+2118472365|b83fe37e||La generación de adrenalina ya no se reduce con mucha vitalidad.<br><br>+$I$ de vitalidad
+2118472366|b9f93817||Perfección II
+2118472367|b9f4bc1d||Con plena vitalidad, $I$% de tu regeneración de vitalidad se agrega a la regeneración de energía y vigor.<br><br>+$I$ Vitalidad
+2118472368|bbae10b6||Perfección III
+2118472369|bba994bc||Matar a un enemigo mientras tienes la vitalidad completa otorga cargas que aumentan el daño un $I$% y la armadura en $I$. Pierdes $I$ carga cuando te golpean y puedes tener un máximo de $I$ cargas.<br><br>+$I$ de vitalidad
+2118472370|bd62e955||Constitución I
+2118472371|bd5e6d5b||El peso máximo de carga se incrementa en $I$. Llevar más peso aumenta la armadura hasta $I$ y la resistencia al aturdimiento hasta $I$%.<br><br>+$I$% de resistencias secundarias
+2118472372|bf17c1f4||Constitución II
+2118472373|bf1345fa||Descansar bien aumenta la regeneración de energía en un $I$%. Estar bien alimentado aumenta la regeneración de vigor en $I$. Estar bien hidratado aumenta el drenaje de toxicidad un $I$%.<br><br>+$I$% de resistencias secundarias
+2118472374|c0cc9a93||Constitución III
+2118472375|c0c81e99||Gasta $I$ de energía para sobrevivir al daño fatal con $I$ de vitalidad. Las penalizaciones por baja vitalidad se reducen un $I$%.<br><br>+$I$% de resistencias secundarias
+2118472376|c2817332||Asimilación I
+2118472377|c27cf738||A menos que medites, la toxicidad no se drenará sin ganar toxicidad. Las penalizaciones por alta toxicidad se reducen un $I$%.<br><br>+$I$% de duración de poción
+2118472378|c4364bd1||Asimilación II
+2118472379|c431cfd7||Los extractos con mutágenos de poder aumentan la regeneración de vitalidad en $I$. Los extractos con mutágenos de resistencia aumentan la regeneración de vigor en $I$. Los extractos con mutágenos de concentración aumentan la regeneración de energía en un $I$%.<br><br>+$I$% de duración de poción
+2118472380|c5eb2470||Asimilación III
+2118472381|c5e6a876||Cada fuente de ganancia de toxicidad aumenta los efectos mutágenos y el drenaje de toxicidad en $I$%.<br><br>+$I$% de duración de la poción
+2118472382|c79ffd0f||Júbilo I
+2118472383|c79b8115||El peso máximo de carga se incrementa en $I$. Llevar menos peso aumenta la velocidad total hasta un $I$%.<br><br>-$I$% de penalización de armadura
+2118472384|ed2a9ab9||Elación II
+2118472385|ed261ebf||Las penalizaciones de velocidad por bajo vigor se reducen hasta un $I$% según la adrenalina actual.<br><br>-$I$% de penalización de armadura
+2118472386|eedf7358||Elación III
+2118472387|eedaf75e||La ralentización de tiempo de la adrenalina ya no se reduce con mucha vitalidad.<br><br>-$I$% de penalización de armadura
+2118472388|f0944bf7||Conservación I
+2118472389|f08fcffd||Consumes $I$ de energía para evitar el sobreesfuerzo y restaurar $I$ de vigor.<br><br>+$I$% de eficiencia de vigor
+2118472390|f2492496||Conservación II
+2118472391|f244a89c||La regeneración de vigor y equilibrio aumenta un $I$% cuando estás parado.<br><br>+$I$% de eficiencia de vigor
+2118472392|f3fdfd35||Conservación III
+2118472393|f3f9813b||El coste de vigor se reduce hasta un $I$% cuanto mayor sea tu porcentaje de equilibrio. El coste de equilibrio se reducen hasta $I$% cuanto menor sea tu porcentaje de vigor.<br><br>+$I$% de eficiencia de vigor
+2118472394|c4426045||Glaciación I
+2118472395|c43de44b||Los bloqueos perfectos aplican el efecto congelado.<br><br>+$I$% de eficiencia defensiva
+2118472396|c5f738e4||Glaciación II
+2118472397|c5f2bcea||Los enemigos congelados reducen su equilibrio cuando paras un ataque y no pueden dañarte a través de contraataques o bloqueos.<br><br>+$I$% de eficiencia defensiva
+2118472398|c7ac1183||Glaciación III
+2118472399|c7a79589||Los enemigos congelados tienen su regeneración de equilibrio reducida en un $I$%. Las roturas de equilibrio cuerpo a cuerpo congelan al objetivo.<br><br>+$I$% de eficiencia defensiva
+2118472400|c960ea22||Agotamiento I
+2118472401|c95c6e28||Cada $I$ puntos de daño por congelación infligidos a un objetivo reduce su vigor en $I$.<br><br>+$I$% de probabilidad de congelar
+2118472402|cb15c2c1||Agotamiento II
+2118472403|cb1146c7||Los enemigos congelados se ralentizan aún más hasta un $I$% cuanto menor sea su vigor actual.<br><br>+$I$% de probabilidad de congelar
+2118472404|ccca9b60||Agotamiento III
+2118472405|ccc61f66||Esta espada causa $I$ de daño por frío adicional por cada punto de vigor que le falte al objetivo.<br><br>+$I$% de probabilidad de congelación
+2118472406|ce7f73ff||Obliteración I
+2118472407|ce7af805||Esta espada se calienta cuando golpea, obteniendo cargas que aumentan el daño por fuego en $I$. Se enfría con el tiempo.<br><br>+$I$ de daño por fuego
+2118472408|d0344c9e||Obliteración II
+2118472409|d02fd0a4||Las cargas también aumentan la probabilidad de crítico en $I$% y la eficiencia de ataque en $I$%.<br><br>+$I$ de daño por fuego
+2118472410|d1e9253d||Obliteración III
+2118472411|d1e4a943||Matar a un enemigo tiene un $I$% de probabilidad por carga de desencadenar una explosión que causa $I$ de daño por fuego a los enemigos cercanos. Los golpes críticos tienen un $I$% de probabilidad por carga de hacer lo mismo.<br><br>+$I$ Daño por fuego
+2118472412|f773c2e7||Cremación I
+2118472413|f76f46ed||Golpear a un enemigo en llamas con esta espada aumenta la duración de la quemadura en $F$ segundos. Interrumpir una animación de quemado actualiza la duración de la quemadura.<br><br>+$I$% de probabilidad de quemar
+2118472414|f9289b86||Cremación II
+2118472415|f9241f8c||Los enemigos en una animación de quemado pierden hasta $I$% de su equilibrio máximo cada segundo. El daño por quemadura aumenta en $I$ cada segundo.<br><br>+$I$% de probabilidad de quemar
+2118472416|fadd7425||Cremación III
+2118472417|fad8f82b||Los enemigos reciben $I$% más de daño de forma permanente por cada segundo que llevan quemados.<br><br>+$I$% de probabilidad de quemar
+2118472418|fc924cc4||Transmutación I
+2118472419|fc8dd0ca||Las bombas transmiten los efectos de los aceites en esta espada. Además, todos los aceites otorgan un $I$% de probabilidad de envenenar.<br><br>+$I$ de daño por veneno
+2118472420|fe472563||Transmutación II
+2118472421|fe42a969||El daño por veneno se convierte en daño físico si la resistencia al veneno del objetivo es mayor que su armadura.<br><br>+$I$ de daño por veneno
+2118472422|fffbfe02||Transmutación III
+2118472423|fff78208||Los efectos del aceite aumentan un $I$% por cada acumulación de veneno en el objetivo.<br><br>+$I$ de daño por veneno
+2118472424|01b0d6a1||Aflicción I
+2118472425|01ac5aa7||Esta espada tiene $I$% de probabilidad de envenenamiento adicional por cada $I$ puntos de toxicidad activa.<br><br>+$I$% de probabilidad de envenenar
+2118472426|0365af40||Aflicción II
+2118472427|03613346||Elimina el límite máximo de acumulaciones de veneno en un objetivo.<br><br>+$I$% de probabilidad de envenenar
+2118472428|051a87df||Aflicción III
+2118472429|05160be5||La resistencia al veneno, la hemorragia y las lesiones del enemigo se reduce en un $I$% por cada acumulación de veneno. El daño por veneno a lo largo del tiempo causa $I$% más de daño.<br><br>+$I$% de probabilidad de envenenar
+2118472430|06cf607e||Exanguinación I
+2118472431|06cae484||Cuando aplicas hemorragia, hay una probabilidad igual al porcentaje de vida del objetivo de aplicar $I$ acumulaciones adicionales.<br><br>+$I$% de probabilidad de causar hemorragia
+2118472432|2c59fe28||Exanguinación II
+2118472433|2c55822e||Elimina el límite máximo de acumulaciones de hemorragia en un objetivo.<br><br>+$I$% de probabilidad de causar hemorragia
+2118472434|2e0ed6c7||Exanguinación III
+2118472435|2e0a5acd||El primer golpe de un ataque especial fuerte aplica $I$ acumulaciones de hemorragia, luego el segundo golpe elimina todas las acumulaciones de hemorragia del objetivo. Causa $I$ de daño y aumenta la resistencia a la hemorragia del objetivo en $I$% por cada acumulación eliminada.<br><br>+$I$% de probabilidad de causar hemorragia
+2118472436|2fc3af66||Desesperación I
+2118472437|2fbf336c||Tu adrenalina no puede caer por debajo del $I$% de tu porcentaje de vitalidad restante.<br><br>+$I$ Retraso de la degeneración de adrenalina
+2118472438|31788805||Desesperación II
+2118472439|31740c0b||Para evitar el sobreesfuerzo, gastas adrenalina en lugar de vigor.<br><br>+$I$ Retraso de la degeneración de adrenalina
+2118472440|332d60a4||Desesperación III
+2118472441|3328e4aa||Obtienes $F$% de robo de vida por cada punto de adrenalina y $F$% de robo de vida por cada porcentaje de vitalidad restante.<br><br>+$I$ Retraso de la degeneración de adrenalina
+2118472442|34e23943||Reflexión I
+2118472443|34ddbd49||El alcance de tus contraataques de espada se incrementa. Permite contraataques de patadas y golpes contra criaturas grandes.<br><br>+$I$% de daño del contraataque
+2118472444|369711e2||Reflexión II
+2118472445|369295e8||Tus contraataques reducen en $I$% el equilibrio del enemigo y devuelven $I$% de la reducción de equilibrio infligida.<br><br>+$I$% de daño del contraataque
+2118472446|384bea81||Reflexión III
+2118472447|38476e87||Contraatacar con una sincronización más precisa aumenta el daño del contraataque en un $I$% del daño del ataque contrarrestado.<br><br>+$I$% de daño del contraataque
+2118472448|3a00c320||Electrocución I
+2118472449|39fc4726||Duplica la probabilidad de aplicar electrochoque a $I$%. Electrochoque también paraliza al objetivo.<br><br>+$I$ de daño eléctrico
+2118472450|3bb59bbf||Electrocución II
+2118472451|3bb11fc5||Esta espada causa hasta $I$ de daño eléctrico adicional según la armadura del objetivo.<br><br>+$I$ de daño eléctrico
+2118472452|61403969||Electrocución III
+2118472453|613bbd6f||Golpear a un enemigo electrocutado con esta espada la carga, otorgando $I$% de intensidad de Quen y $I$% de daño de penetración de bloqueos. Lanzar Quen lo descarga, infligiendo $I$ de daño eléctrico por carga y electrocutando a los enemigos cercanos.<br><br>+$I$ de daño eléctrico
+2118472454|62f51208||Regocijo I
+2118472455|62f0960e||Matar a un enemigo con Remolino o Desgarrar restaura $I$ de vigor.<br><br>+$I$% de eficiencia de ataque
+2118472456|64a9eaa7||Regocijo II
+2118472457|64a56ead||Atacar aumenta la velocidad de ataque y la eficiencia de ataque en un $I$% hasta la siguiente acción que no sea de ataque.<br><br>+$I$% Eficiencia de ataque
+2118472458|665ec346||Regocijo III
+2118472459|665a474c||Al llegar a $I$ de adrenalina, entra en un estado en el que el tiempo se ralentiza y las acciones no tienen coste de vigor. La adrenalina se agota rápidamente y el efecto finaliza cuando se acaba la adrenalina.<br><br>+$I$% de eficiencia de ataque
+2118472460|68139be5||Asesinato I
+2118472461|680f1feb||Los ataques contra enemigos con toda su vitalidad causan $I$% más de daño.<br><br>+$I$% de poder de ataque de flanqueo
+2118472462|69c87484||Asesinato II
+2118472463|69c3f88a||Los ataques de flanqueo son golpes críticos garantizados.<br><br>+$I$% de poder de ataque de flanqueo
+2118472464|6b7d4d23||Asesinato III
+2118472465|6b78d129||El primer ataque después de que esta espada se desenvaine o tras matar a un enemigo tiene $I$% + de daño crítico.<br><br>+$I$% de poder de ataque de flanqueo
+2118472466|6d3225c2||Prolongación I
+2118472467|6d2da9c8||Los aceites y efectos de esta espada tienen $I$% más de duración.<br><br>+$I$% de regeneración de energía
+2118472468|6ee6fe61||Prolongación II
+2118472469|6ee28267||Las señales y sus efectos duran $I$% más.<br><br>+$I$% de regeneración de energía
+2118472470|709bd700||Prolongación III
+2118472471|70975b06||Esta espada tiene un rango de ataque aumentado, y $I$% del daño que causa se repite como daño etéreo adicional.<br><br>+$I$% de regeneración de energía
+2118472472|962674aa||Invocación I
+2118472473|9621f8b0||Esta espada gana daño elemental y efectos de estado de tu señal actualmente seleccionada, escalando con la intensidad de la señal.<br><br>+$I$% de intensidad de señal
+2118472474|97db4d49||Invocación II
+2118472475|97d6d14f||Los ataques potentes harán que el glifo de protección ataque al objetivo.<br><br>+$I$% Intensidad de la señal
+2118472476|999025e8||Invocación III
+2118472477|998ba9ee||Los ataques especiales tienen la posibilidad de activar efectos según la señal seleccionada actualmente. Desgarrar escala con el tiempo de carga, hasta un $I$%. Remolino tiene una probabilidad de $I$% por ataque.<br><br>+$I$% de intensidad de señal
+2118472478|9b44fe87||Resolución I
+2118472479|9b40828d||El poder de ataque aumenta un $F$% por cada $I$ puntos de vida máximos de los enemigos actuales. La reducción del equilibrio enemigo aumenta en $F$% por cada punto de adrenalina.<br><br>+$I$% de resistencia al aturdimiento mientras atacas
+2118472480|9cf9d726||Resolución II
+2118472481|9cf55b2c||Cuando luchas contra jefes, tienes $I$% más de resistencia al aturdimeinto, la adrenalina se drena un $I$% más lento y tus contraataques cuerpo a cuerpo causan daño adicional según la vitalidad máxima del objetivo.<br><br>+$I$% de resistencia al aturdimiento mientras atacas
+2118472482|9eaeafc5||Resolución III
+2118472483|9eaa33cb||Desgarrar completamente cargado consume toda la energía disponible para aplicar hasta $I$% de daño adicional con $I$% de robo de vida.<br><br>+$I$% de resistencia al aturdimiento mientras atacas
+2118472484|a0638864||Destrucción I
+2118472485|a05f0c6a||Causas $I$% de daño adicional a los enemigos aturdidos.<br><br>+$I$% de probabilidad de aturdir
+2118472486|a2186103||Destrucción II
+2118472487|a213e509||Mientras estás por encima del $I$% de equilibrio, tus ataques reduceen un $I$% el equilibrio del enemigo, pero sufres un $I$% de tu equilibrio máximo en retroceso.<br><br>+$I$% de probabilidad de aturdir
+2118472488|a3cd39a2||Destrucción III
+2118472489|a3c8bda8||Mientras estás por encima del $I$% de vitalidad, tus ataques causan $I$% más de daño, pero sufres un $I$% de tu vitalidad máxima en retroceso.<br><br>+$I$% de probabilidad de aturdir
+2118472490|a5821241||Penetración I
+2118472491|a57d9647||Puedes aplicar efectos de estado a través de bloqueos enemigos. Si el objetivo no está bloqueando, el $I$% de penetración de bloqueo se agrega a la penetración de armadura.<br><br>+$I$% de daño de penetración de bloqueos
+2118472492|cb0cafeb||Penetración II
+2118472493|cb0833f1||La penetración de armadura por encima del valor de armadura del objetivo se añade al daño crítico.<br><br>+$I$% de daño de penetración de bloqueos
+2118472494|ccc1888a||Penetración III
+2118472495|ccbd0c90||Los ataques rápidos reducen la armadura del enemigo en un $I$% durante $I$ segundos. Los ataques potentes reducen la armadura del enemigo en un $I$% de forma permanente.<br><br>+$I$% de daño de penetración de bloqueos
+2118472496|ce766129||Fortificación I
+2118472497|ce71e52f||Los beneficios de reparación de armas mejoran la penetración de armaduras un $I$%.<br><br>-$I$% de daño recibido a través de bloqueos
+2118472498|d02b39c8||Fortificación II
+2118472499|d026bdce||Esta espada no sufre pérdida de durabilidad estándar.<br><br>-$I$% de daño recibido a través de bloqueos
+2118472500|d1e01267||Fortificación III
+2118472501|d1db966d||Los enemigos asesinados con esta espada aumentan permanentemente tu daño. Quitar $I$ puntos de vida aumentará tu daño en $I$.<br><br>-$I$% de daño recibido a través de bloqueos
+2118472502|d394eb06||Mutilación I
+2118472503|d3906f0c||Las lesiones reducen la penetración de armadura del objetivo en un $I$% y aumentan la duración de las acumulaciones de hemorragia en un $I$%.<br><br>+$I$% de probabilidad de causar lesiones
+2118472504|d549c3a5||Mutilación II
+2118472505|d54547ab||Las ejecuciones y desmembramientos otorgan $I$% más de vigor y adrenalina y reducen en $I$% su agresividad.<br><br>+$I$% de probabilidad de causar lesiones
+2118472506|d6fe9c44||Mutilación III
+2118472507|d6fa204a||Las lesiones causan $I$% de la vitalidad máxima del objetivo en daño y reducen su equilibrio máximo en $I$%.<br><br>+$I$% de probabilidad de causar lesiones
+2118472508|d8b374e3||Desolación I
+2118472509|d8aef8e9||La probabilidad de daño crítico aumenta hasta $I$% en función de la diferencia entre tu porcentaje de vitalidad y el de tu objetivo.<br><br>+$I$% de daño crítico
+2118472510|da684d82||Desolación II
+2118472511|da63d188||Dañar a un enemigo con un ataque potente o rápido aumenta permanentemente la probabilidad de daño crítico/el daño crítico contra él en un $I$% respectivamente.<br><br>+$I$% de daño crítico
+2118472512|fff2eb2c||Desolación III
+2118472513|ffee6f32||Si una rotura de equilibrio es un golpe crítico, el objetivo muere instantáneamente. Los ataques rápidos que reducen el equilibrio tienen +$I$% de daño crítico.<br><br>+$I$% de daño crítico
+2118472524|66540f06||Perfección
+2118472525|da67396f||Obliteración
+2118472526|4d91e787||Electrocución
+2118472527|3095c59a||Aplicar hemorragia aumenta tu velocidad total en un 15% durante 3 segundos. Los ataques cuerpo a cuerpo causan un 2% más de daño por cada acumulación de hemorragia en el objetivo.
+2118472528|3095c59b||Matar a un enemigo restaura el 10 % de la vitalidad que te falta. La degeneración de adrenalina se retrasa 2 segundos más.
+2118472529|3095c59c||No puedes perder el equilibrio. Recibir daño aumenta el daño y la resistencia al aturdimiento en un 5 % durante 5 segundos, hasta un 25 %.
+2118472530|3095c59d||Por la noche, tu velocidad total, poder de ataque, eficiencia de vigor e intensidad de señal aumentan en un 10 %. Durante la luna llena, recibir daño fatal eliminará este extracto y te devolverá el 50% de vitalidad.
+2118472531|3095c59e||Aplicar daño elemental reduce la resistencia del enemigo a cualquier otro tipo de daño elemental. Los ataques de puños causan más daño y tienen la posibilidad de aplicar efectos de estado.
+2118472532|3095c59f||Las resistencias físicas aumentan un 20 % y no recibes daño por roce mientras esquivas. Tus ataques cuerpo a cuerpo causan daño normal a los espectros incorpóreos.
+2118472533|3095c5a0||Obtienes un 20 % de regeneración de energía al amanecer y hasta un 20 % de intensidad de señal con mucha vitalidad. Obtienes 2 de regeneración de vigor al anochecer y hasta un 20 % de penetración de armadura con poca vitalidad.
+2118472534|3095c5a1||La velocidad de ataque y la potencia aumentan un 10 % durante 2 segundos después de esquivar. Cuando calculas las penalizaciones por bajo vigor o energía, usas la más alta de las dos.
+2118472535|3095c5a2||El uso de ataques rápidos, ataques potentes o señales, genera acumulaciones que pueden mejorar la fuerza de los otros dos. Al llegar a 6 acumulaciones, el próximo uso tiene un 50% más de poder de ataque o intensidad de señal. Los ataques rápidos generan 1 acumulación, los ataques potentes 2 acumulaciones y las señales 3 acumulaciones.
+2118472536|e222edd6||El veneno no te debilita. Aplicar veneno a los enemigos reduce tu toxicidad en 1. Los oponentes que te hacen sangrar se envenenan.
+2118472537|754d18af||Vendes artículos por un 25 % más de monedas.<br>Regatear contratos es un 25 % más fácil.
+2118472538|363f99b1||Si tu medidor de toxicidad se llena por completo, recibirás daño de veneno de tu ganancia de toxicidad y entrarás en un estado febril con velocidad reducida y regeneración de vigor. Bebe una Miel Blanca para recuperarte.
+2118472539|6d1ad461||Una armadura más pesada absorberá más daño y aumentará tu equlibrio máximo, pero tendrás menos velocidad, menos regeneración de vigor y mayores costes de vigor.
+2118472540|b93269e9||Los ataques por la espalda tienen un 15 % más de probabilidad de crítico y un 10 % más de daño. No puedes bloquear los ataques por la espalda sin la habilidad Sentidos intensificados, así que vigila tu espalda.
+2118472541|6d1ad3a6||Mejorar tu equipo en una muela o banco de reparación reducirá su pérdida de durabilidad en un 50%.
+2118472542|6d1ad424||Usa kits de reparación para mantener tu equipo en buenas condiciones. Reparan una parte de la durabilidad que falta, por lo que cuanto más esperes para usarlos, mayor será su efecto.
+2118472543|363f99c9||Los artesanos pueden eliminar runas y mejoras de tus artículos y devolvértelos.
+2118472544|6d1ad408||Al desmontar un objeto se recuperarán las mejoras que contenga, pero se pueden eliminar directamente sin necesidad de destruir el objeto.
+2118472545|363f99aa||Los enemigos con barras de vitalidad blancas reciben poco daño de las espadas de acero. Cambia a tu espada de plata o aplica aceite de Argentia a tu espade de acero.
+2118472546|6d1ad3ca||Los enemigos con barras de vitalidad rojas se pueden combatir con cualquier espada. Los brujos con mucho dinero encontrarán que la plata es ideal contra monstruos, mientras que el acero es mejor contra humanos y bestias.
+2118472547|363f99d0||Puedes viajar rápido a un puerto mientras estás en un barco abriendo el mapa mundial. Busca barcos a lo largo de la costa y cerca de los puertos.
+2118472548|6d1ad370||Los nidos de monstruos se pueden destruir con una bomba Estrella Danzante, Colmena o Símun. Pero considera usar la señal de Igni en su lugar.
+2118472549|6d1ad422||Con equipo de brujo, fabricarlo es solo el primer paso. Mejorarlo cambiará sutilmente sus estadísticas y su apariencia.
+2118472550|6d1ad369||El clima afecta a tus enemigos. Te resultará más fácil quemar enemigos durante el día, pero más difícil durante la lluvia o las tormentas.
+2118472551|6d1ad3c5||El clima afecta a tus enemigos. Los necrófagos son oponentes más peligrosos al anochecer o durante la noche. Las brujas sepulcrales se sienten especialmente cómodas a esta hora.
+2118472552|6d1ad3a7||El clima afecta a tus enemigos. Los hombres lobo son más peligrosos por la noche, y particularmente durante la luna llena. Incluso los lobos normales se mueven más rápido bajo la luna llena.
+2118472553|b93269ed||El clima afecta a tus enemigos. Las Arquesporas son más resistente al sol.
+2118472554|6d1ad445||El clima afecta a tus enemigos. A los sumergidos y las sirenas les encanta la lluvia y las tormentas, pero a las arpías les resulta difícil maniobrar.
+2118472555|6d1ad428||El clima afecta a tus enemigos. Siempre que sea posible, lucha contra los espectros del mediodía bajo la luna y contra los espectros de la noche bajo el sol.
+2118472556|6d1ad440||El clima afecta a tus enemigos. Los portadores de la magia, como las hechiceras o los súcubos, obtienen poder adicional bajo la luna, especialmente cuando está llena.
+2118472557|6d1ad409||Los nidos de monstruos destruidos son una buena fuente de mutágenos, partes únicas de monstruos e incluso joyas costosas.
+2118472558|6d1ad463||Si buscas hacer extractos de mutágenos, los comerciantes que se especializan en libros pueden tener el conocimiento poco común que buscas.
+2118472559|6d1ad3a5||Cuando encuentres una espada reliquia, es posible que no se pueda usar. Necesitarás los servicios de un maestro armero para restaurarla.
+2118472560|6d1ad423||Pociones, bombas y aceites tienen formas de alta calidad que puedes hacer usando ingredientes de alta calidad. Las pociones también pueden tener efectos secundarios.
+2118472561|6d1ad389||Cada objeto de alquimia requiere un ingrediente base. El alcohol para las pociones, la grasa animal para los aceites y el salitre para las bombas son buenos puntos de partida.
+2118472562|6d1ad3ab||Cada señal tiene un modo alternativo, accesible manteniendo presionado el botón de lanzamiento de señal.
+2118472563|b93269ef||Puedes realizar alquimia meditando en un fuego o visitando a un alquimista o herborista.
+2118472564|6d1ad449||Si has sufrido una lesión, puedes tratarla inmediatamente con un vendaje. También sanarán por sí solos cuando medites con plena vitalidad.
+2118472565|363f99af||Puedes usar Quen para protegerte del aura de drenaje de vida de una dama del mediodía o de medianoche. El aceite de Argentia también lo desactivará temporalmente.
+2118472566|6d1ad386||Al intentar elaborar un objeto alquímico superior, todos los ingredientes deben ser de calidad pura. Con la ventaja Refinamiento alquímico, un ingrediente puede ser de menor calidad.
+2118472567|6d1ad447||Los reflejos de los brujos son tan agudos que una espada es defensa suficiente para desviar flechas en el aire mientras vuelan. Con el tiempo adecuado, incluso pueden devolverse a su punto de origen.
+2118472568|b93269f0||La mayoría de los oponentes tienen un vigor limitado y, sin él, causan menos daño. Puedes agotar el vigor con Aard o aceite de parálisis, y atacarlos retrasará su regeneración de vigor.
+2118472569|6d1ad387||La Señal de Axia es útil fuera del combate. Puedes evitar que los animales neutrales huyan, calmar a los caballos e incluso usarse durante el diálogo.
+2118472570|6d1ad3a8||Mientras estás bajo el agua, no puedes desenvainar tus espadas ni lanzar la mayoría de las Señales. Puedes usar Aard o la ballesta para enfrentarte a los atacantes submarinos.
+2118472571|363f99d1||Ten cuidado con tu energía. Cada punto aumenta tu daño en un 10 %, y las Señales lanzadas con menos energía son más débiles. Aun así, vale la pena pagar el coste de la señal correcta en el momento correcto.
+2118472572|a4b1c1ec||Puedes almacenar armas y armaduras en varios alijos en todo el mundo. El equipo almacenado en una ubicación también estará disponible en todas las demás ubicaciones.
+2118472573|a05ae697||Busca un encantador al este de Novigrado para encantar tu equipo, pero considera ahorrar primero en runas, glifos y especialmente monedas.
+2118472574|6d1ad3e3||Cuando se trata de reparar armaduras, necesitas las herramientas adecuadas. Las armaduras ligeras, medias y pesadas tienen sus propios kits de reparación específicos.
+2118472575|6d1ad3ad||Congela a tus oponentes. Al combinar dos fuentes diferentes del efecto congelado, por ejemplo, las bombas Viento del Norte y Aard con la habilidad Congelación, el enemigo se congelará en el lugar y recibirá daño adicional.
+2118472576|6d1ad3cd||Si te das cuenta de que haces muy poco daño a un enemigo, es posible que necesites más penetración de armadura. Usa ataques potentes o contraataques, aceite corrosivo, bombas con la habilidad Explosión desgarradora, o crea una nueva arma especializada para estos oponentes.
+2118472577|363f99ce||Los golpes críticos no son solo una fuente de daño adicional. También aumentan la penetración de armadura y los efectos de cualquier aceite en un 50 %.
+2118472578|6d1ad3c9||Si escuchas a Geralt diciéndote que mires a tu alrededor, significa que hay una espada de artefacto cerca. Puede deshabilitar estos comentarios en Opciones > Mods > W3EE > Exploración.
+2118472579|363f99ae||Los enemigos envenenados se mueven más lento y hacen menos daño. Los enemigos que sangran tardan más en recuperar el vigor y reciben daño por hemorragia adicional cuando tienen poco vigor.
+2118472580|6d1ad425||Si estás a punto de morir por intoxicación sin una Miel Blanca a mano, la meditación puede salvarte la vida.
+2118472581|363f9a0b||Atacar a un enemigo bajo la influencia de Axia hará que sea más difícil volver a usar Axia contra él.
+2118472582|6d1ad36d||¿Buscas el mejor lugar para vender tus trofeos? Los comerciantes generales y los posaderos son un buen lugar para comenzar. Pagan un precio más alto en Skellige, pero los comerciantes en Novigrado tienen más dinero. Toussaint tiene lo mejor de ambos.
+2118472583|363f99b0||La miel blanca curará inmediatamente la fiebre por toxicidad y reducirá la toxicidad, pero también cancelará los efectos de otras pociones. Trata de tener siempre uno a mano.
+2118472584|363f9a0c||Puedes personalizar los atributos de algunos equipos antes de fabricarlos. Poner tus atributos preferidos en una espada puede sacarte de quicio hasta que puedas permitirte espadas de artefacto caras.
+2118472585|6d1ad421||¿Luchando con oponentes a distancia? Intenta lanzar Yrden alternativo antes de atacar. Ofrece una zona de protección fiable mientras te enfrentas a cualquier atacante cuerpo a cuerpo.
+2118472586|363f99eb||Intenta crear tus propias bases de alquimia a partir de ingredientes que ya tienes.
+2118472587|363f99c8||Al elaborar un objeto alquímico de calidad mejorada, un ingrediente puro puede compensar la inclusión de uno sucio.
+2118472588|6d1ad446||¿Tus alforjas se parecen a un almacén alquímico? Elaborar más allá de su necesidad inmediata puede aumentar sus habilidades. Destilar ingredientes pesados o sin efectos secundarios en esencias primarias puede ahorrar peso.
+2118472589|6d1ad38b||¿Luchando con un enemigo desconocido? La poción de Ventisca puede ayudarte a comprender su comportamiento y patrón de ataque.
+2118472590|363f9a0d||Puedes realizar un bloqueo perfecto contraatacando sin mantener modificadores de distancia. Reduce el gasto de equilibrio mientras se aturde al atacante y reduce su equilibrio, y también se puede usar en niveles de equilibrio más bajos que los contraataques.
+2118472591|6d1ad442||Cuando se trata de daño elemental, el fuego y el frío tienen emparejamientos fuertes y débiles. Los daños etéreos y eléctricos son más versátiles.
+2118472592|6d1ad441||Para mantener tu adrenalina necesitas generar un poco cada 4 segundos, de lo contrario comienza a agotarse. Intenta mantener un ritmo constante en el combate.
+2118472593|7e79ef0c||Espada de acero viperina mejorada
+2118472594|7e79ef0d||Espada de acero viperina superior
+2118472595|7e79ef0e||Espada de acero viperina magistral
+2118472596|7e79ef0f||Espada de acero viperina de gran maestro
+2118472597|72d3fe7a||Espada de plata viperina mejorada
+2118472598|72d3fe7b||Espada de plata viperina superior
+2118472599|72d3fe7c||Espada de plata viperina magistral
+2118472600|72d3fe7d||Espada de plata viperina de gran maestro
+2118472601|9a066b41||Diagrama: Espada de acero viperina mejorada
+2118472602|9a066b42||Diagrama: Espada de acero viperina superior
+2118472603|9a066b43||Diagrama: Espada de acero viperina magistral
+2118472604|9a066b44||Diagrama: Espada de acero viperina de gran maestro
+2118472605|14095e93||Diagrama: Espada de plata viperina mejorada
+2118472606|14095e94||Diagrama: Espada de plata viperina superior
+2118472607|14095e95||Diagrama: Espada de plata viperina magistral
+2118472608|14095e96||Diagrama: Espada de plata viperina de gran maestro
+2118472609|0ff5fe0e||Carga retrasada
+2118472610|15dda914||Aumenta el tiempo de fusión de la bomba en $I$ segundos.<br>Después del impacto, las bombas ganan $I$% de daño, duración del efecto y reducción de Explosión desgarradora cada segundo hasta que detonan.<br>Aumenta el peso de la bomba en $F$ y reduce el rango de lanzamiento en $I$%.
+2118472611|15dda915||Las bombas detonan fragmentos explosivos al impactar, cada uno de los cuales causa $I$% del daño de la bomba original.<br>Número de fragmentos: $I$<br>Aumenta el peso de la bomba en $F$ y reduce rango de lanzamiento en $I$%.
+2118472612|5f63dbf5||Habilita la creación de bombas que explotan después de un breve retraso o cuando se exponen al fuego.
+2118472613|6d1ad3e4||Al lanzar una bomba o disparar una ballesta, puedes usar el apuntado automático para un ataque rápido o apuntar manualmente para una mayor precisión. Apuntar manualmente una bomba reducirá la demora entre el impacto y la detonación.
+2118472614|df71848f||Curación de heridas
+2118472615|77971da9||Daño por fuerza
+2118472616|9807a82f||Perro
+2118472617|4e7f3c54||Lobo
+2118472618|b61ff258||Lobo Blanco
+2118472619|49c19737||Lobo temible
+2118472620|128d0c93||Para nuevos jugadores que buscan una aventura más indulgente.
+2118472621|1ce20a9e||La experiencia prevista, sin modificadores a favor o en contra tuya.
+2118472622|44a553fc||Para veteranos de mods y jugadores establecidos que desean más desafíos.
+2118472623|6e09959b||Para maestros y masoquistas que anhelan un nivel injusto de adversidad.
+2118472624|6e36da4c||Equipo - Durabilidad
+2118472625|9aecdfcd||Mult. de daño - Equilibrio del jugador
+2118472626|9a51dd42||Mult. de daño - Equilibrio enemigo
+2118472627|306f526b||Técnicas de la Escuela del Lobo 
+2118472628|51ba0aa4||Desviación
+2118472629|2066a1aa||Clasificación de mutágenos
+2118472630|979bfe1c||Clasificación completa
+2118472631|c7641a29||Diagrama: Espada de acero Viperina
+2118472632|7e79cf87||Diagrama: Espada de plata Viperina
+2118472633|940d4db6||Regeneración de vitalidad en combate
+2118472634|37386f4b||Los ataques a distancia tienen un $S$% más de probabilidad de crítico y reducen un $S$% más el equilibrio del objetivo. Esquivar y rodar no impiden la regeneración de equilibrio.
+2118472635|37386f4c||Las hierbas aleatorias se encuentran en los enemigos asesinados. El equilibrio no se puede reducir durante $S$ segundos después de esquivar, rodar o atacar a larga distancia.
+2118472636|19b23b84||Cuando reduces la resistencia física de un enemigo, su perforación de armadura se reduce en la misma cantidad. Al anochecer, la regeneración de vigor, equilibrio y energía aumenta en un $S$%.
+2118472637|19b23b85||La habilidad Explosiones desgarradoras no se limita a la primera bomba. Mientras el dominio de Albedo está vigente, los aceites pierden carga y el equipo pierde durabilidad un $S$% más lento.
+2118472638|66502421||Animación - Saqueo (Hierbas)
+2118472639|5ea74dc8||Animación - Saqueo (Otros)
+2118472640|cea7442f||Retarda la degeneración de adrenalina en $I$%.<br>Aumenta la probabilidad de crítico en $F$% por cada punto de energía.<br>Los contraataques y los bloqueos perfectas no reducirán el equilibrio por debajo del $I$% del máximo.
+2118472641|502b0448||Habilitar
+2118472642|87c93b4d||Habilitar cámara inmersiva
+2118472643|4eb8b325||Peso - Artículos de artesanía
+2118472644|1000a15c||Ilimitado
+2118472645|b2eae791||Por cada pieza equipada: $S$% de la adrenalina ganada restaura la energía y, mientras tengas la energía al máximo, el $S$% de la regeneración de energía se agrega a la regeneración de vigor.
+2118472646|b2eae792||Lanzar señales genera $S$ de adrenalina. Las pociones que se beban sin que haya otras pociones activas aumentan sus efectos en un $S$%. Los efectos pasivos de los extractos de mutágenos se incrementan en $S$%.
+2118472647|9f3574d0||Agresión: Escala con el número de enemigos
+2118472648|b11aaf6c||Forzar posición de combate a 2 manos
+2118472649|8dfe6c5b||Configuración de vigor dinámico
+2118472650|6b6ce25d||Configuración predeterminada de vigor
+2118472651|84ab3e7c||Configuración de vigor estratégico
+2118472652|2587b0ea||Compromiso de ataque
+2118472653|145b222a||Penalización de regeneración de energía por toxicidad
+2118472654|870b9351||Apagado
+2118472655|512618da||Híbrido
+2118472656|db10e3bd||Encendido
+2118472657||Redux_LootRadius|Radio de saqueo
+2118472658||Redux_ControlOverride|Estilo de los botones de control
+2118472659||Redux_ControlOverridePC|Teclado
+2118472660||Redux_ControlOverridePS|Playstation
+2118472661||Redux_ControlOverrideXB|Xbox
+2118472662||Redux_ControlOverrideSC|Steam
+2118472663||Redux_ControlOverrideNA|Por defecto
+2118472664||skill_name_mutation_master|Maestría mutante
+2118472665|4c4d888d||+$S$% XP de mutación por etapa.<br>+$S$% XP de toxicidad por etapa.<br>Si se completa <font color="#CD7D03">"Afronta lo desconocido"</font>:<br>Azul - aumenta la regeneración de energía en un 25 %<br>Verde - aumenta el drenaje de toxicidad en un 50 %<br>Rojo - aumenta la regeneración de vitalidad en un 20 %<br>Naranja - aumenta la regeneración de vigor en un 20 %
+2118472666||skill_name_mutation_1|Mutación Espectral
+2118472667||skill_desc_mutation_1|Los costes de las señales se reducen en un $S$%.<br>La intensidad de las señales aumenta en un $S$%.<br>El daño cuerpo a cuerpo se reduce en un $S$%.
+2118472668||skill_name_mutation_2|Mutación Elemental
+2118472669||skill_desc_mutation_2|Ya no regeneras Vigor excepto cuando meditas.<br>Golpear a los enemigos con ataques cuerpo a cuerpo restaura energía según tu tasa de regeneración normal.<br>Ataque rápido: $S$ segundos de regeneración<br>Ataque fuerte: $S$ segundos de regeneración<br>Remolino: $S$ segundos de regeneración<br>Desgarrar: $S$-$S$ segundos de regeneración
+2118472670||skill_name_mutation_3|Mutación Necrófaga
+2118472671||skill_desc_mutation_3|La ganancia de adrenalina aumenta en un 50%.<br>La adrenalina ya no se degenera.<br>Si recibes un golpe, eliminarás adrenalina en lugar de agregarla.
+2118472672||skill_name_mutation_4|Mutación Dracónida
+2118472673||skill_desc_mutation_4|Ya no sufres ninguna penalización en la velocidad o el daño por poco vigor.<br>Al recibir daño, pierdes $S$ vigor por cada punto porcentual de Vitalidad perdido.<br>Recibes hasta un $S$% de daño adicional en función de tu vigor faltante.
+2118472674||skill_name_mutation_5|Mutación Insectoide
+2118472675||skill_desc_mutation_5|Tu nivel de toxicidad ya no se agota excepto cuando meditas.<br>Gastar vigor y ganar adrenalina eliminará la toxicidad según tu tasa de drenaje normal.<br>Por punto de vigor gastado: $S$ segundos de drenaje<br>Por punto de adrenalina ganado: $S$ segundos de drenaje
+2118472676||skill_name_mutation_6|Mutación Relicta
+2118472677||skill_desc_mutation_6|Reduces el quilibrio un $S$% más con ataques a distancia contra objetivos atacantes o incapacitados.<br>Infliges hasta un $S$% más de daño con ataques a distancia según el Equilibrio faltante del objetivo.<br>Tu eficiencia defensiva se reduce en un $S$%.
+2118472678||skill_name_mutation_7|Mutación Maldita
+2118472679||skill_desc_mutation_7|Ya no regeneras vitalidad, excepto cuando meditas.<br>Dañar a enemigos que te hayan dañado recientemente restaurará parte de tu vitalidad perdida en función del daño que hayas infligido. Las bonificaciones a la regeneración de vitalidad aumentarán el margen de tiempo que tienes para contraatacar.
+2118472680||skill_name_mutation_8|Mutación Ogroide
+2118472681||skill_desc_mutation_8|Los costes de vigor de las acciones defensivas se pagan con equilibrio.<br>Siempre evitas la reacción de golpe cuando tu porcentaje de equilibrio es mayor que el porcentaje de vitalidad perdida.<br>Puedes perder el Equilibrio con ataques no bloqueados.
+2118472682||skill_name_mutation_9|Mutación Vampírica
+2118472683||skill_desc_mutation_9|El daño cuerpo a cuerpo aumenta en un $S$%.<br>Los costes de equilibrio se reducen en un $S$%.<br>Los costes de vigor de las acciones se reducen en un $S$%.<br>Los costes de señales aumentan en un $S$%.
+2118472684||skill_name_mutation_10|Mutación Híbrida
+2118472685||skill_desc_mutation_10|Puedes esquivar por completo ataques que normalmente no puedes, pero cuando lo haces aumentan los costes de vigor y equilibrio.<br>Los retrasos en la regeneración de vigor tras esquivar se duplican.<br>Ya no puedes esquivar mientras estás sobreesforzado.
+2118472686||skill_name_mutation_11|Activación Latente
+2118472687||skill_desc_mutation_11|Las pociones y extractos ya no se consumen cuando se usan.<br>La miel blanca ya no te afecta.
+2118472688||skill_name_mutation_12|Metamorfosis
+2118472689||skill_desc_mutation_12|Consigues los efectos de todas las mutaciones investigadas.
+2118472690||Redux_MutationBaseMutagen|Mutágeno base actual: 
+2118472691||Redux_MutationNoneMutagen|Ninguno
+2118472692||Redux_MutationMultMutagen|Los costes de mutágeno coloreado aumentaron en
+2118472693||Redux_Acclimation1|$I$ ranuras para mutágeno desbloqueadas.
+2118472694||Redux_Acclimation2|$I$ ranuras para mutágeno desbloqueadas.<br>Reduce el coste de mutágeno de las mutaciones en un $I$%.
+2118472695||Redux_LootDestinationHorse|Caballo
+2118472696||Redux_LootDestinationStash|Alijo
+2118472697|06ae2506||Mutaciones investigadas para desbloquear: $I$
+2118472698|a344d8bd||Mutaciones investigadas para la siguiente etapa: $I$
+2118472699|fb1e2184||+$S$% XP de mutación por etapa.<br>+$S$% XP de toxicidad por etapa.<br>Si se completa <font color="#CD7D03">"Afronta lo desconocido"</font>:<br>Azul - aumenta la regeneración de energía en un 25 %<br>Verde - aumenta el drenaje de toxicidad en un 50 %<br>Rojo - aumenta la regeneración de vitalidad en un 20 %<br>Naranja - aumenta la regeneración de vigor en un 20 %
+   1066876|73a12771||Toxicidad
+   1075445|00000000||Para lanzar una bomba, presiona <<ThrowItem>><br><br>También puedes apuntar antes de lanzar para aumentar tu precisión. Para ello, mantén pulsado <<ThrowItem>> y apunta. Luego suelta <<ThrowItem>> para lanzar la bomba.<br><br>Las bombas tienen un tiempo de fusión de 5 segundos antes de detonar. Este retraso puede verse influenciado por varios medios.<br><br>Primero, la mecha se acortará automáticamente mientras apunta manualmente una bomba. Una bomba está completamente "cebada" después de 5 segundos en tiempo real y explotará al impactar, indicado por la bomba sostenida que comienza a chispear. Las bombas no detonarán prematuramente.<br><br>En segundo lugar, si Igni es la señal seleccionada actualmente y a una bomba le queda más de 1 segundo de tiempo de fusión, gastará automáticamente 0,5 de energía para que detone al impactar.<br> <br>Tercero, las bombas explotarán inmediatamente si se exponen a cualquiera de los siguientes:<br>- Igni<br>- Aard<br>- Virotes explosivos<br>- Daño de fuego de otras explosiones de bombas<br>- Un objetivo en estado quemadura.
+   1077685|00000000||Para destruir un nido de monstruos, golpéalo con <font color="#CD7D03">Igni</font>.<br><br>También puedes usar una bomba <font color="#CD7D03">Colmena</font>, <font color="#CD7D03">Simún</font> o <font color="#CD7D03">Estrella danzante</font>.
+   1087258|00000000||Puedes eliminar mejoras y runas de tus objetos aquí.
+   1087262|00000000||Una vez que selecciones un artículo, se te mostrarán aquí las mejoras que tiene.<br><br>Sin embargo, ten en cuenta que una vez que confirmes tu selección, <font color="#CD7D03">todas</font> las mejoras de este artículo se eliminarán.
+   1087266|00000000||Para eliminar mejoras, seleccione un elemento y presione <<GUI_Select>>
+   1087270|00000000||Para eliminar mejoras y runas, selecciona un elemento y presiona <<GUI_PC_Select>>
+   1114581|00000000||Puedes conseguir equipo temerio ayudando a Vernon Roche al este de Novigrado.
+   1114589|00000000||Puedes conseguir equipo nilfgaardiano trabajando con nilfgaardianos en Velen. También se puede comprar al intendente Eggebracht en el campamento del ejército nilfgaardiano.
+   1114595|00000000||New Game+ no es compatible con Enhanced Edition Redux.
+   1114607|00000000||Puedes conseguir equipo de Skellige ayudando a Yoana en Percha del cuervo.
+   1131841|00000000||Consigue coronas para el Orfebre Ofir.
+   1136504|00000000||Dale coronas al Orfebre Ofir.
+   1206642|00000000||Las <font color="#CD7D03">mutaciones</font> son otra forma de personalizar tu experiencia en la senda y tu estilo de juego particular. Modifican significativamente las mecánicas básicas del juego y los recursos del jugador, ofreciendo tanto ventajas como desventajas.<br><br>Las mutaciones se pueden desbloquear en <b>cualquier</b> orden que desees.
+   1206644|00000000||El desarrollo de una mutación requiere una inversión considerable de <font color="#CD7D03">Mutágenos mayores coloreados</font>, aunque existen varios medios para reducir su coste. Al investigar una mutación roja, azul o verde, puedes proporcionar un mutágeno <font color="#CD7D03">base</font> que coincida con esa familia de mutaciones. Cualquier mutágeno de monstruo será suficiente, pero conseguir un archimutágeno de nivel superior proporcionará más ahorros. Este mutágeno base <b>no</b> se consume durante la investigación.<br><br>El coste de una mutación también se reduce en un <font color="#CD7D03">10%</font> por cada mutación conectada que ya se haya investigado.<br><br>Por último, la habilidad <font color="#CD7D03">Aclimatación</font> también reducirá los costes de investigación.
+   1206650|00000000||Maestría mutante
+   1206651|00000000||<font color="#CD7D03">Maestría mutante</font> es una <b>habilidad pasiva</b> que se desarrolla automáticamente a medida que terminas la investigación sobre mutaciones.<br><br>Esta mutación tiene varias etapas, cada una de las cuales aumenta tu experiencia obtenida en los árboles de habilidades <font color="#CD7D03">Mutacion</font> y <font color="#CD7D03">Toxicidad</font>. Hay 4 etapas en total que se desbloquean con dos, cuatro, ocho y doce mutaciones investigadas.<br><br>Además, si logras acceder a un laboratorio avanzado que se ocupe de las mutaciones, esta habilidad obtendrá más bonificaciones según el color de la mutación que tengas equipada.<br><br>Azul: +25 % de regeneración de energía<br>Verde: +50 % de drenaje de toxicidad<br>Rojo: +20 % de regeneración de vitalidad<br>Naranja: +20 % de regeneración de vigor
+   1206729|00000000||En Enhanced Edition Redux, las mutaciones están disponibles desde el comienzo del juego.<br><br>Las mutaciones alteran significativamente las mecánicas básicas del juego y los recursos del jugador, ofreciendo tanto ventajas como desventajas.<br><br>Para obtener más información, abre el <font color="#CD7D03">Panel de personaje</font>.
+   1206763|00000000||Maestría mutante
+   1206764|00000000||Una vez más, se puede investigar cualquier mutación en primer lugar, independientemente de su posición. Para fines del tutorial, seleccione una de las mutaciones resaltadas.
+   1206765|00000000||Investigación de mutaciones
+   1206766|00000000||Una vez que se investiga una mutación, se reduce el coste de investigación de todas las mutaciones conectadas en un 10 %. La habilidad <font color="#CD7D03">Aclimatación</font> también reducirá la cantidad requerida.
+   1206771|00000000||Maestría mutante
+   1206772|00000000||<font color="#CD7D03">Maestría mutante</font> es una habilidad pasiva que mejora automáticamente a medida que desarrollas otras mutaciones. También obtendrá beneficios adicionales cuando obtengas acceso a un laboratorio avanzado durante <font color="#CD7D03">Afronta lo desconocido</font>.
+   1206779|00000000||Maestría mutante
+   1206780|00000000||¡Felicitaciones! ¡Tu <font color="#CD7D03">Maestría Mutante</font> ha avanzado al siguiente nivel!
+   1206785|00000000||Investigación de mutaciones
+   1207952|00000000||Las mutaciones requieren <font color="#CD7D03">mutágenos mayores coloreados</font>. Las mutaciones rojas, azules y verdes se pueden obtener de forma más económica si se posee un mutágeno o archimutágeno de monstruo de la familia correcta para utilizarlo como <font color="#CD7D03">base</font>. Regresa aquí con suficientes mutágenos para desbloquear una mutación.
+   1214082|00000000||Para usar mutaciones, primero debes investigarlas. En Enhanced Edition Redux, las mutaciones se pueden investigar en <font color="#CD7D03">cualquier orden</font>. Sin embargo, para avanzar en este tutorial, selecciona una de las mutaciones resaltadas.
+   1214084|00000000||Las mutaciones requieren <font color="#CD7D03">mutágenos mayores coloreados</font>. Las mutaciones rojas, azules y verdes se pueden obtener de forma más económica si se posee un mutágeno o archimutágeno de monstruo de la familia correcta para utilizarlo como <font color="#CD7D03">base</font>. Este mutágeno base no se consume.
+   1225007|00000000||Puedes conseguir el conjunto de las Mil Flores ayudando a los elfos de Velen y Novigrado. También se puede comprar en el campamento de los Scoia'tael al suroeste de Novigrado.
+   1225008|00000000||Puedes conseguir el conjunto Tigre Blanco del Oeste recogiendo botines de guerra de naufragios en las Islas Skellige.
+   1225013|00000000||Puedes conseguir el conjunto Tigre Blanco del Oeste recogiendo botines de guerra de naufragios en las Islas Skellige.

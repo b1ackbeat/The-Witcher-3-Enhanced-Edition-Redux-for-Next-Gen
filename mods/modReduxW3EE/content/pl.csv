@@ -1,0 +1,714 @@
+;meta[language=pl]
+; id      |key(hex)|key(str)| text
+2118472000|1f70c020||Zużywa $I$% mniej Wytrzymałości.<br>Nadchodzące obrażenia w zwarciu są zmniejszone o $I$%.<br>$I$% szansy, że otrzymanie obrażeń podczas Młynka nie spowoduje zachwiania.
+2118472001|1f70c022||Zmniejsza zużycie Wytrzymałości za wykonywanie akcji defensywnych o $I$%.<br>Kontry i perfekcyjne parowania powstrzymują $I$% więcej obrażeń.<br>$I$% szansy na uniknięcie efektów zachwiania podczas parowania ataków wroga wielkości człowieka.
+2118472002|1f70c024||Szybkie ataki mają $I$% większą szansę na wywołanie urazów.<br>Szybkie ataki zmniejszają szybkość przeciwnika o $F$%, aż do $F$%.<br>Szybkość przeciwnika powraca, gdy ten nie otrzymuje obrażeń przez $I$ sekund.
+2118472003|bcff1d6b||Rozbijające Uderzenia
+2118472004|1f70c025||Silne ataki zadają +$I$% więcej obrażeń równowadze postawy przeciwnika.<br>$I$% obrażeń zadanych przez silne ataki ignoruje blok.
+2118472005|cea74410||Szansa na otrzymanie urazu jest $F$% mniejsza.<br>Koszt postawy za parowanie ciosów od tyłu zredukowany do $F$%<br>Odbijanie i przekierowywanie pocisków kosztuje $F$% mniej wytrzymałości i postawy.
+2118472006|bcff1d6e||Praca Nóg
+2118472007|1f70c028||Zmniejsza zużycie Wytrzymałości za poruszanie się o $I$%.<br>Zmniejsza obrażenia od draśnięć o $I$%.<br>$I$% szansy na uniknięcie efektów wytrącenia z równowagi podczas uniku.
+2118472008|e2e48f8d||Pewny Strzał
+2118472009|cea74413||Obrażenia od ataków dystansowych są większe o $I$%.<br>Spowolnienie czasu podczas celowania z broni zasięgowych  jest zwiększone do $I$%.
+2118472010|cea74416||Zwiększa szansę na odparcie efektów zachwiania o $I$%.<br>Zmniejsza karę do szybkości od niskiego poziomu Wytrzymałości o $I$%.<br>Zmniejsza karę intensywności znaków od niskiego poziomu Wigoru o $I$%.
+2118472011|163a8e70||Alternatywny tryb Znaku:<br>Aard uderza wszystkich przeciwników dookoła, ale zadając mniejsze obrażenia i mniejszą siłe odrzutu.<br>Redukcja obrażeń zmniejszona do $I$%.<br>Redukcja siły odrzutu zmniejszona do $I$%.
+2118472012|163a8e71||Alternatywny tryb Znaku:<br>Wysyła nieprzerwany strumień ognia zadając $F$ obrażeń i spowalniając przeciwników o $F$%.<br>Zadaje $I$% obrażeń podpalonym przeciwnikom.<br>Kosz Wigoru jest $I$% mniejszy.
+2118472013|163a8e72||Alternatywny tryb Znaku:<br>Tworzy glif ochronny, który razi przeciwników podejmujących ofensywne działania wobec Geralta.<br>Zadaje $I$ obrażeń i ma szansę na przerwanie ataków w zależności od poziomu umiejętności i równowagi postawy przeciwnika. Kazdy cel może zostać trafiony raz na $F$ sekund.<br>Niszczy strzały oraz bełty przelatujące przez obszar.
+2118472014|163a8e73||Alternatywny tryb Znaku:<br>Tworzy aktywną tarczę. Podtrzymywanie jej i niwelowanie ataków zużywa Wigor.<br>Obrażenia pochłonięte przez tarczę przywracają Wytrzymałość.<br>Zmniejsza zużycie Wigoru od niwelowania ataków o $I$%.<br>Przywraca o $I$% więcej Wytrzymałości.
+2118472015|163a8e74||Alternatywny tryb Znaku:<br>Wybrany przeciwnik staje się sojusznikiem na $I$ sekund.<br>Podstawowa szansa na powodzenie to $I$%, -$I$% na każdego już kontrolowanego wroga.<br>Przeciwnicy którzy zaatakują lub zostają zaatakowani przez "marionetkę"  tracą $I$ morale.<br>Efekt może zostać przerwany kiedy zdrowie celu spadnie poniżej $I$%.
+2118472016|0083ce62||Rozpuszczanie
+2118472017|8d17aa9c||Zwiększa produkt destylacji esencji o $I$%.<br>Zwiększa intensywność i czas trwania Nigredo o $I$%.
+2118472018|0083ce63||Oczyszczanie
+2118472019|8d17aa9d||Zmniejsza przyrost Toksyczności po wypiciu wielu eliksirów do $I$%.<br>Zwiększa intensywność i czas trwania Albedo o $I$%.
+2118472020|0083ce64||Koagulacja
+2118472021|8d17aa9e||Eliksiry (z wyjątkiem Białego Miodu) przywracają $I$% Witalności, kiedy spożyte.<br>Zwiększa intensywność i czas trwania Rubedo o $I$%.
+2118472022|0083ce65||Nasycenie
+2118472023|8d17aa9f||Zwiększa czas działania eliksirów o $I$%.<br>Zwiększa toksyczność eliksirów o $I$%.
+2118472024|15dda916||Nałożone na ostrze oleje stają się $I$% potężniejsze.<br>Nałożone oleje tracą $I$% mniej skuteczności przy wyczerpywaniu się.
+2118472025|0083ce66||Utrwalanie
+2118472026|8d17aaa0||Nałożone na ostrze oleje starczają na $I$% dłużej.<br>Nałożone oleje zmniejszają utratę trwałości broni do $I$%.
+2118472027|0083ce67||Transfuzja
+2118472028|8d17aaa1||Skuteczność olejów jest zwiększona o $I$% co poziom krwawienia przeciwnika.<br>$I$% szansy co poziom krwawienia przeciwnika, że nałożony olej nie straci ładunku.
+2118472029|8d17aaa4||Zwiększa maksymalny zasięg rzutu petard o $I$%.<br>Spowolnienie czasu podczas celowania petardą jest zwiększone do $I$%.
+2118472030|0ff5fe16||Powinowactwo
+2118472031|15dda91c||Aktywne odwary redukują otrzymywane obrażenia od potworów z danej rodziny o $I$%.<br>Active Mutations reduce damage taken from monsters of that family by $I$%.<br>Researched Mutations reduce damage taken from monsters of that family by $I$%.
+2118472032|0ff5fe11||Instynkt Łowcy
+2118472033|15dda917||Założone arcymutageny zwiększają obrażenia zadawane potworom z danej rodziny o $I$% co poziom.<br>Active Mutations increase damage dealt to monsters of that family by $I$%.<br>Researched Mutations increase damage dealt to monsters of that family by $I$%.
+2118472034|0ff5fe17||Acclimation
+2118472035|0ff5fe12||Izolacja Szczepu
+2118472036|15dda918||Wydłuża efektywny czas działania wszystkich wywarów mutagennych o $I$% i obniża ich toksyczność o $I$.<br>$I$% szansy na otrzymywanie zwykłych mutagenów jako produkt uboczny alchemii.
+2118472037|15dda91a||Zwiększa szybkość aż o $I$% w zależności od aktualnego poziomu Toksyczności.<br>Zwiększa przyrost Adrenaliny aż o $I$% w zależności od aktualnego poziomu Toksyczności.
+2118472038|15dda933||Zmniejsza otrzymywane obrażenia aż o $I$% w zależności od aktualnego poziomu Toksyczności.<br>Zmniejsza koszty Równowagi Postawy aż o $I$% w zależności od aktualnego poziomu Toksyczności.
+2118472039|0ff5fe13||Zwiększona Tolerancja
+2118472040|15dda919||Efekty wywołane przez Toksyczną Gorączkę są słabsze o $I$%.<br>Zmniejsza otrzymywane obrażenia od nadmiaru Toksyczności o $I$%.
+2118472041|0ff5fe15||Kontrola Metabolizmu
+2118472042|15dda91b||Zwiększa odpływ Toksyczności o $I$%.<br>Zmniejsza karę regeneracji Wigoru od poziomu Toksyczności o $I$%.
+2118472043|306f5267||Jeździec
+2118472044|da7e5ba1||Zwiększa obrażenia zadawane podczas jazdy konno o $I$%.<br>Zmniejsza strach wierzchowca o $I$%.<br>Galop wysysa $I$% mniej wytrzymałości.
+2118472045|306f5269||Nauki Alchemiczne
+2118472046|da7e5ba3||Zwiększa łupy alchemiczne z potworów i ziół o $I$%.
+2118472047|da7e5ba4||Na każdy założony element lekkiego rynsztunku:<br>+$I$ bezpieczny kąt uniku<br>+$F$% przyrost Adrenaliny<br>-$F$% szansy na otrzymanie urazu.
+2118472048|da7e5ba5||Na każdy założony element średniego rynsztunku:<br>+$I$% pobocznych odporności<br>-$F$% opóźnienia regeneracji Wytrzymałości<br>-$F$% opóźnienia regeneracji Równowagi Postawy.
+2118472049|da7e5ba6||Na każdy założony element ciężkiego rynsztunku:<br>+$F$ regeneracji Wytrzymałości<br>+$F$ regeneracji Równowagi Postawy<br>+$F$% szansy na powalenie podczas wykonywania perfekcyjnych parowań i kontr-uderzeń.
+2118472050|754d1890||$I$ Adrenaliny przypływa na początku walki. Sparowane ciosy generują Adrenalinę.
+2118472051|dd7afa8b||Coup de Grâce
+2118472052|754d1891||Szansa na trafienie krytyczne jest zwiększona o $I$% na każdy uraz wroga.<br>Trafienia krytyczne zwielokrotniają szansę na okaleczenie o $F$, zamiast $F$.
+2118472053|dd7afa8c||Rafinacja
+2118472054|754d1892||Podczas wytwarzania eliksirów, olejów, albo bomb, jeden zanieczyszczony lub średniej jakości składnik będzie traktowany o jeden poziom jakości wyżej.
+2118472055|dd7afa8d||Lotność
+2118472056|754d1893||Zwiększa szybkość poruszania się o $I$%.<br>Sprintowanie w walce nie będzie zużywać Wytrzymałości przez pierwsze $I$ sekund.
+2118472057|754d1895||Korzystne efekty z pożywienia i napojów trwają $I$% dłużej.<br>Kiedy jesteś jednocześnie dobrze najedzony i napojony, otrzymujesz $I$ Witalności.
+2118472058|dd7afa90||Pozycjonowanie
+2118472059|754d1896||Zwiększa siłę ataku z flanki o $I$%.<br>Zwiększa bezpieczny kąt uniku o $I$.
+2118472060|dd7afa92||Zaawansowana Konserwacja
+2118472061|754d1898||Premie konserwacji wyposażenia trwają dwa razy dłużej.<br>Zestawy naprawcze nakładają premie konserwacyjne.<br>$I$% szansy że użycie zestawu naprawczego nie zużyje go.
+2118472062|dd7afa93||Łowca
+2118472063|754d1899||Zwiększa obrażenia zadawane potworom będącym celami kontraktów o $I$%.<br>Trofea sprzedają się z $I$% większym zyskiem.
+2118472064|dd7afaaa||Awanturnik
+2118472065|754d18b0||Dodaje pancerz rękawic do obrażeń zadawanych pięściami.<br>Usuwa karę do obrażeń pięściami przeciwko potworom.<br>Zwiększa Równowagę Postawy o $I$.
+2118472066|754d18b1||Maksymalny udźwig jest większy o $I$.<br>Kary od założonego rynsztunku są $I$% mniejsze.
+2118472067|cea74418||Kiedy Witalność spada poniżej $F$%, każdy punkt Adrenaliny zwiększa regenerację Witalności aż o $F$ i redukuje otrzymywane obrażenia aż o $F$.
+2118472068|6dcf4535||Punkty mutacji potrzebne do oblokowania
+2118472069|09e37be1||Odpływ Toksyczności
+2118472070|9ac99c6f||Obrażenia zadawane istotom nadprzyrodzonym
+2118472071|d083d32c||Obrażenia od mrozu
+2118472072|3ff69286||Szansa na wychłodzenie
+2118472073|1935a008||Obrażenia od trucizny
+2118472074|1b47b2ca||Szansa na okaleczenie
+2118472075|4daea6a8||Szansa na zachwianie
+2118472076|8cda7a5f||Dwimeryt w oleju zasłonowym tymczasowo powstrzymuje niektóre magiczne i nadprzyrodzone umiejętności.<br>Blokuje umiejętności na $S$ sekund.
+2118472077|252e4c38||Chociaż oryginalnie wynaleziony jako narzędzie dla okrucieństw Falki, kwestie etyczne dotyczące używania go zostały przyćmione przez mnogość zastosowań podczas podróży.
+2118472078|d835eee2||Smar ze śladami srebra, pozwalający mieczom stalowym na ranienie istot nadprzyrodzonych i powodujący oparzenia, które zatrzymują ich regenerację.<br>Pali istoty nadprzyrodzone przez $S$ sekund, zadając $S$ obrażeń na sekundę.
+2118472079|c32c566a||Zwiększa odporność na krwawienie. Kiedy Wampiry albo Trupojady ranią Wiedźmina, jego krew zadaje im obrażenia do witalności i równowagi postawy.
+2118472080|c32c566b||Zwiększa odporność na krwawienie. Kiedy Wampiry albo Trupojady ranią Wiedźmina, jego krew zadaje im obrażenia do witalności i równowagi postawy.
+2118472081|c32c566c||Zwiększa odporność na krwawienie. Kiedy Wampiry albo Trupojady ranią Wiedźmina, jego krew zadaje im obrażenia do witalności i równowagi postawy.<br><br>Doskonały eliksir: Zatruwa wrogów proporcjonalnie do zwracanych obrażeń.
+2118472082|1b06cd08||Zwiększa przyrost Adrenaliny, a kiedy przeciwnik zaczyna atak, czas na chwilę spowalnia.
+2118472083|1b06cd09||Zwiększa przyrost Adrenaliny, a kiedy przeciwnik zaczyna atak, czas na chwilę spowalnia.
+2118472084|1b06cd0a||Zwiększa przyrost Adrenaliny, a kiedy przeciwnik zaczyna atak, czas na chwilę spowalnia.<br><br>Doskonały eliksir: przesunięcie szybkości jest proporcjonalne do aktualnej Adrenaliny.
+2118472085|874e9f86||Zwiększa szybkość i wydajność poruszania się oraz bezpieczny kąt uniku.
+2118472086|874e9f87||Zwiększa szybkość i wydajność poruszania się oraz bezpieczny kąt uniku.
+2118472087|874e9f88||Zwiększa szybkość i wydajność poruszania się oraz bezpieczny kąt uniku.<br><br>Doskonały eliksir: niweluje efekty zachwiania podczas uniku.
+2118472088|be845121||Zwiększa maksymalny poziom Witalności i odporność na urazy.
+2118472089|be845122||Zwiększa maksymalny poziom Witalności i odporność na urazy.
+2118472090|be845123||Zwiększa maksymalny poziom Witalności i odporność na urazy.<br><br>Doskonały eliksir: w nocy, nadchodzące ataki nie mogą zadać więcej niż 1/5 maksymalnej Witalności. Podczas pełni księżyca, 1/6 maksymalnej Witalności.
+2118472091|3a84c328||Zwiększa odporność na zatrucie i obrażenia od trucizny oraz przyspiesza zanikanie ładunków zatrucia.
+2118472092|3a84c329||Zwiększa odporność na zatrucie i obrażenia od trucizny oraz przyspiesza zanikanie ładunków zatrucia.
+2118472093|3a84c32a||Zwiększa odporność na zatrucie i obrażenia od trucizny oraz przyspiesza zanikanie ładunków zatrucia.<br><br>Doskonały eliksir: po wypiciu, leczy procent Witalności równy aktualnemu poziomowi Toksyczności.
+2118472094|7e132eab||Zwiększa Równowagę Postawy, zmniejsza zużycie Wytrzymałości przez akcje defensywne, a kontry i bloki powstrzymują więcej obrażeń.
+2118472095|7e132eac||Zwiększa Równowagę Postawy, zmniejsza zużycie Wytrzymałości przez akcje defensywne, a kontry i bloki powstrzymują więcej obrażeń.
+2118472096|7e132ead||Zwiększa Równowagę Postawy, zmniejsza zużycie Wytrzymałości przez akcje defensywne, a kontry i bloki powstrzymują więcej obrażeń.<br><br>Doskonały eliksir: niweluje efekty zachwiania podczas parowania.
+2118472097|27d6f7d6||Zwiększa regenerację Wigoru.
+2118472098|27d6f7d7||Zwiększa regenerację Wigoru.
+2118472099|27d6f7d8||Zwiększa regenerację Wigoru.<br><br>Doskonały eliksir: Odprowadzanie toksyczności jest zwiększone o 50% przy pełnym wigorze.
+2118472100|9e58d1f3||Zwiększa intensywność znaków.
+2118472101|9e58d1f4||Zwiększa intensywność znaków.
+2118472102|9e58d1f5||Zwiększa intensywność znaków.<br><br>Doskonały eliksir: znaki zawsze nakładają swoje efekty specjalne.
+2118472103|56747c55||Zwiększa regenerację Witalności. Efekt zostaje wstrzymany na 2 sekundy po otrzymaniu obrażeń.
+2118472104|56747c56||Zwiększa regenerację Witalności. Efekt zostaje wstrzymany na 2 sekundy po otrzymaniu obrażeń.
+2118472105|56747c57||Zwiększa regenerację Witalności. Efekt zostaje wstrzymany na 2 sekundy po otrzymaniu obrażeń.<br><br>Doskonały eliksir: czas trwania jest wstrzymany przy pełnej Witalności.
+2118472106|437e276a||Zwiększa regenerację Wytrzymałości i redukuje zużycie Wytrzymałości przez akcje ofensywne.
+2118472107|437e276b||Zwiększa regenerację Wytrzymałości i redukuje zużycie Wytrzymałości przez akcje ofensywne.
+2118472108|437e276c||Zwiększa regenerację Wytrzymałości i redukuje zużycie Wytrzymałości przez akcje ofensywne.<br><br>Doskonały eliksir: czas trwania jest wstrzymany w nocy.
+2118472109|295c2a69||Zwiększa przebicie pancerza, obrażenia do równowagi postawy i obrażenia blokującym wrogom.
+2118472110|295c2a6a||Zwiększa przebicie pancerza, obrażenia do równowagi postawy i obrażenia blokującym wrogom.
+2118472111|295c2a6b||Zwiększa przebicie pancerza, obrażenia do równowagi postawy i obrażenia blokującym wrogom.<br><br>Doskonały eliksir: trafienia krytyczne mają szansę wywołać szał, spowalniając czas i zwiększając szybkość.
+2118472112|de026195||Odprowadza całą Toksyczność i leczy toksyczną gorączkę, lecz anuluje wszystkie aktywne eliksiry.
+2118472113|de026196||Odprowadza całą Toksyczność i leczy toksyczną gorączkę, lecz anuluje wszystkie aktywne eliksiry.
+2118472114|de026197||Odprowadza całą Toksyczność i leczy toksyczną gorączkę, lecz anuluje wszystkie aktywne eliksiry.<br><br>Doskonały eliksir: anulowanie efektów eliksirów jest opóźnione o 10 sekund.
+2118472115|9ec8a224||Znacznie zwiększa regenerację Witalności.
+2118472116|9ec8a225||Znacznie zwiększa regenerację Witalności.
+2118472117|9ec8a226||Znacznie zwiększa regenerację Witalności.<br><br>Doskonały eliksir: po wypiciu, leczy 30% brakującej Witalności.
+2118472118|739e1e2c||Na każdy założony element zestawu, ataki mają +$S$% siły przy atakowaniu z flanki i szansy na okaleczenie przez $S$ sekund po wykonaniu uniku, a same uniki mają +$S$% mniejsze żużycie Wytrzymałości i redukcję obrażeń od draśnięć przez $S$ sekund po wykonaniu ataku.
+2118472119|739e1e2d||Urazy które nakładasz redukują szybkość i obrażenia przeciwnika o $S$%.
+2118472120|8ed43e3f||Na każdy założony element zestawu, $S$% obrażeń eterycznych które zadajesz trwale obniżają odporność wroga na podmuchy, ogień, mróz, elektryczność i zaburzenia umysłu. Może przełamać niewrażliwość na obrażenia, lecz nie status.
+2118472121|8ed43e3e||Będąc w kręgu znaku Yrden masz +$S$% większe spowolnienie czasu, +$S$% regeneracji Wigoru oraz +$S$% intensywności pozostałych znaków.
+2118472122|d23efdaf||Na każdy założony element zestawu: perfekcyjne parowania zadają $S$% więcej obrażeń równowadze postawy, przełamywanie równowagi przeciwnika przywraca $S$ Wytrzymałości, a ataki przeciwko przeciwnikowi z przełamaną równowagą zadają $S$% więcej obrażeń.
+2118472123|d23efdb0||Każdy punkt obecnej Równowagi Postawy zmniejsza przebicie pancerza wroga o $S$% i obrażenia otrzymywane przez kontry i bloki o $S$%. Każdy brakujący punkt Równowagi Postawy zwiększa szybkość ataku o $S$% i obrażenia do równowagi postawy o $S$%. Równowaga Postawy odnawia się jedynie gdy blokujesz lub stoisz w miejscu.
+2118472124|85e8fbd1||Na każdy założony element zestawu: nakładanie krwawienia generuje $S$ Adrenaliny, a każdy zdobyty punkt Adrenaliny gdy ta jest większa niż $S$, przywraca $S$ Witalności i $S$ Wytrzymałości.
+2118472125|85e8fbd2||Maksymalna Adrenalina jest zwiększona do $S$. Ładunki krwawienia redukują odporność przeciwnika na odrzut i mróz o  $S$%.
+2118472126|6c1d3ba3||Na każdy założony element zestawu, +$S$% obrazeń zasięgowych (włączając petardy) oraz +$S$% siły ataku za każdy efekt statusu nałożony na cel.
+2118472127|6c1d3ba4||Efekty, które skalują się z procentem Toksyczności, zamiast tego skalują się z jej stałą wartością. +$S$% siły ataku i +$S$ regeneracji Witalności na każdy punkt aktywnej Toskyczności.
+2118472128|90f6cc99||Na każdy założony element zestawu: szansa na trafienie krytyczne jest $S$% większa za każdy ładunek zatrucia na celu, a zauroczenie znakiem Aksji nakłada $S$ ładunków zatrucia.
+2118472129|90f6cc9a||Możesz nałożyć dodatkowy olej, a utrata skuteczności od dodatkowych olejów jest $S$% mniejsza. Każdy nałożony olej zwiększa o $S$% premię do skuteczności olejów od trafień krytycznych.
+2118472130|4080bc95||Wrogowie raniący ciebie w zwarciu mają szansę na krwawienie.
+2118472131|4080bc96||Wrogowie zabici w zwarciu leczą cię o $S$ za ładunek krwawienia.
+2118472132|4080bc97||Wrogowie raniący ciebie w zwarciu mają szansę zostać ogłuszeni lub oczarowani.
+2118472133|4080bc98||Znak Aksji usuwa całe krwawienie z celu, aby wyleczyć tobie $S$ Witalności za każdy ładunek krwawienia.
+2118472134|7147041d||Silne ataki zwiększają obrażenia twojego następnego szybkiego ataku o $S$ i odwrotnie.
+2118472135|c99bd20f||Atakowanie przeciwnika który ma mniej niż $S$ zdrowia, zadaje $S$ dodatkowych obrażeń eterycznych, a atakowanie przeciwników kiedy masz mniej niż $S$ Witalności, zadaje $S$ dodatkowych obrażeń eterycznych i generuje +$S$ Adrenaliny.<br>Efekty te mogą się nakładać.
+2118472136|4c4bdd7a||Kiedy Witalność spada poniżej $S$, zadajesz do $S$ więcej obrażeń w zwarciu.
+2118472137|fca08245||Gláeddyv Blathanna
+2118472138|942307fe||Kusza mantikory
+2118472139|0e7bf6b8||Wytrzymała i poręczna broń miotająca.
+2118472140|9e52384c||Schemat: kusza mantikory
+2118472141|d23992f7||Obrażenia
+2118472142|89dfeac9||Szansa na trafienie krytyczne
+2118472143|69d8dd89||Obrażenia od trafienia krytycznego
+2118472144|3c4a6af2||Obrażenia
+2118472145|bc4297c4||Szansa na trafienie krytyczne
+2118472146|5806ca6e||Obrażenia od trafienia krytycznego
+2118472147|c7b0b7d7||Obrażenia
+2118472148|73d42fa9||Szansa na trafienie krytyczne
+2118472149|3375c4a9||Obrażenia od trafienia krytycznego
+2118472150|b08bd7d2||Obrażenia
+2118472151|fa3924a4||Szansa na trafienie krytyczne
+2118472152|2e06698e||Obrażenia od trafienia krytycznego
+2118472153|9ee36bde||Odporności poboczne
+2118472154|d77df5a3||Modyfikator kosztów Wytrzymałości
+2118472155|bb4c164a||Modyfikator regeneracji Wytrzymałości
+2118472156|611eba4c||Wydajności
+2118472157|a853b90c||Atak
+2118472158|a853c270||Obrona
+2118472159|a853e57f||Poruszanie się
+2118472160|a873c1a4||Przeliczniki generacji
+2118472161|660463ab||Aktualny mnożnik
+2118472162|5a563e63||Przyrost Adrenaliny za kontrę
+2118472163|a873acf5||Przyrost Adrenaliny za atak
+2118472164|6606538a||Przyrost Adrenaliny za zabójstwo
+2118472165|a873c5e7||Przyrost Adrenaliny za bycie trafionym
+2118472166|ad65ad94||Premia do obrażeń
+2118472167|34b0307a||Zmiana prędkości przy spowolnieniu czasu
+2118472168|61215338||Intensywność Znaku - Przelanie Gniewu
+2118472169|9b0279d0||Przeliczniki
+2118472170|6634a559||Przyrost Toksyczności
+2118472171|603d5b5e||Odpływ Toksyczności
+2118472172|60379d1e||Zmiana na sekundę
+2118472173|610fe1ad||Bazowa premia do szybkości - Szał
+2118472174|c97d7b95||Premia do generacji Adrenaliny - Szał
+2118472175|c97d7d42||Otrzymana redukcja obrażeń - Wytrzymałość na ból
+2118472176|60e53782||Redukcja kosztu Równowagi Postawy - Wytrzymałość na ból
+2118472177|31530a11||Redukcja regeneracji Wigoru - Toksyczna Gorączka
+2118472178|6cca3390||Redukcja regeneracji Wytrzymałości - Toksyczna Gorączka
+2118472179|2c95c79e||Redukcja bazowej szybkości - Toksyczna Gorączka
+2118472180|fa5fe1ca||Intensywność znaku Igni
+2118472181|69a5ef8d||Redukcja regeneracji Wigoru - Witalność
+2118472182|cb182f78||Redukcja regeneracji Wigoru - Toksyczność
+2118472183|b05bd39a||Premia do regeneracji Wigoru - Adrenalina
+2118472184|634d93e6||Modyfikator kosztu
+2118472185|a5980d0f||Redux
+2118472186|fea6c717||Pokazuj wewnętrzne nazwy przedmiotów
+2118472187|dc78246f||Upuszczaj przedmioty fabularne
+2118472188|f582d556||Usuwaj upuszczone przedmioty
+2118472189|850ab239||Ciosy kończące - Wyłącz wykończenia dot. postawy
+2118472190|a9f59285||Regeneracja Wytrzymałości - Globalne
+2118472191|a926ec8e||Koszty Wytrzymałości - Globalne
+2118472192|01be5517||Agresja - Wytrzymałość
+2118472193|842f2c7b||Agresja - Zachowanie
+2118472194|34537901||Wydajność Równowagi Postawy
+2118472195|51517d52||zwiększ odpływ Toksyczności o $I$%
+2118472196|51517d53||zwiększ regenerację Witalności o $I$
+2118472197|51517d54||zwiększ zadawane obrażenia o $I$%
+2118472198|28bf4ac7||Płotka
+2118472199|28cfaa13||Schowek
+2118472200|db33e095||na Płotce
+2118472201|11bda277||Przełącz Schowek
+2118472202|28cfaa13||Schowek
+2118472203|e4718bad||Schowek
+2118472204|7aae494d||Wiedźmińskie Zmysły - Przełączanie
+2118472205|81426c9e||Trwałość
+2118472206|2ae9db22||Wyssanie życia
+2118472207|c5548b41||Letarg
+2118472208|b1173fc7||Kiedy Aksji przemija, przeciwnicy tracą $I$% swojej maksymalnej Wytrzymałości i Równowagi Postawy oraz zostają spowolnieni na $I$ sekund.<br>Efekty te są mniejsze w zależności od maksymalnego zdrowia celu.
+2118472218|952c6052||Wyłącz wizualne efekty mieczy
+2118472219|392e560f||Premia do uniku zestawu Kota
+2118472220|e7cb8710||Premia do ataku zestawu Kota
+2118472221|8c7e03a5||Pokazuj ile przedmiotów jest na Płotce
+2118472222|d67df7c9||Premia do regeneracji i wydajności Wytrzymałości
+2118472223|c7cde2ed||Redukcja szybkości
+2118472224|fb0b1ca2||Kara do obrażeń - maks. procent redukcji przy braku Wytrzymałości
+2118472225|b65455e4||Wyłącz modyfikatory odległości kiedy przemęczony
+2118472226||Redux_StashDebug|Schowek - Naprawa błędów
+2118472227||Redux_ToxMult|Toksyczność - Mnożnik
+2118472228||SwordInjuryHealEffectDescr|Trafienia krytyczne w pełni przywracają Równowagę Postawy i leczą uraz.
+2118472229||Redux_SetBonus1|Premie od zestawu - Pierwszy wymóg
+2118472230||Redux_SetBonus2|Premie od zestawu - Drugi wymóg
+2118472231||W3EE_ReduxDynam|Redux - Dynamicznie
+2118472232||W3EE_ReduxStrat|Redux - Strategicznie
+2118472233||skill_desc_temerian_set_ability1|Obrażenia krytyczne są zwiększone aż o $S$% im więcej cel posiada pancerza. Po $S$ sekundach bez atakowania, twój następny atak ma $S$% zwiększoną szansę na trafienie krytyczne i przebicie pancerza.
+2118472234||skill_desc_nilfgaard_set_ability1|Twoje kontry kosztują $S$% mniej Równowagi Postawy. Trafianie wroga mającego mniej równowagi postawy niż ty, przywraca do $S$ Wytrzymałości.
+2118472235||skill_desc_skellige_set_ability1|Przeciwnicy trafiając ciebie w zwarciu mogą zostać wychłodzeni. Kiedy atakujesz dwuręczną bronią drugorzędną, zadajesz $S$% więcej obrażeń i jesteś odporny na wytrącenie z równowagi.
+2118472236||skill_desc_ofieri_set_ability1|Wszystkie wyposażone glify (w tym komponenty słów glificznych) zapewniają dodatkowe premie.<br>Znaki: +$S$% intensywności danego Znaku<br>Uzdrowienia: +$S$ regeneracji Witalności<br>Uwolnienia: +$S$ regeneracji Wytrzymałości<br>Wiążący: +$S$% odpływu Toksyczności<br>Strażniczy: +$S$ pancerza
+2118472237||skill_desc_new_moon_set_ability1|Noże do rzucania ogłuszają przeciwników gdy ci atakują. W nocy, całkowita szybkość jest większa o $S$%, a okazja na udany unik jest dłuższa.
+2118472238||starting_pants_improved|Ulepszone spodnie z Kaer Morhen
+2118472239||starting_boots_improved|Ulepszone buty z Kaer Morhen
+2118472240||starting_gloves_improved|Ulepszone rękawice z Kaer Morhen
+2118472241||starting_sword_steel_improved|Ulepszony stalowy miecz z Kaer Morhen
+2118472242||starting_sword_silver_improved|Ulepszony srebrny miecz z Kaer Morhen
+2118472243||item_name_starting_pants_upgrade_schematic|Ulepszone spodnie z Kaer Morhen
+2118472244||item_name_starting_boots_upgrade_schematic|Ulepszone buty z Kaer Morhen
+2118472245||item_name_starting_gloves_upgrade_schematic|Ulepszone rękawice z Kaer Morhen
+2118472246||item_name_starting_sword_steel_upgrade_schematic|Ulepszony stalowy miecz z Kaer Morhen
+2118472247||item_name_starting_sword_silver_upgrade_schematic|Ulepszony srebrny miecz z Kaer Morhen
+2118472248||W3EE_PyromaniacSkill|Zwiększa obrażenia strumienia ognia o $I$, znaku Igni o $I$ i obrażenia od podpalenia o $I$.
+2118472249||Redux_DAC|Wyłącz komentarze dot. artefaktów
+2118472250||redux_DeathCounter|Licznik śmierci
+2118472251||GaunterMode|Tryb Gaunter
+2118472252||Redux_GMEnabled|Włączony
+2118472253||Redux_GMSkillReq|Koszt punktów umiejętności
+2118472254||Redux_GMSkillMod|Wpływ wydanych punktów umiejętności na koszt
+2118472255||Redux_GMDeathLimit|Limit śmierci
+2118472256||Redux_GMVitality|Utrata maksymalnej Witalności za śmierć
+2118472257||Redux_GMStamina|Utrata maksymalnej Wytrzymałości za śmierć
+2118472258||Redux_GMToxicity|Utrata maksymalnej Toksyczności za śmierć
+2118472259||Redux_GMIntensity|Utrata intensywności znaków za śmierć
+2118472260||Redux_GMXPModifier|Mnożnik punktów doświadczenia na śmierć
+2118472261||Redux_GMDurability|Utrata maksymalnej trwałości ekwipunku za śmierć
+2118472262||Redux_GMMark|Znamię Gauntera
+2118472263||Redux_GMLethalMark|Znamię Gauntera - zagrożenie końcem gry
+2118472264||Redux_GMQuestMod|Spadek licznika śmierci za postęp w fabule
+2118472265||Redux_GMDeathMod|Wzrost licznika śmierci za pobliskie śmierci
+2118472266||attribute_name_attack_stamina_cost_bonus|Wydajność ofensywna
+2118472267||attribute_name_parry_stamina_cost_bonus|Wydajność defensywna
+2118472268||attribute_name_movement_stamina_efficiency|Wydajność poruszania się
+2118472269||W3EE_EvSpeed|Szybkość ruchu
+2118472270||W3EE_EvSpeedH|Szybkość ruchu
+2118472271||attribute_name_evade_speed|Szybkość ruchu
+2118472272||item_name_glyph_reinforcement_lesser|Pomniejszy Glif Uwolnienia
+2118472273||item_name_glyph_reinforcement|Glif Uwolnienia
+2118472274||item_name_glyph_reinforcement_greater|Większy Glif Uwolnienia
+2118472275||panel_blacksmith_remove_improvement_confirmation|Czy na pewno chcesz usunąć ulepszenia?
+2118472276||attribute_name_oil_flammable_effect_tooltip2|Szansa na podpalenie
+2118472277||attribute_name_oil_ethereal_damage_tooltip|Obrażenia eteryczne
+2118472278||skill_desc_magic_s6|Aard zadaje o $I$% więcej obrażeń Równowadze Postawy.<br>Zwiększa szansę na ogłuszenie do $I$%. 
+2118472279||skill_desc_magic_s12|Aard zadaje dodatkowe $I$ obrażeń od mrozu.<br>Aard ma podstawowo $I$% szansy na wychłodzenie trwające $I$ sekund.<br>Szansa jest większa przeciwko celom z niskim poziomem wytrzymałości lub równowagi postawy.<br>Wychłodzeni przeciwnicy są spowolnieni, mają zredukowaną regenerację wytrzymałości oraz są bardziej wrażliwi na obrażenia fizyczne.
+2118472281||skill_desc_magic_s13|Quen wybucha kiedy absorbuje obrażenia równe $I$% swojej wytrzymałości, wytrącając pobliskich wrogów z równowagi i zadając $I$ obrażeń od elektryczności.<br>Obrażenia odbijane przez Quen są zwiększone do $I$%.
+2118472282||skill_desc_magic_s14|Zmniejsza koszt podtrzymania Quen o $I$%.<br>Quen odnawia $I$ swojej wytrzymałości co sekundę.<br>Aktywna tarcza przywraca $I$% twojej Równowagi Postawy co sekundę.
+2118472283||skill_desc_magic_s15|Zwiększa odporność na powalenie od znaku Quen do $I$%.<br>Zwiększa redukcję kosztów Równowagi Podstawy od znaku Quen do $I$%.<br>Kontrowanie za pomocą Quen zwiększa redukcję otrzymanych obrażeń do $I$%.
+2118472284||skill_name_magic_s14|Odnawialna Tarcza
+2118472285||W3EE_QuenSkill|Ochronna tarcza która absorbuje obrażenia, chroni przed zatruciem i krwawieniem, redukuje koszty Równowagi Postawy oraz zwiększa odporność na powalenie.<br>Spowalnia regenerację Wigoru o $I$% gdy jest aktywna.<br>Aktywowanie tarczy Quen zaraz przed trafieniem przez wrogi atak skontruje cios.<br><br>Wytrzymałość Tarczy: $I$<br>Czas trwania Tarczy: $I$ sekund
+2118472286||glyphword01_name|Rozpad I
+2118472287||glyphword01_desc|Aard nakłada do $I$ ładunków krwawienia.<br><br>+$I$ Obrażenia od Aard
+2118472288||glyphword02_name|Rozpad II
+2118472289||glyphword02_desc|Aard trwale osłabia stabilność i pancerz wroga o $I$%.<br><br>+$I$ Obrażenia od Aard
+2118472290||glyphword03_name|Rozpad III
+2118472291||glyphword03_desc|Szansa znaku Aard na wychłodzenie jest zwiększona o $I$%. Jeśli Aard spowoduje jednoczesne zamrożenie i powalenie celu, ten natychmiast umiera. W przeciwnym razie mróz zadaje dodatkowe $I$ obrażeń.<br><br>+$I$ Obrażenia od Aard
+2118472292||glyphword04_name|Przyśpieszenie I
+2118472293||glyphword04_desc|Czas zwalnia o $I$% na $I$ sekund podczas unikania bądź rzucania Aard.<br><br>+$I$% Szybkość ruchu
+2118472294||glyphword05_name|Przyśpieszenie II
+2118472295||glyphword05_desc|Rzucanie Aard podczas sprintu zwiększa jego intensywność o $I$% na każdą sekundę przebytą sprintem. Premie do szybkości ruchu zwiększają intensywność Aard.<br><br>+$I$% Szybkość ruchu
+2118472296||glyphword06_name|Przyśpieszenie III
+2118472297||glyphword06_desc|Kiedy czas zwalnia podczas unikania bądź rzucania Aard, twoja szybkość zostaje dostosowana.<br><br>+$I$% Szybkość ruchu
+2118472298||glyphword07_name|Spopielenie I
+2118472299||glyphword07_desc|Jesteś odporny na podpalenie. Powyżej $I$ Adrenaliny twója zbroja płonie, podpalając wrogów którzy atakują cię w zwarciu.<br><br>+$I$% Przyrost Adrenaliny
+2118472300||glyphword08_name|Spopielenie II
+2118472301||glyphword08_desc|Wyzwalasz falę płomieni kiedy twoja Równowaga Postawy zostaje złamana lub perfekcyjnie sparujesz cios przy pełnym jej poziomie. W pierwszym przypadku tracisz $I$% Witalności.<br><br>+$I$% Przyrost Adrenaliny
+2118472302||glyphword09_name|Spopielenie III
+2118472303||glyphword09_desc|Zadajesz nieprzerwanie do $I$ obrażeń od ognia na punkt adrenaliny pobliskim wrogom.<br><br>+$I$% Przyrost Adrenaliny
+2118472304||glyphword10_name|Oczyszczenie I
+2118472305||glyphword10_desc|Oparzenia oraz znak Igni zmniejszają morale wrogów, sprawiając że stają się mniej agresywni w walce. Podpalenia nie zwiększają już odporności wrogów na kolejne.<br><br>+$I$ Obrażenia od Igni
+2118472306||glyphword11_name|Oczyszczenie II
+2118472307||glyphword11_desc|Wrogowie umierający od znaku Igni lub podczas płonięcia wybuchają, zadając $I$ obrażeń od ognia pobliskim wrogom.<br><br>+$I$ Obrażenia od Igni
+2118472308||glyphword12_name|Oczyszczenie III
+2118472309||glyphword12_desc|Podpalenie wroga przywraca $F$ Wigoru. Wrogowie umierający od znaku Igni lub podczas płonięcia przywracają $F$ Wigoru.<br><br>+$I$ Obrażenia od Igni
+2118472310||glyphword13_name|Wchłonięcie I
+2118472311||glyphword13_desc|Zabijanie wrogów w obrębie znaku Yrden przywraca tobie Witalność i Wigor w ilości zależnej od ich maksymalnego zdrowia.<br><br>+$I$% Wyssanie życia
+2118472312||glyphword14_name|Wchłonięcie II
+2118472313||glyphword14_desc|Wrogowie zużywający swoją wytrzymałość przebywając zarazem w kręgu Yrden, przywracają tobie Wytrzymałość.<br><br>+$I$% Wyssanie życia
+2118472314||glyphword15_name|Wchłonięcie III
+2118472315||glyphword15_desc|Ranienie wrogów przez Glif Strażniczy lub tych przebywających w kręgu Yrden, przywraca tobie Witalność i Wigor w ilości zależnej od zadanych obrażeń.<br><br>+$I$% Wyssanie życia
+2118472316||glyphword16_name|Wyniszczenie I
+2118472317||glyphword16_desc|Wrogowie w kręgu Yrden tracą $I$% swojej maksymalnej wytrzymałości, albo $I$% kiedy rani ich Glif Strażniczy.<br><br>Glif Strażniczy nakłada $I$ ładunków zatrucia
+2118472318||glyphword17_name|Wyniszczenie II
+2118472319||glyphword17_desc|Wrogowie w kręgu Yrden tracą $F$% swojej maksymalnej witalności, albo $I$% kiedy rani ich Glif Strażniczy.<br><br>Glif Strażniczy nakłada $I$ ładunków zatrucia
+2118472320||glyphword18_name|Wyniszczenie III
+2118472321||glyphword18_desc|Wrogowie w kręgu Yrden tracą $F$% szybkości co sekundę. Opuszczanie kręgu Yrden lub ponowne użycie znaku resetuje efekt. Podwaja karę do obrażeń nakładaną przez Glif Strażniczy.<br><br>Glif Strażniczy nakłada $I$ ładunków zatrucia
+2118472322||glyphword19_name|Odwet I
+2118472323||glyphword19_desc|Wybuchająca Tarcza zadaje $I$ więcej obrażeń.<br><br>Quen odbija +$I$% obrażeń
+2118472324||glyphword20_name|Odwet II
+2118472325||glyphword20_desc|Wrogowie trafiający w tarczę Quen zostają porażeni.<br><br>Quen odbija +$I$% obrażeń
+2118472326||glyphword21_name|Odwet III
+2118472327||glyphword21_desc|Skontrowanie ataku za pomocą znaku Quen wyładowuje falę energii w kierunku napastnika, porażając go i zadając $I$ obrażeń.<br><br>Quen odbija +$I$% obrażeń
+2118472328||glyphword22_name|Bastion I
+2118472329||glyphword22_desc|Quen przyjmuje $I$% mniej obrażeń.<br><br>+$I$% Intensywność Quen
+2118472330||glyphword23_name|Bastion II
+2118472331||glyphword23_desc|Podtrzymywanie Aktywnej Tarczy, zwiększa regenerację Witalności i Wytrzymałości o $I$%.<br><br>+$I$% Intensywność Quen
+2118472332||glyphword24_name|Bastion III
+2118472333||glyphword24_desc|Koszt podtrzymania Quen jest $I$% mniejszy.<br><br>+$I$% Intensywność Quen
+2118472334||glyphword25_name|Połączenie I
+2118472335||glyphword25_desc|Efekty statusu mają szansę rozprzestrzenić się między wrogami połączonymi znakiem Aksji.<br><br>+$I$% Intensywność Aksji
+2118472336||glyphword26_name|Połączenie II
+2118472337||glyphword26_desc|Część obrażeń które zadajesz pojedynczemu celowi zostaje pomnożona i rozprzestrzenia się między wrogami połączonymi znakiem Aksji.<br><br>+$I$ Intensywność Aksji
+2118472338||glyphword27_name|Połączenie III
+2118472339||glyphword27_desc|Część obrażeń które otrzymujesz zostaje przekierowana między wrogów kontrolowanych lub połączonych znakiem Aksji.<br><br>+$I$% Intensywność Aksji
+2118472340||glyphword28_name|Opętanie I
+2118472341||glyphword28_desc|Kiedy czas działania Marionetki upływa, cel otrzymuje $I$ obrażeń eterycznych.<br><br>Kontrolowani przez ciebie wrogowie zadają +$I$% obrażeń
+2118472342||glyphword29_name|Opętanie II
+2118472343||glyphword29_desc|Odporność psychiczna wroga maleje o $I$% podczas rzucania znaku Aksji.<br><br>Kontrolowani przez ciebie wrogowie zadają +$I$% obrażeń
+2118472344||glyphword30_name|Opętanie III
+2118472345||glyphword30_desc|Marionetka ma nieskończony czas działania, a ty nie możesz zranić kontrolowanych wrogów. Użyj na nich znaku Aksji aby usunąć efekt.<br><br>Kontrolowani przez ciebie wrogowie zadają +$I$% obrażeń
+2118472346||glyphword31_name|Ochrona I
+2118472347||glyphword31_desc|Premia konserwacji rynsztunku zwiększa twoją wartość pancerza o $I$.<br><br>+$I$ Równowaga Postawy
+2118472348||glyphword32_name|Ochrona II
+2118472349||glyphword32_desc|Noszony pancerz nie traci na trwałości.<br><br>+$I$ Równowaga Postawy
+2118472350||glyphword33_name|Ochrona III
+2118472351||glyphword33_desc|Śmiertelne obrażenia zostają zablokowane kosztem trwałości pancerza.<br><br>+$I$ Równowaga Postawy
+2118472352||glyphword34_name|Zagięcie I
+2118472353||glyphword34_desc|Twója zbroja odbija nadlatujące bełty i strzały, zapobiegając obrażeniom.<br><br>+$I$ Wartość pancerza
+2118472354||glyphword35_name|Zagięcie II
+2118472355||glyphword35_desc|Twója zbroja odbije nadchodzący cios, zapobiegając obrażeniom. Następnie umiejętność ta zaczyna się odnawiać w czasie zależnym od powstrzymanych obrażeń.<br><br>+$I$ Pancerz
+2118472356||glyphword36_name|Zagięcie III
+2118472357||glyphword36_desc|Twója zbroja  odbija wszystkie nadlatujące pociski, zapobiegając obrażeniom.<br><br>+$I$ Wartość pancerza
+2118472358||glyphword37_name|Regeneracja I   
+2118472359||glyphword37_desc|Kiedy Wytrzymałość lub Wigor są pełne, każdy ich przyrost przywraca Witalność.<br><br>+$I$ Regeneracja Witalności
+2118472360||glyphword38_name|Regeneracja II
+2118472361||glyphword38_desc|Regeneracja Witalności jest zwiększona o maksymalnie $I$% im mniejszy jej aktualny poziom. Gdy stoisz w miejscu, przywracanie Witalności od nadmiarowej Wytrzymałości lub Wigoru jest podwojone.<br><br>+$I$ Regeneracja Witalności
+2118472362||glyphword39_name|Regeneracja III
+2118472363||glyphword39_desc|Połowa przyjętych obrażeń od ataku jest przywracana przez $I$ sekund. Efekt resetuje się przy kolejnym trafieniu.<br><br>+$I$ Regeneracja Witalności
+2118472364||glyphword40_name|Doskonałość I
+2118472365||glyphword40_desc|Przyrost Adrenaliny już nie jest spowolniony przy wysokiej Witalności.<br><br>+$I$ Witalność
+2118472366||glyphword41_name|Doskonałość II
+2118472367||glyphword41_desc|Przy pełnej Witalności, $I$% jej regeneracji jest dodane do regeneracji Wytrzymałości i Wigoru.<br><br>+$I$ Witalność
+2118472368||glyphword42_name|Doskonałość III
+2118472369||glyphword42_desc|Kiedy zabijasz wroga przy pełnej Witalności, otrzymujesz ładunki zwiększające obrażenia o $I$% i pancerz o $I$. Tracisz $I$ ładunek po trafieniu i możesz mieć maksymalnie $I$ ładunków.<br><br>+$I$ Witalność
+2118472370||glyphword43_name|Tężyzna I
+2118472371||glyphword43_desc|Maksymalny udźwig zostaje zwiększony o $I$. Noszenie cięższego bagażu zwiększa pancerz aż do $I$ oraz odporność na zachwianie aż do $I$%.<br><br>+$I$% Odporności poboczne
+2118472372||glyphword44_name|Tężyzna II
+2118472373||glyphword44_desc|Bycie dobrze wypoczętym zwiększa regenerację Wigoru o $I$%. Bycie dobrze odżywionym zwiększa regenerację Wytrzymałości o $I$. Bycie dobrze nawodnionym zwiększa odpływ Toksyczności o $I$%.<br><br>+$I$% Odporności poboczne
+2118472374||glyphword45_name|Tężyzna III
+2118472375||glyphword45_desc|$I$ Wigoru zostaje wykorzystane aby przetrwać śmiertelne obrażenia przy $I$ Witalności. Kary od niskiej Witalności są mniejsze o $I$%.<br><br>+$I$% Odporności poboczne
+2118472376||glyphword46_name|Przyswajanie I
+2118472377||glyphword46_desc|Jeżeli nie medytujez, Toksyczność będzie odpływać tylko przy dodatnim jej przyroście. Kary od wysokiej Toksyczności są zredukowane o $I$%.<br><br>+$I$% Czas działania eliksirów
+2118472378||glyphword47_name|Przyswajanie II
+2118472379||glyphword47_desc|Odwary z mutagenów mocy zwiększają regenerację Witalności o $I$. Odwary z mutagenów wytrzymałości zwiększają regenerację Wytrzymałości o $I$. Odwary z mutagenów koncentracji zwiększają regenerację Wigoru o $I$%.<br><br>+$I$% Czas działania eliksirów
+2118472380||glyphword48_name|Przyswajanie III
+2118472381||glyphword48_desc|Każde źródło przyrostu Toksyczności zwiększa działanie mutagenów i odpływ Toksyczności o $I$%.<br><br>+$I$% Czas działania eliksirów
+2118472382||glyphword49_name|Uniesienie I
+2118472383||glyphword49_desc|Maksymalny udźwig jest większy o $I$. Noszenie lżejszego bagażu zwiększa całkowitą szybkość aż o $I$%.<br><br>-$I$% Kar od pancerza 
+2118472384||glyphword50_name|Uniesienie II
+2118472385||glyphword50_desc|Kary do szybkości przez niski stan Wytrzymałości są mniejsze aż o $I$% zależnie od aktualnego poziomu Adrenaliny.<br><br>-$I$% Kar od pancerza 
+2118472386||glyphword51_name|Uniesienie III
+2118472387||glyphword51_desc|Spowolnienie czasu przez Adrenalinę już nie jest zmniejszone przez wysoki poziom Witalności.<br><br>-$I$% Kar od pancerza 
+2118472388||glyphword52_name|Kondycja I
+2118472389||glyphword52_desc|$I$ Wigoru zostaje poświęcone w celu uniknięcia Przemęczenia i przywrócone zostaje $I$ Wytrzymałości.<br><br>+$I$% Wydajność Wytrzymałości
+2118472390||glyphword53_name|Kondycja II
+2118472391||glyphword53_desc|Regeneracja Wytrzymałości i Równowagi Postawy jest zwiększona o $I$% kiedy stoisz w miejscu.<br><br>+$I$% Wydajność Wytrzymałości
+2118472392||glyphword54_name|Kondycja III
+2118472393||glyphword54_desc|Koszty Wytrzymałości są zmniejszone aż do $I$% im wyższy poziom Równowagi Postawy. Koszty Równowagi Postawy są zmniejszone aż do $I$% im niższy poziom Wytrzymałości.<br><br>+$I$% Wydajność Wytrzymałości
+2118472394||runeword01_name|Zlodowacenie I
+2118472395||runeword01_desc|Perfekcyjne parowania wychładzają wrogów.<br><br>+$I$% Wydajność defensywna
+2118472396||runeword02_name|Zlodowacenie II
+2118472397||runeword02_desc|Wychłodzeni wrogowie nie mogą cie zranić przez kontry i bloki. Otrzymują oni obrażenia do równowagi postawy kiedy ich ataki są blokowane. <br><br>+$I$% Wydajność defensywna
+2118472398||runeword03_name|Zlodowacenie III
+2118472399||runeword03_desc|Wychłodzeni wrogowie mają swoją regenerację równowagi postawy o $I$% mniejszą. Złamanie równowagi postawy przeciwnika atakiem wręcz, zamraża go.<br><br>+$I$% Wydajność defensywna
+2118472400||runeword04_name|Wycieńczenie I
+2118472401||runeword04_desc|Każde $I$ obrażeń od mrozu zadane celowi obniża jego wytrzymałość o $I$.<br><br>+$I$% Szansa na wychłodzenie
+2118472402||runeword05_name|Wycieńczenie II
+2118472403||runeword05_desc|Wychłodzeni wrogowie są bardziej spowolnieni aż do $I$% im mniejsza ich aktualna wytrzymałość.<br><br>+$I$% Szansa na wychłodzenie
+2118472404||runeword06_name|Wycieńczenie III
+2118472405||runeword06_desc|Ten miecz zadaje dodatkowe $I$ obrażeń od mrozu na każdy brakujący punkt wytrzymałości wroga.<br><br>+$I$% Szansa na wychłodzenie
+2118472406||runeword07_name|Nagrzanie I
+2118472407||runeword07_desc|Ten miecz nagrzewa się, gdy uderza, zyskując ładunki zwiększające obrażenia od ognia o $I$. Stygnie z upływem czasu.<br><br>+$I$ Obrażenia od ognia
+2118472408||runeword08_name|Nagrzanie II
+2118472409||runeword08_desc|Ładunki zwiększają również szansę na trafienie krytyczne o $I$% i wydajność ofensywną o $I$%.<br><br>+$I$ Obrażenia od ognia
+2118472410||runeword09_name|Nagrzanie III
+2118472411||runeword09_desc|Zabicie wroga ma $I$% szansy za każdy ładunek na wywołanie eksplozji, która zadaje $I$ obrażeń od ognia pobliskim wrogom. Trafienia krytyczne mają $I$% szansy za każdy ładunek na spowodowanie tego samego.<br><br>+$I$ Obrażenia od ognia
+2118472412||runeword10_name|Wypalenie I
+2118472413||runeword10_desc|Gdy ten miecz zadaje cios palącemu się wrogowi, płonie on o $F$ sekund dłużej. Przerwanie animacji palenia odświeża jego czas.<br><br>+$I$% Szansa na podpalenie
+2118472414||runeword11_name|Wypalenie II
+2118472415||runeword11_desc|Przeciwnicy miotający się w płomieniach tracą do $I$% swojej równowagi postawy co sekundę. Obrażenia od podpalenia zwiększają się o $I$ z każdą sekundą.<br><br>+$I$% Szansa na podpalenie
+2118472416||runeword12_name|Wypalenie III
+2118472417||runeword12_desc|Każda sekunda w której wróg się pali, trwale zwiększa przyjmowane przez niego obrażenia o $I$%.<br><br>+$I$% Szansa na podpalenie
+2118472418||runeword13_name|Transpozycja I
+2118472419||runeword13_desc|Petardy przenoszą działanie olejów nałożonych na ten miecz. Dodatkowo wszystkie oleje zapewniają $I$% szansy na zatrucie.<br><br>+$I$ Obrażenia od trucizny
+2118472420||runeword14_name|Transpozycja II
+2118472421||runeword14_desc|Obrażenia od trucizny zostają zamienione na obrażenia fizyczne jeśli odporność na truciznę celu jest wyższa niż jego pancerz.<br><br>+$I$ Obrażenia od trucizny
+2118472422||runeword15_name|Transpozycja III
+2118472423||runeword15_desc|Działanie olejów jest zwiększone o $I$% na każdy ładunek trucizny celu.<br><br>+$I$ Obrażenia od trucizny
+2118472424||runeword16_name|Rozkład I
+2118472425||runeword16_desc|Ten miecz ma $I$% dodatkowej szansy na zatrucie co każde $I$ punktów aktywnej Toksyczności.<br><br>+$I$% Szansa na zatrucie
+2118472426||runeword17_name|Rozkład II
+2118472427||runeword17_desc|Cel może kumulować nieograniczoną ilość ładunków zatrucia.<br><br>+$I$% Szansa na zatrucie
+2118472428||runeword18_name|Rozkład III
+2118472429||runeword18_desc|Każdy ładunek zatrucia na celu redukuje jego odporność na zatrucie, krwawienie i okaleczenie o $I$%. Obrażenia od zatrucia w czasie zadają $I$% więcej obrażeń.<br><br>+$I$% Szansa na zatrucie
+2118472430||runeword19_name|Wykrwawienie I
+2118472431||runeword19_desc|Kiedy nakładasz ładunek krwawienia, istnieje szansa równa aktualnemu procentowi zrowia celu na nałożenie $I$ dodatkowych ładunków.<br><br>+$I$% Szansa na krwawienie
+2118472432||runeword20_name|Wykrwawienie II
+2118472433||runeword20_desc|Cel może kumulować nieograniczoną ilość ładunków krwawienia.<br><br>+$I$% Szansa na krwawienie
+2118472434||runeword21_name|Wykrwawienie III
+2118472435||runeword21_desc|Pierwszy cios ciężkiego ataku specjalnego nakłada $I$ ładunków krwawienia, następnie drugi cios usuwa wszystkie ładunki krwawienia. Zadaje $I$ obrażeń i zwiększa odporność celu na krwawienie o $I$% za każdy usunięty ładunek.<br><br>+$I$% Szansa na krwawienie
+2118472436||runeword22_name|Desperacja I
+2118472437||runeword22_desc|Twoja Adrenalina nie może spaść poniżej $I$% of your missing vitality percent.<br><br>+$I$ Opóźnienie odpływu Adrenaliny
+2118472438||runeword23_name|Desperacja II
+2118472439||runeword23_desc|W celu uniknięcia Przemęczenia, zamiast Wytrzymałości zostanie wykorzystana Adrenalina.<br><br>+$I$ Opóźnienie odpływu Adrenaliny
+2118472440||runeword24_name|Desperacja III
+2118472441||runeword24_desc|Zyskujesz $F$% kradzieży życia za każdy punkt Adrenaliny oraz $F$% kradzieży życia za każdy brakujący procent Witalności.<br><br>+$I$ Opóźnienie odpływu Adrenaliny
+2118472442||runeword25_name|Odbicie I
+2118472443||runeword25_desc|Kontra typu cięcie mieczem ma zwiększony zasięg. Pozwala na używanie kontr typu uderzenie i kopnięcie przeciwko dużym potworom.<br><br>+$I$% Obrażenia od kontry
+2118472444||runeword26_name|Odbicie II
+2118472445||runeword26_desc|Twoje kontry zadają $I$% więcej obrażeń równowadze postawy przeciwnika, a $I$% z tych obrażeń jest przywracanych twojej Równowadze Postawy.<br><br>+$I$% Obrażenia od kontry
+2118472446||runeword27_name|Odbicie III
+2118472447||runeword27_desc|Kontrowanie z lepszym wyczuciem czasu zwiększa twoje obrażenia z kontry o $I$% skontrowanych obrażeń.<br><br>+$I$% Obrażenia od kontry
+2118472448||runeword28_name|Porażenie I
+2118472449||runeword28_desc|Podwaja szansę na nałożenie elektrowstrząsu do $I$%. Dodatkowo elektrowstrząs paraliżuje cel.<br><br>+$I$ Obrażenia od elektryczności
+2118472450||runeword29_name|Porażenie II
+2118472451||runeword29_desc|Ten miecz zadaje aż do $I$ dodatkowych obrażeń od elektryczności, zależnie od wartości pancerza celu.<br><br>+$I$ Obrażenia od elektryczności
+2118472452||runeword30_name|Porażenie III
+2118472453||runeword30_desc|Kiedy ten miecz zadaje cios porażonemu wrogowi, naładowuje się, zapewniając $I$% intensywności Quen oraz $I$% obrażeń blokującym przeciwnikom. Rzucanie Quen rozładowuje go, zadając $I$ obrażeń od elektryczności na ładunek i porażając pobliskich wrogów.<br><br>+$I$ Obrażenia od elektryczności
+2118472454||runeword31_name|Parada I
+2118472455||runeword31_desc|Zabicie przeciwnika Młynkiem lub Rozpłataniem przywraca $I$ Wytrzymałości.<br><br>+$I$% Wydajność ofensywna
+2118472456||runeword32_name|Parada II
+2118472457||runeword32_desc|Atakowanie zwiększa szybkość ataku oraz wydajność ofensywną o $I$%, aż do wykonania następnej czynności nie będącej atakiem.<br><br>+$I$% Wydajność ofensywna
+2118472458||runeword33_name|Parada III
+2118472459||runeword33_desc|Kiedy osiągasz $I$ Adrenaliny, wchodzisz w stan gdzie czas zwalnia, a czynności nie zużywają Wytrzymałości. Adrenalina odpływa szybko, a po jej wyczerpaniu efekt znika.<br><br>+$I$% Wydajność ofensywna
+2118472460||runeword34_name|Likwidacja I
+2118472461||runeword34_desc|Ataki przeciwko całkowicie zdrowym wrogom zadają $I$% więcej obrażeń.<br><br>+$I$% Siła ataku z flanki
+2118472462||runeword35_name|Likwidacja II
+2118472463||runeword35_desc|Ataki z flanki są gwarantowanymi trafieniami krytycznymi.<br><br>+$I$% Siła ataku z flanki
+2118472464||runeword36_name|Likwidacja III
+2118472465||runeword36_desc|Pierwszy atak po dobyciu tego miecza lub zabiciu nim kogoś zada +$I$% obrażeń krytycznych.<br><br>+$I$% Siła ataku z flanki
+2118472466||runeword37_name|Przedłużenie I
+2118472467||runeword37_desc|Oleje i efekty nałożone na ten miecz trwają +$I$% dłużej.<br><br>+$I$% Regeneracja Wigoru
+2118472468||runeword38_name|Przedłużenie II
+2118472469||runeword38_desc|Znaki i efekty znaków trwają +$I$% dłużej.<br><br>+$I$% Regeneracja Wigoru
+2118472470||runeword39_name|Przedłużenie III
+2118472471||runeword39_desc|Ten miecz ma zwiększony zasięg ataku, a $I$% zadawanych przez niego obrażeń jest powtarzane jako dodatkowe obrażenia eteryczne.<br><br>+$I$% Regeneracja Wigoru
+2118472472||runeword40_name|Przyzwanie I
+2118472473||runeword40_desc|Ten miecz posiada obrażenia od żywiołu i efekty statusu twojego aktualnie wybranego znaku, skalując się z intensywnością znaku.<br><br>+$I$% Intensywność znaków
+2118472474||runeword41_name|Przyzwanie II
+2118472475||runeword41_desc|Silne ataki powodują, że Glif Strażniczy strzela w cel.<br><br>+$I$% Intensywność znaków
+2118472476||runeword42_name|Przyzwanie III
+2118472477||runeword42_desc|Ataki specjalne mają szansę na wywołanie efektów w zakeżności od aktualnie wybranego znaku. Szansa Rozpłatania skaluje się z czasem ładowania, aż do $I$%. Atak Młynkiem ma $I$% szans.<br><br>+$I$% Intensywność znaków
+2118472478||runeword43_name|Niezłomność I
+2118472479||runeword43_desc|Siła ataku jest zwiększona o $F$% co każde $I$ maksymalnych punktów życia obecnych wrogów. Obrażenia do równowagi postawy są większe o $F$% na punkt Adrenaliny.<br><br>+$I$% Odporność na zachwianie podczas atakowania
+2118472480||runeword44_name|Niezłomność II
+2118472481||runeword44_desc|Podczas walk z bossami masz +$I$% odporności na zachwianie, Adrenalina odpływa $I$% wolniej, a gdy złamiesz równowagę postawy atakiem wręcz, zadasz dodatkowe obrażenia zależne od maksymalnego zdrowia celu.<br><br>+$I$% Odporność na zachwianie podczas atakowania
+2118472482||runeword45_name|Niezłomność III
+2118472483||runeword45_desc|W pełni naładowane Rozpłatanie wykorzystuje cały dostępny Wigor aby zadać do $I$% dodatkowych obrażeń z $I$% wyssaniem życia.<br><br>+$I$% Odporność na zachwianie podczas atakowania
+2118472484||runeword46_name|Roztrzaskanie I
+2118472485||runeword46_desc|Zadajesz dodatkowe $I$% obrażeń przeciwnikom wytrąconym z równowagi.<br><br>+$I$% Szansa na wytrącenie z równowagi
+2118472486||runeword47_name|Roztrzaskanie II
+2118472487||runeword47_desc|Gdy masz ponad $I$% Równowagi Postawy, twoje ataki zadają $I$% więcej obrażeń równowadze postawy, ale przez odrzut odbierają tobie $I$% jej maksymalnego poziomu.<br><br>+$I$% Szansa na wytrącenie z równowagi
+2118472488||runeword48_name|Roztrzaskanie III
+2118472489||runeword48_desc|Gdy masz ponad $I$% Witalności, twoje ataki zadają $I$% więcej obrażeń, ale przez odrzut odbierają tobie $I$% jej maksymalnego poziomu.<br><br>+$I$% Szansa na wytrącenie z równowagi
+2118472490||runeword49_name|Penetracja I
+2118472491||runeword49_desc|Możesz nakładać efekty statusu również blokującym wrogom. Jeśli cel nie blokuje, $I$% przebicia bloku zostaje dodane do przebicia pancerza.<br><br>+$I$% Obrażeń ignorujących blok
+2118472492||runeword50_name|Penetracja II
+2118472493||runeword50_desc|Gdy przebicie pancerza jest większe niż pancerz celu, nadmiar zostaje dodany do obrażeń krytycznych.<br><br>+$I$% Obrażeń ignorujących blok
+2118472494||runeword51_name|Penetracja III
+2118472495||runeword51_desc|Szybkie ataki redukują pancerz wroga o $I$% na $I$ sekund. Silne ataki trwale redukują pancerz wroga o $I$%.<br><br>+$I$% Obrażeń ignorujących blok
+2118472496||runeword52_name|Wzmocnienie I
+2118472497||runeword52_desc|Premie konserwacyjne broni zwiększają przebicie pancerza o $I$%.<br><br>-$I$% Obrażeń otrzymywanych przez blok
+2118472498||runeword53_name|Wzmocnienie II
+2118472499||runeword53_desc|Ten miecz nie traci na trwałości.<br><br>-$I$% Obrażeń otrzymywanych przez blok
+2118472500||runeword54_name|Wzmocnienie III
+2118472501||runeword54_desc|Ten miecz zabijając wrogów, zwiększa swoje obrażenia. Każde $I$ maksymalnych punktów zdrowia zabitych wrogów zwiększy jego obrażenia o $I$.<br><br>-$I$% Obrażeń otrzymywanych przez blok
+2118472502||runeword55_name|Okaleczenie I
+2118472503||runeword55_desc|Urazy zmniejszają wrogom przebicie pancerza o $I$% i zwiększają czas trwania ładunków krwawienia o $I$%.<br><br>+$I$% Szansa na okaleczenie
+2118472504||runeword56_name|Okaleczenie II
+2118472505||runeword56_desc|Ciosy kończące i rozczłonkowania dodają $I$% więcej Wytrzymałości i Adrenaliny oraz powodują $I$% więcej utraty morale.<br><br>+$I$% Szansa na okaleczenie
+2118472506||runeword57_name|Okaleczenie III
+2118472507||runeword57_desc|Urazy odbierają przeciwnikom $I$% maksymalnego zdrowia i redukują ich maksymalny poziom równowagi postawy o $I$%.<br><br>+$I$% Szansa na okaleczenie
+2118472508||runeword58_name|Spustoszenie I
+2118472509||runeword58_desc|Szansa na trafienie krytyczne jest zwiększona aż do $I$%, w zależności od różnicy poziomów zdrowia między tobą a twoim celem.<br><br>+$I$% Obrażenia krytyczne
+2118472510||runeword59_name|Spustoszenie II
+2118472511||runeword59_desc|Zranienie wroga silnym/szybkim atakiem trwale zwiększa szansę na trafienie krytyczne/obrażenia krytyczne przeciwko niemu o $I$%.<br><br>+$I$% Obrażenia krytyczne
+2118472512||runeword60_name|Spustoszenie III
+2118472513||runeword60_desc|Jeśli silny atak złamie równowagę przeciwnika i jednocześnie trafi krytycznie, cel zostaje natychmiastowo uśmiercony. Szybkie ataki łamiące równowagę przeciwnika mają +$I$% obrażeń krytycznych.<br><br>+$I$% Obrażenia krytyczne
+2118472524||redux_perfection|Doskonałość
+2118472525||redux_obliteration|Nagrzanie
+2118472526||redux_electrocution|Porażenie
+2118472527||item_desc_decoction_1|Nakładanie krwawienia zwiększa twoją całkowitą szybkość o 15% na 3 sekundy. Ataki wręcz zadają 2% więcej obrażeń na każdy ładunek krwawienia celu.
+2118472528||item_desc_decoction_2|Zabijanie wrogów przywraca 10% twojej brakującej Witalności. Odpływ Adrenaliny jest opóźniony o 2 dodatkowe sekundy.
+2118472529||item_desc_decoction_3|Twoja Równowaga Postawy nie może zostać złamana. Otrzymywanie obrażeń zwiększa odporność na obrażenia i zachwiania o 5% na 5 sekund, aż do 25%.
+2118472530||item_desc_decoction_4|W nocy twoja całkowita szybość, siła ataku, wydajności Wytrzymałości, a także intensywność znaków są większe o 10%. Podczas pełni, otrzymanie śmiertelnych obrażeń pochłonie ten odwar i przywróci twoje zdrowie do 50% Witalności.
+2118472531||item_desc_decoction_5|Zadawanie obrażeń od żywiołów zmniejsza odporność wroga na każdy inny typ żywiołu. Ataki pięściami zadają zwiększone obrażenia i mają szansę na nałożenie efektów statusu.
+2118472532||item_desc_decoction_6|Odporności na obrażenia fizyczne są większe o 20% oraz nie otrzymujesz obrażeń od draśnięć podczas uniku. Twoje ataki w zwarciu zadają normalne obrażenia upiorom w stanie niematerialności.
+2118472533||item_desc_decoction_7|Zyskujesz 20% regeneracji Wigoru o świcie i aż do 20% intensywności znaków przy wysokiej Witalności. Zyskujesz 2 regeneracji Wytrzymałości o zmierzchu i aż do 20% przebicia pancerza przy niskiej Witalności.
+2118472534||item_desc_decoction_8|Szybkość i siła ataków są zwiększone o 10% na 2 sekundy po wykonaniu uniku. Podczas obliczania kar od niskiej wartości Wytrzymałości lub Wigoru, wyższa wartość z tych dwóch jest brana pod uwagę.
+2118472535||item_desc_decoction_9|Używanie szybkich ataków, silnych ataków lub znaków generuje ładunki, które mogą zwiększyć siłę pozostałych dwóch. Kiedy osiągasz 6 ładunków, następna taka czynność ma o 50% większą siłę ataku lub intensywność znaku. Szybkie ataki generują 1 ładunek, silne ataki 2 ładunki, a znaki 3 ładunki.
+2118472536||item_desc_decoction_10|Trucizna cię nie osłabia. Nakładanie trucizny na wrogów zmniejsza twoją Toksyczność o 1. Przeciwnicy, którzy wywołają u ciebie krwawienie, zostają zatruci.
+2118472537||skill_desc_perk_20|Sprzedajesz przedmioty 25% drożej.<br>Targowanie się o zlecenia jest o 25% łatwiejsze.
+2118472538|363f99b1||Gdy twój wskaźnik Toksyczności całkowicie się zapełni, wejdziesz w stan gorączki charakteryzujący się mniejszą szybkością i regeneracją Wytrzymałości, a twój przyrost Toksyczności będzie zadawać tobie obrażenia od trucizny. Wypij Biały Miód żeby wydobrzeć.
+2118472539|6d1ad461||Cięższa zbroja pochłonie więcej obrażeń i zwiększy maksymalny poziom Równowagi Postawy, lecz za tą ochronę przyjdzie ci zapłacić mniejszą szybkością, wyższymi kosztami Wytrzymałości i niższą jej regeneracją.
+2118472540|b93269e9||Ataki od tyłu mają 15% wyższą szansę na trafienie krytyczne i 10% większe obrażenia. Bez zdolności Wyostrzone Zmysły parowanie ataków zza pleców będzie kosztować więcej równowagi postawy  - więc uważaj na tyły.
+2118472541|6d1ad3a6||Ulepszanie sprzętu na kamieniu szlifierskim bądź stole płatnerskim spowolni utratę jego trwałości o 50%.
+2118472542|6d1ad424||Używaj zestawów naprawczych w celu utrzymania sprzętu w dobrym stanie. Naprawiają część brakującej trwałości, więc im dłużej czekasz z ich użyciem, tym lepszy ich efekt.
+2118472543|363f99c9||Rzemieślnicy mogą usunąć runy i ulepszenia z twoich przedmiotów i zwrócić je tobie.
+2118472544|6d1ad408||Demontaż przedmiotu odzyska wszystkie ulepszenia w nim zawarte, ale mogą one zostać usunięte bezpośrednio, bez potrzeby niszczenia przedmiotu.
+2118472545|363f99aa||Wrogowie z białym paskiem życia otrzymują niewielkie obrażenia od mieczy stalowych. Dobądź swoje srebrne ostrze lub pokryj swoją stal Srebrnym olejem.
+2118472546|6d1ad3ca||Wrogowie z czerwonym paskiem życia mogą zostać pokonani dowolnym mieczem. Zamożni wiedźmini preferują srebrne przeciwko potworom, podczas gdy stalowych używają na ludzi oraz bestie.
+2118472547|363f99d0||Kiedy jesteś na pokładzie łodzi, możesz wyciągnąć Mapę Świata i użyć Szybkiej Podróży żeby przenieść się do portu. Szukaj łodzi wzdłuż wybrzeża i w pobliżu portów.
+2118472548|6d1ad370||Gniazda potworów mogą zostać zniszczone za pomocą petard Gwiazda Tańcząca, Kartacz albo Samum... ale do tego celu wystarczy użyć znaku Igni.
+2118472549|6d1ad422||Jeśli chodzi o Wiedźmiński Rynsztunek, stworzenie go to pierwszy krok. Ulepszanie może lekko zmieniać jego statystyki oraz wygląd.
+2118472550|6d1ad369||Pogoda ma wpływ na twoich przeciwników. W ciągu dnia łatwiej będzie ci podpalić wrogów, ale trudniej podczas sztormu lub deszczu.
+2118472551|6d1ad3c5||Pogoda ma wpływ na twoich przeciwników. Trupojady to groźniejsi przeciwnicy nocą lub podczas zmierzchu. Baby cmentarne czują się szczególnie silnie o tej porze.
+2118472552|6d1ad3a7||Pogoda ma wpływ na twoich przeciwników. Wilkołaki są groźniejsze nocą, szczególnie podczas pełni. Nawet zwykłe wilki poruszają się zwinniej podczas pełni.
+2118472553|b93269ed||Pogoda ma wpływ na twoich przeciwników. Łatwo odkryć, że Archespory są wytrzymalsze w słońcu.
+2118472554|6d1ad445||Pogoda ma wpływ na twoich przeciwników. Utopce i syreny kochają deszcze i sztormy, lecz harpie mają wtedy utrudnione manewrowanie.
+2118472555|6d1ad428||Pogoda ma wpływ na twoich przeciwników. Lepiej stawić czoła południcy w świetle księżyca i północnicy w świetle słońca.
+2118472556|6d1ad440||Pogoda ma wpływ na twoich przeciwników. Użytkownicy magii - tacy jak czarodziejki i sukkuby - zyskują dodatkową moc pod księżycem, zwłaszcza podczas pełni.
+2118472557|6d1ad409||Zniszczone gniazda potworów są dobrym źródłem mutagenów, unikalnych części potworów, a nawet drogiej biżuterii.
+2118472558|6d1ad463||Jeśli chcesz uzyskać odwary z potworów, kupcy specjalizujący się w książkach mogą posiadać rzadką wiedzę, której potrzebujesz.
+2118472559|6d1ad3a5||Gdy znajdziesz legendarne ostrze, może się okazać, że jest w stanie nie nadającym się do użytku. Aby je odnowić, będziesz potrzebować usług kowala mistrza.
+2118472560|6d1ad423||Eliksiry, petardy i oleje mają wersje wysokiej jakości, które możesz stworzyć wykorzystując wysokiej jakości składniki. Eliksiry mogą mieć również efekty drugorzędne.
+2118472561|6d1ad389||Każdy wytwór alchemiczny wymaga składnika bazowego. Alkochol do eliksirów, tłuszcz zwierzęcy do olejów, a saletra do petard to dobre punkty wyjścia.
+2118472562|6d1ad3ab||Każdy Znak ma tryb alternatywny, dostępny poprzez przytrzymanie przycisku rzucania.
+2118472563|b93269ef||Możesz praktykować alchemię medytując przy ognisku lub odwiedzając alchemika bądź zielarza.
+2118472564|6d1ad449||Jeśli doznałeś trwałego urazu, możesz od razu go wyleczyć bandarzem. Urazy zagoją się same podczas medytowania przy pełnej witalności.
+2118472565|363f99af||Południce i północnice emanują wysysającą życie aurą, nie przenika ona jednak przez znak Quen. Srebrny olej tymczasowo powstrzymuje emanację.
+2118472566|6d1ad386||Próbując uważyć doskonały wytwór alchemiczny, każdy składnik musi mieć jakość 'oczyszczony'. Dzięki zdolności Rafinacja, jeden składnik może być niższej jakości.
+2118472567|6d1ad447||Wiedźmini mają refleks tak dobry, że potrafią mieczem strącić strzałę w locie. Z odpowiednim wyczuciem, może nawet zostać odbita w stronę swego właściciela.
+2118472568|b93269f0||Większość przeciwników ma ograniczoną wytrzymałość, a bez niej zadają mniej obrażeń. Możesz wyczerpać ich wytrzymałość za pomocą znaku Aard lub oleju Paraliżującego, a atakowanie opóźni im jej regenerację.
+2118472569|6d1ad387||Znak Aksji jest użyteczny także poza walką. Może powstrzymać neutralne zwierzęta przed ucieczką, oswajać konie, a nawet być używany podczas konwersacji.
+2118472570|6d1ad3a8||Znajdując się pod wodą, nie możesz dobyć mieczy lub rzucać większości znaków. Polegaj na znaku Aard lub swojej kuszy w celu poradzenia sobie z podwodnymi napastnikami.
+2118472571|363f99d1||Ostrożnie z wykorzystywaniem Wigoru, bowiem każdy jego punkt zwiększa twoje obrażenia o 10%, a znaki rzucane gdy Wigor nie jest pełen działają słabiej. Mimo tego, właściwy znak we właściwym czasie może być wart swojej ceny.
+2118472572|a4b1c1ec||Możesz przechowywać bronie i zbroje w wielu skrytkach rozsianych po świecie. Rynsztunek przechowywany w jednym miejscu będzie zarazem dostępny we wszystkich pozostałych.
+2118472573|a05ae697||Poszukaj Zaklinacza Słów na wschodzie od Novigradu aby zaczarować rynsztunek, lecz pomyśl wpierw o zaoszczędzeniu - w runach, glifach, a zwłaszcza w monecie.
+2118472574|6d1ad3e3||Kiedy przyjdzie naprawiać tobie zbroję, będziesz potrzebował odpowiednich narzędzi. Lekki, średni oraz ciężki rynsztunek - wszystkie mają swoje własne zestawy naprawcze.
+2118472575|6d1ad3ad||Zamróź swoich przeciwników w kamień. Łącząc dwa źródła efektu wychłodzenia - dla przykładu petardy Północny Wiatr oraz znak Aard z umiejętnością Odmrożenie - wróg zostanie zamrożony i otrzyma dodatkowe obrażenia.
+2118472576|6d1ad3cd||Gdy okaże się, że zadajesz przeciwnikowi bardzo niewielkie obrażenia, możesz potrzebować więcej przebicia pancerza. Używaj silnych lub kontr-ataków, Żrącego oleju, petard z umiejętnością Rozszczepiające Ładunki, lub stwórz nową broń, dopasowaną do tych przeciwników.
+2118472577|363f99ce||Trafienia krytyczne są nie tylko źródłem dodatkowych obrażeń. Zwiększają również przebicie pancerza oraz efekt każdego oleju o 50%.
+2118472578|6d1ad3c9||Kiedy usłyszysz, że Geralt każe ci się rozejrzeć, oznacza to, że gdzieś w pobliżu znajduje się miecz-artefakt. Możesz wyłączyć te komentarze w ustawieniach W3EE.
+2118472579|363f99ae||Zatruci wrogowie poruszają się wolniej i zadają mniej obrażeń. Krwawiący wrogowie wolniej odzyskują wytrzymałość i otrzymują dodatkowe obrażenia od krwawienia, gdy mają niski jej poziom.
+2118472580|6d1ad425||Jeśli okaże się, że umierasz od toksyczności bez Białego Miodu pod ręką, medytacja może ocalić twoje życie.
+2118472581|363f9a0b||Zaatakowanie wroga pod wpływem Aksji utrudni ponowne użycie na nim Aksji.
+2118472582|6d1ad36d||Rozglądasz się na najlepszym miejscem do wyładowania swoich trofeów? Zacznij od odwiedzenia handlarzy ogólnych i karczmarzy. W Skellige płacą więcej, ale kupcy w Novigradzie mają głębsze kieszenie. Toussaint posiada obie te zalety.
+2118472583|363f99b0||Biały Miód natychmiast wyleczy toksyczną gorączkę i obniży toksyczność, lecz usunie również efekty pozostałych eliksirów. Staraj się zawsze mieć jeden w gotowości.
+2118472584|363f9a0c||Przed stworzeniem rynsztunku, możesz dostosować jego atrybuty. Umieszczanie pożądanych atrybutów na mieczu pozwoli tobie przebrnąć zanim będziesz mógł sobie pozwolić na drogie ostrza-artefakty.
+2118472585|6d1ad421||Zmagasz się z przeciwnikami walczącymi na dystans? Spróbuj rzucić alternatywny znak Yrden przed rozpoczęciem walki. Zapewnia on solidną strefę ochrony, podczas gdy ty rozprawiasz się z wrogami atakującymi wręcz.
+2118472586|363f99eb||Spróbuj tworzyć własne bazy alchemiczne ze składników, które już posiadasz. Na początku oszczędności mogą być niewielkie, lecz z czasem sumują się.
+2118472587|363f99c8||Podczas warzenia przedmiotu alchemicznego o podwyższonej jakości, oczyszczony składnik może zrównoważyć dodanie zanieczyszczonego.
+2118472588|6d1ad446||Czy twoje sakwy przypominają alchemiczny magazyn? Warzenie wykraczające poza twoje doraźne potrzeby może podnieść twoje umiejętności. Destylacja ciężkich składników bądź tych bez efektów drugorzędnych w esencje podstawowe uczyni bagaż lżejszym.
+2118472589|6d1ad38b||Borykasz się z nieznanym przeciwnikiem? Eliksir Zamieć może pomóc ci zaznajomić się z jego zachowaniem i wzorcem ataku.
+2118472590|363f9a0d||Możesz wykonać perfekcyjne sparowanie kontrując atak bez naciskania modyfikatora odległości. Zmniejsza zużycie równowagi postawy jednocześnie wytrącając napastnika z równowagi i obniżając jego równowagę postawy, a także wymaga niższego poziomu równowagi postawy niż kontratak.
+2118472591|6d1ad442||Jeśli chodzi o obrażenia od żywiołów, ogień i mróz mają podatnych i odpornych przeciwników. Obrażenia od elektryczności oraz eteryczne są bardziej uniwersalne.
+2118472592|6d1ad441||W celu utrzymania poziomu Adrenaliny, musisz w ciągu 4 sekund trochę jej wytworzyć, inaczej zacznie odpływać. Staraj się utrzymywać równe tempo w walce.
+2118472593||item_name_redux_viper_steel_lvl2|Ulepszony stalowy miecz cechu żmii
+2118472594||item_name_redux_viper_steel_lvl3|Wyśmienity stalowy miecz cechu żmii
+2118472595||item_name_redux_viper_steel_lvl4|Mistrzowski stalowy miecz cechu żmii
+2118472596||item_name_redux_viper_steel_lvl5|Arcymistrzowski stalowy miecz cechu żmii
+2118472597||item_name_redux_viper_silver_lvl2|Ulepszony srebrny miecz cechu żmii
+2118472598||item_name_redux_viper_silver_lvl3|Wyśmienity srebrny miecz cechu żmii
+2118472599||item_name_redux_viper_silver_lvl4|Mistrzowski srebrny miecz cechu żmii
+2118472600||item_name_redux_viper_silver_lvl5|Arcymistrzowski srebrny miecz cechu żmii
+2118472601||item_name_redux_viper_steel_sword_schematic_1|Schemat: Ulepszony stalowy miecz cechu żmii
+2118472602||item_name_redux_viper_steel_sword_schematic_2|Schemat: Wyśmienity stalowy miecz cechu żmii
+2118472603||item_name_redux_viper_steel_sword_schematic_3|Schemat: Mistrzowski stalowy miecz cechu żmii
+2118472604||item_name_redux_viper_steel_sword_schematic_4|Schemat: Arcymistrzowski stalowy miecz cechu żmii
+2118472605||item_name_redux_viper_silver_sword_schematic_1|Schemat: Ulepszony srebrny miecz cechu żmii
+2118472606||item_name_redux_viper_silver_sword_schematic_2|Schemat: Wyśmienity srebrny miecz cechu żmii
+2118472607||item_name_redux_viper_silver_sword_schematic_3|Schemat: Mistrzowski srebrny miecz cechu żmii
+2118472608||item_name_redux_viper_silver_sword_schematic_4|Schemat: Arcymistrzowski srebrny miecz cechu żmii
+2118472609||skill_name_alchemy_s10|Opóźniony Zapłon
+2118472610||skill_desc_alchemy_s10|Wydłuża czas odbezpieczania petard o $I$ sekund.<br>Po upadku, petardy zyskują $I$% obrażeń, czasu działania, i redukcji odporności od Rozszczepiających Ładunków za każdą sekundę przed wybuchem.<br>Zwiększa ciężar petard o $F$ i zmniejsza zasięg rzutu o $I$%.
+2118472611||skill_desc_alchemy_s11|Po upadku, petardy rozpadają się na wiele wybuchowych odłamków, każdy zadając $I$% obrażeń pierwotnej petardy.<br>Ilość odłamków: $I$<br>Zwiększa ciężar petard o $F$ i zmniejsza zasięg rzutu o $I$%.
+2118472612||skill_desc_alchemy_3|Umożliwia tworzenie podręcznych petard które wybuchają po krótkim opóźnieniu lub kiedy są wystawione na działanie ognia.
+2118472613|6d1ad3e4||Podczas rzucania petardy lub strzelania z kuszy, możesz albo użyć samonamierzania, albo wycelować ręcznie dla większej precyzji. Ręczne celowanie petardą zmniejszy opóźnienie między upadkiem a wybuchem.
+2118472614||attribute_name_heal_injury_time|Leczenie urazów
+2118472615||attribute_name_forcedamage|Obrażenia od odrzutu
+2118472616||panel_mainmenu_dificulty_easy_title|Pies
+2118472617||panel_mainmenu_dificulty_normal_title|Wilk
+2118472618||panel_mainmenu_dificulty_hard_title|Biały Wilk
+2118472619||panel_mainmenu_dificulty_hardcore_title|Parszywy Wilk
+2118472620||panel_mainmenu_dificulty_easy_description|Dla nowych graczy pragnących łagodniejszej przeprawy.
+2118472621||panel_mainmenu_dificulty_normaldescription_description|Zamierzone doświadczenie bez żadnych modyfikatorów.
+2118472622||panel_mainmenu_dificulty_hard_description|Dla weteranów pragnących większego wyzwania.
+2118472623||panel_mainmenu_dificulty_hardcore_description|Dla mistrzów i masochistów żądnych niedoli i poniewierki.
+2118472624||Redux_EquipmentDurability|Wyposażenie - Trwałość
+2118472625||W3EE_PPDam|Mnożnik Obrażeń - Równowaga Postawy Gracza
+2118472626||W3EE_EPDam|Mnożnik Obrażeń - Równowaga Postawy Wrogów
+2118472627||skill_name_perk_6|Techniki Szkoły Wilka
+2118472628||redux_deflection|Zagięcie
+2118472629||metal_mutsorterbegin|Sortowanie mutagenów
+2118472630||metal_mutsorterend|Sortowanie zakończone
+2118472631||item_name_viper_school_steel_sword_schematic|Schemat: Stalowy miecz cechu żmii
+2118472632||item_name_viper_school_silver_sword_schematic|Schemat: Srebrny miecz cechu żmii
+2118472633||panel_common_statistics_tooltip_incombat_regen|Regeneracja Witalności w walce
+2118472634||skill_desc_elven_set_ability1|Ataki zasięgowe mają $S$% większą szansę trafić krytycznie i zadają $S$% więcej obrażeń równowadze postawy. Uniki i przewroty nie wstrzymują regeneracji Równowagi Postawy.
+2118472635||skill_desc_elven_set_ability2|Możesz pozyskiwać losowe zioła z zabitych wrogów. Równowaga Postawy nie może zmaleć przez $S$ sekund po wykonaniu uniku, przewrotu, lub dalekiego ataku.
+2118472636||skill_desc_tiger_set_ability1|Kiedy obniżasz wrogom odporność na obrażenia fizyczne, ich penetracja pancerza jest o tyle samo obniżona. O zmierzchu regenerujesz $S$% więcej Wytrzymałości, Równowagi Postawy, i Wigoru.
+2118472637||skill_desc_tiger_set_ability2|Zdolność Rozszczepiające Ładunki nie ogranicza się do pierwszej petardy. Kiedy Albedo jest dominującą substancją, $S$% wolniej tracą ładunki oleje oraz traci trwałość ekwipunek.
+2118472638||W3EE_HerbAnim|Animacja - Zbieranie (Rośliny)
+2118472639||W3EE_LootingAnim|Animacja - Zbieranie (Inne)
+2118472640||skill_desc_sword_s20|Spowalnia odpływ Adrenaliny o $I$%.<br>Zwiększa szanse na atak krytyczny o $F$% za każdy punkt Wigoru.<br>Kontry i perfekcyjne parowania nie zredukują Równowagi Postawy poniżej $I$% maksymalnej.
+2118472641||ic_enable|Włącz
+2118472642||immersive_cam_enabled|Włącz mod Immersive Cam
+2118472643||W3EE_WeightCraft|Waga - Rzemiosło
+2118472644||panel_stash_unlimited|Nieograniczona
+2118472645||skill_desc_netflix_set_ability1|Na każdy założony element zestawu: $S$% zdobytej Adrenaliny przywraca Wigor, a kiedy Wigor jest pełen, $S$% regeneracji Wigoru jest dodane do regeneracji Wytrzymałości.
+2118472646||skill_desc_netflix_set_ability2|Rzucanie Znaków wytwarza $S$ Adrenaliny. Eliksir wypity gdy żaden inny nie jest aktywny, ma swoje działanie zwiększone o $S$%. Pasywne efekty odwarów są zwiększone o $S$%.
+2118472647||Redux_BehScale|Agresja - skalowanie z liczbą wrogów
+2118472648||Redux_StanceAnim|Wymuś dwuręczną postawę w walce
+2118472649||Redux_SetStamDynamic|Dynamiczny tryb Wytrzymałości
+2118472650||Redux_SetStamDefault|Domyślny tryb Wytrzymałości
+2118472651||Redux_SetStamStrategic|Strategiczny tryb Wytrzymałości
+2118472652||Redux_AttackCommit|Zaangażowanie w atak
+2118472653||attribute_name_toxicity_vigor_penalty|Kara do regeneracji wigoru z powodu toksyczności
+2118472654||Redux_ATOff|Off
+2118472655||Redux_ATHybrid|Hybrid
+2118472656||Redux_ATOn|On
+2118472657||Redux_LootRadius|Looting Radius
+2118472658||Redux_ControlOverride|Control Hints Override
+2118472659||Redux_ControlOverridePC|Keyboard
+2118472660||Redux_ControlOverridePS|Playstation
+2118472661||Redux_ControlOverrideXB|Xbox
+2118472662||Redux_ControlOverrideSC|Steam
+2118472663||Redux_ControlOverrideNA|Default
+2118472664||skill_name_mutation_master|Mutant Mastery
+2118472665|4c4d888d||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+2118472666||skill_name_mutation_1|Specter Mutation
+2118472667||skill_desc_mutation_1|Sign costs are reduced by $S$%.<br>Sign Intensity is increased by $S$%.<br>Melee damage is reduced by $S$%.
+2118472668||skill_name_mutation_2|Elemental Mutation
+2118472669||skill_desc_mutation_2|You no longer regenerate Vigor except when meditating.<br>Hitting enemies with melee attacks restores Vigor based on your normal regeneration rate.<br>Fast Attack: $S$ seconds worth of regeneration<br>Strong Attack: $S$ seconds worth of regeneration<br>Whirl: $S$ second worth of regeneration<br>Rend: $S$-$S$ seconds worth of regeneration
+2118472670||skill_name_mutation_3|Necrophage Mutation
+2118472671||skill_desc_mutation_3|Adrenaline gain is increased by 50%.<br>Adrenaline no longer degenerates.<br>Being hit will remove Adrenaline instead of adding it.
+2118472672||skill_name_mutation_4|Draconid Mutation
+2118472673||skill_desc_mutation_4|You no longer suffer any penalties to speed or damage from low Stamina.<br>When taking damage you lose $S$ Stamina per percentage point of Vitality lost.<br>You take up to $S$% additional damage based on your missing Stamina.
+2118472674||skill_name_mutation_5|Insectoid Mutation
+2118472675||skill_desc_mutation_5|Your toxicity level no longer drains except when meditating.<br>Spending Stamina and gaining Adrenaline will remove Toxicity based on your normal drain rate.<br>Per point of Stamina spent: $S$ seconds worth of drain<br>Per point of Adrenaline gained: $S$ seconds worth of drain
+2118472676||skill_name_mutation_6|Relict Mutation
+2118472677||skill_desc_mutation_6|You deal $S$% more Poise damage with ranged attacks against attacking or incapacitated targets.<br>You deal up to $S$% more damage with ranged attacks based on the target's missing Poise.<br>Your Defense Efficiency is reduced by $S$%.
+2118472678||skill_name_mutation_7|Cursed Mutation
+2118472679||skill_desc_mutation_7|You no longer regenerate Vitality except when meditating.<br>Damaging enemies that have recently damaged you will restore some of your lost Vitality based on the damage you dealt. Bonuses to Vitality Regeneration will increase the window you have to strike back.
+2118472680||skill_name_mutation_8|Ogroid Mutation
+2118472681||skill_desc_mutation_8|Stamina costs of defensive actions are paid with Poise.<br>You always avoid hit reaction when your Poise percentage is higher than the percent of Vitality lost.<br>You can be poisebroken by unblocked attacks.
+2118472682||skill_name_mutation_9|Vampire Mutation
+2118472683||skill_desc_mutation_9|Melee damage is increased by $S$%.<br>Poise costs are reduced by $S$%.<br>Stamina costs of actions are reduced by $S$%.<br>Sign costs are increased by $S$%.
+2118472684||skill_name_mutation_10|Hybrid Mutation
+2118472685||skill_desc_mutation_10|You can fully dodge attacks you are not normally able to, but when you do you incur additional Stamina and Poise costs.<br>Stamina regen delays after dodges are doubled.<br>You can no longer dodge while Overexerted.
+2118472686||skill_name_mutation_11|Latent Activation
+2118472687||skill_desc_mutation_11|Potions and Decoctions are no longer consumed when used.<br>White Honey no longer affects you.
+2118472688||skill_name_mutation_12|Metamorphosis
+2118472689||skill_desc_mutation_12|Gain the effects of all researched mutations.
+2118472690||Redux_MutationBaseMutagen|Current base mutagen: 
+2118472691||Redux_MutationNoneMutagen|None
+2118472692||Redux_MutationMultMutagen|Colored mutagen costs increased by 
+2118472693||Redux_Acclimation1|$I$ mutagen slots unlocked.
+2118472694||Redux_Acclimation2|$I$ mutagen slots unlocked.<br>Reduces the mutagen cost of Mutations by $I$%.
+2118472695||Redux_LootDestinationHorse|Horse
+2118472696||Redux_LootDestinationStash|Stash
+2118472697|06ae2506||Researched mutations to unlock: $I$
+2118472698|a344d8bd||Researched mutations for next stage: $I$
+2118472699|fb1e2184||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+   1075445|00000000||Aby rzucić petardę, naciśnij <<ThrowItem>><br><br>Możesz także wycelować przed rzuceniem, aby zwiększyć swoją celność. Aby to zrobić, przytrzymaj <<ThrowItem>> i wyceluj. Następnie zwolnij przycisk <<ThrowItem>> aby rzucić petardę.<br><br>Petardy mają 5-sekundowe odbezpieczanie, zanim wybuchną. Na to opóźnienie można wpłynąć w różny sposób.<br><br>Po pierwsze, zapalnik zostanie automatycznie skrócony podczas ręcznego celowania petardą. Petarda jest w pełni „uzbrojona” po 5 sekundach w czasie rzeczywistym i eksploduje przy uderzeniu, na co wskazuje iskrzenie trzymanej petardy. Petardy nie wybuchną przedwcześnie.<br><br>Po drugie, jeśli aktualnie wybranym znakiem jest Igni, a petardzie pozostała więcej niż 1 sekunda do uzbrojenia, automatycznie zużyjesz 0,5 wigoru, aby wybuchła przy upadku.<br> <br>Po trzecie, petardy natychmiast eksplodują, jeśli zostaną wystawione na działanie któregokolwiek z poniższych:<br>- Igni<br>- Aard<br>- Wybuchowe bełty<br>- Obrażenia od ognia spowodowane eksplozjami innych petard<br>- Cel z nałożonym efektem podpalenia.
+   1077685|00000000||To destroy a monster nest, strike it with the <font color="#CD7D03">Igni</font> sign.<br><br>You can also use a <font color="#CD7D03">Grapeshot</font>, <font color="#CD7D03">Samum</font> or <font color="#CD7D03">Dancing Star</font> bomb.
+   1087258|00000000||You can remove upgrades and runestones from your items here.
+   1087262|00000000||Once you select an item, you will be shown which upgrades it is fitted with here.<br><br>Bear in mind, however, that once you confirm your selection, <font color="#CD7D03">all</font> of this item's upgrades will be removed.
+   1087266|00000000||To remove upgrades, select an item and press <<GUI_Select>>
+   1087270|00000000||To remove upgrades and runestones, select an item and press <<GUI_PC_Select>>
+   1114581|00000000||You can get Temerian gear by helping Vernon Roche in eastern Novigraad.
+   1114589|00000000||You can get Nilfgaardian gear by working with Nilfgaardians throughout Velen. It can also be purchased from quartermaster Eggebracht at the Nilfgaardian army camp.
+   1114595|00000000||New Game+ is not supported in Enhanced Edition Redux.
+   1114607|00000000||You can get Skellige gear by helping Yoana at Crow's Perch.
+   1131841|00000000||Zdobądź korony dla Ofirskiego zaklinacza słów.
+   1136504|00000000||Daj korony Ofirskiemu zaklinaczowi słów.
+   1206642|00000000||<font color="#CD7D03">Mutations</font> are a further way to personalize your experience on the Path and customize your particular playstyle. They significantly alter core gameplay mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>Mutations can be unlocked in <b>any</b> order you wish. 
+   1206644|00000000||Developing a mutation requires a sizeable investment of <font color="#CD7D03">greater colored mutagens</font>, though there are several means of reducing their cost. When researching a red, blue, or green mutation you can provide a <font color="#CD7D03">base</font> mutagen that matches that mutation family. Any monster mutagen will suffice, but sourcing a higher tier archmutagen will provide further savings. This base mutagen is <b>not</b> consumed during research.<br><br>The cost of a mutation is also reduced by <font color="#CD7D03">10%</font> for each connected mutation already researched.<br><br>Finally the <font color="#CD7D03">Acclimation skill</font> will also reduce research costs.
+   1206650|00000000||Mutant Mastery
+   1206651|00000000||<font color="#CD7D03">Mutant Mastery</font> is a <b>passive ability</b> that develops automatically as you finish research on mutations.<br><br>This mutation has several stages, each boosting your experience gain in the <font color="#CD7D03">Mutations</font> and <font color="#CD7D03">Trials of the Grasses</font> skill trees. There are 4 total stages unlocked at two, four, eight, and twelve researched mutations.<br><br>Additionally, if you manage to gain access to an advanced laboratory dealing with Witcher mutations, this ability will gain further bonuses based on the color of your equipped mutation.<br><br>Blue: +25% Vigor Regeneration<br>Green: +50% Toxicity Drain<br>Red: +20 Vitality Regeneration<br>Orange: +20% Stamina Regeneration
+   1206729|00000000||In Enhanced Edition Redux, mutations are available from the start of the game.<br><br>Mutations significantly alter core game mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>To learn more, open the <font color="#CD7D03">Character Panel</font>.
+   1206763|00000000||Mutation Research
+   1206764|00000000||Once again, any mutation can be researched first regardless of its position. For tutorial purposes, select one of the highlighted mutations.
+   1206765|00000000||Mutation Research
+   1206766|00000000||Once a mutation is researched, it will reduce the resarch cost of all connected mutations by 10%. The <font color="#CD7D03">Acclimation</font> skill will also reduce the required number. 
+   1206771|00000000||Mutant Mastery
+   1206772|00000000||<font color="#CD7D03">Mutant Mastery</font> is a passive ability that improves automatically as you develop other mutations. It will also gain additional benefits when you gain access to an advanced laboratory during <font color="#CD7D03">Turn and Face the Strange</font>.
+   1206779|00000000||Mutant Mastery
+   1206780|00000000||Congratulations!<br>Your <font color="#CD7D03">Mutant Mastery</font> has advanced to the next level!
+   1206785|00000000||Mutation Research
+   1207952|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. Return here with enough mutagens to unlock a mutation.
+   1214082|00000000||To use mutations, first you must research them. In Enhanced Edition Redux, mutations can be researched in <font color="#CD7D03">any order</font>. However, to advance this tutorial, select one of the highlighted mutations.
+   1214084|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. This base mutagen is not consumed. 
+   1225007|00000000||You can get the Thousand Flowers set by helping elves throughout Velen and Novigraad. It can also be purchased at the Scoia'tael camp southwest of Novigraad.
+   1225008|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.
+   1225013|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.

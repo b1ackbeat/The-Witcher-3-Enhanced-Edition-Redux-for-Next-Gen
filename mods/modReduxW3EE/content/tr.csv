@@ -1,0 +1,714 @@
+;meta[language=tr]
+; id      |key(hex)|key(str)| text
+2118472000|1f70c020||%$I$ daha az Metanet tüketir. Yaklaşan yakın mesafe saldırısı hasarı %$I$ azalır.<br>%$I$ ihtimalle dönerken hasar almak sendelemeye neden olmaz.
+2118472001|1f70c022||Savunma verimliliğini %$I$ artırır. Karşı koymalar ve mükemmel savuşturmalar yoluyla alınan hasarı %$I$ azaltır. %$I$ ihtimalle insan boyutundaki düşmanlardan gelen saldırıları savuştururken sendeleme etkilerinden kaçınabilirsiniz.
+2118472002|1f70c024||Hızlı saldırıların yaralama ihtimali %$I$ daha yüksektir.<br>Hızlı saldırılar düşman hızını %$F$ azaltır, bu etki en fazla %$F$'a kadar birikebilir.<br>Düşman hızı düşman $I$ saniye boyunca hasar almazsa eski haline döner.
+2118472003|bcff1d6b||Parçalama Saldırıları
+2118472004|1f70c025||Güçlü saldırılar %$I$ daha fazla denge hasarı verir.<br>Güçlü saldırılar düşman bloklarını aşarak %$I$ hasar verir.
+2118472005|cea74410||Yaralanma ihtimali %$F$ daha düşüktür.<br>Arkadan saldırıya maruz kalındığında denge kaybı %$F$'a düşer.<br>Fırlatılabilirleri saptırmak ve yeniden yönlendirmek %$F$ daha az metanet ve denge kaybına neden olur.
+2118472006|bcff1d6e||Ayak Hareketi
+2118472007|1f70c028||Hareket verimliliğini %$I$ artırır.<br>Sıyrık sonucu alınan hasarı %$I$ azaltır.<br>Saldırılardan sıyrılırken sendeleme etkilerinden kaçınma ihtimali %$I$'dir.
+2118472008|e2e48f8d||Durağan Atış
+2118472009|cea74413||Menzilli silahların verdiği hasar %$I$ artar.<br>Menzilli silahlara nişan alırken zaman yavaşlaması %$I$ artar.
+2118472010|cea74416||Sendeleme etkilerine karşı koyma ihtimalini %$I$ artırır.<br>Düşük Metanet'den kaynaklanan hız maliyetini %$I$ azaltır.<br>Düşük zindeliki'den kaynaklanan İşaret Yoğunluğu maliyetini %$I$ azaltır.
+2118472011|163a8e70||Alternatif İşaret Modu:<br>Aard daire şeklinde bir alana etki eder, ancak hasarı ve geri savurma gücü azaltılmıştır.<br>Hasar azaltma %$I$'e indirilir.<br>Düşmanı geri savurma gücü azaltması %$I$'e indirilir.
+2118472012|163a8e71||Alternatif İşaret Modu:<br>Devamlı bir ateş akışı yayarak $F$ hasar verir ve rakipleri %$F$ yavaşlatır.<br>Yanan düşmanlara %$I$ hasar verir.<br>Zindelik maliyeti %$I$ azaltılmıştır.
+2118472013|163a8e72||Alternatif İşaret Modu:<br>Geralt'a saldıranları şoklayan koruyucu bir glif oluşturur.<br>%$I$ hasar verir ve yetenek seviyesine ve düşman Denge'sine bağlı olarak saldırıları kesme ihtimaline sahiptir. Her hedef, $F$ saniyede bir vurulabilir.<br>Alanı geçen okları ve kısa okları yok eder.
+2118472014|163a8e73||Alternatif İşaret Modu:<br>Aktif bir kalkan oluşturur. Onu sürdürmek ve saldırıları engellemek Zindelik harcar.<br>Kalkan tarafından emilen hasar Metanet'i geri kazandırır.<br>Engellenen saldırıların Zindelik maliyetini %$I$ azaltır.<br>Metanet'in geri kazandırılma miktarını %$I$ artırır.
+2118472015|163a8e74||Alternatif İşaret Modu:<br>Hedef düşman $I$ saniye boyunca bir müttefik haline gelir.<br>Temel başarı ihtimali %$I$'dir, her mevcut kukla başına -%$I$.<br>Kukla tarafından saldırıya uğrayan veya saldıran düşmanlar $I$ morali kaybeder.<br>Etki, hedefin sağlığı %$I$'nin altına düştüğünde sona erebilir.
+2118472016|0083ce62||Çözünme
+2118472017|8d17aa9c||Esansları damıtırken verimi %$I$ artırır.<br>Nigredo'nun büyüklüğünü ve süresini %$I$ artırır.
+2118472018|0083ce63||Arıtma
+2118472019|8d17aa9d||Birden fazla iksiri içmekten kaynaklanan toksisite artışını %$I$'e düşürür.<br>Albedo'nun büyüklüğünü ve süresini %$I$ artırır.
+2118472020|0083ce64||Pıhtılaşma
+2118472021|8d17aa9e||İksirler (Beyaz Bal hariç) içildiğinde Can'ın %$I$'ini geri kazandırır.<br>Rubedo'nun büyüklüğünü ve süresini %$I$ artırır.
+2118472022|0083ce65||Doygunluk
+2118472023|8d17aa9f||İksirlerin süresini %$I$ artırır.<br>İksirlerin toksisitesini %$I$ artırır.
+2118472024|15dda916||Uygulanan kılıç yağları %$I$ daha güçlüdür.<br>Uygulanan kılıç yağları tükenirken %$I$ daha az etkisini yitirir.
+2118472025|0083ce66||Sabitleyici
+2118472026|8d17aaa0||Uygulanan kılıç yağları %$I$ daha uzun süre dayanır.<br>Uygulanan kılıç yağları silahın dayanıklılık kaybını %$I$'a kadar azaltır.
+2118472027|0083ce67||Kan Nakli
+2118472028|8d17aaa1||Yağ etkileri düşman kanama seviyesi başına %$I$ artar.<br>Düşman kanama seviyesi başına %$I$ ihtimalle, uygulanan kılıç yağları yük kaybetmez.
+2118472029|8d17aaa4||Bombaların maksimum fırlatılma mesafesini %$I$ artırır.<br>Bombaları hedeflerken zaman yavaşlaması %$I$ artırılır.
+2118472030|0ff5fe16||Benzeşim
+2118472031|15dda91c||Aktif Kaynatılmış Özler, o ailedeki canavarlardan alınan hasarı %$I$ azaltır.<br>Active Mutations reduce damage taken from monsters of that family by $I$%.<br>Researched Mutations reduce damage taken from monsters of that family by $I$%.
+2118472032|0ff5fe11||Avcı İçgüdüsü
+2118472033|15dda917||Kuşanılmış Güçlü Mutajenler, o ailedeki canavarlara verilen hasarı kademe başına %$I$ artırır.<br>Active Mutations increase damage dealt to monsters of that family by $I$%.<br>Researched Mutations increase damage dealt to monsters of that family by $I$%.
+2118472034|0ff5fe17||Acclimation
+2118472035|0ff5fe12||Gerilme İzolasyonu
+2118472036|15dda918||Tüm mutajen kaynatılmış özlerinin etkin süresini %$I$ uzatır ve toksisitelerini %$I$ azaltır.<br>Simyanın bir yan ürünü olarak düzenli mutajenler elde etme ihtimali %$I$'dir.
+2118472037|15dda91a||Mevcut Toksisite yüzdesine bağlı olarak hızı %$I$'a kadar artırır.<br>Adrenalin üretimini mevcut Toksisite yüzdesine bağlı olarak %$I$'a kadar artırır.
+2118472038|15dda933||Alınan hasarı mevcut Toksisite yüzdesine bağlı olarak %$I$'a kadar azaltır.<br>Denge bedelini mevcut Toksisite yüzdesine bağlı olarak %$I$'a kadar azaltır.
+2118472039|0ff5fe13||Yükseltilmiş Tolerans
+2118472040|15dda919||Toksisite Ateşi'nin devam eden etkilerini %$I$ azaltır.<br>Toksisite aşımı nedeniyle alınan hasarı %$I$ azaltır.
+2118472041|0ff5fe15||Metabolik Kontrol
+2118472042|15dda91b||Toksisite boşaltımını %$I$ artırır.<br>Toksisiteden kaynaklanan zindelik yenilenmesi azaltmalarını %$I$ azaltır.
+2118472043|306f5267||Süvari
+2118472044|da7e5ba1||At sırtında verilen hasarı %$I$ artırır.<br>Binek korkusunu %$I$ azaltır.<br>Dörtnala koşmak %$I$ daha az metanetk harcar.
+2118472045|306f5269||Simya Araştırmaları
+2118472046|da7e5ba3||Canavarlardan ve bitkilerden yağmalanan simya malzemesi miktarını %$I$ artırır.
+2118472047|da7e5ba4||Kuşanılmış her hafif zırh parçası için:<br>+$I$ güvenli sıyrılma açısı<br>+%$F$ adrenalin üretimi<br>-%$F$ yaralanma ihtimali elde edildi.
+2118472048|da7e5ba5||Kuşanılmış her orta ağırlıkta zırh parçası için:<br>+%$I$ ikincil dirençler<br>-%$F$ metanet yenilenme gecikmesi<br>-%$F$ denge yenilenme gecikmesi.
+2118472049|da7e5ba6||Kuşanılmış her ağır zırh parçası için:<br>+$F$ metanet yenilenmesi<br>+$F$ denge yenilenmesi<br>Mükemmel savuşturmalar ve çarpma karşı saldırısı gerçekleştirirken +%$F$ yere serme ihtimali.
+2118472050|754d1890||Çatışma başlangıcında $I$ Adrenalin kazandırır ve savuşturmaların Adrenalin üretmesini sağlar.
+2118472051|dd7afa8b||Coup de Grâce
+2118472052|754d1891||Kritik vuruş ihtimali, düşman yaralanması başına %$I$ artar.<br>Kritik vuruşların yaralama ihtimalini $F$'a çıkar ($F$'dan).
+2118472053|dd7afa8c||Simyasal Arıtma
+2118472054|754d1892||İksirler, yağlar veya bombalar hazırlarken, kontamine veya kaliteli bir içerik $I$ kalite seviyesi daha yüksek olarak değerlendirilecektir.
+2118472055|dd7afa8d||Ayağı Çabuk
+2118472056|754d1893||Hareket hızını %$I$ artırır.<br>Çatışmada koşmak ilk $I$ saniye boyunca metanet tüketmez.
+2118472057|754d1895||Yiyecek ve içeceklerin faydalı etkileri %$I$ daha uzun süre devam eder.<br>Hem iyi beslenirken hem de iyi su tüketirken $I$ Can kazanırsınız.
+2118472058|dd7afa90||Konumlanma
+2118472059|754d1896||Yandan saldırı gücünü %$I$ artırır.<br>Güvenli sıyrılma açısını $I$ artırır.
+2118472060|dd7afa92||Gelişmiş Bakım
+2118472061|754d1898||Ekipman bakım güçlendirmeleri iki kat daha uzun sürer.<br>Tamir kitleri bakım güçlendirmeleri uygular.<br>%$I$ ihtimalle bir tamir kiti kullanıldığında tüketilmeyecektir.
+2118472062|dd7afa93||Avcı
+2118472063|754d1899||Canavar kontratlarının hedeflerine verilen hasarı %$I$ artırır.<br>Av Ganimetleri %$I$ daha pahalıya satılır.
+2118472064|dd7afaaa||Kavgacı
+2118472065|754d18b0||Eldiven zırhını silahsız hasara ekler.<br>Canavarlara karşı silahsız hasar kaybını kaldırır.<br>Dengeyi $I$ artırır.
+2118472066|754d18b1||Maksimum taşıma ağırlığı $I$ artar.<br>Kuşanılmış zırhlardan kaynaklanan dezavantajlar %$I$ azalır.
+2118472067|cea74418||Can %$F$'ın altına düştüğünde, her Adrenalin puanı Can Yenilenmesini $F$'a kadar artırır ve alınan hasarı $F$'a kadar azaltır.
+2118472068|6dcf4535||Kilidi açmak için gereken mutasyon beceri puanları
+2118472069|09e37be1||Toksisite Boşaltımı
+2118472070|9ac99c6f||Doğaüstü Varlıklara Verilen Hasar
+2118472071|d083d32c||Don hasarı
+2118472072|3ff69286||Soğutma ihtimali
+2118472073|1935a008||Zehir hasarı
+2118472074|1b47b2ca||Yaralama ihtimali
+2118472075|4daea6a8||Sendeletme ihtimali
+2118472076|8cda7a5f||Peçe yağındaki dimerityum bazı sihirli ve doğaüstü yetenekleri geçici olarak engeller.<br>Yetenekleri $S$ saniye boyunca engeller.
+2118472077|252e4c38||Başlangıçta Falka'nın zalimlikleri için bir araç olarak geliştirilmiş olsa da, bu yağı kullanmanın etiği, yoldaki uygulamaları tarafından kolayca gölgede bırakılır.
+2118472078|d835eee2||Çelik kılıçların doğaüstü yaratıklara hasar vermesini sağlayan ve onların yenilenmesini durduran gümüş yanıklara neden olan gümüş parçacıklı bir yağ.<br>Doğaüstü yaratıkları $S$ saniye boyunca yakar ve saniye başına $S$ hasar verir.
+2118472079|c32c566a||Kanamaya karşı direnci artırır. Vampirler veya Nekrofagiler tarafından hasar alındığında, karşılığında onlar da hasar ve denge hasarı alır.
+2118472080|c32c566b||Kanamaya karşı direnci artırır. Vampirler veya Nekrofagiler tarafından hasar alındığında, karşılığında onlar da hasar ve denge hasarı alır.
+2118472081|c32c566c||Kanamaya karşı direnci artırır. Vampirler veya Nekrofagiler tarafından hasar alındığında, karşılığında onlar da hasar ve denge hasarı alır.<br><br>Üstün iksir: Düşmanları geri verilen hasara oranla zehirler.
+2118472082|1b06cd08||Adrenalin üretimini artırır ve bir düşman saldırıya başladığında zaman kısa bir süreliğine yavaşlar.
+2118472083|1b06cd09||Adrenalin üretimini artırır ve bir düşman saldırıya başladığında zaman kısa bir süreliğine yavaşlar.
+2118472084|1b06cd0a||Adrenalin üretimini artırır ve bir düşman saldırıya başladığında zaman kısa bir süreliğine yavaşlar.<br><br>Üstün iksir: hız, mevcut adrenalin ile orantılı olarak dengelenir.
+2118472085|874e9f86||Hareket hızını, hareket verimliliğini ve güvenli sıyrılma açısını artırır.
+2118472086|874e9f87||Hareket hızını, hareket verimliliğini ve güvenli sıyrılma açısını artırır.
+2118472087|874e9f88||Hareket hızını, hareket verimliliğini ve güvenli sıyrılma açısını artırır.<br><br>Üstün iksir: Sıyrılma gerçekleştirirken sendeleme etkilerini yok eder.
+2118472088|be845121||Maksimum canı ve yaralanmalara karşı direnci artırır.
+2118472089|be845122||Maksimum canı ve yaralanmalara karşı direnci artırır.
+2118472090|be845123||Maksimum canı ve yaralanmalara karşı direnci artırır.<br><br>Üstün iksir: Geceleri, gelen saldırılar maksimum canın 1/5'inden fazlasını veremez. Dolunay sırasında bu etki maksimum canın 1/6'sı kadardır.
+2118472091|3a84c328||Zehirlenmeye ve zehir hasarına karşı direnci artırır ve zehir yüklerinin azalmasını hızlandırır.
+2118472092|3a84c329||Zehirlenmeye ve zehir hasarına karşı direnci artırır ve zehir yüklerinin azalmasını hızlandırır.
+2118472093|3a84c32a||Zehirlenmeye ve zehir hasarına karşı direnci artırır ve zehir yüklerinin azalmasını hızlandırır.<br><br>Üstün iksir: içildiğinde, mevcut toksisite yüzdesine eşit miktarda can yüzdesi iyileştirir.
+2118472094|7e132eab||Dengeyi, savunma metaneti verimliliğini artırır; karşı koymalar ve savuşturmalar yoluyla alınan hasarı azaltır.
+2118472095|7e132eac||Dengeyi, savunma metaneti verimliliğini artırır; karşı koymalar ve savuşturmalar yoluyla alınan hasarı azaltır.
+2118472096|7e132ead||Dengeyi, savunma metaneti verimliliğini artırır; karşı koymalar ve savuşturmalar yoluyla alınan hasarı azaltır.<br><br>Üstün iksir: İnsan boyutundaki düşmanlardan gelen saldırıları savuştururken sendeleme etkilerini yok eder.
+2118472097|27d6f7d6||Zindelik yenilenmesini artırır.
+2118472098|27d6f7d7||Zindelik yenilenmesini artırır.
+2118472099|27d6f7d8||Zindelik yenilenmesini artırır.<br><br>Üstün iksir: Tam zindelikteyken toksisite boşaltımı %50 artar.
+2118472100|9e58d1f3||İşaret yoğunluğunu artırır.
+2118472101|9e58d1f4||İşaret yoğunluğunu artırır.
+2118472102|9e58d1f5||İşaret yoğunluğunu artırır.<br><br>Üstün iksir: İşaretler her zaman özel etkilerini uygular.
+2118472103|56747c55||Can yenilenmesini artırır. Hasar alındığında etki 2 saniyeliğine duraklatılır.
+2118472104|56747c56||Can yenilenmesini artırır. Hasar alındığında etki 2 saniyeliğine duraklatılır.
+2118472105|56747c57||Can yenilenmesini artırır. Hasar alındığında etki 2 saniyeliğine duraklatılır.<br><br>Üstün iksir: Tam candayken etki süre tükenmez.
+2118472106|437e276a||Metanet yenilenmesini ve saldırı metaneti verimliliğini artırır.
+2118472107|437e276b||Metanet yenilenmesini ve saldırı metaneti verimliliğini artırır.
+2118472108|437e276c||Metanet yenilenmesini ve saldırı metaneti verimliliğini artırır.<br><br>Üstün iksir: etki süresi gece tükenmez.
+2118472109|295c2a69||Zırh delme, denge hasarı ve bloklardan geçerek verilen hasarı artırır.
+2118472110|295c2a6a||Zırh delme, denge hasarı ve bloklardan geçerek verilen hasarı artırır.
+2118472111|295c2a6b||Zırh delme, denge hasarı ve bloklardan geçerek verilen hasarı artırır.<br><br>Üstün iksir: Kritik vuruşların çılgınlığı tetikleme ihtimali vardır, hızı artırırken zamanı yavaşlatır.
+2118472112|de026195||Aktif ve durağan toksisiteyi boşaltır ve toksisite ateşini iyileştirir, ancak tüm aktif iksirleri iptal eder.
+2118472113|de026196||Aktif ve durağan toksisiteyi boşaltır ve toksisite ateşini iyileştirir, ancak tüm aktif iksirleri iptal eder.
+2118472114|de026197||Aktif ve durağan toksisiteyi boşaltır ve toksisite ateşini iyileştirir, ancak tüm aktif iksirleri iptal eder.<br><br>Üstün iksir: İksir etkilerinin iptal edilmesi 10 saniye geciktirilir.
+2118472115|9ec8a224||Can yenilenmesini büyük ölçüde artırır.
+2118472116|9ec8a225||Can yenilenmesini büyük ölçüde artırır.
+2118472117|9ec8a226||Can yenilenmesini büyük ölçüde artırır.<br><br>Üstün iksir: içildiğinde, eksik canın %30'unu iyileştirir.
+2118472118|739e1e2c||Kuşanılmış her set parçası için: saldırılar +%$S$ yandan saldırı gücüne ve sıyrılma gerçekleştirdikten sonra $S$ saniye boyunca yaralama ihtimaline sahiptir ve sıyrılmalar +%$S$ metanet verimliliğine ve saldırıdan sonra $S$ saniye boyunca sıyrık hasarı azaltma etkisine sahiptir.
+2118472119|739e1e2d||Verdiğiniz yaralar düşmanın hızını ve hasarını %$S$ azaltır.
+2118472120|8ed43e3f||Kuşanılmış her set parçası için: Verdiğiniz Uhrevi hasarın %$S$'ı düşmanın kuvvet, don, ateş, şok ve zihinsel dirençlerini kalıcı olarak düşürür. Hasar bağışıklıklarını kırabilir, ancak durum bağışıklıklarını kıramaz.
+2118472121|8ed43e3e||Bir Yrden halkasının içindeyken +%$S$ zaman yavaşlaması, +%$S$ Zindelik yenilenmesi ve diğer İşaretler için +%$S$ Yoğunluk elde edersiniz.
+2118472122|d23efdaf||Kuşanılmış her set parçası için: mükemmel savuşturmalar %$S$ daha fazla denge hasarı verir, bir düşmanın dengesini bozmak $S$ metanet kazandırır ve dengesi bozulmuş düşmanlara yapılan saldırılar %$S$ daha fazla hasar verir.
+2118472123|d23efdb0||Mevcut dengenin her bir puanı, düşmanın zırh delme gücünü %$S$ ve karşı hamleler ve savuşturmalar yoluyla alınan hasarı %$S$ azaltır. Her eksik denge puanı saldırı hızını %$S$ ve denge hasarını %$S$ artırır. Denge, bloklama yapılmadığı veya hareketsiz durulmadığı sürece yenilenmez.
+2118472124|85e8fbd1||Kuşanılmış her set parçası için: Kanama uygulamak $S$ Adrenalin üretir ve $S$'ın üzerinde kazanılan her Adrenalin puanı $S$ Can ve $S$ Metanet geri kazandırır.
+2118472125|85e8fbd2||Maksimum Adrenalin $S$'a yükseltilir. Kanama yükleri düşman kuvvetini ve donma direncini %$S$ azaltır.
+2118472126|6c1d3ba3||Kuşanılmış her set parçası için: Hedef üzerindeki durum etkisi başına +%$S$ menzilli hasar (bombalar dahil) ve +%$S$ saldırı gücü sağlar.
+2118472127|6c1d3ba4||Toksisite yüzdesi ile ölçeklenen etkiler, bunun yerine düz Toksisite ile ölçeklenir. Aktif Toksisite puanı başına +%$S$ saldırı gücü ve +$S$ Can yenilenmesi.
+2118472128|90f6cc99||Kuşanılmış her set parçası için: kritik vuruş ihtimali, hedef üzerindeki her zehir yükü için %$S$ artar ve Axii başarılı bir kullanımda en fazla $S$ yüke kadar zehir etkisi uygular.
+2118472129|90f6cc9a||İlave bir yağ uygulayabilirsiniz ve ilave yağlardan kaynaklanan tesir kaybı %$S$ azalır. Uygulanan her yağ, kritik vuruşlardaki bonus yağ tesirini %$S$ artırır.
+2118472130|4080bc95||Yakın dövüşte size hasar veren düşmanların kanama ihtimali vardır.
+2118472131|4080bc96||Yakın dövüşte öldürülen düşmanlar, üzerlerindeki kanama yükü başına Canınızı $S$ kadar yeniler.
+2118472132|4080bc97||Yakın dövüşte size hasar veren düşmanların sersemleme veya kuklanız olma ihtimali vardır.
+2118472133|4080bc98||Axii hedeften tüm kanamayı kaldırarak kanama yükü başına Canınızı $S$ kadar geri kazandırır.
+2118472134|7147041d||Güçlü saldırılar, bir sonraki hızlı saldırınızın hasarını $S$ kadar artırır ve bunun tersi de geçerlidir.
+2118472135|c99bd20f||$S$ canın altındaki bir rakibe saldırmak $S$ ekstra uhrevi hasar verirken, $S$ canın altındayken rakiplere saldırmak $S$ ekstra uhrevi hasar ve +$S$ Adrenalin kazancı sağlar.<br>Bu etkiler birikebilir.
+2118472136|4c4bdd7a||Canınız $S$'ın altına düştüğünde, yakın dövüşte $S$'a kadar daha fazla hasar verirsiniz.
+2118472137|fca08245||Gláeddyv Blathanna
+2118472138|942307fe||Mantikor arbaleti
+2118472139|0e7bf6b8||Sağlam ve kullanışlı bir fırlatılabilir silahı.
+2118472140|9e52384c||Diyagram: Mantikor arbaleti
+2118472141|d23992f7||Hasar
+2118472142|89dfeac9||Kritik vuruş ihtimali
+2118472143|69d8dd89||Kritik vuruş hasarı
+2118472144|3c4a6af2||Hasar
+2118472145|bc4297c4||Kritik vuruş ihtimali
+2118472146|5806ca6e||Kritik vuruş hasarı
+2118472147|c7b0b7d7||Hasar
+2118472148|73d42fa9||Kritik vuruş ihtimali
+2118472149|3375c4a9||Kritik vuruş hasarı
+2118472150|b08bd7d2||Hasar
+2118472151|fa3924a4||Kritik vuruş ihtimali
+2118472152|2e06698e||Kritik vuruş hasarı
+2118472153|9ee36bde||İkincil Dirençler
+2118472154|d77df5a3||Metanet maliyetleri değiştiricisi
+2118472155|bb4c164a||Metanet yenilenmesi değiştiricisi
+2118472156|611eba4c||Verimlilikler
+2118472157|a853b90c||Saldırı
+2118472158|a853c270||Savunma
+2118472159|a853e57f||Hareket
+2118472160|a873c1a4||Üretim Oranları
+2118472161|660463ab||Geçerli çarpan
+2118472162|5a563e63||Karşı hamle başına adrenalin kazancı
+2118472163|a873acf5||Saldırı başına adrenalin kazancı
+2118472164|6606538a||Öldürme başına adrenalin kazancı
+2118472165|a873c5e7||Alınan darbe başına adrenalin kazancı
+2118472166|ad65ad94||Hasar bonusu
+2118472167|34b0307a||Hız dengelemesi
+2118472168|61215338||İşaret Yoğunluğu - Öfke Seli
+2118472169|9b0279d0||Oranlar
+2118472170|6634a559||Toksisite kazanımı
+2118472171|603d5b5e||Toksisite boşaltımı
+2118472172|60379d1e||Saniye başına değişim
+2118472173|610fe1ad||Temel hız bonusu - Çılgınlık
+2118472174|c97d7b95||Adrenalin üretimi bonusu - Çılgınlık
+2118472175|c97d7d42||Alınan hasar azalması - Acıya Dayanma
+2118472176|60e53782||Denge kaybı azalması- Acıya Dayanma
+2118472177|31530a11||Zindelik yenilenmesinde azalma - Toksisite Ateşi
+2118472178|6cca3390||Metanet yenilenmesinde azalma - Toksisite Ateşi
+2118472179|2c95c79e||Temel hız azalması - Toksisite Ateşi
+2118472180|fa5fe1ca||Igni Yoğunluğu
+2118472181|69a5ef8d||Zindelik yenilenmesi azalması - Can
+2118472182|cb182f78||Zindelik yenilenmesi azalması - Toksisite
+2118472183|b05bd39a||Zindelik yenilenmesi bonusu - Adrenalin
+2118472184|634d93e6||Maliyet değiştirici
+2118472185|a5980d0f||Redux
+2118472186|fea6c717||Dahili Öğelerin Adlarını Göster
+2118472187|dc78246f||Görev Eşyalarını Bırak
+2118472188|f582d556||Bırakılan Öğeleri Sil
+2118472189|850ab239||Bitiriciler - Denge Bitiricilerini Devre Dışı Bırak
+2118472190|a9f59285||Metanet Yenilenmesi Çarpanı
+2118472191|a926ec8e||Metanet Maliyeti Çarpanı
+2118472192|01be5517||Saldırganlık - Metanet
+2118472193|842f2c7b||Saldırganlık - Davranış
+2118472194|34537901||Denge Verimliliği
+2118472195|51517d52||toksisite boşaltımını %$I$ artır
+2118472196|51517d53||can yenilenmesini $I$ artır
+2118472197|51517d54||verilen hasarı %$I$ artır
+2118472198|28bf4ac7||Roach
+2118472199|28cfaa13||Zula
+2118472200||Redux_item_quant_on_Roach|Roach üzerinde
+2118472201|11bda277||Roach Aç / Kapat
+2118472202|28cfaa13||Zula
+2118472203|e4718bad||Zula
+2118472204|7aae494d||Efsunger Hisleri - Aç / Kapat
+2118472205|81426c9e||Dayanıklılık
+2118472206|2ae9db22||Can Çalma
+2118472207|c5548b41||Uyuşukluk
+2118472208|b1173fc7||Axii sona erdiğinde, hedefler maksimum metanetlerinin ve dengelerinin %$I$'ını kaybederler ve $I$ saniye boyunca yavaşlarlar.<br>Bu etkiler hedefin maksimum canına bağlı olarak azalır.
+2118472218|952c6052||Özel Kılıç Efektlerini Devre Dışı Bırak
+2118472219|392e560f||Kedi Sıyrılma Bonusu
+2118472220|e7cb8710||Kedi Saldırı Bonusu
+2118472221|8c7e03a5||Roach'ta kaç öğeniz olduğunu görün
+2118472222|d67df7c9||Metanet yenilenmesi ve verimlilik bonusu
+2118472223|c7cde2ed||Hız azaltma
+2118472224|fb0b1ca2||Hasar Azalması - Metanet Yokken Maksimum Azalma Yüzdesi
+2118472225|b65455e4||Aşırı Yorulduğunuzda Mesafe Değiştiricileri Devre Dışı Bırakın
+2118472226|c215a129||Zula Hata Ayıklama
+2118472227|d78475c2||Toksisite - Çarpan
+2118472228|fca9f3f4||Kritik vuruşlar Dengeyi tamamen yeniler ve bir yaralanmayı iyileştirir.
+2118472229|7e7c0f49||Set Bonusları - Birinci Gereklilik
+2118472230|7e7c0f4a||Set Bonusları - İkinci Gereklilik
+2118472231|0335ddd4||Redux - Dinamik
+2118472232|04070793||Redux - Stratejik
+2118472233|b17c1616||Kritik hasar, hedefin zırh miktarına bağlı olarak %$S$'a kadar artar (yüksek zırh daha yüksek kritik hasar sağlar). Saldırı yapmadan geçen $S$ saniyeden sonra, bir sonraki saldırınız %$S$ arttırılmış kritik ihtimaline ve zırh delmeye sahip olur.
+2118472234|5aeb007f||Karşı hamleleriniz %$S$ daha az denge kaybına neden olur. Sizden daha az dengeye sahip bir düşmana vurmak $S$'a kadar metanet geri kazandırır.
+2118472235|4bb57a89||Yakın dövüşte size vuran düşmanlar soğuyabilir. İki elle kullanılan ikincil bir silahla saldırırken, %$S$ daha fazla hasar verir ve sendelemeye karşı bağışıklık kazanırsınız.
+2118472236|50f4a279||Kuşanılmış tüm Glifler (Glifsöz bileşenleri dahil) ek bonuslar sağlar.<br>İşaretler: +%$S$ ilgili İşaret Yoğunluğu<br>Onarım: +$S$ Can yenilenmesi<br>Özgürleştirme: +$S$ Metanet yenilenmesi<br>Bağlayıcı: +%$S$ Toksisite Boşaltımı<br>Koruma: +$S$ Zırh
+2118472237|733c86a3||Fırlatma bıçakları saldırıları sırasında rakipleri sersemletir. Geceleri, toplam hız %$S$ artar ve sıyrılma mesafeleri uzar.
+2118472238|690ddece||Geliştirilmiş Kaer Morhen pantolonu
+2118472239|21c8d889||Geliştirilmiş Kaer Morhen çizmeleri
+2118472240|277a3552||Geliştirilmiş Kaer Morhen eldivenleri
+2118472241|b962f101||Geliştirilmiş Kaer Morhen çelik kılıcı
+2118472242|c9e11bdd||Geliştirilmiş Kaer Morhen gümüş kılıç
+2118472243|846e5350||Geliştirilmiş Kaer Morhen pantolonu
+2118472244|dda11bf5||Geliştirilmiş Kaer Morhen çizmeleri
+2118472245|86c4fc3c||Geliştirilmiş Kaer Morhen eldivenleri
+2118472246|1a08a47d||Geliştirilmiş Kaer Morhen çelik kılıcı
+2118472247|8c1ae811||Geliştirilmiş Kaer Morhen gümüş kılıç
+2118472248|59bcba77||Ateş Akımı hasarını $I$, Igni hasarını $I$ ve yanma hasarını $I$ artırır.
+2118472249|7aadffbb||Şaheser Yorumlarını Devre Dışı Bırak
+2118472250|d7da4873||Ölüm Sayacı
+2118472251|8905ccf1||Gaunter Modu
+2118472252|c4821010||Etkin
+2118472253|e99195be||Beceri Puanı Gereksinimi
+2118472254|e9918422||Harcanan Beceri Değiştiricisi
+2118472255|629d3698||Ölüm Sınırı
+2118472256|c992d233||Ölüm Başına Maksimum Can Kaybı
+2118472257|b35b573e||Ölüm Başına Maksimum Metanet Kaybı
+2118472258|3e75e328||Ölüm Başına Maksimum Toksisite Kaybı
+2118472259|efa7a542||Ölüm Başına İşaret Yoğunluğu Kaybı
+2118472260|a65aaea0||Ölüm Başına XP Değiştirici
+2118472261|955bb0da||Maksimum Ekipman Dayanıklılık Kaybı
+2118472262|64404c5e||TANRI'nın İşareti
+2118472263|33e40636||TANRI'nın İşareti - Sadece Ölümcül
+2118472264|24605ff1||Görevlerden Ölüm Azaltma
+2118472265|88c2a51f||Yakın Zamandaki Ölümlerden Kaynaklanan Ölüm Artışı
+2118472266|04b97da3||Hücum verimliliği
+2118472267|08ea54c5||Savunma verimliliği
+2118472268|e804f558||Hareket verimliliği
+2118472269|5866c933||Hareket hızı
+2118472270|b4725d95||Hareket hızı
+2118472271|18812868||Hareket hızı
+2118472272|39faab0f||Küçük Özgürleştirme Glifi
+2118472273|9249f156||Özgürleştirme Glifi
+2118472274|123d4e11||Büyük Özgürleştirme Glifi
+2118472275|87f67099||Yükseltmeleri kaldırmak istediğinizden emin misiniz?
+2118472276|1016d7f5||Yakma ihtimali
+2118472277|162c60aa||Uhrevi hasar
+2118472278|163a8e75||Aard'ın denge hasarını %$I$ artırır.<br>Sersemletme ihtimalini %$I$'a çıkarır. 
+2118472279|b1173fc2||Aard ilave $I$ don hasarı verir.<br>Aard'ın temel %$I$ oranında $I$ saniye boyunca rakipleri soğutma ihtimali vardır.<br>Metaneti veya dengesi düşük hedeflere karşı bu ihtimal artar. Soğuyan rakipler yavaşlar, metanet yenilenmeleri azalır ve daha fazla fiziksel hasar alırlar.
+2118472281|b1173fc3||Quen, canının %$I$'ı kadar hasar aldığında patlayarak yakındaki rakipleri sersemletir ve $I$ şok hasarı verir.<br>Quen'in yansıttığı hasar %$I$'a çıkarıldı.
+2118472282|b1173fc4||Quen'in devamlı Zindelik kullanımını %$I$ azaltır.<br>Quen saniye başına canının %$I$'ını yeniler.<br>Aktif Kalkan saniye başına dengenizin %$I$'ını yeniler.
+2118472283|b1173fc5||Quen sendeleme direncini %$I$'a yükseltir.<br>Quen denge maliyetini %$I$'a düşürür.<br>Quen karşı hasar azaltmasını %$I$'a yükseltir.
+2118472284|c5548b3e||Yenilenen Kalkan
+2118472285|7df48461||Koruyucu kalkan hasarı emer, zehir ve kanamayı engeller, denge maliyetlerini azaltır ve sendeleme direncini artırır.<br>Aktifken Zindelik yenilenmesini %$I$ yavaşlatır.<br>Düşman saldırısı gelmeden hemen önce bir Quen kalkanı etkinleştirmek darbeye karşı koyacaktır.<br><br>Kalkan Sağlığı: $I$<br>Kalkan Süresi: $I$ saniye
+2118472286|e6604b13||Parçalanma I
+2118472287|e65bcf19||Aard en fazla $I$ yük olacak şekilde kanama yükü uygular.<br><br>+$I$ Aard hasarı
+2118472288|e81523b2||Parçalanma II
+2118472289|e810a7b8||Aard düşman zırhını ve kuvvet direncini kalıcı olarak %$I$ zayıflatır.<br><br>+$I$ Aard hasarı
+2118472290|e9c9fc51||Parçalanma III
+2118472291|e9c58057||Aard'ın soğutma ihtimali %$I$ artar. Eğer bir hedef Aard tarafından hem dondurulur hem de yere serilirse, anında öldürülür. Aksi takdirde dondurma ek $I$ hasar verir.<br><br>+$I$ Aard hasarı
+2118472292|eb7ed4f0||Hızlanma I
+2118472293|eb7a58f6||Sıyrılma gerçekleştirirken veya Aard kullanırken zaman %$I$ oranında $I$ saniyeliğine yavaşlar.<br><br>+%$I$ Hareket Hızı
+2118472294|ed33ad8f||Hızlanma II
+2118472295|ed2f3195||Koşarken Aard kullanmak, koşulan her saniye için işaret yoğunluğu %$I$ artırır. Hareket hızı bonusları Aard yoğunluğunu artırır.<br><br>+%$I$ Hareket Hızı
+2118472296|eee8862e||Hızlanma III
+2118472297|eee40a34||Sıyrılma gerçekleştirirken veya Aard kullanırken zaman yavaşladığında, hızınız dengeli bir şekilde artar.<br><br>+%$I$ Hareket Hızı
+2118472298|f09d5ecd||İdam I
+2118472299|f098e2d3||Yanmaya karşı bağışıklığınız var. $I$ adrenalinin üzerindeyken zırhınız alev alır ve size yakın dövüşte saldıran düşmanları yakar.<br><br>+%$I$ Adrenalin kazancı
+2118472300|f252376c||İdam II
+2118472301|f24dbb72||Dengeniz bozulduğunda bir alev dalgası salarsınız, %$I$ canınız kadar hasarı alırsınız veya tam dengede mükemmel savuşturma yaparsınız.<br><br>+%$I$ Adrenalin kazancı
+2118472302|f407100b||İdam III
+2118472303|f4029411||Yakındaki düşmanlara adrenalin puanı başına sürekli olarak $I$'a kadar ateş hasarı verirsiniz.<br><br>+%$I$ Adrenalin kazancı
+2118472304|1991adb5||Arınma I
+2118472305|198d31bb||Igni ve yakmalar düşmanın moralini düşürerek çatışmada daha az agresif davranmalarına neden olur. Yakmalar artık düşmanın yanma direncini artırmıyor.<br><br>+$I$ Igni hasarı
+2118472306|1b468654||Arınma II
+2118472307|1b420a5a||Igni tarafından veya yanarken öldürülen düşmanlar patlar ve yakındaki düşmanlara $I$ ateş hasarı verir.<br><br>+$I$ Igni hasarı
+2118472308|1cfb5ef3||Arınma III
+2118472309|1cf6e2f9||Bir düşmanı yakmak $F$ zindelik kazandırır. Bir düşmanı Igni ile veya yanarken öldürmek $F$ zindelik kazandırır.<br><br>+$I$ Igni hasarı
+2118472310|1eb03792||Emilim I
+2118472311|1eabbb98||Yrden halkasındayken öldürülen düşmanlar, maksimum sağlıklarına bağlı olarak canınızı ve zindeliğinizi geri kazandırır.<br><br>+%$I$ Can Çalma
+2118472312|20651031||Emilim II
+2118472313|20609437||Yrden halkasındayken metanet harcayan düşmanlar metanetinizi yeniler.<br><br>+%$I$ Can Çalma
+2118472314|2219e8d0||Emilim III
+2118472315|22156cd6||Bir Yrden halkası içindeyken hasar verilen veya bir Koruyucu Glif tarafından hasar verilen düşmanlar, verilen hasara bağlı olarak canınızı ve zindeliğinizi geri kazandırır.<br><br>+%$I$ Can Çalma
+2118472316|23cec16f||Gözetim I
+2118472317|23ca4575||Rakipler bir Yrden halkası içindeyken saniyede maksimum metanetlerinin %$I$'ını ya da bir Koruyucu Glif tarafından hasar aldıklarında %$I$'ını kaybederler.<br><br>Koruyucu Glif $I$ zehir yükü uygular
+2118472318|25839a0e||Gözetim  II
+2118472319|257f1e14||Düşmanlar bir Yrden halkası içindeyken saniyede maksimum canlarının %$F$'ını veya bir Koruyucu Glif tarafından hasar aldıklarında %$I$'ını kaybederler.<br><br>Koruyucu Glif $I$ zehir yükü uygular
+2118472320|273872ad||Gözetim  III
+2118472321|2733f6b3||Düşmanlar Yrden halkasındayken saniye başına %$F$ hız kaybederler. Bu etki düşmanlar Yrden'dan çıktıklarında veya Yrden yeniden kullanıldığında sıfırlanır. Koruyucu Glif hasar azaltmasını ikiye katlar.<br><br>Koruyucu Glif $I$ zehir yükü uygular
+2118472322|28ed4b4c||İntikam I
+2118472323|28e8cf52||Patlayan Kalkan hasarı $I$ artar.<br><br>Quen +%$I$ hasar yansıtır
+2118472324|4e77e8f6||İntikam  II
+2118472325|4e736cfc||Bir Quen kalkanına çarpan düşmanlar şoka maruz kalır.<br><br>Quen +%$I$ hasar yansıtır
+2118472326|502cc195||İntikam  III
+2118472327|5028459b||Quen karşı hamleleri saldırgana doğru ek bir enerji dalgası boşaltır, şoka maruz bırakır ve $I$ hasar verir.<br><br>Quen +%$I$ hasar yansıtır
+2118472328|51e19a34||Kale I
+2118472329|51dd1e3a||Quen'e verilen hasar %$I$ azalır.<br><br>+%$I$ Quen yoğunluğu
+2118472330|539672d3||Kale II
+2118472331|5391f6d9||Bir Aktif Kalkan kullanırken, can ve metanet yenilenmesi %$I$ artar.<br><br>+%$I$ Quen yoğunluğu
+2118472332|554b4b72||Kale III
+2118472333|5546cf78||Quen'in devamlı zindelik kullanımı %$I$ azalır.<br><br>+%$I$ Quen yoğunluğu
+2118472334|57002411||Birleşim I
+2118472335|56fba817||Durum etkilerinin Axii Bağlantısı üzerinde yayılma ihtimali vardır.<br><br>+%$I$ Axii yoğunluğu
+2118472336|58b4fcb0||Birleşim II
+2118472337|58b080b6||Bir hedefe verdiğiniz hasarın bir kısmı katlanarak Axii Bağlantısı üzerinden yayılır.<br><br>+%$I$ Axii yoğunluğu
+2118472338|5a69d54f||Birleşim III
+2118472339|5a655955||Aldığınız hasarın bir kısmı Axii Bağlantısı üzerinden veya Kuklalarınız üzerinden yeniden yönlendirilir.<br><br>+%$I$ Axii yoğunluğu
+2118472340|5c1eadee||Sahiplik I
+2118472341|5c1a31f4||Kukla sona erdiğinde, hedef $I$ uhrevi hasar alır.<br><br>Kuklalarınız +%$I$ hasar verir
+2118472342|5dd3868d||Sahiplik II
+2118472343|5dcf0a93||Enemy mental resistance is reduced by $I$% when casting Axii.<br><br>Kuklalarınız +%$I$ hasar verir
+2118472344|835e2437||Sahiplik III
+2118472345|8359a83d||Kuklanın sonsuz süresi vardır ve Kuklalarınıza zarar veremezsiniz. Etkiyi kaldırmak için onlara Axii uygulayın.<br><br>Kuklalarınız +%$I$ hasar verir
+2118472346|8512fcd6||Koruma I
+2118472347|850e80dc||Zırh bakım güçlendirmesi zırhınızı $I$ artırır.<br><br>+$I$ Denge
+2118472348|86c7d575||Protection II
+2118472349|86c3597b||Kuşanılmış zırh standart dayanıklılık kaybına uğramaz.<br><br>+$I$ Denge
+2118472350|887cae14||Protection III
+2118472351|8878321a||Ölümcül hasar, zırh dayanıklılığı pahasına engellenir.<br><br>+$I$ Denge
+2118472352|8a3186b3||Saptırma I
+2118472353|8a2d0ab9||Zırhınız gelen okları ve kısa okları saptırarak tüm hasarı önler.<br><br>+$I$ Zırh
+2118472354|8be65f52||Saptırma II
+2118472355|8be1e358||Zırhınız gelen her saldırıyı saptırarak tüm hasarı önler. Bu yetenek daha sonra engellenen hasara bağlı olarak bekleme süresine girer.<br><br>+$I$ Zırh
+2118472356|8d9b37f1||Saptırma III
+2118472357|8d96bbf7||Zırhınız gelen tüm fırlatılabilirleri saptırarak tüm hasarı önler.<br><br>+$I$ Zırh
+2118472358|8f501090||Yenilenme I
+2118472359|8f4b9496||Maksimumdayken kazanılan metanet veya zindelik, can geri kazandırır.<br><br>+$I$ Can yenilenmesi
+2118472360|9104e92f||Yenilenme II
+2118472361|91006d35||Can yenilenmesi, mevcut canınız ne kadar düşükse en fazla %$I$ olacak şekilde oranla artar. Hareketsiz dururken metanet ve zindelikten geri kazanılan can iki katına çıkar.<br><br>+$I$ Can yenilenmesi
+2118472362|92b9c1ce||Yenilenme III
+2118472363|92b545d4||Bir saldırıdan aldığınız hasarın yarısını $I$ saniye içinde yenilersiniz. Darbe aldığınızda sıfırlanır.<br><br>+$I$ Can yenilenmesi
+2118472364|b8445f78||Mükemmellik I
+2118472365|b83fe37e||Adrenalin üretimi artık yüksek can seviyesinde azalmıyor.<br><br>+$I$ Can
+2118472366|b9f93817||Mükemmellik II
+2118472367|b9f4bc1d||Tam canda, can yenilenmenizin %$I$'ı metanet ve zindelik yenilenmesine eklenir.<br><br>+$I$ Can
+2118472368|bbae10b6||Mükemmellik III
+2118472369|bba994bc||Sağlığınız tam iken bir düşmanı öldürmek, hasarı %$I$ ve zırhı $I$ artıran yükler kazandırır. Darbe aldığınızda $I$ yük kaybedersiniz ve maksimum $I$ yüke sahip olabilirsiniz.<br><br>+$I$ Can
+2118472370|bd62e955||Bünye I
+2118472371|bd5e6d5b||Maksimum taşıma ağırlığı $I$ artar. Daha fazla ağırlık taşımak zırhı $I$ kadar ve sendeleme direncini %$I$ kadar artırır.<br><br>+%$I$ İkincil dirençler
+2118472372|bf17c1f4||Bünye II
+2118472373|bf1345fa||İyi dinlenmiş olmak zindelik yenilenmesini %$I$ artırır. İyi beslenmiş olmak metanet yenilenmesini $I$ oranında artırır. İyi su tüketmiş olmak toksisite boşaltımını %$I$ artırır.<br><br>+%$I$ İkincil dirençler
+2118472374|c0cc9a93||Bünye III
+2118472375|c0c81e99||Ölümcül hasardan $I$ can değerinde kurtulmak için $I$ zindelik harcayın. Düşük can seviyesiden kaynaklanan yaptırımlar %$I$ oranında azalır.<br><br>+%$I$ İkincil dirençler
+2118472376|c2817332||Özümsenme I
+2118472377|c27cf738||Meditasyon yapmadığınız sürece, toksisite kazanımı olmadan toksisite azalmaz. Yüksek toksisiteden kaynaklanan yaptırımlar %$I$ oranında azalır.<br><br>+%$I$ İksir etki süresi
+2118472378|c4364bd1||Özümsenme II
+2118472379|c431cfd7||Güç mutajenleri içeren kaynatılmış özler can yenilenmesini $I$ artırır. Dayanıklılık mutajenleri içeren kaynatılmış özler metanet yenilenmesini $I$ oranında artırır. Konsantrasyon mutajenleri içeren kaynatılmış özler zindelik yenilenmesini %$I$ artırır.<br><br>+%$I$ İksir etki süresi
+2118472380|c5eb2470||Özümsenme III
+2118472381|c5e6a876||Her toksisite kazancı kaynağı mutajen etkileri ve toksisite boşaltımını %$I$ oranında artırır.<br><br>+%$I$ İksir etki süresi
+2118472382|c79ffd0f||Haz I
+2118472383|c79b8115||Maksimum taşıma ağırlığı $I$ kadar artar. Daha az ağırlık taşımak toplam hızı %$I$'a kadar artırır.<br><br>-%$I$ Zırh yaptırımları
+2118472384|ed2a9ab9||Haz II
+2118472385|ed261ebf||Düşük dayanıklılıktan kaynaklanan hız yaptırımları, mevcut adrenaline bağlı olarak %$I$'a kadar azaltılır.<br><br>-%$I$ Zırh yaptırımları
+2118472386|eedf7358||Haz III
+2118472387|eedaf75e||Adrenalinden kaynaklanan zaman yavaşlaması artık yüksek can seviyesinde azalmıyor.<br><br>-%$I$ Zırh yaptırımları
+2118472388|f0944bf7||Muhafaza I
+2118472389|f08fcffd||Aşırı yorgunluktan kaçınmak ve $I$ metanet geri kazanmak için $I$ zindelik harcayın.<br><br>+$I$ Metanet verimliliği
+2118472390|f2492496||Muhafaza II
+2118472391|f244a89c||Hareketsiz dururken metanet ve denge yenilenmesi %$I$ artar.<br><br>+$I$ Metanet verimliliği
+2118472392|f3fdfd35||Muhafaza III
+2118472393|f3f9813b||Metanet maliyetleri, denge yüzdeniz yükseldikçe %$I$'a kadar azalır. Denge maliyetleri, zindelik yüzdeniz düştükçe %$I$'a kadar azalır.<br><br>+$I$ Metanet verimliliği
+2118472394|c4426045||Buzlanma I
+2118472395|c43de44b||Mükemmel savuşturmalar soğuk etkisi uygular.<br><br>+%$I$ Savunma verimliliği
+2118472396|c5f738e4||Buzlanma II
+2118472397|c5f2bcea||Soğutulmuş düşmanlar savuşturulduğunda denge hasarı alır ve size karşı koyma veya savuşturma yoluyla hasar veremezler.<br><br>+%$I$ Savunma verimliliği
+2118472398|c7ac1183||Buzlanma III
+2118472399|c7a79589||Soğutulmuş düşmanların denge yenilenmesi %$I$ azalır. Yakın dövüşte rakibin dengesini bozmak hedefi dondurur.<br><br>+%$I$ Savunma verimliliği
+2118472400|c960ea22||Tükenmişlik I
+2118472401|c95c6e28||Bir hedefe verilen her $I$ puanlık don hasarı, hedefin metanetini $I$ azaltır.<br><br>+%$I$ Soğutma ihtimali
+2118472402|cb15c2c1||Tükenmişlik II
+2118472403|cb1146c7||Soğutulmuş düşmanlar, mevcut metanetleri azaldıkça %$I$'a kadar daha fazla yavaşlarlar.<br><br>+%$I$ Soğutma ihtimali
+2118472404|ccca9b60||Tükenmişlik III
+2118472405|ccc61f66||Bu kılıç, hedefin eksik olan her metanet puanı için ek $I$ don hasarı verir.<br><br>+%$I$ Soğutma ihtimali
+2118472406|ce7f73ff||Yok Etme I
+2118472407|ce7af805||Bu kılıç saldırdığında ısınır ve ateş hasarını $I$ kadar artıran yükler kazanır. Zamanla soğur.<br><br>+$I$ Ateş hasarı
+2118472408|d0344c9e||Yok Etme II
+2118472409|d02fd0a4||Yükler ayrıca kritik ihtimalini %$I$ ve hücum verimliliğini %$I$ artırır.<br><br>+$I$ Ateş hasarı
+2118472410|d1e9253d||Yok Etme III
+2118472411|d1e4a943||Bir düşmanı öldürmek, yük başına %$I$ ihtimalle, yakındaki düşmanlara $I$ ateş hasarı veren bir patlamayı tetikler. Kritik vuruşların da aynı şeyi yapmak için yük başına %$I$ ihtimali vardır.<br><br>+$I$ Ateş hasarı
+2118472412|f773c2e7||Kremasyon I
+2118472413|f76f46ed||Yanan bir düşmana bu kılıçla vurmak, yanma süresini $F$ saniye artırır. Bir yanma animasyonunu yarıda kesmek yanma süresini yeniler.<br><br>+%$I$ Yakma ihtimali
+2118472414|f9289b86||Kremasyon II
+2118472415|f9241f8c||Yanma animasyonundaki rakipler, her saniye azami dengelerinin %$I$ kadarını kaybeder. Yanma hasarı her saniye $I$ artar.<br><br>+%$I$ Yakma ihtimali
+2118472416|fadd7425||Kremasyon III
+2118472417|fad8f82b||Düşmanlar yakıldıkları her saniye için kalıcı olarak %$I$ daha fazla hasar alır.<br><br>+%$I$ Yakma ihtimali
+2118472418|fc924cc4||Dönüşüm I
+2118472419|fc8dd0ca||Bombalar bu kılıç üzerindeki yağların etkilerini taşır. Tüm yağlar ayrıca %$I$ zehirleme ihtimali sağlar.<br><br>+$I$ Zehir hasarı
+2118472420|fe472563||Dönüşüm II
+2118472421|fe42a969||Zehir hasarı, hedefin zehir direnci zırhından yüksekse fiziksel hasara dönüştürülür.<br><br>+$I$ Zehir hasarı
+2118472422|fffbfe02||Dönüşüm III
+2118472423|fff78208||Yağ etkileri, hedef üzerindeki her zehir yükü için %$I$ oranında artar.<br><br>+$I$ Zehir hasarı
+2118472424|01b0d6a1||Izdırap I
+2118472425|01ac5aa7||Bu kılıç, %$I$ ek zehir ihtimaline sahiptir, bu etki her $I$ aktif toksisite puanı için geçerlidir.<br><br>+%$I$ Zehirleme ihtimali
+2118472426|0365af40||Izdırap II
+2118472427|03613346||Bir hedef üzerinde birikebilecek maksimum zehir yükü sınırını kaldırır.<br><br>+%$I$ Zehirleme ihtimali
+2118472428|051a87df||Izdırap III
+2118472429|05160be5||Bir hedef üzerindeki her zehir yükü, hedefin zehir, kanama ve yaralanma direncini %$I$ azaltır. Zehir zamanla %$I$ daha fazla hasar verir.<br><br>+%$I$ Zehirleme ihtimali
+2118472430|06cf607e||Kan kaybı I
+2118472431|06cae484||Kanama uyguladığınızda, $I$ ek yük uygulamak için hedefin sağlık yüzdesine eşit bir ihtimal vardır.<br><br>+%$I$ Kanamaya neden olma ihtimali
+2118472432|2c59fe28||Kan kaybı II
+2118472433|2c55822e||Bir hedef üzerinde birikebilecek maksimum kanama yükü sınırını kaldırır.<br><br>+%$I$ Kanamaya neden olma ihtimali
+2118472434|2e0ed6c7||Kan kaybı III
+2118472435|2e0a5acd||Ağır bir özel saldırının ilk vuruşu $I$ kanama yükü uygular, ardından ikinci vuruş hedef üzerindeki tüm kanama yüklerini kaldırır. $I$ hasar verir ve kaldırılan her yük için hedefin kanama direncini %$I$ artırır.<br><br>+%$I$ Kanamaya neden olma ihtimali
+2118472436|2fc3af66||Çaresizlik I
+2118472437|2fbf336c||Adrenalininiz kayıp can yüzdenizin %$I$'ının altına düşemez.<br><br>+$I$ Adrenalin bozulması gecikmesi
+2118472438|31788805||Çaresizlik II
+2118472439|31740c0b||Aşırı yorgunluktan kaçınmak için metanet yerine adrenalin harcarsınız.<br><br>+$I$ Adrenalin bozulması gecikmesi
+2118472440|332d60a4||Çaresizlik III
+2118472441|3328e4aa||Her adrenalin puanı için %$F$ ve her eksik can yüzdesi için %$F$ can çalma kazanırsınız.<br><br>+$I$ Adrenalin bozulması gecikmesi
+2118472442|34e23943||Yansıma I
+2118472443|34ddbd49||Kesme karşılıklarınızın menzili artar. Büyük yaratıklara karşı tekme ve darbe karşı hamlelerine izin verir.<br><br>+%$I$ Karşı hamle hasarı
+2118472444|369711e2||Yansıma II
+2118472445|369295e8||Karşı hamleleriniz %$I$ daha fazla denge hasarı verir ve verilen denge hasarının %$I$'ını geri döndürür.<br><br>+%$I$ Karşı hamle hasarı
+2118472446|384bea81||Yansıma III
+2118472447|38476e87||Daha hassas zamanlamayla karşı hamle yapmak, karşı hamlenin hasarını karşılanan hasarın %$I$'ı kadar artırır.<br><br>+%$I$ Karşı hamle hasarı
+2118472448|3a00c320||Elektrik Çarpması I
+2118472449|39fc4726||%$I$'a elektroşok uygulama ihtimalini iki katına çıkarır. Elektroşok ayrıca hedefi paralize eder.<br><br>+$I$ Şok hasarı
+2118472450|3bb59bbf||Elektrik Çarpması II
+2118472451|3bb11fc5||Bu kılıç, hedefin zırhına bağlı olarak $I$'a kadar ek şok hasarı verir.<br><br>+$I$ Şok hasarı
+2118472452|61403969||Elektrik Çarpması III
+2118472453|613bbd6f||Şok geçiren bir düşmana bu kılıçla vurmak kılıcı yükler, %$I$ Quen yoğunluğu ve bloklar üzerinden %$I$ hasar sağlar. Quen kullanmak kılıcı boşaltır, yük başına $I$ şok hasarı verir ve yakındaki düşmanları şoka maruz bırakır.<br><br>+$I$ Şok hasarı
+2118472454|62f51208||Coşku I
+2118472455|62f0960e||Bir düşmanı Anafor veya Yarma ile öldürmek $I$ metanet kazandırır.<br><br>+%$I$ Hücum verimliliği
+2118472456|64a9eaa7||Coşku II
+2118472457|64a56ead||Saldırmak, saldırı hızını ve saldırı etkinliğini bir sonraki saldırı dışı eyleme kadar %$I$ artırır.<br><br>+%$I$ Hücum verimliliği
+2118472458|665ec346||Coşku III
+2118472459|665a474c||$I$ adrenaline ulaşıldığında, zamanın yavaşladığı ve eylemlerin metanet maliyetinin olmadığı bir duruma girilir. Adrenalin hızla tükenir ve adrenalin bittiğinde etki sona erer.<br><br>+%$I$ Hücum verimliliği
+2118472460|68139be5||Suikast I
+2118472461|680f1feb||Sağlığı tam olan düşmanlara yapılan saldırılar %$I$ daha fazla hasar verir.<br><br>+%$I$ Yandan saldırı gücü
+2118472462|69c87484||Suikast II
+2118472463|69c3f88a||Yandan saldırılar kritik vuruş garantilidir.<br><br>+%$I$ Yandan saldırı gücü
+2118472464|6b7d4d23||Suikast III
+2118472465|6b78d129||Bu kılıç kınından çıkarıldıktan veya öldürme gerçekleştikten sonraki ilk saldırı +%$I$ kritik hasar verir.<br><br>+%$I$ Yandan saldırı gücü
+2118472466|6d3225c2||Uzama I
+2118472467|6d2da9c8||Bu kılıç üzerindeki yağların ve etkilerin +%$I$ etki süresi bulunur.<br><br>+%$I$ Zindelik yenilenmesi
+2118472468|6ee6fe61||Uzama II
+2118472469|6ee28267||İşaretler ve işaret etkileri +%$I$ etki süresine sahiptir.<br><br>+%$I$ Zindelik yenilenmesi
+2118472470|709bd700||Uzama III
+2118472471|70975b06||Bu kılıcın saldırı menzili artar ve verdiği hasarın %$I$'ı ek uhrevi hasar olarak tekrarlanır.<br><br>+%$I$ Zindelik yenilenmesi
+2118472472|962674aa||Çağrı I
+2118472473|9621f8b0||Bu kılıç o anda seçili olan işaretinizden elemental hasar ve durum etkileri kazanır, bu işaret yoğunluğuyla ölçeklenir.<br><br>+%$I$ İşaret yoğunluğu
+2118472474|97db4d49||Çağrı II
+2118472475|97d6d14f||Güçlü saldırılar, hedefe ateş etmesi için Koruyucu Glifi tetikleyecektir.<br><br>+%$I$ İşaret yoğunluğu
+2118472476|999025e8||Çağrı III
+2118472477|998ba9ee||Özel saldırıların, o anda seçili olan işaretinize bağlı olan etkileri tetikleme şansı vardır. Yarma, yüklenme süresiyle birlikte %$I$'a kadar ölçeklenir. Anaforun saldırı başına %$I$ ihtimali bulunur.<br><br>+%$I$ İşaret yoğunluğu
+2118472478|9b44fe87||Kararlılık I
+2118472479|9b40828d||Saldırı gücü, %$F$ artırılır. Bu, düşmanların her $I$ maksimum vuruş puanı içindir. Denge hasarı, adrenalin puanı başına %$F$ artar.<br><br>Saldırı sırasında +%$I$ Sendeleme direnci
+2118472480|9cf9d726||Kararlılık II
+2118472481|9cf55b2c||Boss'larla savaşırken +%$I$ sendeleme direncine sahip olursunuz, adrenalininiz %$I$ daha yavaş tükenir ve yakın dövüşte rakibinizin dengesini bozmanız  hedefin maksimum canına bağlı olarak ek hasar verir.<br><br>Saldırı sırasında +%$I$ Sendeleme direnci
+2118472482|9eaeafc5||Kararlılık III
+2118472483|9eaa33cb||Tam yüklü bir Yarma saldırısı, mevcut tüm zindeliği tüketerek %$I$'a kadar ek hasar ve bu hasar %$I$ can çalma etkisi yaratır.<br><br>Saldırı sırasında +%$I$ Sendeleme direnci
+2118472484|a0638864||Yıkım I
+2118472485|a05f0c6a||Sendeleyen düşmanlara fazladan %$I$ hasar verirsiniz.<br><br>+%$I$ Sendetleme ihtimali
+2118472486|a2186103||Yıkım II
+2118472487|a213e509||%$I$ dengenin üzerindeyken, saldırılarınız %$I$ daha fazla denge hasarı verir ancak geri tepme sırasında maksimum dengenizin %$I$'ını kaybedersiniz.<br><br>+%$I$ Sendetleme ihtimali
+2118472488|a3cd39a2||Yıkım III
+2118472489|a3c8bda8||%$I$ can seviyesinin üzerindeyken, saldırılarınız %$I$ daha fazla hasar verir ancak geri tepme sırasında maksimum can seviyenizin %$I$'ını kaybedersiniz.<br><br>+%$I$ Sendetleme ihtimali
+2118472490|a5821241||Penetrasyon I
+2118472491|a57d9647||Düşman blokları üzerinden durum etkileri uygulayabilirsiniz. Hedef engellemiyorsa, blok penetrasyonunun %$I$'ı zırh delmeye eklenir.<br><br>Düşman blokları üzerinden +%$I$ Hasar
+2118472492|cb0cafeb||Penetrasyon II
+2118472493|cb0833f1||Hedefin zırh değerinin üzerindeki zırh delme kritik hasara eklenir.<br><br>Düşman blokları üzerinden +%$I$ Hasar
+2118472494|ccc1888a||Penetrasyon III
+2118472495|ccbd0c90||Hızlı saldırılar düşman zırhını %$I$ azaltır. Bu etki $I$ saniye boyunca sürer. Güçlü saldırılar düşmanın zırhını kalıcı olarak %$I$ azaltır.<br><br>Düşman blokları üzerinden +%$I$ Hasar
+2118472496|ce766129||Tahkimat I
+2118472497|ce71e52f||Silah onarım güçlendirmeleri zırh delmeyi %$I$ artırır.<br><br>-%$I$ Bloklar üzerinden alınan hasar
+2118472498|d02b39c8||Tahkimat II
+2118472499|d026bdce||Bu kılıç standart dayanıklılık kaybına uğramaz.<br><br>-%$I$ Bloklar üzerinden alınan hasar
+2118472500|d1e01267||Tahkimat III
+2118472501|d1db966d||Bu kılıçla öldürülen düşmanlar kılıcın hasarını kalıcı olarak artırır. $I$ maksimum isabet noktası öldürmek, kılıcın hasarını $I$ artıracaktır.<br><br>-%$I$ Bloklar üzerinden alınan hasar
+2118472502|d394eb06||Sakatlama I
+2118472503|d3906f0c||Yaralanmalar hedefin zırh delme gücünü %$I$ azaltır ve kanama yüklerinin süresini %$I$ artırır.<br><br>+%$I$ Yaralanmalara neden olma ihtimali
+2118472504|d549c3a5||Sakatlama II
+2118472505|d54547ab||Bitiriciler ve parçalamalar %$I$ daha fazla metanet ve adrenalin kazandırır ve %$I$ daha fazla moral hasarına neden olur.<br><br>+%$I$ Yaralanmalara neden olma ihtimali
+2118472506|d6fe9c44||Sakatlama III
+2118472507|d6fa204a||Yaralamalar, hedefin maksimum canının %$I$'ı kadar hasar verir ve maksimum dengesini %$I$ azaltır.<br><br>+%$I$ Yaralanmalara neden olma ihtimali
+2118472508|d8b374e3||Perişan Etme I
+2118472509|d8aef8e9||Kritik ihtimali, sizin ve hedefinizin sağlık yüzdesi arasındaki farka bağlı olarak %$I$'a kadar artırılır.<br><br>+%$I$ Kritik hasar
+2118472510|da684d82||Perişan Etme II
+2118472511|da63d188||Bir düşmana güçlü/hızlı bir saldırıyla hasar vermek, kalıcı olarak ona karşı kritik ihtimalini/kritik hasarını sırayla %$I$ artırır.<br><br>+%$I$ Kritik hasarı
+2118472512|fff2eb2c||Perişan Etme III
+2118472513|ffee6f32||Eğer güçlü bir saldırı denge bozucusu kritik bir vuruş yaparsa, hedef anında öldürülür. Hızlı saldırı denge bozucuları +%$I$ kritik hasara sahiptir.<br><br>+%$I$ Kritik hasarı
+2118472524|66540f06||Mükemmellik
+2118472525|da67396f||Yok Etme
+2118472526|4d91e787||Elektrik Çarpması
+2118472527|3095c59a||Kanama uygulamak toplam hızınızı 3 saniye boyunca %15 artırır. Yakın dövüş saldırıları, hedef üzerindeki her kanama yükü için %2 daha fazla hasar verir.
+2118472528|3095c59b||Bir düşman öldürmek eksik canınızın %10'unu geri kazandırır. Adrenalin bozulması 2 saniye daha geciktirilir.
+2118472529|3095c59c||Dengesi bozulmuş konuma düşemezsiniz. Hasar almak, hasar ve sendeleme direncini 5 saniye boyunca her saniye %5 artırarak %25'e çıkarır.
+2118472530|3095c59d||Geceleri toplam hızınız, saldırı gücünüz, metanet verimliliğiniz ve işaret yoğunluğunuz %10 artar. Dolunay sırasında ölümcül hasar almak bu kaynatılmış özü ortadan kaldırır ve sizi %50 can seviyesine geri döndürür.
+2118472531|3095c59e||Elemental hasar vermek, düşmanın diğer tüm elemental hasar türlerine karşı direncini azaltır. Yumruk saldırıları daha fazla hasar verir ve yumruk saldırılarının durum etkileri uygulama ihtimali bulunur.
+2118472532|3095c59f||Fiziksel dirençleriniz %20 artar ve sıyrılma gerçekleştirirken sıyrık hasarı almazsınız. Yakın dövüş saldırılarınız cisimsiz hayaletlere normal hasar verir.
+2118472533|3095c5a0||Şafakta %20 zindelik yenilenmesi ve yüksek can seviyesinde %20'ye kadar işaret yoğunluğu kazanırsınız. Alacakaranlıkta 2 metanet yenilenmesi ve düşük can seviyesinde %20'ye kadar zırh delme gücü kazanırsınız.
+2118472534|3095c5a1||Saldırı hızı ve gücü, bir sıyrılma gerçekleştirdikten sonra 2 saniye boyunca %10 artar. Düşük metanet veya zindelikten kaynaklanan yaptırımlar hesaplanırken, bunlardan yüksek olan kullanılır.
+2118472535|3095c5a2||Hızlı saldırıları, güçlü saldırıları veya işaretleri kullanmak, diğer ikisinin gücünü artırabilen yükler oluşturur. 6 yüke ulaşıldığında, bir sonraki kullanımda saldırı gücü veya işaret yoğunluğu %50 artar. Hızlı saldırılar 1 yük, güçlü saldırılar 2 yük ve işaretler 3 yük oluşturur.
+2118472536|e222edd6||Zehir sizi zayıflatmaz. Düşmanlara zehir uygulamak toksisitenizi 1 azaltır. Kanamanıza neden olan rakipler zehirlenir.
+2118472537|754d18af||Eşyaları %25 daha pahalıya satarsınız. <br>Kontratlar üzerinde pazarlık yapmak %25 daha kolaydır.
+2118472538|363f99b1||Toksisite ölçeriniz tamamen dolarsa, toksisite kazancınızdan zehir hasarı alırsınız ve hız ve metanet yenilenmesinin azaldığı ateşli bir duruma girersiniz. İyileşmek için bir Beyaz Bal için.
+2118472539|6d1ad461||Daha ağır zırhlar daha fazla hasar emer ve maksimum dengenizi artırır, ancak bu korumanın bedelini daha yavaş hız, daha düşük metanet yenilenmesi ve daha yüksek metanet maliyetleri ile ödersiniz.
+2118472540|b93269e9||Arkadan yapılan saldırılar %15 daha yüksek kritik ihtimalline ve %10 daha yüksek hasara sahiptir. Arkadan gelen saldırıları savuşturmak, Yükseltilmiş Hisler becerisi olmadan ek dengeye mal olacaktır - bu yüzden arkanıza dikkat edin.
+2118472541|6d1ad3a6||Ekipmanınızı bileme taşında veya tamir masasında iyileştirmek dayanıklılık kaybını %50 oranında yavaşlatacaktır.
+2118472542|6d1ad424||Ekipmanınızı iyi durumda tutmak için tamir kitlerini kullanın. Eksik dayanıklılığın bir kısmını onarırlar, bu nedenle onları kullanmak için ne kadar uzun süre beklerseniz etkileri o kadar artar.
+2118472543|363f99c9||Zanaatkarlar eşyalarınızdan rünleri ve yükseltmeleri kaldırabilir ve bunları size geri verebilir.
+2118472544|6d1ad408||Bir öğeyi parçalarına ayırmak içindeki tüm yükseltmeleri kurtaracaktır, ancak yükseltmeler öğeyi yok etmeye gerek kalmadan doğrudan kaldırılabilirler.
+2118472545|363f99aa||Beyaz sağlık çubukları olan düşmanlar çelik kılıçlardan çok az hasar alır. Gümüş kılıcınıza geçin veya çeliğinizi Argentia yağıyla kaplayın.
+2118472546|6d1ad3ca||Kırmızı sağlık çubuklarına sahip düşmanlarla her iki kılıçla da savaşılabilir. Cepleri dolu olan efsungerler canavarlara karşı gümüşü ideal bulurken, çelik insanlara ve hayvanlara karşı en iyisidir.
+2118472547|363f99d0||Bir teknedeyken Dünya Haritasını açarak bir limana Hızlı Seyahat edebilirsiniz. Kıyı boyunca ve limanların yakınında tekneler arayın.
+2118472548|6d1ad370||Canavar yuvaları Dans Eden Yıldız, Şarapnel veya Samum bombası ile yok edilebilir. Ancak bunun yerine Igni işaretini kullanmayı düşünün.
+2118472549|6d1ad422||Bir efsunger teçhizatı oluşturmak sadece ilk adımdır. Onu yükseltmek, görünüşünün yanı sıra istatistiklerini de zarif bir şekilde değiştirecektir.
+2118472550|6d1ad369||Hava durumu düşmanlarınızı etkiler. Gündüzleri düşmanları yakmak daha kolay, yağmur veya fırtına sırasında ise daha zordur.
+2118472551|6d1ad3c5||Hava durumu düşmanlarınızı etkiler. Nekrofagiler alacakaranlıkta veya gece boyunca daha tehlikeli rakiplerdir. Mezar cadıları özellikle bu saatlerde rahattır.
+2118472552|6d1ad3a7||Hava durumu düşmanlarınızı etkiler. Kurtadamlar geceleri ve özellikle dolunayda daha tehlikelidir. Normal kurtlar bile dolunayda daha hızlı hareket eder.
+2118472553|b93269ed||Hava durumu düşmanlarınızı etkiler. Devspolar'ın güneşte daha dayanıklı olduğunu göreceksiniz.
+2118472554|6d1ad445||Hava durumu düşmanlarınızı etkiler. Garkolanlar ve Sirenler yağmuru ve fırtınayı sever, ancak Harpiler fırtınada manevra yapmakta zorlanır.
+2118472555|6d1ad428||Hava durumu düşmanlarınızı etkiler. Mümkün olduğunca öğlenheyulalarıyla ayın altında ve geceheyulalarıyla güneşin altında savaşın.
+2118472556|6d1ad440||Hava durumu düşmanlarınızı etkiler. Büyü kullananlar - örneğin Sahireler veya Sakkubus - ayın altında, özellikle de dolunayda daha fazla güç kazanırlar.
+2118472557|6d1ad409||Yok edilen canavar yuvaları mutajenler, benzersiz canavar parçaları ve hatta pahalı mücevherler için iyi bir kaynaktır.
+2118472558|6d1ad463||Canavar kaynatılmış özleri yapmak istiyorsanız, kitaplar konusunda uzmanlaşmış tüccarlar aradığınız nadir bilgilere sahip olabilir.
+2118472559|6d1ad3a5||When you find a relic blade, it may be in unusable condition. You will need the services of a master weaponsmith to restore it.
+2118472560|6d1ad423||İksirler, bombalar ve yağlar, yüksek kaliteli malzemeler kullanarak yapabileceğiniz yüksek kaliteli formlara sahiptir. İksirlerin ikincil etkileri de olabilir.
+2118472561|6d1ad389||Her simya öğesi bir temel bileşen gerektirir. İksirler için alkol, yağlar için hayvansal yağ ve bombalar için güherçile iyi birer başlangıç noktasıdır.
+2118472562|6d1ad3ab||Her İşaretin, kullanım tuşularına basılı tutularak erişilebilen alternatif bir modu vardır.
+2118472563|b93269ef||Bir ateşin başında meditasyon yaparak veya bir simyacı ya da otacıyı ziyaret ederek simya yapabilirsiniz.
+2118472564|6d1ad449||Uzun süren bir yaralanma geçirdiyseniz, hemen bir bandajla tedavi edebilirsiniz. Ayrıca sağlığınız tam iken meditasyon yaptığınızda kendi kendilerine iyileşirler.
+2118472565|363f99af||Quen'i bir öğlenheyulasının veya geceheyulasının yaşam tüketen aurasından korunmak için kullanabilirsiniz. Argentia yağı da aurayı geçici olarak etkisiz hale getirecektir.
+2118472566|6d1ad386||Üstün bir simya ürünü üretmeye çalışırken, her malzemenin saf kalitede olması gerekir. Simyasal Arıtma sayesinde, bir malzeme daha düşük kalitede olabilir.
+2118472567|6d1ad447||Efsungerlerin refleksleri o kadar keskindir ki, bir kılıç okları havada uçarken savurmak için yeterli bir savunma ekipmanı. Doğru zamanlamayla, oklar çıkış noktalarına geri bile yansıyabilirler.
+2118472568|b93269f0||Çoğu rakibin sınırlı metaneti vardır ve metanetleri olmadan daha az hasar verirler. Aard veya Paralizi yağı ile metanetlerini azaltabilirsiniz ve onlara saldırmak metanetlerinin yenilenmesini geciktirir.
+2118472569|6d1ad387||Axii İşareti çatışma dışında da kullanışlıdır. Tarafsız hayvanların kaçmasını önleyebilir, atları sakinleştirebilir ve hatta diyalog sırasında kullanılabilir.
+2118472570|6d1ad3a8||Sualtındayken kılıçlarınızı çekemez veya çoğu İşareti kullanamazsınız. Sualtı saldırganlarıyla başa çıkmak için Aard'a veya arbaletinize güvenin.
+2118472571|363f99d1||Zindeliğinize dikkat edin. Her puan hasarınızı %10 artırır ve tam zindelikten daha az zindelikle kullanılan İşaretler daha zayıftır. Yine de, doğru zamanda doğru İşareti kullanmak maliyetine değebilir.
+2118472572|a4b1c1ec||Silahları ve zırhları dünya genelindeki çeşitli zulalarda saklayabilirsiniz. Bir konumda depolanan teçhizat diğer tüm konumlarda da kullanılabilir olacaktır.
+2118472573|a05ae697||Teçhizatınızı büyülemek için Novigraad'ın doğusunda bir Rünyazıcısı arayın, ancak önce rünler, glifler ve özellikle de para biriktirmeyi düşünün.
+2118472574|6d1ad3e3||Zırh onarımı söz konusu olduğunda, doğru aletlere ihtiyacınız vardır. Hafif, orta ve ağır zırhların hepsinin kendine özgü tamir kitleri vardır.
+2118472575|6d1ad3ad||Rakiplerinizi kaskatı dondurun. İki farklı soğuk etki kaynağını birleştirdiğinizde - örneğin Kuzey Rüzgarı bombaları ve Donma becerisine sahip Aard - düşman yerinde donacak ve ek hasar alacaktır.
+2118472576|6d1ad3cd||Bir düşmana çok az hasar verdiğinizi fark ederseniz, daha fazla zırh delmeye ihtiyacınız olabilir. Güçlü veya karşı saldırılar, Aşındırıcı yağ, Riving Patlaması becerisine sahip bombalar kullanın veya bu rakipler için yeni bir özel silah üretin.
+2118472577|363f99ce||Kritik vuruşlar sadece ekstra hasar kaynağı değildir. Aynı zamanda zırh penetrasyonunu ve herhangi bir yağın etkilerini %50 artırırlar.
+2118472578|6d1ad3c9||Eğer Geralt'ın size etrafa bakmanızı söylediğini duyarsanız, bu yakınlarda bir yerde şaheser bir kılıç olduğu anlamına gelir. Bu yorumları Seçenekler > Modlar > W3EE > Keşif bölümünden devre dışı bırakabilirsiniz.
+2118472579|363f99ae||Zehirlenen düşmanlar daha yavaş hareket eder ve daha az hasar verir. Kanayan düşmanların metaneti daha yavaş toparlanır ve metanetleri düşükken ek kanama hasarı alırlar.
+2118472580|6d1ad425||Eğer elinizin altında Beyaz Bal yokken kendinizi toksisiteden ölürken bulursanız, meditasyon yapmak hayatınızı kurtarabilir.
+2118472581|363f9a0b||Axii etkisi altındaki bir düşmana saldırmak, Axii'yi o düşman üzerinde tekrar kullanmayı zorlaştıracaktır.
+2118472582|6d1ad36d||Ganimetlerinizi elden çıkarmak için en iyi yeri mi arıyorsunuz? Genel tüccarlar ve hancılar başlamak için iyi yerlerdir. Skellige'de daha yüksek fiyat öderler, ancak Novigraad'daki tüccarların cepleri daha doludur. Toussaint her ikisinin de en iyisine sahiptir.
+2118472583|363f99b0||Beyaz Bal toksisite ateşini hemen iyileştirir ve toksisiteyi azaltır, ancak diğer iksirlerin etkilerini de iptal eder. Her zaman hazırda bir tane bulundurmaya çalışın.
+2118472584|363f9a0c||Üretimden önce bazı teçhizatların niteliklerini özelleştirebilirsiniz. Tercih ettiğiniz özellikleri bir kılıca yerleştirmek, pahalı şaheser kılıçları satın alana kadar sizi idare edebilir.
+2118472585|6d1ad421||Menzilli rakiplerle sıkıntı mı yaşıyorsunuz? Saldırıya geçmeden önce alternatif Yrden kullanmayı deneyin. Siz yakın dövüşçülerle uğraşırken güvenilir bir koruma alanı sunar.
+2118472586|363f99eb||Zaten sahip olduğunuz malzemelerden kendi simya bazlarınızı oluşturmayı deneyin. Tasarruflar küçük başlayabilir, ancak zamanla birikir.
+2118472587|363f99c8||Gelişmiş kalitede bir simya ürünü üretirken, saf bir bileşen kirli bir bileşenin eklenmesini dengeleyebilir.
+2118472588|6d1ad446||Heybeleriniz bir simya deposuna mı benziyor? Acil ihtiyacınızın ötesinde bir şeyler üretmek becerilerinizi artırabilir. Ağır malzemeleri veya ikincil etkileri olmayanları birincil özlere damıtmak ağırlıktan tasarruf etmenizi sağlayabilir.
+2118472589|6d1ad38b||Tanımadığınız bir düşmanla mı mücadele ediyorsunuz? Kar fırtınası iksiri, onun davranışlarını ve saldırı şeklini kavramanıza yardımcı olabilir.
+2118472590|363f9a0d||Herhangi bir mesafe değiştiricisi tutmadan karşı saldırı yaparak mükemmel bir savuşturma gerçekleştirebilirsiniz. Saldırganı sersemletip dengesini azaltırken sizin denge maliyetlerinizi düşürür ve karşı saldırılardan daha düşük denge seviyelerinde de kullanılabilir.
+2118472591|6d1ad442||Elemental hasar söz konusu olduğunda, ateş ve donun güçlü ve zayıf eşleşmeleri vardır. Uhrevi hasar ve şok hasarı daha çeşitlilerdir.
+2118472592|6d1ad441||Adrenalininizi korumak için her 4 saniyede bir biraz üretmeniz gerekir, aksi takdirde adrenalininiz tükenmeye başlar. Çatışmada düzenli bir tempo tutturmaya çalışın.
+2118472593|7e79ef0c||Engerek çelik kılıcı - geliştirilmiş
+2118472594|7e79ef0d||Engerek çelik kılıcı - üstün
+2118472595|7e79ef0e||Engerek çelik kılıcı - usta işi
+2118472596|7e79ef0f||Büyük Usta Engerek çelik kılıcı
+2118472597|72d3fe7a||Engerek gümüş kılıcı - geliştirilmiş
+2118472598|72d3fe7b||Engerek gümüş kılıcı - üstün
+2118472599|72d3fe7c||Engerek gümüş kılıcı - usta işi
+2118472600|72d3fe7d||Büyük Usta Engerek gümüş kılıcı
+2118472601|9a066b41||Diyagram: Engerek çelik kılıcı - geliştirilmiş
+2118472602|9a066b42||Diyagram: Engerek çelik kılıcı - üstün
+2118472603|9a066b43||Diyagram: Engerek çelik kılıcı - usta işi
+2118472604|9a066b44||Diyagram: Büyük Usta Engerek çelik kılıcı
+2118472605|14095e93||Diyagram: Engerek çelik kılıcı - geliştirilmiş
+2118472606|14095e94||Diyagram: Engerek çelik kılıcı - üstün
+2118472607|14095e95||Diyagram: Engerek çelik kılıcı - usta işi
+2118472608|14095e96||Diyagram: Büyük Usta Engerek çelik kılıcı
+2118472609|0ff5fe0e||Gecikmeli Yükleme
+2118472610|15dda914||Bomba fitil süresini $I$ saniye artırır. Darbe sonrası bombalar patlayana kadar her saniye %$I$ hasar, etki süresi ve Riving Patlaması azaltımı kazanır.<br>Bomba ağırlığını $F$ artırır ve fırlatma menzilini %$I$ azaltır.
+2118472611|15dda915||Bombalar çarpma anında bir dizi patlayıcı parçaya ayrılır ve her biri orijinal bombanın verdiği hasarın %$I$'ını verir.<br>Parça sayısı: $I$<br>Bomba ağırlığını $F$ artırır ve atış menzilini %$I$ azaltır.
+2118472612|5f63dbf5||Kısa bir gecikmeden sonra veya ateşe maruz kaldığında patlayan el bombalarının oluşturulmasını sağlar.
+2118472613|6d1ad3e4||Bomba atarken veya arbalet okunu fırlatırken, hızlı bir saldırı için otomatik hedeflemeyi kullanabilir veya daha fazla hassasiyet için elle nişan alabilirsiniz. Bir bombayı elle hedeflemek, çarpma ve patlama arasındaki gecikmeyi azaltacaktır.
+2118472614|df71848f||Yaralanma iyileşmesi
+2118472615|77971da9||Kuvvet hasarı
+2118472616|9807a82f||Köpek
+2118472617|4e7f3c54||Kurt
+2118472618|b61ff258||Beyaz Kurt
+2118472619|49c19737||Zalim Kurt
+2118472620|128d0c93||Daha bağışlayıcı bir macera arayan yeni oyuncular için.
+2118472621|1ce20a9e||Lehinize veya aleyhinize hiçbir değiştirici olmadan amaçlanan deneyim.
+2118472622|44a553fc||Daha fazla zorluk isteyen tecrübeli ve köklü oyuncular için.
+2118472623|6e09959b||Adil olmayan bir zorluk seviyesini arzulayan ustalar ve mazoşistler için.
+2118472624|6e36da4c||Ekipman - Dayanıklılık
+2118472625|9aecdfcd||Hasar Çarpanı - Oyuncu Dengesi
+2118472626|9a51dd42||Hasar Çarpanı - Düşman Dengesi
+2118472627|306f526b||Kurt Okulu Teknikleri
+2118472628|51ba0aa4||Saptırma
+2118472629|2066a1aa||Mutajenler Sıralanıyor
+2118472630|979bfe1c||Sıralama tamamlandı
+2118472631|c7641a29||Diyagram: Engerek çelik kılıcı
+2118472632|7e79cf87||Diyagram: Engerek gümüş kılıcı
+2118472633|940d4db6||Çatışmada can yenilenmesi
+2118472634|37386f4b||Menzilli saldırılar %$S$ daha yüksek kritik ihtimaline sahiptir ve %$S$ daha fazla denge hasarı verirler. Sıyrılma gerçekleştirmek ve yuvarlanmalar denge yenilenmesini engellemez.
+2118472635|37386f4c||Öldürülen düşmanların üzerinde rastgele otlar bulunur. Bir sıyrılma, yuvarlanma veya uzun mesafe saldırısından sonra $S$ saniye boyunca denge düşürülemez.
+2118472636|19b23b84||Bir düşmanın fiziksel direncini azalttığınızda, zırh delme gücü de aynı miktarda azalır. Alacakaranlıkta Metanet , Denge ve Zindelik yenilenmeniz %$S$ artar.
+2118472637|19b23b85||Riving Patlaması becerisi ilk bombayla sınırlı değildir. Albedo hâkimiyeti etkinken, yağlar yük kaybeder ve ekipman dayanıklılığını %$S$ daha yavaş kaybeder.
+2118472638|66502421||Animasyon - Yağmalama (Otlar)
+2118472639|5ea74dc8||Animasyon - Yağmalama (Diğer)
+2118472640|cea7442f||Adrenalin bozulmasını %$I$ yavaşlatır.<br>Her bir Zindelik puanı için kritik ihtimalini %$F$ artırır. <br>Karşı koymalar ve mükemmel savuşturmalar dengeyi maksimumun %$I$'unun altına düşürmez.
+2118472641|502b0448||Etkinleştir
+2118472642|87c93b4d||Immersive Cam'i Etkinleştirin
+2118472643|4eb8b325||Ağırlık - Zanaat Öğeleri
+2118472644|1000a15c||Sınırsız
+2118472645|b2eae791||Kuşanılmış her set parçası için: Kazanılan Adrenalinin %$S$'ı Zindeliği yeniler ve tam Zindelikteyken, Zindelik yenilenmesinin %$S$'ı Metanet yenilenmesine eklenir.
+2118472646|b2eae792||İşaretler kullanmak $S$ Adrenalin üretir. Başka hiçbir iksir aktif değilken içilen iksirlerin etkileri %$S$ artar. Kaynatılmış özl pasif etkileri %$S$ artar.
+2118472647|9f3574d0||Saldırganlık - Düşman Sayısıyla Ölçeklendir
+2118472648|b11aaf6c||Kuvvet 2H Çatışma Duruşu
+2118472649|8dfe6c5b||Dinamik Metanet Ayarları
+2118472650|6b6ce25d||Varsayılan Metanet Ayarları
+2118472651|84ab3e7c||Stratejik Metanet Ayarları
+2118472652|2587b0ea||Saldırı Taahhüdü
+2118472653|145b222a||Toksisiteden kaynaklanan zindelik yenilenmesi yaptırımı
+2118472654||Redux_ATOff|Off
+2118472655||Redux_ATHybrid|Hybrid
+2118472656||Redux_ATOn|On
+2118472657||Redux_LootRadius|Looting Radius
+2118472658||Redux_ControlOverride|Control Hints Override
+2118472659||Redux_ControlOverridePC|Keyboard
+2118472660||Redux_ControlOverridePS|Playstation
+2118472661||Redux_ControlOverrideXB|Xbox
+2118472662||Redux_ControlOverrideSC|Steam
+2118472663||Redux_ControlOverrideNA|Default
+2118472664||skill_name_mutation_master|Mutant Mastery
+2118472665|4c4d888d||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+2118472666||skill_name_mutation_1|Specter Mutation
+2118472667||skill_desc_mutation_1|Sign costs are reduced by $S$%.<br>Sign Intensity is increased by $S$%.<br>Melee damage is reduced by $S$%.
+2118472668||skill_name_mutation_2|Elemental Mutation
+2118472669||skill_desc_mutation_2|You no longer regenerate Vigor except when meditating.<br>Hitting enemies with melee attacks restores Vigor based on your normal regeneration rate.<br>Fast Attack: $S$ seconds worth of regeneration<br>Strong Attack: $S$ seconds worth of regeneration<br>Whirl: $S$ second worth of regeneration<br>Rend: $S$-$S$ seconds worth of regeneration
+2118472670||skill_name_mutation_3|Necrophage Mutation
+2118472671||skill_desc_mutation_3|Adrenaline gain is increased by 50%.<br>Adrenaline no longer degenerates.<br>Being hit will remove Adrenaline instead of adding it.
+2118472672||skill_name_mutation_4|Draconid Mutation
+2118472673||skill_desc_mutation_4|You no longer suffer any penalties to speed or damage from low Stamina.<br>When taking damage you lose $S$ Stamina per percentage point of Vitality lost.<br>You take up to $S$% additional damage based on your missing Stamina.
+2118472674||skill_name_mutation_5|Insectoid Mutation
+2118472675||skill_desc_mutation_5|Your toxicity level no longer drains except when meditating.<br>Spending Stamina and gaining Adrenaline will remove Toxicity based on your normal drain rate.<br>Per point of Stamina spent: $S$ seconds worth of drain<br>Per point of Adrenaline gained: $S$ seconds worth of drain
+2118472676||skill_name_mutation_6|Relict Mutation
+2118472677||skill_desc_mutation_6|You deal $S$% more Poise damage with ranged attacks against attacking or incapacitated targets.<br>You deal up to $S$% more damage with ranged attacks based on the target's missing Poise.<br>Your Defense Efficiency is reduced by $S$%.
+2118472678||skill_name_mutation_7|Cursed Mutation
+2118472679||skill_desc_mutation_7|You no longer regenerate Vitality except when meditating.<br>Damaging enemies that have recently damaged you will restore some of your lost Vitality based on the damage you dealt. Bonuses to Vitality Regeneration will increase the window you have to strike back.
+2118472680||skill_name_mutation_8|Ogroid Mutation
+2118472681||skill_desc_mutation_8|Stamina costs of defensive actions are paid with Poise.<br>You always avoid hit reaction when your Poise percentage is higher than the percent of Vitality lost.<br>You can be poisebroken by unblocked attacks.
+2118472682||skill_name_mutation_9|Vampire Mutation
+2118472683||skill_desc_mutation_9|Melee damage is increased by $S$%.<br>Poise costs are reduced by $S$%.<br>Stamina costs of actions are reduced by $S$%.<br>Sign costs are increased by $S$%.
+2118472684||skill_name_mutation_10|Hybrid Mutation
+2118472685||skill_desc_mutation_10|You can fully dodge attacks you are not normally able to, but when you do you incur additional Stamina and Poise costs.<br>Stamina regen delays after dodges are doubled.<br>You can no longer dodge while Overexerted.
+2118472686||skill_name_mutation_11|Latent Activation
+2118472687||skill_desc_mutation_11|Potions and Decoctions are no longer consumed when used.<br>White Honey no longer affects you.
+2118472688||skill_name_mutation_12|Metamorphosis
+2118472689||skill_desc_mutation_12|Gain the effects of all researched mutations.
+2118472690||Redux_MutationBaseMutagen|Current base mutagen: 
+2118472691||Redux_MutationNoneMutagen|None
+2118472692||Redux_MutationMultMutagen|Colored mutagen costs increased by 
+2118472693||Redux_Acclimation1|$I$ mutagen slots unlocked.
+2118472694||Redux_Acclimation2|$I$ mutagen slots unlocked.<br>Reduces the mutagen cost of Mutations by $I$%.
+2118472695||Redux_LootDestinationHorse|Horse
+2118472696||Redux_LootDestinationStash|Stash
+2118472697|06ae2506||Researched mutations to unlock: $I$
+2118472698|a344d8bd||Researched mutations for next stage: $I$
+2118472699|fb1e2184||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+   1075445|00000000||Bomba atmak için <<ThrowItem>> tuşuna basın><br><br>Ayrıca isabet oranınızı artırmak için atmadan önce nişan alabilirsiniz. Bunu yapmak için <<ThrowItem>> tuşuna basılı tutun ve nişan alın. Ardından bombayı fırlatmak için <<ThrowItem>> tuşunu bırakın.<br><br>Bombalar patlamadan önce 5 saniyelik bir fünye süresine sahiptir. Bu gecikme çeşitli yollarla etkilenebilir.<br><br>İlk olarak, siz bir bombayı elle hedeflerken fünye otomatik olarak kısalacaktır. Bir bomba 5 gerçek zamanlı saniye sonra tamamen "hazırlanır" ve tutulan bombanın kıvılcım çıkarmaya başlamasıyla birlikte çarpma anında patlar. Bombalar zamanından önce patlamayacaktır.<br><br>İkinci olarak, Igni o anda seçili işaretinizse ve bir bombanın 1 saniyeden fazla fünye süresi kaldıysa, otomatik olarak 0,5 Zindelik harcayarak bombanın çarpma anında patlamasını sağlarsınız.<br><br>Üçüncüsü, bombalar aşağıdakilerden herhangi birine maruz kalırsa derhal patlayacaktır:<br>- Igni<br>- Aard<br>- Patlayıcı Kısa Oklar<br>- Başka bir bomba patlamasından gelen ateş hasarı<br>- Yanma durumuna sahip bir hedef.
+   1077685|00000000||To destroy a monster nest, strike it with the <font color="#CD7D03">Igni</font> sign.<br><br>You can also use a <font color="#CD7D03">Grapeshot</font>, <font color="#CD7D03">Samum</font> or <font color="#CD7D03">Dancing Star</font> bomb.
+   1087258|00000000||You can remove upgrades and runestones from your items here.
+   1087262|00000000||Once you select an item, you will be shown which upgrades it is fitted with here.<br><br>Bear in mind, however, that once you confirm your selection, <font color="#CD7D03">all</font> of this item's upgrades will be removed.
+   1087266|00000000||To remove upgrades, select an item and press <<GUI_Select>>
+   1087270|00000000||To remove upgrades and runestones, select an item and press <<GUI_PC_Select>>
+   1114581|00000000||You can get Temerian gear by helping Vernon Roche in eastern Novigraad.
+   1114589|00000000||You can get Nilfgaardian gear by working with Nilfgaardians throughout Velen. It can also be purchased from quartermaster Eggebracht at the Nilfgaardian army camp.
+   1114595|00000000||New Game+ is not supported in Enhanced Edition Redux.
+   1114607|00000000||You can get Skellige gear by helping Yoana at Crow's Perch.
+   1131841|00000000||Ofieri rünyazıcısı için kron temin edin.
+   1136504|00000000||Ofieri rünyazıcısına kron verin.
+   1206642|00000000||<font color="#CD7D03">Mutations</font> are a further way to personalize your experience on the Path and customize your particular playstyle. They significantly alter core gameplay mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>Mutations can be unlocked in <b>any</b> order you wish. 
+   1206644|00000000||Developing a mutation requires a sizeable investment of <font color="#CD7D03">greater colored mutagens</font>, though there are several means of reducing their cost. When researching a red, blue, or green mutation you can provide a <font color="#CD7D03">base</font> mutagen that matches that mutation family. Any monster mutagen will suffice, but sourcing a higher tier archmutagen will provide further savings. This base mutagen is <b>not</b> consumed during research.<br><br>The cost of a mutation is also reduced by <font color="#CD7D03">10%</font> for each connected mutation already researched.<br><br>Finally the <font color="#CD7D03">Acclimation skill</font> will also reduce research costs.
+   1206650|00000000||Mutant Mastery
+   1206651|00000000||<font color="#CD7D03">Mutant Mastery</font> is a <b>passive ability</b> that develops automatically as you finish research on mutations.<br><br>This mutation has several stages, each boosting your experience gain in the <font color="#CD7D03">Mutations</font> and <font color="#CD7D03">Trials of the Grasses</font> skill trees. There are 4 total stages unlocked at two, four, eight, and twelve researched mutations.<br><br>Additionally, if you manage to gain access to an advanced laboratory dealing with Witcher mutations, this ability will gain further bonuses based on the color of your equipped mutation.<br><br>Blue: +25% Vigor Regeneration<br>Green: +50% Toxicity Drain<br>Red: +20 Vitality Regeneration<br>Orange: +20% Stamina Regeneration
+   1206729|00000000||In Enhanced Edition Redux, mutations are available from the start of the game.<br><br>Mutations significantly alter core game mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>To learn more, open the <font color="#CD7D03">Character Panel</font>.
+   1206763|00000000||Mutation Research
+   1206764|00000000||Once again, any mutation can be researched first regardless of its position. For tutorial purposes, select one of the highlighted mutations.
+   1206765|00000000||Mutation Research
+   1206766|00000000||Once a mutation is researched, it will reduce the resarch cost of all connected mutations by 10%. The <font color="#CD7D03">Acclimation</font> skill will also reduce the required number. 
+   1206771|00000000||Mutant Mastery
+   1206772|00000000||<font color="#CD7D03">Mutant Mastery</font> is a passive ability that improves automatically as you develop other mutations. It will also gain additional benefits when you gain access to an advanced laboratory during <font color="#CD7D03">Turn and Face the Strange</font>.
+   1206779|00000000||Mutant Mastery
+   1206780|00000000||Congratulations!<br>Your <font color="#CD7D03">Mutant Mastery</font> has advanced to the next level!
+   1206785|00000000||Mutation Research
+   1207952|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. Return here with enough mutagens to unlock a mutation.
+   1214082|00000000||To use mutations, first you must research them. In Enhanced Edition Redux, mutations can be researched in <font color="#CD7D03">any order</font>. However, to advance this tutorial, select one of the highlighted mutations.
+   1214084|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. This base mutagen is not consumed. 
+   1225007|00000000||You can get the Thousand Flowers set by helping elves throughout Velen and Novigraad. It can also be purchased at the Scoia'tael camp southwest of Novigraad.
+   1225008|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.
+   1225013|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.

@@ -1,0 +1,6 @@
+dlc/
+*.w3strings
+*.bundle
+*.store
+*.cache
+*.toml

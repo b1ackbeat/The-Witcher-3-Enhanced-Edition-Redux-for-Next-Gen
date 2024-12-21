@@ -1,0 +1,714 @@
+;meta[language=hu]
+; id      |key(hex)|key(str)| text
+2118472000||skill_desc_sword_s1|Consumes $I$% less Stamina.<br>Incoming melee damage is reduced by $I$%.<br>$I$% chance that taking damage while whirling will not cause stagger.
+2118472001||skill_desc_sword_s3|Increases defense efficiency by $I$%.<br>Reduces the damage received through counters and perfect parries by $I$%.<br>$I$% chance to avoid stagger effects while parrying attacks from human-sized enemies.
+2118472002||skill_desc_sword_s5|Fast attacks have a $I$% higher chance of inflicting injuries.<br>Fast attacks reduce enemy speed by $F$%, to a maximum of $F$%.<br>Enemy speed recovers after not taking damage for $I$ seconds.
+2118472003||skill_name_sword_s6|Sundering Strikes
+2118472004||skill_desc_sword_s6|Strong attacks deal $I$% more poise damage.<br>Strong attacks deal $I$% damage through enemy blocks.
+2118472005||skill_desc_sword_s10|Chance of receiving injuries is $F$% lower.<br>Poise costs when attacked from behind reduced to $F$%.<br>Deflecting and redirecting projectiles costs $F$% less stamina and poise.
+2118472006||skill_name_sword_s9|Footwork
+2118472007||skill_desc_sword_s9|Increases movement efficiency by $I$%.<br>Reduces graze damage received by $I$%.<br>$I$% chance to avoid stagger effects while dodging.
+2118472008||skill_name_sword_s13|Steady Shot
+2118472009||skill_desc_sword_s13|Ranged damage is increased by $I$%.<br>Time slow while aiming ranged weapons is increased to $I$%.
+2118472010||skill_desc_sword_s16|Increases the chance of resisting stagger effects by $I$%.<br>Lowers the speed malus from low Stamina by $I$%.<br>Lowers the Sign Intensity malus from low Vigor by $I$%.
+2118472011||skill_desc_magic_s1|Alternate Sign Mode:<br>Aard strikes in a circle, but with decreased damage and knockback.<br>Damage reduction lowered to $I$%.<br>Knockback power reduction lowered to $I$%.
+2118472012||skill_desc_magic_s2|Alternate Sign Mode:<br>Emits a continuous stream of fire dealing $F$ damage and slowing opponents by $F$%.<br>Deals $I$% damage to burning enemies.<br>Vigor cost is reduced by $I$%.
+2118472013||skill_desc_magic_s3|Alternate Sign Mode:<br>Creates a protective glyph that shocks opponents who take offensive actions against Geralt.<br>Deals $I$ damage and has a chance to interrupt attacks based on skill level and enemy poise. Each target can be hit once every $F$ seconds.<br>Destroys arrows and bolts passing through the area.
+2118472014||skill_desc_magic_s4|Alternate Sign Mode:<br>Creates an active shield. Maintaining it and blocking attacks drains Vigor.<br>Damage absorbed by the shield restores Stamina.<br>Reduces the vigor cost of blocked attacks by $I$%.<br>Increases Stamina restored by $I$%.
+2118472015||skill_desc_magic_s5|Alternate Sign Mode:<br>Targeted enemy becomes an ally for $I$ seconds.<br>Base success chance of $I$%, -$I$% per current puppet.<br>Enemies that attack or are attacked by a puppet lose $I$ morale.<br>Effect may be broken when the target's health falls below $I$%.
+2118472016||skill_name_alchemy_s1|Dissolution
+2118472017||skill_desc_alchemy_s1|Increases yield when distilling essences by $I$%.<br>Increases Nigredo magnitude and duration by $I$%.
+2118472018||skill_name_alchemy_s2|Purification
+2118472019||skill_desc_alchemy_s2|Reduces the toxicity increase from imbibing multiple potions to $I$%.<br>Increases Albedo magnitude and duration by $I$%.
+2118472020||skill_name_alchemy_s3|Coagulation
+2118472021||skill_desc_alchemy_s3|Potions (except White Honey) restore $I$% of Vitality when imbibed.<br>Increases Rubedo magnitude and duration by $I$%.
+2118472022||skill_name_alchemy_s4|Saturation
+2118472023||skill_desc_alchemy_s4|Increases the duration of potions by $I$%.<br>Increases the toxicity of potions by $I$%.
+2118472024||skill_desc_alchemy_s12|Applied blade oils are $I$% more powerful.<br>Your applied blade oils lose $I$% less potency as they run out.
+2118472025||skill_name_alchemy_s5|Fixative
+2118472026||skill_desc_alchemy_s5|Applied blade oils last $I$% longer.<br>Applied blade oils reduce weapon durability loss by up to $I$%.
+2118472027||skill_name_alchemy_s6|Transfusion
+2118472028||skill_desc_alchemy_s6|Oil effects are increased by $I$% per enemy bleed level.<br>$I$% chance per enemy bleed level that applied blade oils will not lose charge.
+2118472029||skill_desc_alchemy_s9|Increases the maximum throw distance of bombs by $I$%.<br>Time slow while aiming bombs is increased to $I$%.
+2118472030||skill_name_alchemy_s18|Affinity
+2118472031||skill_desc_alchemy_s18|Active Decoctions reduce damage taken from monsters of that family by $I$%.<br>Active Mutations reduce damage taken from monsters of that family by $I$%.<br>Researched Mutations reduce damage taken from monsters of that family by $I$%.
+2118472032||skill_name_alchemy_s13|Hunter Instinct
+2118472033||skill_desc_alchemy_s13|Equipped Archmutagens increase damage dealt to monsters of that family by $I$% per tier.<br>Active Mutations increase damage dealt to monsters of that family by $I$%.<br>Researched Mutations increase damage dealt to monsters of that family by $I$%.
+2118472034||skill_name_alchemy_s19|Acclimation
+2118472035||skill_name_alchemy_s14|Strain Isolation
+2118472036||skill_desc_alchemy_s14|Extends effective duration of all mutagen decoctions by $I$% and lowers their toxicity by $I$.<br>$I$% chance of obtaining regular mutagens as a by-product of alchemy.
+2118472037||skill_desc_alchemy_s16|Increases speed by up to $I$% based on the current Toxicity percentage.<br>Increases Adrenaline generation by up to $I$% based on the current Toxicity percentage.
+2118472038||skill_desc_alchemy_s20|Reduces damage taken by up to $I$% based on the current Toxicity percentage.<br>Reduces Poise costs by up to $I$% based on the current Toxicity percentage.
+2118472039||skill_name_alchemy_s15|Heightened Tolerance
+2118472040||skill_desc_alchemy_s15|Reduces the ongoing effects of Toxicity Fever by $I$%.<br>Reduces the damage taken from Toxicity overflow by $I$%.
+2118472041||skill_name_alchemy_s17|Metabolic Control
+2118472042||skill_desc_alchemy_s17|Increases Toxicity drain by $I$%.<br>Lowers the vigor regeneration malus from toxicity by $I$%.
+2118472043||skill_name_perk_2|Horseman
+2118472044||skill_desc_perk_2|Increases damage from horseback by $I$%.<br>Reduces mount fear by $I$%.<br>Galloping drains $I$% less stamina.
+2118472045||skill_name_perk_4|Alchemical Studies
+2118472046||skill_desc_perk_4|Increases alchemical loot from monsters and herbs by $I$%.
+2118472047||skill_desc_perk_5|For each equipped piece of light armor:<br>+$I$ safe dodge angle<br>+$F$% adrenaline generation<br>-$F$% received injury chance.
+2118472048||skill_desc_perk_6|For each equipped piece of medium armor:<br>+$I$% secondary resistances<br>-$F$% stamina regeneration delay<br>-$F$% poise regeneration delay.
+2118472049||skill_desc_perk_7|For each equipped piece of heavy armor:<br>+$F$ stamina regeneration<br>+$F$ poise regeneration<br>+$F$% knockdown chance when performing perfect parries and bash counters.
+2118472050||skill_desc_perk_10|Gain $I$ Adrenaline at the start of combat, and allows parries to generate Adrenaline.
+2118472051||skill_name_perk_11|Coup de Grâce
+2118472052||skill_desc_perk_11|Critical hit chance is increased by $I$% per enemy injury.<br>Critical hits now multiply injury chance by $F$, up from $F$.
+2118472053||skill_name_perk_12|Alchemical Refinement
+2118472054||skill_desc_perk_12|When brewing potions, oils, or bombs, one contaminated or quality ingredient will be treated as $I$ quality level higher.
+2118472055||skill_name_perk_13|Fleet Footed
+2118472056||skill_desc_perk_13|Increases movement speed by $I$%.<br>Sprinting in combat will not drain stamina for the first $I$ seconds.
+2118472057||skill_desc_perk_15|Beneficial effects from food and drinks last for $I$% longer.<br>While both well-fed and well-hydrated you gain $I$ Vitality.
+2118472058||skill_name_perk_16|Positioning
+2118472059||skill_desc_perk_16|Increases flanking attack power by $I$%.<br>Increases safe dodge angle by $I$.
+2118472060||skill_name_perk_18|Advanced Maintenance
+2118472061||skill_desc_perk_18|Equipment maintenance buffs last twice as long.<br>Repair kits apply maintenance buffs.<br>$I$% chance a repair kit will not be consumed on use.
+2118472062||skill_name_perk_19|Huntsman
+2118472063||skill_desc_perk_19|Increases damage against targets of monster contracts by $I$%.<br>Trophies sell for $I$% more.
+2118472064||skill_name_perk_21|Brawler
+2118472065||skill_desc_perk_21|Adds gauntlet armor to unarmed damage.<br>Removes unarmed damage penalty against monsters.<br>Increases Poise by $I$.
+2118472066||skill_desc_perk_22|Maximum carry weight is increased by $I$.<br>Penalties from equipped armor are reduced by $I$%.
+2118472067||skill_desc_sword_s18|As Vitality falls below $F$%, each point of Adrenaline increases Vitality Regeneration by up to $F$ and reduces damage taken by up to $F$.
+2118472068||panel_character_tooltip_mutagen_locked_desc|Acclimation skill level to unlock
+2118472069||attribute_name_toxicity_drain|Toxicity Drain
+2118472070||attribute_name_oil_silver_tooltip|Damage to Supernaturals
+2118472071||attribute_name_oil_frost_damage_tooltip|Frost damage
+2118472072||attribute_name_oil_frost_damage_tooltip2|Chance to chill
+2118472073||attribute_name_oil_poison_tooltip2|Poison damage
+2118472074||attribute_name_oil_falka_injury_chance_tooltip|Injury chance
+2118472075||attribute_name_oil_falka_injury_chance_tooltip2|Stagger chance
+2118472076||item_desc_ethereal_oil|The dimeritium in veil oil temporarily prevents some magical and supernatural abilities.<br>Blocks abilities for $S$ seconds.
+2118472077||item_desc_falka_oil|Though originally developed as a tool for Falka's cruelties, the ethics of using this oil are easily overshadowed by its applications on the path.
+2118472078||item_desc_silver_oil|A grease with specks of silver, allowing steel swords to damage supernatural creatures and causing them silver burns that halt their regeneration.<br>Burns supernatural creatures for $S$ seconds, dealing $S$ damage per second.
+2118472079||item_desc_black_blood_1|Increases resistance to bleeding. When damaged by Vampires or Necrophages, they take damage and poise damage in return.
+2118472080||item_desc_black_blood_2|Increases resistance to bleeding. When damaged by Vampires or Necrophages, they take damage and poise damage in return.
+2118472081||item_desc_black_blood_3|Increases resistance to bleeding. When damaged by Vampires or Necrophages, they take damage and poise damage in return.<br><br>Superior potion: poisons enemies based on returned damage.
+2118472082||item_desc_blizzard_1|Increases adrenaline generation, and when an enemy begins an attack, time slows for a short period.
+2118472083||item_desc_blizzard_2|Increases adrenaline generation, and when an enemy begins an attack, time slows for a short period.
+2118472084||item_desc_blizzard_3|Increases adrenaline generation, and when an enemy begins an attack, time slows for a short period.<br><br>Superior potion: speed is offset proportional to current adrenaline.
+2118472085||item_desc_cat_1|Increases movement speed, movement efficiency, and safe dodge angle.
+2118472086||item_desc_cat_2|Increases movement speed, movement efficiency, and safe dodge angle.
+2118472087||item_desc_cat_3|Increases movement speed, movement efficiency, and safe dodge angle.<br><br>Superior potion: negates stagger effects while dodging.
+2118472088||item_desc_full_moon_1|Increases maximum vitality and resistance to injuries.
+2118472089||item_desc_full_moon_2|Increases maximum vitality and resistance to injuries.
+2118472090||item_desc_full_moon_3|Increases maximum vitality and resistance to injuries.<br><br>Superior potion: at night, incoming attacks cannot deal more than 1/5 of maximum vitality. During a full moon, 1/6 maximum vitality.
+2118472091||item_desc_golden_oriole_1|Increases resistance to poisoning and poison damage, and hastens the reduction of poison stacks.
+2118472092||item_desc_golden_oriole_2|Increases resistance to poisoning and poison damage, and hastens the reduction of poison stacks.
+2118472093||item_desc_golden_oriole_3|Increases resistance to poisoning and poison damage, and hastens the reduction of poison stacks.<br><br>Superior potion: when imbibed, heals a percentage of vitality equal to the current toxicity percentage.
+2118472094||item_desc_tiara_1|Increases poise, defensive stamina efficiency, and reduces damage taken through counters and parries.
+2118472095||item_desc_tiara_2|Increases poise, defensive stamina efficiency, and reduces damage taken through counters and parries.
+2118472096||item_desc_tiara_3|Increases poise, defensive stamina efficiency, and reduces damage taken through counters and parries.<br><br>Superior potion: negates stagger effects while parrying attacks from human-sized enemies.
+2118472097||item_desc_maribor_forest_1|Increases vigor regeneration.
+2118472098||item_desc_maribor_forest_2|Increases vigor regeneration.
+2118472099||item_desc_maribor_forest_3|Increases vigor regeneration.<br><br>Superior potion: toxicity drain is increased by 50% while at full vigor.
+2118472100||item_desc_petri_philtre_1|Increases Sign intensity.
+2118472101||item_desc_petri_philtre_2|Increases Sign intensity.
+2118472102||item_desc_petri_philtre_3|Increases Sign intensity.<br><br>Superior potion: Signs always apply their special effects.
+2118472103||item_desc_swallow_1|Increases vitality regeneration. The effect is paused for 2 seconds upon receiving damage.
+2118472104||item_desc_swallow_2|Increases vitality regeneration. The effect is paused for 2 seconds upon receiving damage.
+2118472105||item_desc_swallow_3|Increases vitality regeneration. The effect is paused for 2 seconds upon receiving damage.<br><br>Superior potion: duration is paused while at full vitality.
+2118472106||item_desc_tawny_owl_1|Increases stamina regeneration and offensive stamina efficiency.
+2118472107||item_desc_tawny_owl_2|Increases stamina regeneration and offensive stamina efficiency.
+2118472108||item_desc_tawny_owl_3|Increases stamina regeneration and offensive stamina efficiency.<br><br>Superior potion: duration is paused at night.
+2118472109||item_desc_thunderbolt_1|Increases armor penetration, poise damage, and damage through blocks.
+2118472110||item_desc_thunderbolt_2|Increases armor penetration, poise damage, and damage through blocks.
+2118472111||item_desc_thunderbolt_3|Increases armor penetration, poise damage, and damage through blocks.<br><br>Superior potion: critical hits have a chance to trigger a frenzy, slowing time while increasing speed.
+2118472112||item_desc_white_honey_1|Drains active and dormant toxicity and cures toxicity fever, but cancels all active potions.
+2118472113||item_desc_white_honey_2|Drains active and dormant toxicity and cures toxicity fever, but cancels all active potions.
+2118472114||item_desc_white_honey_3|Drains active and dormant toxicity and cures toxicity fever, but cancels all active potions.<br><br>Superior potion: cancelling of potion effects is delayed by 10 seconds.
+2118472115||item_desc_white_raffards_decoction_1|Greatly increases vitality regeneration.
+2118472116||item_desc_white_raffards_decoction_2|Greatly increases vitality regeneration.
+2118472117||item_desc_white_raffards_decoction_3|Greatly increases vitality regeneration.<br><br>Superior potion: when imbibed, heals 30% of missing vitality.
+2118472118||skill_desc_lynx_set_ability1|For each set piece equipped: attacks have +$S$% flanking attack power and injury chance for $S$ seconds after a dodge, and dodges have +$S$% stamina efficiency and graze damage reduction for $S$ seconds after an attack.
+2118472119||skill_desc_lynx_set_ability2|Injuries you inflict reduce enemy speed and damage by $S$%.
+2118472120||skill_desc_gryphon_set_ability2|For each set piece equipped: $S$% of the Ethereal damage you deal permanently lowers enemy force, frost, fire, shock, and mental resistances. Can break damage immunities, but not status.
+2118472121||skill_desc_gryphon_set_ability1|While inside a Yrden circle you have +$S$% increased time slow, +$S$% Vigor regeneration, and +$S$% Intensity for other Signs.
+2118472122||skill_desc_bear_set_ability1|For each set piece equipped: perfect parries deal $S$% more poise damage, poise-breaking an enemy restores $S$ Stamina, and attacks against poise-broken enemies deal $S$% more damage.
+2118472123||skill_desc_bear_set_ability2|Each point of current poise reduces enemy armor piercing by $S$% and damage taken through counters and parries by $S$%. Each point of missing poise increases attack speed by $S$% and poise damage by $S$%. Poise will not regenerate unless blocking or standing still.
+2118472124||skill_desc_wolf_set_ability1|For each set piece equipped: applying bleeding generates $S$ Adrenaline and each point of Adrenaline gained above $S$ restores $S$ Vitality and $S$ Stamina.
+2118472125||skill_desc_wolf_set_ability2|Maximum Adrenaline is increased to $S$. Bleed stacks reduce enemy force and frost resistance by $S$%.
+2118472126||skill_desc_red_wolf_set_ability1|For each set piece equipped: +$S$% ranged damage (including bombs) and +$S$% attack power per status effect on the target.
+2118472127||skill_desc_red_wolf_set_ability2|Effects that scale with Toxicity percent scale with flat Toxicity instead. +$S$% attack power and +$S$ Vitality regeneration per point of active Toxicity.
+2118472128||skill_desc_viper_set_ability1|For each set piece equipped: critical hit chance is increased by $S$% for each poison stack on the target, and Axii applies up to $S$ poison stack on a successful cast.
+2118472129||skill_desc_viper_set_ability2|You can apply an additional oil, and any potency loss from additional oils is reduced by $S$%. Each oil applied increases the bonus oil potency on critical hits by $S$%.
+2118472130||skill_desc_vampire_set_ability1|Enemies damaging you in melee have a chance to bleed.
+2118472131||skill_desc_vampire_set_ability2|Enemies slain in melee restore your Vitality by $S$ per bleed stack.
+2118472132||skill_desc_vampire_set_ability3|Enemies damaging you in melee have a chance to be stunned or become your puppet.
+2118472133||skill_desc_vampire_set_ability4|Axii removes all bleeding from the target to restore your Vitality by $S$ per bleed stack.
+2118472134||SwordDancingEffectDescr|Strong attacks increase the damage of your next fast attack by $S$ and vice versa.
+2118472135||SwordReachoftheDamnedEffectDescr|Attacking an opponent below $S$ health confers $S$ extra ethereal damage, while attacking opponents while you are below $S$ Vitality confers $S$ extra ethereal damage and +$S$ Adrenaline gain.<br>These effects can stack.
+2118472136||SwordRedTearEffectDescr|As Vitality falls below $S$, you deal up to $S$ more damage in melee.
+2118472137||item_name_robustswordofdolblathanna|Gláeddyv Blathanna
+2118472138||item_name_red_wolf_school_crossbow|Manticore crossbow
+2118472139||item_desc_red_wolf_school_crossbow|A sturdy and convenient projectile weapon.
+2118472140||item_name_red_wolf_school_crossbow_schematic|Diagram: Manticore crossbow
+2118472141||panel_common_statistics_tooltip_silver_fast_dps|Damage
+2118472142||panel_common_statistics_tooltip_silver_fast_crit_chance|Critical hit chance
+2118472143||panel_common_statistics_tooltip_silver_fast_crit_dmg|Critical hit damage
+2118472144||panel_common_statistics_tooltip_silver_strong_dps|Damage
+2118472145||panel_common_statistics_tooltip_silver_strong_crit_chance|Critical hit chance
+2118472146||panel_common_statistics_tooltip_silver_strong_crit_dmg|Critical hit damage
+2118472147||panel_common_statistics_tooltip_steel_fast_dps|Damage
+2118472148||panel_common_statistics_tooltip_steel_fast_crit_chance|Critical hit chance
+2118472149||panel_common_statistics_tooltip_steel_fast_crit_dmg|Critical hit damage
+2118472150||panel_common_statistics_tooltip_steel_strong_dps|Damage
+2118472151||panel_common_statistics_tooltip_steel_strong_crit_chance|Critical hit chance
+2118472152||panel_common_statistics_tooltip_steel_strong_crit_dmg|Critical hit damage
+2118472153||W3EE_EffectResist|Secondary Resistances
+2118472154||W3EE_StamCostArmMod|Stamina costs modifier
+2118472155||W3EE_StamRegArmMod|Stamina regen modifier
+2118472156||W3EE_Efficiency|Efficiencies
+2118472157||W3EE_StamEffAtt|Attack
+2118472158||W3EE_StamEffDef|Defense
+2118472159||W3EE_StamEffMov|Movement
+2118472160||W3EE_AdrGen|Generation Rates
+2118472161||W3EE_AdrGain|Current multiplier
+2118472162||W3EE_AdrCount|Adrenaline gained on counter
+2118472163||W3EE_AdrAtt|Adrenaline gained on attack
+2118472164||W3EE_AdrKill|Adrenaline gained on kill
+2118472165||W3EE_AdrHit|Adrenaline gained on being hit
+2118472166||W3EE_DamBon|Damage bonus
+2118472167||W3EE_AdrTimeSlow|Speed offset
+2118472168||W3EE_AdrSignBon|Sign Intensity - Flood of Anger
+2118472169||W3EE_Rates|Rates
+2118472170||W3EE_ToxGain|Toxicity gain
+2118472171||W3EE_ToxDrain|Toxicity drain
+2118472172||W3EE_ToxDelta|Change per second
+2118472173||W3EE_ToxSpeed|Base speed bonus - Frenzy
+2118472174||W3EE_ToxAdr|Adrenaline generation bonus - Frenzy
+2118472175||W3EE_ToxArm|Received damage reduction - Endure Pain
+2118472176||W3EE_ToxPoise|Poise cost reduction - Endure Pain
+2118472177||W3EE_FevVigRed|Vigor regen reduction - Toxicity Fever
+2118472178||W3EE_FevStamRed|Stamina regen reduction - Toxicity Fever
+2118472179||W3EE_FevSpdRed|Base speed reduction - Toxicity Fever
+2118472180||spell_power_igni|Igni Intensity
+2118472181||W3EE_VigRegenRedHP|Vigor regen reduction - Vitality
+2118472182||W3EE_VigRegenRedTox|Vigor regen reduction - Toxicity
+2118472183||W3EE_VigRegenBonAdr|Vigor regen bonus - Adrenaline
+2118472184||W3EE_PoiseStats|Cost modifier
+2118472185||W3EE_KolRedux|Redux
+2118472186||Kol_DispItemName|Show Internal Item Names
+2118472187||Kol_DropQuestItem|Drop Quest Items
+2118472188||Kol_DelDropItem|Delete Dropped Items
+2118472189||Kol_HumanPoiseFinish|Finishers - Disable Poise Finishers
+2118472190||Kol_StaminaRegen|Stamina Regen Multiplier
+2118472191||Kol_StaminaCosts|Stamina Costs Multiplier
+2118472192||Kol_AggStam|Aggression - Stamina
+2118472193||Kol_AggBeh|Aggression - Behavior
+2118472194||attribute_name_poise_cost_bonus|Poise Efficiency
+2118472195||primer_effect_descr1|increase toxicity drain by $I$%
+2118472196||primer_effect_descr2|increase vitality regeneration by $I$
+2118472197||primer_effect_descr3|increase damage dealt by $I$%
+2118472198||panel_title_roach|Roach
+2118472199||panel_title_stash|Stash
+2118472200||Redux_item_quant_on_Roach|on Roach
+2118472201||w3ee_sort_stash|Toggle Roach
+2118472202|28cfaa13||Stash
+2118472203|e4718bad||Stash
+2118472204||Redux_WST|Witcher Senses - Toggle
+2118472205||attribute_name_indestructible|Durability
+2118472206||attribute_name_lifesteal|Lifesteal
+2118472207||skill_name_magic_s17|Lethargy
+2118472208||skill_desc_magic_s17|When Axii ends, targets lose $I$% of their maximum stamina and poise and are slowed for $I$ seconds.<br>These effects are reduced based on the maximum health of the target.
+2118472218||Redux_DisableSwordFx|Disable Special Sword Effects
+2118472219||redux_catSet_dodge|Cat Dodge Bonus
+2118472220||redux_catSet_attack|Cat Attack Bonus
+2118472221|ae78a6af|fhud_stashItemQuantity|Show how many items you have on Roach
+2118472222||W3EE_StamRegenEffBon|Stamina regen and efficiency bonus
+2118472223||W3EE_SpdRed|Speed reduction
+2118472224||Kol_DamageReductionStamina|Damage Penalty - Max Reduction Percentage At No Stamina
+2118472225||Kol_NoStaminaNoModifiers|Disable Distance Modifiers When Overexerted
+2118472226||Redux_StashDebug|Stash Debug
+2118472227||Redux_ToxMult|Toxicity - Multiplier
+2118472228||SwordInjuryHealEffectDescr|Critical hits fully restore Poise and heal an injury.
+2118472229||Redux_SetBonus1|Set Bonuses - First Requirement
+2118472230||Redux_SetBonus2|Set Bonuses - Second Requirement
+2118472231||W3EE_ReduxDynam|Redux - Dynamic
+2118472232||W3EE_ReduxStrat|Redux - Strategic
+2118472233||skill_desc_temerian_set_ability1|Critical damage is increased up to $S$% the more armor the target has. After $S$ seconds without attacking, your next attack has $S$% increased critical chance and armor piercing.
+2118472234||skill_desc_nilfgaard_set_ability1|Your counters cost $S$% less poise. Hitting an enemy with less poise than you restores up to $S$ stamina.
+2118472235||skill_desc_skellige_set_ability1|Enemies hitting you in melee may be chilled. When attacking with a two-handed secondary weapon, you deal $S$% more damage and are immune to stagger.
+2118472236||skill_desc_ofieri_set_ability1|All equipped Glyphs (including Glyphword components) provide additional bonuses.<br>Signs: +$S$% respective Sign Intensity<br>Mending: +$S$ Vitality regeneration<br>Freeing: +$S$ Stamina regeneration<br>Binding: +$S$% Toxicity Drain<br>Warding: +$S$ Armor
+2118472237||skill_desc_new_moon_set_ability1|Throwing knives stun opponents during their attacks. At night, total speed is increased by $S$% and dodge windows are lengthened.
+2118472238||starting_pants_improved|Improved Kaer Morhen trousers
+2118472239||starting_boots_improved|Improved Kaer Morhen boots
+2118472240||starting_gloves_improved|Improved Kaer Morhen gauntlets
+2118472241||starting_sword_steel_improved|Improved Kaer Morhen steel sword
+2118472242||starting_sword_silver_improved|Improved Kaer Morhen silver sword
+2118472243||item_name_starting_pants_upgrade_schematic|Improved Kaer Morhen trousers
+2118472244||item_name_starting_boots_upgrade_schematic|Improved Kaer Morhen boots
+2118472245||item_name_starting_gloves_upgrade_schematic|Improved Kaer Morhen gauntlets
+2118472246||item_name_starting_sword_steel_upgrade_schematic|Improved Kaer Morhen steel sword
+2118472247||item_name_starting_sword_silver_upgrade_schematic|Improved Kaer Morhen silver sword
+2118472248||W3EE_PyromaniacSkill|Increases Firestream damage by $I$, Igni damage by $I$, and burn damage by $I$.
+2118472249||Redux_DAC|Disable Artifact Comments
+2118472250||redux_DeathCounter|Death Counter
+2118472251||GaunterMode|Gaunter Mode
+2118472252||Redux_GMEnabled|Enabled
+2118472253||Redux_GMSkillReq|Skill Point Requirement
+2118472254||Redux_GMSkillMod|Spent Skill Modifier
+2118472255||Redux_GMDeathLimit|Death Limit
+2118472256||Redux_GMVitality|Maximum Vitality Loss per Death
+2118472257||Redux_GMStamina|Maximum Stamina Loss per Death
+2118472258||Redux_GMToxicity|Maximum Toxicity Loss per Death
+2118472259||Redux_GMIntensity|Sign Intensity Loss per Death
+2118472260||Redux_GMXPModifier|XP Modifier per Death
+2118472261||Redux_GMDurability|Maximum Equipment Durability Loss
+2118472262||Redux_GMMark|GOD's Mark
+2118472263||Redux_GMLethalMark|GOD's Mark - Lethal Only
+2118472264||Redux_GMQuestMod|Death Decrement from Quests
+2118472265||Redux_GMDeathMod|Death Increment from Recent Deaths
+2118472266||attribute_name_attack_stamina_cost_bonus|Offense efficiency
+2118472267||attribute_name_parry_stamina_cost_bonus|Defense efficiency
+2118472268||attribute_name_movement_stamina_efficiency|Movement efficiency
+2118472269||W3EE_EvSpeed|Movement speed
+2118472270||W3EE_EvSpeedH|Movement speed
+2118472271||attribute_name_evade_speed|Movement speed
+2118472272||item_name_glyph_reinforcement_lesser|Lesser Glyph of Freeing
+2118472273||item_name_glyph_reinforcement|Glyph of Freeing
+2118472274||item_name_glyph_reinforcement_greater|Greater Glyph of Freeing
+2118472275||panel_blacksmith_remove_improvement_confirmation|Are you sure you want to remove upgrades?
+2118472276||attribute_name_oil_flammable_effect_tooltip2|Chance to burn
+2118472277||attribute_name_oil_ethereal_damage_tooltip|Ethereal damage
+2118472278||skill_desc_magic_s6|Increases Aard's poise damage by $I$%.<br>Increases stun chance to $I$%. 
+2118472279||skill_desc_magic_s12|Aard deals an additional $I$ frost damage.<br>Aard has a base $I$% chance to chill for $I$ seconds.<br>Chance increases against targets low in stamina or poise.<br>Chilled enemies are slowed, have reduced stamina regen, and take increased physical damage.
+2118472281||skill_desc_magic_s13|Quen explodes when taking $I$% of its health in damage, staggering nearby enemies and dealing $I$ shock damage.<br>Quen reflected damage is increased to $I$%.
+2118472282||skill_desc_magic_s14|Reduces the Vigor upkeep of Quen by $I$%.<br>Quen regenerates $I$ of its health per second.<br>Active Shield regenerates $I$% of your poise per second.
+2118472283||skill_desc_magic_s15|Increases Quen stagger resistance to $I$%.<br>Increases Quen poise cost reduction to $I$%.<br>Increases Quen counter damage reduction to $I$%.
+2118472284||skill_name_magic_s14|Renewing Shield
+2118472285||W3EE_QuenSkill|Protective shield that absorbs damage, blocks poison and bleed, reduces poise costs, and increases stagger resistance.<br>Slows Vigor regeneration by $I$% while active.<br>Activating a Quen shield just before an enemy attack lands will counter the blow.<br><br>Shield Health: $I$<br>Shield Duration: $I$ seconds
+2118472286||glyphword01_name|Disintegration I
+2118472287||glyphword01_desc|Aard applies up to $I$ bleed stacks.<br><br>+$I$ Aard damage
+2118472288||glyphword02_name|Disintegration II
+2118472289||glyphword02_desc|Aard permanently weakens enemy armor and force resistance by $I$%.<br><br>+$I$ Aard damage
+2118472290||glyphword03_name|Disintegration III
+2118472291||glyphword03_desc|Aard chill chance is increased by $I$%. If a target is both frozen and knocked down by Aard, it is instantly killed. Otherwise freeze deals an additional $I$ damage.<br><br>+$I$ Aard damage
+2118472292||glyphword04_name|Acceleration I
+2118472293||glyphword04_desc|Time slows by $I$% for $I$ seconds when dodging or casting Aard.<br><br>+$I$% Movespeed
+2118472294||glyphword05_name|Acceleration II
+2118472295||glyphword05_desc|Casting Aard while sprinting increases intensity by $I$% for each second sprinted. Movement speed bonuses increase Aard intensity.<br><br>+$I$% Movespeed
+2118472296||glyphword06_name|Acceleration III
+2118472297||glyphword06_desc|When time slows from dodging or casting Aard, your speed is offset.<br><br>+$I$% Movespeed
+2118472298||glyphword07_name|Immolation I
+2118472299||glyphword07_desc|You are immune to burns. Above $I$ adrenaline your armor alights, burning enemies who strike you in melee.<br><br>+$I$% Adrenaline gain
+2118472300||glyphword08_name|Immolation II
+2118472301||glyphword08_desc|You release a wave of flame when poisebroken, taking $I$% vitality in damage, or perfect parrying at full poise.<br><br>+$I$% Adrenaline gain
+2118472302||glyphword09_name|Immolation III
+2118472303||glyphword09_desc|You continuously deal up to $I$ fire damage per point of adrenaline to nearby enemies.<br><br>+$I$% Adrenaline gain
+2118472304||glyphword10_name|Purgation I
+2118472305||glyphword10_desc|Igni and burns reduce enemy morale, causing them to behave less aggressively in combat. Burns no longer increase enemy burn resistance.<br><br>+$I$ Igni damage
+2118472306||glyphword11_name|Purgation II
+2118472307||glyphword11_desc|Enemies killed by Igni or while burning explode, dealing $I$ fire damage to nearby enemies.<br><br>+$I$ Igni damage
+2118472308||glyphword12_name|Purgation III
+2118472309||glyphword12_desc|Burning an enemy restores $F$ vigor. Killing an enemy with Igni or while burning restores $F$ vigor.<br><br>+$I$ Igni damage
+2118472310||glyphword13_name|Absorption I
+2118472311||glyphword13_desc|Enemies killed while in a Yrden ring restore your vitality and vigor based on their maximum health.<br><br>+$I$% Lifesteal
+2118472312||glyphword14_name|Absorption II
+2118472313||glyphword14_desc|Enemies spending stamina while in a Yrden ring restore your stamina.<br><br>+$I$% Lifesteal
+2118472314||glyphword15_name|Absorption III
+2118472315||glyphword15_desc|Enemies damaged while in a Yrden ring or by a Warding Glyph restore your vitality and vigor based on the damage dealt.<br><br>+$I$% Lifesteal
+2118472316||glyphword16_name|Enervation I
+2118472317||glyphword16_desc|Enemies lose $I$% of their maximum stamina per second while in a Yrden ring, or $I$% when hit by a Warding Glyph.<br><br>Warding Glyph applies $I$ poison stacks
+2118472318||glyphword17_name|Enervation II
+2118472319||glyphword17_desc|Enemies lose $F$% of their maximum vitality per second while in a Yrden ring, or $I$% when hit by a Warding Glyph.<br><br>Warding Glyph applies $I$ poison stacks
+2118472320||glyphword18_name|Enervation III
+2118472321||glyphword18_desc|Enemies lose $F$% speed per second while in a Yrden ring. Resets when leaving or recasting Yrden. Doubles Warding Glyph damage debuff.<br><br>Warding Glyph applies $I$ poison stacks
+2118472322||glyphword19_name|Retribution I
+2118472323||glyphword19_desc|Exploding Shield damage is increased by $I$.<br><br>Quen reflects +$I$% damage
+2118472324||glyphword20_name|Retribution II
+2118472325||glyphword20_desc|Enemies hitting a Quen shield are shocked.<br><br>Quen reflects +$I$% damage
+2118472326||glyphword21_name|Retribution III
+2118472327||glyphword21_desc|Quen counters discharge an additional wave of energy in the direction of the attacker, shocking and dealing $I$ damage.<br><br>Quen reflects +$I$% damage
+2118472328||glyphword22_name|Bastion I
+2118472329||glyphword22_desc|Damage to Quen is reduced by $I$%.<br><br>+$I$% Quen intensity
+2118472330||glyphword23_name|Bastion II
+2118472331||glyphword23_desc|While channeling an Active Shield, vitality and stamina regeneration are increased by $I$%.<br><br>+$I$% Quen intensity
+2118472332||glyphword24_name|Bastion III
+2118472333||glyphword24_desc|Vigor upkeep of Quen is reduced by $I$%.<br><br>+$I$% Quen intensity
+2118472334||glyphword25_name|Conjunction I
+2118472335||glyphword25_desc|Status effects have a chance to spread over Axii Link.<br><br>+$I$% Axii intensity
+2118472336||glyphword26_name|Conjunction II
+2118472337||glyphword26_desc|A portion of damage you deal to one target is multiplied and spread over Axii Link.<br><br>+$I$ Axii intensity
+2118472338||glyphword27_name|Conjunction III
+2118472339||glyphword27_desc|A portion of damage you take is redirected over Axii Link or to your Puppets.<br><br>+$I$% Axii intensity
+2118472340||glyphword28_name|Posession I
+2118472341||glyphword28_desc|When Puppet ends, the target takes $I$ ethereal damage.<br><br>Your Puppets deal +$I$% damage
+2118472342||glyphword29_name|Posession II
+2118472343||glyphword29_desc|Enemy mental resistance is reduced by $I$% when casting Axii.<br><br>Your Puppets deal +$I$% damage
+2118472344||glyphword30_name|Posession III
+2118472345||glyphword30_desc|Puppet has infinite duration and you cannot harm your Puppets. Cast Axii on them to remove the effect.<br><br>Your Puppets deal +$I$% damage
+2118472346||glyphword31_name|Protection I
+2118472347||glyphword31_desc|Armor maintenance buff increases your armor by $I$.<br><br>+$I$ Poise
+2118472348||glyphword32_name|Protection II
+2118472349||glyphword32_desc|Equipped armor does not suffer standard durability loss.<br><br>+$I$ Poise
+2118472350||glyphword33_name|Protection III
+2118472351||glyphword33_desc|Fatal damage is blocked at the cost of armor durability.<br><br>+$I$ Poise
+2118472352||glyphword34_name|Deflection I
+2118472353||glyphword34_desc|Your armor deflects incoming arrows and bolts, preventing all damage.<br><br>+$I$ Armor
+2118472354||glyphword35_name|Deflection II
+2118472355||glyphword35_desc|Your armor deflects any incoming attack, preventing all damage. This ability then goes on cooldown based on the damage prevented.<br><br>+$I$ Armor
+2118472356||glyphword36_name|Deflection III
+2118472357||glyphword36_desc|Your armor deflects all incoming projectiles, preventing all damage.<br><br>+$I$ Armor
+2118472358||glyphword37_name|Regeneration I
+2118472359||glyphword37_desc|Stamina or vigor gained while at maximum restores vitality.<br><br>+$I$ Vitality regeneration
+2118472360||glyphword38_name|Regeneration II
+2118472361||glyphword38_desc|Vitality regeneration is increased by up to $I$% the lower your current vitality. The vitality restored from stamina and vigor is doubled when standing still.<br><br>+$I$ Vitality regeneration
+2118472362||glyphword39_name|Regeneration III
+2118472363||glyphword39_desc|You regenerate half the damage you take from an attack over $I$ seconds. Resets upon being hit.<br><br>+$I$ Vitality regeneration
+2118472364||glyphword40_name|Perfection I
+2118472365||glyphword40_desc|Adrenaline generation is no longer reduced at high vitality.<br><br>+$I$ Vitality
+2118472366||glyphword41_name|Perfection II
+2118472367||glyphword41_desc|At full vitality, $I$% of your vitality regeneration is added to stamina and vigor regeneration.<br><br>+$I$ Vitality
+2118472368||glyphword42_name|Perfection III
+2118472369||glyphword42_desc|Killing an enemy while you are at full health grants charges that increases damage by $I$% and armor by $I$. You lose $I$ charge when hit and can have $I$ charges maximum.<br><br>+$I$ Vitality
+2118472370||glyphword43_name|Constitution I
+2118472371||glyphword43_desc|Maximum carry weight is increased by $I$. Carrying more weight increases armor up to $I$ and stagger resistance up to $I$%.<br><br>+$I$% Secondary resistances
+2118472372||glyphword44_name|Constitution II
+2118472373||glyphword44_desc|Being well-rested increases vigor regeneration by $I$%. Being well-fed increases stamina regeneration by $I$. Being well-hydrated increases toxicity drain by $I$%.<br><br>+$I$% Secondary resistances
+2118472374||glyphword45_name|Constitution III
+2118472375||glyphword45_desc|Spend $I$ vigor to survive fatal damage at $I$ vitality. Penalties from low vitality are reduced by $I$%.<br><br>+$I$% Secondary resistances
+2118472376||glyphword46_name|Assimilation I
+2118472377||glyphword46_desc|Unless you meditate, toxicity will not drain without toxicity gain. Penalties from high toxicity are reduced by $I$%.<br><br>+$I$% Potion duration
+2118472378||glyphword47_name|Assimilation II
+2118472379||glyphword47_desc|Decoctions with power mutagens increase vitality regeneration by $I$. Decoctions with endurance mutagens increase stamina regeneration by $I$. Decoctions with concentration mutagens increase vigor regeneration by $I$%.<br><br>+$I$% Potion duration
+2118472380||glyphword48_name|Assimilation III
+2118472381||glyphword48_desc|Each source of toxicity gain increases mutagen effects and toxicity drain by $I$%.<br><br>+$I$% Potion duration
+2118472382||glyphword49_name|Elation I
+2118472383||glyphword49_desc|Maximum carry weight is increased by $I$. Carrying less weight increases total speed by up to $I$%.<br><br>-$I$% Armor penalties
+2118472384||glyphword50_name|Elation II
+2118472385||glyphword50_desc|Speed penalties from low stamina are decreased by up to $I$% based on current adrenaline.<br><br>-$I$% Armor penalties
+2118472386||glyphword51_name|Elation III
+2118472387||glyphword51_desc|The time slow from adrenaline is no longer reduced at high vitality.<br><br>-$I$% Armor penalties
+2118472388||glyphword52_name|Conservation I
+2118472389||glyphword52_desc|Spend $I$ vigor to avoid Overexertion and restore $I$ stamina.<br><br>+$I$% Stamina efficiency
+2118472390||glyphword53_name|Conservation II
+2118472391||glyphword53_desc|Stamina and poise regeneration is increased by $I$% when standing still.<br><br>+$I$% Stamina efficiency
+2118472392||glyphword54_name|Conservation III
+2118472393||glyphword54_desc|Stamina costs are reduced by up to $I$% the higher your poise percentage. Poise costs are reduced by up to $I$% the lower your stamina percentage.<br><br>+$I$% Stamina efficiency
+2118472394||runeword01_name|Glaciation I
+2118472395||runeword01_desc|Perfect parries apply the chilled effect.<br><br>+$I$% Defense efficiency
+2118472396||runeword02_name|Glaciation II
+2118472397||runeword02_desc|Chilled enemies take poise damage when parried and cannot damage you through counters or parries.<br><br>+$I$% Defense efficiency
+2118472398||runeword03_name|Glaciation III
+2118472399||runeword03_desc|Chilled enemies have their poise regeneration lowered by $I$%. Melee poise-breaks freeze the target.<br><br>+$I$% Defense efficiency
+2118472400||runeword04_name|Exhaustion I
+2118472401||runeword04_desc|Every $I$ points of frost damage dealt to a target lowers their stamina by $I$.<br><br>+$I$% Chance to chill
+2118472402||runeword05_name|Exhaustion II
+2118472403||runeword05_desc|Chilled enemies are further slowed by up to $I$% the lower their current stamina.<br><br>+$I$% Chance to chill
+2118472404||runeword06_name|Exhaustion III
+2118472405||runeword06_desc|This sword deals an additional $I$ frost damage for every point of stamina the target is missing.<br><br>+$I$% Chance to chill
+2118472406||runeword07_name|Obliteration I
+2118472407||runeword07_desc|This sword heats up when it strikes, gaining charges that increase fire damage by $I$. Cools down over time.<br><br>+$I$ Fire damage
+2118472408||runeword08_name|Obliteration II
+2118472409||runeword08_desc|Charges also increase critical chance by $I$% and offense efficiency by $I$%.<br><br>+$I$ Fire damage
+2118472410||runeword09_name|Obliteration III
+2118472411||runeword09_desc|Killing an enemy has a $I$% chance per charge to trigger an explosion that deals $I$ fire damage to nearby enemies. Critical hits have a $I$% chance per charge to do the same.<br><br>+$I$ Fire damage
+2118472412||runeword10_name|Cremation I
+2118472413||runeword10_desc|Hitting a burning enemy with this sword increases burn duration by $F$ seconds. Interrupting a burn animation refreshes burn duration.<br><br>+$I$% Chance to burn
+2118472414||runeword11_name|Cremation II
+2118472415||runeword11_desc|Enemies in a burn animation lose up to $I$% of their maximum poise each second. Burn damage increases by $I$ each second.<br><br>+$I$% Chance to burn
+2118472416||runeword12_name|Cremation III
+2118472417||runeword12_desc|Enemies permanently take $I$% more damage for every second they have been burned.<br><br>+$I$% Chance to burn
+2118472418||runeword13_name|Transmutation I
+2118472419||runeword13_desc|Bombs convey the effects of oils on this sword. All oils additionally give a $I$% chance to poison.<br><br>+$I$ Poison damage
+2118472420||runeword14_name|Transmutation II
+2118472421||runeword14_desc|Poison damage is converted to physical damage if the target's poison resistance is higher than its armor.<br><br>+$I$ Poison damage
+2118472422||runeword15_name|Transmutation III
+2118472423||runeword15_desc|Oil effects are increased by $I$% for each poison stack on the target.<br><br>+$I$ Poison damage
+2118472424||runeword16_name|Affliction I
+2118472425||runeword16_desc|This sword has $I$% additional poison chance for every $I$ points of active toxicity.<br><br>+$I$% Chance to poison
+2118472426||runeword17_name|Affliction II
+2118472427||runeword17_desc|Removes the maximum limit on the number of poison stacks on a target.<br><br>+$I$% Chance to poison
+2118472428||runeword18_name|Affliction III
+2118472429||runeword18_desc|Each poison stack on a target reduces their poison, bleeding, and injury resistance by $I$%. Poison damage over time deals $I$% more damage.<br><br>+$I$% Chance to poison
+2118472430||runeword19_name|Exsanguination I
+2118472431||runeword19_desc|When you apply bleeding, there is a chance equal to the target's health percentage to apply $I$ additional stacks.<br><br>+$I$% Chance to cause bleeding
+2118472432||runeword20_name|Exsanguination II
+2118472433||runeword20_desc|Removes the maximum limit on the number of bleed stacks on a target.<br><br>+$I$% Chance to cause bleeding
+2118472434||runeword21_name|Exsanguination III
+2118472435||runeword21_desc|The first strike of a heavy special attack applies $I$ bleed stacks, then the second strike removes all bleed stacks on the target. Deals $I$ damage and increases the target's bleeding resistance by $I$% for each stack removed.<br><br>+$I$% Chance to cause bleeding
+2118472436||runeword22_name|Desperation I
+2118472437||runeword22_desc|Your adrenaline cannot fall below $I$% of your missing vitality percentage.<br><br>+$I$ Adrenaline degeneration delay
+2118472438||runeword23_name|Desperation II
+2118472439||runeword23_desc|To avoid Overexertion, you spend adrenaline instead of stamina.<br><br>+$I$ Adrenaline degeneration delay
+2118472440||runeword24_name|Desperation III
+2118472441||runeword24_desc|You gain $F$% lifesteal for each point of adrenaline and $F$% lifesteal for each missing vitality percent.<br><br>+$I$ Adrenaline degeneration delay
+2118472442||runeword25_name|Reflection I
+2118472443||runeword25_desc|The range of your slash counters is increased. Allows kick and bash counters against large creatures.<br><br>+$I$% Counter damage
+2118472444||runeword26_name|Reflection II
+2118472445||runeword26_desc|Your counters deal $I$% more poise damage and return $I$% of the poise damage dealt.<br><br>+$I$% Counter damage
+2118472446||runeword27_name|Reflection III
+2118472447||runeword27_desc|Countering with more precise timing increases your counter damage by $I$% of the countered attack's damage.<br><br>+$I$% Counter damage
+2118472448||runeword28_name|Electrocution I
+2118472449||runeword28_desc|Doubles chance to apply electroshock to $I$%. Electroshock also paralyzes the target.<br><br>+$I$ Shock damage
+2118472450||runeword29_name|Electrocution II
+2118472451||runeword29_desc|This sword deals up to $I$ additional shock damage based on the target's armor.<br><br>+$I$ Shock damage
+2118472452||runeword30_name|Electrocution III
+2118472453||runeword30_desc|Striking a shocked enemy with this sword charges it, granting $I$% Quen intensity and $I$% damage through blocks. Casting Quen discharges it, dealing $I$ shock damage per charge and shocking nearby enemies.<br><br>+$I$ Shock damage
+2118472454||runeword31_name|Exhilaration I
+2118472455||runeword31_desc|Killing an enemy with Whirl or Rend restores $I$ stamina.<br><br>+$I$% Offense efficiency
+2118472456||runeword32_name|Exhilaration II
+2118472457||runeword32_desc|Attacking increases attack speed and offense efficiency by $I$% until the next non-attack action.<br><br>+$I$% Offense efficiency
+2118472458||runeword33_name|Exhilaration III
+2118472459||runeword33_desc|When reaching $I$ adrenaline, enter a state where time slows and actions have no stamina cost. Adrenaline drains quickly and effect ends when out of adrenaline.<br><br>+$I$% Offense efficiency
+2118472460||runeword34_name|Assassination I
+2118472461||runeword34_desc|Attacks against enemies at full health deal $I$% more damage.<br><br>+$I$% Flanking attack power
+2118472462||runeword35_name|Assassination II
+2118472463||runeword35_desc|Flanking attacks are guaranteed critical hits.<br><br>+$I$% Flanking attack power
+2118472464||runeword36_name|Assassination III
+2118472465||runeword36_desc|The first attack after this sword is unsheathed or kills has +$I$% critical damage.<br><br>+$I$% Flanking attack power
+2118472466||runeword37_name|Prolongation I
+2118472467||runeword37_desc|Oils and effects on this sword have +$I$% duration.<br><br>+$I$% Vigor regeneration
+2118472468||runeword38_name|Prolongation II
+2118472469||runeword38_desc|Signs and sign effects have +$I$% duration.<br><br>+$I$% Vigor regeneration
+2118472470||runeword39_name|Prolongation III
+2118472471||runeword39_desc|This sword has increased attack range, and $I$% of damage it deals is repeated as additional ethereal damage.<br><br>+$I$% Vigor regeneration
+2118472472||runeword40_name|Invocation I
+2118472473||runeword40_desc|This sword gains elemental damage and status effects from your currently selected sign, scaling with sign intensity.<br><br>+$I$% Sign intensity
+2118472474||runeword41_name|Invocation II
+2118472475||runeword41_desc|Strong attacks will trigger the Warding Glyph to fire at the target.<br><br>+$I$% Sign intensity
+2118472476||runeword42_name|Invocation III
+2118472477||runeword42_desc|Special attacks have a chance to trigger effects based on your currently selected sign. Rend scales with charge time, up to $I$%. Whirl has a $I$% chance per attack.<br><br>+$I$% Sign intensity
+2118472478||runeword43_name|Resolution I
+2118472479||runeword43_desc|Attack power is increased by $F$% for every $I$ maximum hitpoints of current enemies. Poise damage is increased by $F$% per point of adrenaline.<br><br>+$I$% Stagger resistance while attacking
+2118472480||runeword44_name|Resolution II
+2118472481||runeword44_desc|When fighting bosses, you have +$I$% stagger resistance, adrenaline drains $I$% slower, and your melee poisebreaks deal additional damage based on the target's maximum health.<br><br>+$I$% Stagger resistance while attacking
+2118472482||runeword45_name|Resolution III
+2118472483||runeword45_desc|A fully charged Rend attack consumes all available vigor to deal up to $I$% additional damage with $I$% lifesteal.<br><br>+$I$% Stagger resistance while attacking
+2118472484||runeword46_name|Destruction I
+2118472485||runeword46_desc|You deal an additional $I$% damage to staggered enemies.<br><br>+$I$% Chance to stagger
+2118472486||runeword47_name|Destruction II
+2118472487||runeword47_desc|While above $I$% poise, your attacks deal $I$% more poise damage but you suffer $I$% of your maximum poise in recoil.<br><br>+$I$% Chance to stagger
+2118472488||runeword48_name|Destruction III
+2118472489||runeword48_desc|While above $I$% vitality, your attacks deal $I$% more damage but you suffer $I$% of your maximum vitality in recoil.<br><br>+$I$% Chance to stagger
+2118472490||runeword49_name|Penetration I
+2118472491||runeword49_desc|You can apply status effects through enemy blocks. If the target is not blocking, $I$% of block penetration is added to armor piercing.<br><br>+$I$% Damage through enemy blocks
+2118472492||runeword50_name|Penetration II
+2118472493||runeword50_desc|Armor piercing above the target's armor value is added to critical damage.<br><br>+$I$% Damage through enemy blocks
+2118472494||runeword51_name|Penetration III
+2118472495||runeword51_desc|Fast attacks reduce enemy armor by $I$% for $I$ seconds. Strong attacks reduce enemy armor by $I$% permanently.<br><br>+$I$% Damage through enemy blocks
+2118472496||runeword52_name|Fortification I
+2118472497||runeword52_desc|Weapon repair buffs improve armor piercing by $I$%.<br><br>-$I$% Damage taken through blocks
+2118472498||runeword53_name|Fortification II
+2118472499||runeword53_desc|This sword does not suffer standard durability loss.<br><br>-$I$% Damage taken through blocks
+2118472500||runeword54_name|Fortification III
+2118472501||runeword54_desc|Enemies killed with this sword permanently increase its damage. Killing $I$ maximum hitpoints will increase its damage by $I$.<br><br>-$I$% Damage taken through blocks
+2118472502||runeword55_name|Mutilation I
+2118472503||runeword55_desc|Injuries reduce the target's armor piercing by $I$% and increase the duration of bleed stacks by $I$%.<br><br>+$I$% Chance to cause injuries
+2118472504||runeword56_name|Mutilation II
+2118472505||runeword56_desc|Finishers and dismemberments grant $I$% more stamina and adrenaline and cause $I$% more morale damage.<br><br>+$I$% Chance to cause injuries
+2118472506||runeword57_name|Mutilation III
+2118472507||runeword57_desc|Injuries deal $I$% of the target's maximum health in damage and reduce their maximum poise by $I$%.<br><br>+$I$% Chance to cause injuries
+2118472508||runeword58_name|Desolation I
+2118472509||runeword58_desc|Critical chance is increased up to $I$% based on the difference between you and your target's health percentage.<br><br>+$I$% Critical damage
+2118472510||runeword59_name|Desolation II
+2118472511||runeword59_desc|Damaging an enemy with a strong/fast attack permanently increases critical chance/critical damage against them by $I$% respectively.<br><br>+$I$% Critical damage
+2118472512||runeword60_name|Desolation III
+2118472513||runeword60_desc|If a strong attack poisebreak is a critical hit, the target is instantly slain. Fast attack poisebreaks have +$I$% critical damage.<br><br>+$I$% Critical damage
+2118472524||redux_perfection|Perfection
+2118472525||redux_obliteration|Obliteration
+2118472526||redux_electrocution|Electrocution
+2118472527||item_desc_decoction_1|Applying bleeding increases your total speed by 15% for 3 seconds. Melee attacks deal 2% more damage for each bleeding stack on the target.
+2118472528||item_desc_decoction_2|Killing an enemy restores 10% of your missing vitality. Adrenaline degeneration is delayed by 2 additional seconds.
+2118472529||item_desc_decoction_3|You cannot be poisebroken. Receiving damage increases damage and stagger resistance by 5% for 5 seconds, up to 25%.
+2118472530||item_desc_decoction_4|At night your total speed, attack power, stamina efficiency, and sign intensity are increased by 10%. During a full moon, taking fatal damage will remove this decoction and return you to 50% vitality.
+2118472531||item_desc_decoction_5|Dealing elemental damage reduces enemy resistance to every other type of elemental damage. Fist attacks deal increased damage and have a chance to apply status effects.
+2118472532||item_desc_decoction_6|Physical resistances are increased by 20% and you take no graze damage while dodging. Your melee attacks deal normal damage to incorporeal spectres.
+2118472533||item_desc_decoction_7|You gain 20% vigor regen at dawn and up to 20% sign intensity at high vitality. You gain 2 stamina regen at dusk and up to 20% armor piercing at low vitality.
+2118472534||item_desc_decoction_8|Using fast attacks, strong attacks, or signs generate stacks that can improve the strength of the other two. When reaching 6 stacks, the next use has 50% increased attack power or sign intensity. Fast attacks generate 1 stack, strong attacks 2 stacks, and signs 3 stacks.
+2118472535||item_desc_decoction_9|Attack speed and power are increased by 10% for 2 seconds after performing a dodge. When calculating penalties from low stamina or vigor, you use the higher of the two.
+2118472536||item_desc_decoction_10|Poison does not weaken you. Applying poison to enemies reduces your toxicity by 1. Opponents who cause you to bleed are poisoned.
+2118472537||skill_desc_perk_20|You sell items for 25% more coin.<br>Haggling over contracts is 25% easier.
+2118472538|363f99b1||If your toxicity meter fills completely, you'll take poison damage from your toxicity gain and enter a fevered state with lowered speed and stamina regeneration. Drink a White Honey to recover.
+2118472539|6d1ad461||Heavier armor will absorb more damage and increase your maximum poise, but you pay for that protection in slower speed, lower stamina regeneration, and higher stamina costs.
+2118472540|b93269e9||Attacks from behind have 15% higher critical chance and 10% higher damage. Parrying attacks from behind will cost additional poise without the Heightened Senses skill - so watch your rear.
+2118472541|6d1ad3a6||Improving your equipment at a grindstone or repair bench will slow its durability loss by 50%.
+2118472542|6d1ad424||Use repair kits to keep your equipment in good condition. They repair a portion of missing durability, so the longer you wait to use them the greater their effect.
+2118472543|363f99c9||Craftsmen can remove runes and upgrades from your items and return them to you.
+2118472544|6d1ad408||Disassembling an item will recover any upgrades within, but they can be removed directly without the need to destroy the item.
+2118472545|363f99aa||Enemies with white health bars take little damage from steel swords. Switch to your silver blade, or coat your steel with Argentia oil.
+2118472546|6d1ad3ca||Enemies with red health bars can be fought with either sword. Witchers with deep pockets will find silver ideal against monsters, while steel is best against humans and beasts.
+2118472547|363f99d0||You can Fast Travel to a harbor while on a boat by pulling up the World Map. Look for boats along the coast and near harbors.
+2118472548|6d1ad370||Monster nests can be destroyed with a Dancing Star, Grapeshot or Samum bomb. But consider using the Igni sign instead.
+2118472549|6d1ad422||With witcher gear, crafting it is only the first step. Upgrading it will subtly change its stats as well as its appearance.
+2118472550|6d1ad369||The weather affects your enemies. You will find it easier to burn foes during the day, but harder during rain or storms.
+2118472551|6d1ad3c5||The weather affects your enemies. Necrophages are more dangerous opponents at dusk or during the night. Grave hags are especially comfortable at this hour.
+2118472552|6d1ad3a7||The weather affects your enemies. Werewolves are more dangerous at night, and particularly during a full moon. Even regular wolves move more swiftly under a full moon.
+2118472553|b93269ed||The weather affects your enemies. You will find Archespores more resilient in the sun.
+2118472554|6d1ad445||The weather affects your enemies. Drowners and Sirens love rain and storms, but Harpies find it difficult to maneuver.
+2118472555|6d1ad428||The weather affects your enemies. Whenever possible, fight noonwraiths under the moon and nightwraiths under the sun.
+2118472556|6d1ad440||The weather affects your enemies. Wielders of magic - such as Sorceresses or Succubi - gain additional power under the moon, especially when full.
+2118472557|6d1ad409||Destroyed monster nests are a good source of mutagens, unique monster parts, and even expensive jewelry.
+2118472558|6d1ad463||If you're looking to make monster decoctions, merchants who specialize in books may have the uncommon knowledge you seek.
+2118472559|6d1ad3a5||When you find a relic blade, it may be in unusable condition. You will need the services of a master weaponsmith to restore it.
+2118472560|6d1ad423||Potions, bombs, and oils have high-quality forms that you can make by using high-quality ingredients. Potions can have secondary effects as well.
+2118472561|6d1ad389||Every alchemy item requires a base ingredient. Alcohol for potions, animal fat for oils, and saltpetre for bombs are good starting points.
+2118472562|6d1ad3ab||Every Sign has an alternate mode, accessible by holding the cast button.
+2118472563|b93269ef||You can perform alchemy by meditating at a fire or when visiting an alchemist or herbalist.
+2118472564|6d1ad449||If you have sustained a lingering injury, you can treat it immediately with a bandage. They will also heal on their own when meditating at full health.
+2118472565|363f99af||You can use Quen to protect yourself from the life-draining aura of a noonwraith or nightwraith. Argentia oil will also temporarily disable it.
+2118472566|6d1ad386||When attempting to brew a superior alchemical item, every ingredient must be of pure quality. With the Alchemical Refinement perk, one ingredient can be of lower quality.
+2118472567|6d1ad447||Witchers' reflexes are so sharp that a sword is enough defense to swat arrows out of the air as they fly. With proper timing, they can even reflected back to their point of origin.
+2118472568|b93269f0||Most opponents have limited stamina, and without it they deal less damage. You can deplete stamina with Aard or Paralysis oil, and attacking them will delay their stamina regeneration.
+2118472569|6d1ad387||The Axii Sign is useful outside of combat. It can keep neutral animals from fleeing, calm horses, and even be used during dialogue.
+2118472570|6d1ad3a8||While underwater, you cannot draw your swords or cast most Signs. Rely on Aard or your crossbow to deal with underwater attackers.
+2118472571|363f99d1||Be careful with your vigor. Each point increases your damage by 10%, and Signs cast with less than full vigor are weaker. Still, the right Sign at the right time can be worth the cost.
+2118472572|a4b1c1ec||You can store weapons and armor in a number of stashes throughout the world. Gear stored in one location will be available in all other locations as well.
+2118472573|a05ae697||Look for a Runewright east of Novigraad to enchant your gear, but consider saving up first - in runes, glyphs, and especially coin.
+2118472574|6d1ad3e3||When it comes to repairing armor, you need the right tools. Light, medium, and heavy armor all have their own specific repair kits.
+2118472575|6d1ad3ad||Freeze your opponents solid. By combining two different sources of the chilled effect - for instance, Northern Wind bombs and Aard with the Frostbite skill - the enemy will be frozen in place and take additional damage.
+2118472576|6d1ad3cd||If you find yourself doing very little damage to a foe, you may need more armor penetration. Use strong or counterattacks, Corrosive oil, bombs with the Riving Blast skill, or craft a new specialized weapon for these opponents.
+2118472577|363f99ce||Critical hits are not only a source of extra damage. They also increase armor penetration and the effects of any oils by 50%.
+2118472578|6d1ad3c9||If you hear Geralt telling you to look around some, it means an artifact sword is somewhere nearby. You can disable these comments in Options > Mods > W3EE > Exploration.
+2118472579|363f99ae||Poisoned enemies move slower and do less damage. Bleeding enemies are slower to recover stamina and take additional bleed damage while low on stamina.
+2118472580|6d1ad425||If you find yourself dying from toxicity without a White Honey at hand, meditating can save your life.
+2118472581|363f9a0b||Attacking an enemy under the influence of Axii will make it more difficult to use Axii on them again.
+2118472582|6d1ad36d||Looking for the best place to offload your trophies? General merchants and innkeeps are a good place to start. They pay a higher price in Skellige, but merchants in Novigraad have deeper pockets. Toussaint has the best of both.
+2118472583|363f99b0||White Honey will immediately cure toxicity fever and reduce toxicity, but will also cancel the effects of other potions. Try to always have one at the ready.
+2118472584|363f9a0c||You can customize the attributes of some gear before crafting. Putting your preferred attributes on a sword can tide you over until you can afford expensive artifact blades.
+2118472585|6d1ad421||Struggling with ranged opponents? Try casting alternate Yrden before engaging. It offers a reliable zone of protection while you deal with any melee attackers.
+2118472586|363f99eb||Try creating your own alchemy bases from ingredients you already have. The savings might start small, but they add up over time.
+2118472587|363f99c8||When brewing an enhanced quality alchemical item, a pure ingredient can offset the inclusion of a contaminated one.
+2118472588|6d1ad446||Do your saddlebags resemble an alchemical warehouse? Brewing beyond your immediate need can raise your skills. Distilling heavy ingredients or those without secondary effects into primary essences can save weight.
+2118472589|6d1ad38b||Struggling with an unfamiliar enemy? The Blizzard potion can help you come to grips with its behavior and pattern of attack.
+2118472590|363f9a0d||You can perform a perfect parry by countering without holding any distance modifiers. It lowers your poise costs while staggering the attacker and reducing their poise, and can be used at lower poise levels than counterattacks as well.
+2118472591|6d1ad442||When it comes to elemental damage, fire and frost have strong and weak matchups. Ethereal and shock damage are more versatile.
+2118472592|6d1ad441||In order to maintain your adrenaline you need to generate some every 4 seconds, otherwise it begins to drain. Try to keep an even tempo in combat.
+2118472593||item_name_redux_viper_steel_lvl2|Viper steel sword - enhanced
+2118472594||item_name_redux_viper_steel_lvl3|Viper steel sword - superior
+2118472595||item_name_redux_viper_steel_lvl4|Viper steel sword - mastercrafted
+2118472596||item_name_redux_viper_steel_lvl5|Grandmaster Viper steel sword
+2118472597||item_name_redux_viper_silver_lvl2|Viper silver sword - enhanced
+2118472598||item_name_redux_viper_silver_lvl3|Viper silver sword - superior
+2118472599||item_name_redux_viper_silver_lvl4|Viper silver sword - mastercrafted
+2118472600||item_name_redux_viper_silver_lvl5|Grandmaster Viper silver sword
+2118472601||item_name_redux_viper_steel_sword_schematic_1|Diagram: Viper steel sword - enhanced
+2118472602||item_name_redux_viper_steel_sword_schematic_2|Diagram: Viper steel sword - superior
+2118472603||item_name_redux_viper_steel_sword_schematic_3|Diagram: Viper steel sword - mastercrafted
+2118472604||item_name_redux_viper_steel_sword_schematic_4|Diagram: Viper steel sword - grandmaster
+2118472605||item_name_redux_viper_silver_sword_schematic_1|Diagram: Viper silver sword - enhanced
+2118472606||item_name_redux_viper_silver_sword_schematic_2|Diagram: Viper silver sword - superior
+2118472607||item_name_redux_viper_silver_sword_schematic_3|Diagram: Viper silver sword - mastercrafted
+2118472608||item_name_redux_viper_silver_sword_schematic_4|Diagram: Viper silver sword - grandmaster
+2118472609||skill_name_alchemy_s10|Delayed Charge
+2118472610||skill_desc_alchemy_s10|Increases bomb fuse time by $I$ seconds.<br>After impact bombs gain $I$% damage, effect duration, and Riving Blast reduction each second until they detonate.<br>Increases bomb weight by $F$ and reduces throw range by $I$%.
+2118472611||skill_desc_alchemy_s11|Bombs detonate into a number of explosive fragments on impact, each doing $I$% of the damage of the original bomb.<br>Number of fragments: $I$<br>Increases bomb weight by $F$ and reduces throw range by $I$%.
+2118472612||skill_desc_alchemy_3|Enables the creation of handheld bombs that explode after a brief delay or when exposed to fire.
+2118472613|6d1ad3e4||When throwing a bomb or shooting a crossbow bolt, you can either use auto-aim for a quick attack, or aim manually for more precision. Manually aiming a bomb will reduce the delay between impact and detonation.
+2118472614||attribute_name_heal_injury_time|Injury heal
+2118472615||attribute_name_forcedamage|Force damage
+2118472616||panel_mainmenu_dificulty_easy_title|Dog
+2118472617||panel_mainmenu_dificulty_normal_title|Wolf
+2118472618||panel_mainmenu_dificulty_hard_title|White Wolf
+2118472619||panel_mainmenu_dificulty_hardcore_title|Dire Wolf
+2118472620||panel_mainmenu_dificulty_easy_description|For new players looking for a more forgiving adventure.
+2118472621||panel_mainmenu_dificulty_normaldescription_description|The intended experience, with no modifiers for or against you.
+2118472622||panel_mainmenu_dificulty_hard_description|For mod veterans and established playthroughs wanting more challenge.
+2118472623||panel_mainmenu_dificulty_hardcore_description|For masters and masochists craving an unfair level of adversity.
+2118472624||Redux_EquipmentDurability|Equipment - Durability
+2118472625||W3EE_PPDam|Damage Multiplier - Player Poise
+2118472626||W3EE_EPDam|Damage Multiplier - Enemy Poise
+2118472627||skill_name_perk_6|Wolf School Techniques
+2118472628||redux_deflection|Deflection
+2118472629||metal_mutsorterbegin|Sorting Mutagens
+2118472630||metal_mutsorterend|Sorting Complete
+2118472631||item_name_viper_school_steel_sword_schematic|Diagram: Viper steel sword
+2118472632||item_name_viper_school_silver_sword_schematic|Diagram: Viper silver sword
+2118472633||panel_common_statistics_tooltip_incombat_regen|Vitality regeneration in combat
+2118472634||skill_desc_elven_set_ability1|Ranged attacks have $S$% higher critical chance and deal $S$% more poise damage. Dodges and rolls do not impede poise regeneneration.
+2118472635||skill_desc_elven_set_ability2|Random herbs are found on slain enemies. Poise cannot be lowered for $S$ seconds after a dodge, roll, or long distance attack.
+2118472636||skill_desc_tiger_set_ability1|When you reduce an enemy's physical resistance, their armor piercing is reduced by the same amount. At Dusk your Stamina, Poise, and Vigor regeneration are increased by $S$%.
+2118472637||skill_desc_tiger_set_ability2|The Riving Blasts skill is not limited to the first bomb. While Albedo dominance is in effect, oils lose charge and equipment loses durability $S$% slower.
+2118472638||W3EE_HerbAnim|Animation - Looting (Herbs)
+2118472639||W3EE_LootingAnim|Animation - Looting (Other)
+2118472640||skill_desc_sword_s20|Slows Adrenaline degeneration by $I$%.<br>Increases critical chance by $F$% for each point of Vigor.<br>Counters and perfect parries will not reduce poise below $I$% of maximum.
+2118472641||ic_enable|Enable
+2118472642||immersive_cam_enabled|Enable Immersive Cam
+2118472643||W3EE_WeightCraft|Weight - Crafting Items
+2118472644||panel_stash_unlimited|Unlimited
+2118472645||skill_desc_netflix_set_ability1|For each set piece equipped: $S$% of Adrenaline gained restores Vigor and while at full Vigor, $S$% of Vigor regeneration is added to Stamina regeneration.
+2118472646||skill_desc_netflix_set_ability2|Casting Signs generates $S$ Adrenaline. Potions imbibed with no other potions active have their effects increased by $S$%. Decoction passive effects are increased by $S$%.
+2118472647||Redux_BehScale|Aggression - Scale With Enemy Count
+2118472648||Redux_StanceAnim|Force 2H Combat Stance
+2118472649||Redux_SetStamDynamic|Dynamic Stamina Settings
+2118472650||Redux_SetStamDefault|Default Stamina Settings
+2118472651||Redux_SetStamStrategic|Strategic Stamina Settings
+2118472652||Redux_AttackCommit|Attack Commitment
+2118472653||attribute_name_toxicity_vigor_penalty|Vigor regen penalty from toxicity
+2118472654||Redux_ATOff|Off
+2118472655||Redux_ATHybrid|Hybrid
+2118472656||Redux_ATOn|On
+2118472657||Redux_LootRadius|Looting Radius
+2118472658||Redux_ControlOverride|Control Hints Override
+2118472659||Redux_ControlOverridePC|Keyboard
+2118472660||Redux_ControlOverridePS|Playstation
+2118472661||Redux_ControlOverrideXB|Xbox
+2118472662||Redux_ControlOverrideSC|Steam
+2118472663||Redux_ControlOverrideNA|Default
+2118472664||skill_name_mutation_master|Mutant Mastery
+2118472665|4c4d888d||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+2118472666||skill_name_mutation_1|Specter Mutation
+2118472667||skill_desc_mutation_1|Sign costs are reduced by $S$%.<br>Sign Intensity is increased by $S$%.<br>Melee damage is reduced by $S$%.
+2118472668||skill_name_mutation_2|Elemental Mutation
+2118472669||skill_desc_mutation_2|You no longer regenerate Vigor except when meditating.<br>Hitting enemies with melee attacks restores Vigor based on your normal regeneration rate.<br>Fast Attack: $S$ seconds worth of regeneration<br>Strong Attack: $S$ seconds worth of regeneration<br>Whirl: $S$ second worth of regeneration<br>Rend: $S$-$S$ seconds worth of regeneration
+2118472670||skill_name_mutation_3|Necrophage Mutation
+2118472671||skill_desc_mutation_3|Adrenaline gain is increased by 50%.<br>Adrenaline no longer degenerates.<br>Being hit will remove Adrenaline instead of adding it.
+2118472672||skill_name_mutation_4|Draconid Mutation
+2118472673||skill_desc_mutation_4|You no longer suffer any penalties to speed or damage from low Stamina.<br>When taking damage you lose $S$ Stamina per percentage point of Vitality lost.<br>You take up to $S$% additional damage based on your missing Stamina.
+2118472674||skill_name_mutation_5|Insectoid Mutation
+2118472675||skill_desc_mutation_5|Your toxicity level no longer drains except when meditating.<br>Spending Stamina and gaining Adrenaline will remove Toxicity based on your normal drain rate.<br>Per point of Stamina spent: $S$ seconds worth of drain<br>Per point of Adrenaline gained: $S$ seconds worth of drain
+2118472676||skill_name_mutation_6|Relict Mutation
+2118472677||skill_desc_mutation_6|You deal $S$% more Poise damage with ranged attacks against attacking or incapacitated targets.<br>You deal up to $S$% more damage with ranged attacks based on the target's missing Poise.<br>Your Defense Efficiency is reduced by $S$%.
+2118472678||skill_name_mutation_7|Cursed Mutation
+2118472679||skill_desc_mutation_7|You no longer regenerate Vitality except when meditating.<br>Damaging enemies that have recently damaged you will restore some of your lost Vitality based on the damage you dealt. Bonuses to Vitality Regeneration will increase the window you have to strike back.
+2118472680||skill_name_mutation_8|Ogroid Mutation
+2118472681||skill_desc_mutation_8|Stamina costs of defensive actions are paid with Poise.<br>You always avoid hit reaction when your Poise percentage is higher than the percent of Vitality lost.<br>You can be poisebroken by unblocked attacks.
+2118472682||skill_name_mutation_9|Vampire Mutation
+2118472683||skill_desc_mutation_9|Melee damage is increased by $S$%.<br>Poise costs are reduced by $S$%.<br>Stamina costs of actions are reduced by $S$%.<br>Sign costs are increased by $S$%.
+2118472684||skill_name_mutation_10|Hybrid Mutation
+2118472685||skill_desc_mutation_10|You can fully dodge attacks you are not normally able to, but when you do you incur additional Stamina and Poise costs.<br>Stamina regen delays after dodges are doubled.<br>You can no longer dodge while Overexerted.
+2118472686||skill_name_mutation_11|Latent Activation
+2118472687||skill_desc_mutation_11|Potions and Decoctions are no longer consumed when used.<br>White Honey no longer affects you.
+2118472688||skill_name_mutation_12|Metamorphosis
+2118472689||skill_desc_mutation_12|Gain the effects of all researched mutations.
+2118472690||Redux_MutationBaseMutagen|Current base mutagen: 
+2118472691||Redux_MutationNoneMutagen|None
+2118472692||Redux_MutationMultMutagen|Colored mutagen costs increased by 
+2118472693||Redux_Acclimation1|$I$ mutagen slots unlocked.
+2118472694||Redux_Acclimation2|$I$ mutagen slots unlocked.<br>Reduces the mutagen cost of Mutations by $I$%.
+2118472695||Redux_LootDestinationHorse|Horse
+2118472696||Redux_LootDestinationStash|Stash
+2118472697|06ae2506||Researched mutations to unlock: $I$
+2118472698|a344d8bd||Researched mutations for next stage: $I$
+2118472699|fb1e2184||+$S$% Mutation XP per stage.<br>+$S$% Trial of the Grasses XP per stage.<br>If <font color="#CD7D03">"Turn and Face the Strange"</font> is completed:<br>Blue - increases Vigor regeneration by 25%<br>Green - increases Toxicity drain by 50%<br>Red - increases Vitality regeneration by 20<br>Orange - increases Stamina regeneration by 20%
+   1075445|00000000||To throw a bomb, press <<ThrowItem>><br><br>You can also aim prior to throwing to increase your accuracy. To do this, hold <<ThrowItem>> and aim. Then release <<ThrowItem>> to throw the bomb.<br><br>Bombs have a 5 second fuse time before they detonate. This delay can be influenced by severeal means.<br><br>First, the fuse will be automatically shortened while you are manually aiming a bomb. A bomb is fully "primed" after 5 real-time seconds and will explode on impact, indicated by the held bomb beginning to spark. Bombs will not detonate prematurely.<br><br>Second, if Igni is your currently selected sign and a bomb has more than 1 second fuse time remaining, you will automatically spend 0.5 Vigor to cause it to detonate on impact.<br><br>Third, bombs will immediately explode if exposed to any of the following:<br>- Igni<br>- Aard<br>- Explosive bolts<br>- Fire damage from other bomb explosions<br>- A target with the Burning status condition.
+   1077685|00000000||To destroy a monster nest, strike it with the <font color="#CD7D03">Igni</font> sign.<br><br>You can also use a <font color="#CD7D03">Grapeshot</font>, <font color="#CD7D03">Samum</font> or <font color="#CD7D03">Dancing Star</font> bomb.
+   1087258|00000000||You can remove upgrades and runestones from your items here.
+   1087262|00000000||Once you select an item, you will be shown which upgrades it is fitted with here.<br><br>Bear in mind, however, that once you confirm your selection, <font color="#CD7D03">all</font> of this item's upgrades will be removed.
+   1087266|00000000||To remove upgrades, select an item and press <<GUI_Select>>
+   1087270|00000000||To remove upgrades and runestones, select an item and press <<GUI_PC_Select>>
+   1114581|00000000||You can get Temerian gear by helping Vernon Roche in eastern Novigraad.
+   1114589|00000000||You can get Nilfgaardian gear by working with Nilfgaardians throughout Velen. It can also be purchased from quartermaster Eggebracht at the Nilfgaardian army camp.
+   1114595|00000000||New Game+ is not supported in Enhanced Edition Redux.
+   1114607|00000000||You can get Skellige gear by helping Yoana at Crow's Perch.
+   1131841|00000000||Acquire crowns for the Ofieri runewright.
+   1136504|00000000||Give crowns to the Ofieri runewright.
+   1206642|00000000||<font color="#CD7D03">Mutations</font> are a further way to personalize your experience on the Path and customize your particular playstyle. They significantly alter core gameplay mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>Mutations can be unlocked in <b>any</b> order you wish. 
+   1206644|00000000||Developing a mutation requires a sizeable investment of <font color="#CD7D03">greater colored mutagens</font>, though there are several means of reducing their cost. When researching a red, blue, or green mutation you can provide a <font color="#CD7D03">base</font> mutagen that matches that mutation family. Any monster mutagen will suffice, but sourcing a higher tier archmutagen will provide further savings. This base mutagen is <b>not</b> consumed during research.<br><br>The cost of a mutation is also reduced by <font color="#CD7D03">10%</font> for each connected mutation already researched.<br><br>Finally the <font color="#CD7D03">Acclimation skill</font> will also reduce research costs.
+   1206650|00000000||Mutant Mastery
+   1206651|00000000||<font color="#CD7D03">Mutant Mastery</font> is a <b>passive ability</b> that develops automatically as you finish research on mutations.<br><br>This mutation has several stages, each boosting your experience gain in the <font color="#CD7D03">Mutations</font> and <font color="#CD7D03">Trials of the Grasses</font> skill trees. There are 4 total stages unlocked at two, four, eight, and twelve researched mutations.<br><br>Additionally, if you manage to gain access to an advanced laboratory dealing with Witcher mutations, this ability will gain further bonuses based on the color of your equipped mutation.<br><br>Blue: +25% Vigor Regeneration<br>Green: +50% Toxicity Drain<br>Red: +20 Vitality Regeneration<br>Orange: +20% Stamina Regeneration
+   1206729|00000000||In Enhanced Edition Redux, mutations are available from the start of the game.<br><br>Mutations significantly alter core game mechanics and player resources, offering both powerful advantages and debilitating drawbacks.<br><br>To learn more, open the <font color="#CD7D03">Character Panel</font>.
+   1206763|00000000||Mutation Research
+   1206764|00000000||Once again, any mutation can be researched first regardless of its position. For tutorial purposes, select one of the highlighted mutations.
+   1206765|00000000||Mutation Research
+   1206766|00000000||Once a mutation is researched, it will reduce the resarch cost of all connected mutations by 10%. The <font color="#CD7D03">Acclimation</font> skill will also reduce the required number. 
+   1206771|00000000||Mutant Mastery
+   1206772|00000000||<font color="#CD7D03">Mutant Mastery</font> is a passive ability that improves automatically as you develop other mutations. It will also gain additional benefits when you gain access to an advanced laboratory during <font color="#CD7D03">Turn and Face the Strange</font>.
+   1206779|00000000||Mutant Mastery
+   1206780|00000000||Congratulations!<br>Your <font color="#CD7D03">Mutant Mastery</font> has advanced to the next level!
+   1206785|00000000||Mutation Research
+   1207952|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. Return here with enough mutagens to unlock a mutation.
+   1214082|00000000||To use mutations, first you must research them. In Enhanced Edition Redux, mutations can be researched in <font color="#CD7D03">any order</font>. However, to advance this tutorial, select one of the highlighted mutations.
+   1214084|00000000||Mutations require <font color="#CD7D03">greater colored mutagens</font>. Red, blue, and green mutations can be made cheaper by possessing a monster mutagen or archmutagen of the correct family to use as a <font color="#CD7D03">base</font>. This base mutagen is not consumed. 
+   1225007|00000000||You can get the Thousand Flowers set by helping elves throughout Velen and Novigraad. It can also be purchased at the Scoia'tael camp southwest of Novigraad.
+   1225008|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.
+   1225013|00000000||You can get the White Tiger of the West set by scavenging the shipwreck Spoils of War throughout the Skellige Isles.
