@@ -1456,14 +1456,16 @@ class CR4IngameMenu extends CR4MenuBase
 		
 		if (optionName == 'OnelinerScale')
 		{
-			/*hud = (CR4ScriptedHud)theGame.GetHud();
+			// b1ackbeat's Oneliners module for NG - Start
+			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
 			{
 				onelinerModule = (CR4HudModuleOneliners)hud.GetHudModule("OnelinersModule");
 				if(onelinerModule)
 					onelinerModule.SetOnelinerScale( StringToInt(optionValue) );
-			}*/
+			}
+			// b1ackbeat's Oneliners module for NG - End
 		}
 		
 		
@@ -1475,7 +1477,8 @@ class CR4IngameMenu extends CR4MenuBase
 		
 		if (optionName == 'MinimapDuringFocusCombat')
 		{
-			/*hud = (CR4ScriptedHud)theGame.GetHud();
+			// b1ackbeat's Quests module for NG - Start
+			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
 			{
@@ -1491,14 +1494,16 @@ class CR4IngameMenu extends CR4MenuBase
 						minimapModule.SetMinimapDuringFocusCombat( false );
 					}
 				}					
-			}*/
+			}
+			// b1ackbeat's Quests module for NG - End
 		}
 		
 		
 		
 		if (optionName == 'ObjectiveDuringFocusCombat')
 		{
-			/*hud = (CR4ScriptedHud)theGame.GetHud();
+			// b1ackbeat's Minimap module for NG - Start
+			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
 			{
@@ -1514,7 +1519,8 @@ class CR4IngameMenu extends CR4MenuBase
 						objectiveModule.SetObjectiveDuringFocusCombat( false );
 					}
 				}					
-			}*/
+			}
+			// b1ackbeat's Minimap module for NG - End
 		}
 		
 		
