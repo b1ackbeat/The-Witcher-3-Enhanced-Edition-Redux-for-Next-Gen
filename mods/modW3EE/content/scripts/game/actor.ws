@@ -6594,8 +6594,8 @@ import abstract class CActor extends CGameplayEntity
 				//if(actorAttacker && damageData.DealsAnyDamage() )
 				//	actorAttacker.SignalGameplayEventParamObject( 'DamageInstigated', damageData );
 				
-				
-				if( IsImmortal() )
+				//Kolaris - Eredin Immortality
+				if( IsImmortal() || (HasAbility('WildHunt_Eredin') && FactsQuerySum("eredinTeleportedBackToShip") < 1) )
 				{
 					if ( canLog )
 					{

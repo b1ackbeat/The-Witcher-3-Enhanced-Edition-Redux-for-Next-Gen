@@ -1387,9 +1387,7 @@ class CR4IngameMenu extends CR4MenuBase
 				thePlayer.GetInputHandler().SetIsAltSignCasting(false);
 				FactsSet( "nge_alt_sign_casting_chosen", 0 );
 			}
-			// b1ackbeat's DualSense Support - Start
 			thePlayer.ApplyCastSettings();
-			// b1ackbeat's DualSense Support - End
 		}
 		
 		
@@ -1458,7 +1456,6 @@ class CR4IngameMenu extends CR4MenuBase
 		
 		if (optionName == 'OnelinerScale')
 		{
-			// b1ackbeat's Oneliners module for NG - Start
 			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
@@ -1467,7 +1464,6 @@ class CR4IngameMenu extends CR4MenuBase
 				if(onelinerModule)
 					onelinerModule.SetOnelinerScale( StringToInt(optionValue) );
 			}
-			// b1ackbeat's Oneliners module for NG - End
 		}
 		
 		
@@ -1479,7 +1475,6 @@ class CR4IngameMenu extends CR4MenuBase
 		
 		if (optionName == 'MinimapDuringFocusCombat')
 		{
-			// b1ackbeat's Quests module for NG - Start
 			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
@@ -1497,14 +1492,12 @@ class CR4IngameMenu extends CR4MenuBase
 					}
 				}					
 			}
-			// b1ackbeat's Quests module for NG - End
 		}
 		
 		
 		
 		if (optionName == 'ObjectiveDuringFocusCombat')
 		{
-			// b1ackbeat's Minimap module for NG - Start
 			hud = (CR4ScriptedHud)theGame.GetHud();
 			
 			if(hud)
@@ -1522,7 +1515,6 @@ class CR4IngameMenu extends CR4MenuBase
 					}
 				}					
 			}
-			// b1ackbeat's Minimap module for NG - End
 		}
 		
 		

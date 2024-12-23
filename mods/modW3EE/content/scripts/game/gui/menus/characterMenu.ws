@@ -518,6 +518,7 @@ class CR4CharacterMenu extends CR4MenuBase
 	
 	event  OnOpenMutationPanel():void
 	{
+		Equipment().TransferMutationIngredients(true); //Kolaris - Mutation Rework
 		OnPlaySoundEvent( "gui_tutorial_big_appear" );
 		theGame.GetTutorialSystem().uiHandler.OnClosingMenu( 'CharacterMenu' );
 		theGame.GetTutorialSystem().uiHandler.OnOpeningMenu( 'MutationMenu' );
@@ -527,6 +528,7 @@ class CR4CharacterMenu extends CR4MenuBase
 	
 	event  OnCloseMutationPanel():void
 	{
+		Equipment().TransferMutationIngredients(false); //Kolaris - Mutation Rework
 		OnPlaySoundEvent( "gui_character_remove_mutagen" );
 		theGame.GetTutorialSystem().uiHandler.OnClosingMenu( 'MutationMenu' );
 		theGame.GetTutorialSystem().uiHandler.OnOpeningMenu( 'CharacterMenu' );
@@ -1048,7 +1050,6 @@ class CR4CharacterMenu extends CR4MenuBase
 			mutationResourceData.SetMemberFlashInt( "required", RoundMath(curProgress.greenRequired * mutationCostMult) ); //Kolaris - Mutation Rework
 			
 			avaliableGreen = thePlayer.inv.GetUnusedMutagensCount('Greater mutagen green');
-			
 			AddItemResearchData( mutationResourceData, 'Greater mutagen green', SC_Green );
 			mutationResourceData.SetMemberFlashInt( "avaliableResources", avaliableGreen );
 			
@@ -2105,7 +2106,7 @@ class CR4CharacterMenu extends CR4MenuBase
 				slotUnlocked = true;
 			else
 				//Kolaris - Mutagen Slots
-				slotUnlocked = Experience().GetSpentPathPoints(ESSP_Alchemy_Mutagens) >= currentMutSlot.unlockedAtLevel;
+				slotUnlocked = GetWitcherPlayer().GetSkillLevel(S_Alchemy_s19) >= currentMutSlot.unlockedAtLevel;
 			// W3EE - End
 			
 			gfxMutSlot.SetMemberFlashInt('slotId', currentMutSlot.equipmentSlot);
@@ -2944,7 +2945,7 @@ class CR4CharacterMenu extends CR4MenuBase
 			//Kolaris - Acclimation
 			case S_Alchemy_s19:
 				argsInt.PushBack(1 + CeilF(skillLevel / 2.f));
-				argsInt.PushBack(20 * FloorF(skillLevel / 2.f));
+				argsInt.PushBack(10 * FloorF(skillLevel / 2.f));
 				if (skillLevel > 1)
 					baseString = GetLocStringByKeyExtWithParams("Redux_Acclimation2", argsInt);
 				else

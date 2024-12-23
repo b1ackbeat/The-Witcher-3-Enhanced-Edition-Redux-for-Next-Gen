@@ -27,6 +27,11 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 	private var m_altSignCasting		: bool; 
 	private var m_altSignCastingLast	: bool; 
 	private const var KEY_CONTROLS_FEEDBACK_LIST : string; 		default KEY_CONTROLS_FEEDBACK_LIST 		= "hud.module.controlsfeedback";
+	
+	
+	private var minimapModule : CR4HudModuleMinimap2;
+	private var objectiveModule : CR4HudModuleQuests;
+	
 
 	event  OnConfigUI()
 	{		
@@ -49,7 +54,30 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 		if (hud)
 		{
 			hud.UpdateHudConfig('ControlsFeedbackModule', true);
+			
+			
+			minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+			objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
+			
 		}
+	}
+	
+	private function GetMinimapModule()
+	{
+		var hud : CR4ScriptedHud;
+		
+		hud = (CR4ScriptedHud)theGame.GetHud();
+		if(hud)
+			minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
+	}
+	
+	private function GetObjectiveModule()
+	{
+		var hud : CR4ScriptedHud;
+		
+		hud = (CR4ScriptedHud)theGame.GetHud();
+		if(hud)
+			objectiveModule = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
 	}
 
 	public function UpdateInputContext( inputContextName :name )
@@ -71,6 +99,13 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 		{
 			return true;
 		}
+		
+		
+		if(!minimapModule)
+			GetMinimapModule();
+		if(!objectiveModule)
+			GetObjectiveModule();
+		
 		
 		if( m_currentPlayerWeapon != thePlayer.GetCurrentMeleeWeaponType() )
 		{
@@ -195,6 +230,10 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 		var alterAttackKeysPC 	    : array< EInputKey >;
 		var modifier				: EInputKey;
 		
+		
+		var showCiriMinimap, showCiriObjective : bool;
+		
+		
 		GetBracketSymbols(bracketOpeningSymbol, bracketClosingSymbol);
 		
 		l_FlashArray = m_flashValueStorage.CreateTempFlashArray();
@@ -219,12 +258,17 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 			m_displayGallop 	= m_CurrentHorseComp.OnCanGallop();
 			m_displayCanter 	= m_CurrentHorseComp.OnCanCanter();
 			
+			
+			showCiriMinimap = minimapModule.GetMinimapDuringFocusCombat();
+			showCiriObjective = objectiveModule.GetObjectiveDuringFocusCombat();
+			
+			
 			switch(inputContextName)
 			{
 				case 'JumpClimb' :
 					return;
 				case 'Exploration' :  					
-					if( m_displaySprint )
+					if( m_displaySprint && !theGame.IsFocusModeActive() )	
 					{
 						if(m_lastUsedPCInput || !thePlayer.GetLeftStickSprint())
 							l_ActionsArray.PushBack('Sprint');	
@@ -251,7 +295,7 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 					}
 					break;
 				case 'Exploration_Replacer_Ciri' :
-					if( m_displaySprint )
+					if( m_displaySprint && !theGame.IsFocusModeActive() )	
 					{
 						if(m_lastUsedPCInput || !thePlayer.GetLeftStickSprint())
 							l_ActionsArray.PushBack('Sprint');	
@@ -262,6 +306,10 @@ class CR4HudModuleControlsFeedback extends CR4HudModuleBase
 					{
 						l_ActionsArray.PushBack('Jump');
 					}
+					
+					if( showCiriMinimap || showCiriObjective )
+						l_ActionsArray.PushBack('Focus');
+					
 					break;
 				case 'Horse' : 
 					if ( m_displayGallop )

@@ -8147,11 +8147,11 @@ import class CInventoryComponent extends CComponent
 		var msg: string;
 
 		if(this.ItemHasTag(item, 'primer_albedo'))
-			msg =" " + "<font color=\"#e0e0e0\">" +"[Albedo]" + "</font>";
+			msg =" " + "<font color=\"#e0e0e0\">" + "[" + GetLocStringById(2116942407) + "]" + "</font>";
 		else if (this.ItemHasTag(item, 'primer_rubedo'))
-			msg = " " +"<font color=\"#C52C34\">" +"[Rubedo]" + "</font>";
+			msg = " " +"<font color=\"#C52C34\">" + "[" + GetLocStringById(2116942409) + "]" + "</font>";
 		else if (this.ItemHasTag(item, 'primer_nigredo'))
-			msg = " " +"<font color=\"#4F4F4F\">" +"[Nigredo]" + "</font>";
+			msg = " " +"<font color=\"#4F4F4F\">" + "[" + GetLocStringById(2116942408) + "]" + "</font>";
 
 		return msg;
 	}

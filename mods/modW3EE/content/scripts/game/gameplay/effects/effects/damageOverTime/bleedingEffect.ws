@@ -71,7 +71,7 @@ class W3Effect_Bleeding extends W3DamageOverTimeEffect
 		if( !target.IsAlive() )
 			return true;
 			
-		if( target.IsQuestActor() || target.HasAbility('q105_evil_heart') || (target.HasAbility('mh201_cave_troll') && target.GetAttitude( thePlayer ) == AIA_Friendly) )
+		if( target.IsQuestActor() || target.HasAbility('q105_evil_heart') || (target.HasAbility('mh201_cave_troll') && target.GetAttitude( thePlayer ) == AIA_Friendly) || (target.HasAbility('WildHunt_Eredin') && target.GetStatPercents(BCS_Essence) < 0.05f) )
 			return false;
 			
 		waitTime = 0.f;

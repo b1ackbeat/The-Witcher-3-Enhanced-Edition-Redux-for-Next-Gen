@@ -66,7 +66,7 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 		var hud : CR4ScriptedHud;
 		
 		
-		var inGameConfigWrapper : CInGameConfigWrapper; // b1ackbeat's Minimap module for NG
+		var inGameConfigWrapper : CInGameConfigWrapper;
 
 		m_flashValueStorage = GetModuleFlashValueStorage();
 		m_anchorName = "mcAnchorMiniMap"; 
@@ -130,7 +130,6 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 		}
 		
 		
-		// b1ackbeat's Minimap module for NG - Start
 		inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
 		minimapDuringFocusCombat = inGameConfigWrapper.GetVarValue('Hud', 'MinimapDuringFocusCombat');
 		
@@ -191,10 +190,8 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 		{
 			fadeInTimer = 5.5;
 		}
-		// b1ackbeat's Minimap module for NG - End
 	}
 	
-	// b1ackbeat's Minimap module for NG - Start
 	private var fadeInTimer : float;
 	private var isFading, currentlyFading : bool;
 	private var fadeOutTime : float;	default fadeOutTime = 0.3f;
@@ -235,7 +232,6 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 		}
 		//---=== modFriendlyHUD ===---
 	}
-	// b1ackbeat's Minimap module for NG - End
 
 	//---=== modFriendlyHUD ===---
 	public function UpdateZoomForced()
@@ -269,7 +265,6 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 	event  OnTick( timeDelta : float )
 	{
 		
-		// b1ackbeat's Minimap module for NG - Start
 		var hud : CR4ScriptedHud;		
 		var horseRacing, dlg : bool;
 		
@@ -305,7 +300,6 @@ class CR4HudModuleMinimap2 extends CR4HudModuleBase
 				
 			}
 		}
-		// b1ackbeat's Minimap module for NG - End
 		
 	
 		UpdateZoom();

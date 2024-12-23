@@ -2711,10 +2711,10 @@ class W3EEEquipmentHandler extends W3EEOptionHandler
 		if( mutationID == EPMT_Mutation11 || mutationID == EPMT_Mutation12 )
 			baseMult = 2.f;
 		else if( baseMutagen == 'None' )
-			baseMult = 5.f;
+			baseMult = 6.f;
 		else
 		{
-			baseMult = 5.f - theGame.GetDefinitionsManager().GetItemQuality(baseMutagen);
+			baseMult = 6.f - theGame.GetDefinitionsManager().GetItemQuality(baseMutagen);
 			if( !theGame.GetDefinitionsManager().ItemHasTag(baseMutagen, 'archetype_mutagen') )
 				baseMult += 1.f;
 		}
@@ -2799,9 +2799,9 @@ class W3EEEquipmentHandler extends W3EEOptionHandler
 		}
 		
 		if( playerWitcher.GetSkillLevel(S_Alchemy_s19) >= 4 )
-			mult -= 0.4f;
-		else if( playerWitcher.GetSkillLevel(S_Alchemy_s19) >= 2 )
 			mult -= 0.2f;
+		else if( playerWitcher.GetSkillLevel(S_Alchemy_s19) >= 2 )
+			mult -= 0.1f;
 		
 		return mult * baseMult;
 	}
@@ -2813,10 +2813,10 @@ class W3EEEquipmentHandler extends W3EEOptionHandler
 		var mult : int;
 		
 		if( baseMutagen == 'None' )
-			mult = 5;
+			mult = 6;
 		else
 		{
-			mult = 5 - theGame.GetDefinitionsManager().GetItemQuality(baseMutagen);
+			mult = 6 - theGame.GetDefinitionsManager().GetItemQuality(baseMutagen);
 			if( !theGame.GetDefinitionsManager().ItemHasTag(baseMutagen, 'archetype_mutagen') )
 				mult += 1;
 		}
@@ -2828,10 +2828,39 @@ class W3EEEquipmentHandler extends W3EEOptionHandler
 		else
 			ret += GetLocStringByKeyExt("Redux_MutationNoneMutagen");
 		if( mult > 1 )
-			ret += "<br>" + GetLocStringByKeyExt("Redux_MutationMultMutagen") + (mult - 1) * 100 + "%";
+			ret += "<br>" + GetLocStringByKeyExt("Redux_MutationMultMutagen") + (mult * 50 - 100) + "%";
 		ret += "</font>";
 		
 		return ret;
+	}
+	
+	public function TransferMutationIngredients( toPlayer : bool )
+	{
+		var i : int;
+		var inv, horseInv: CInventoryComponent;
+		var items: array<SItemUniqueId>;
+
+		inv = GetWitcherPlayer().GetInventory();
+		horseInv = GetWitcherPlayer().GetHorseManager().GetInventoryComponent();
+		
+		if( toPlayer )
+		{
+			items = horseInv.GetItemsByTag('MutationIngredient');	
+			
+			for(i=0; i<items.Size(); i+=1)
+			{
+				horseInv.GiveItemTo( inv, items[i], horseInv.GetItemQuantity(items[i]), false, true, false );
+			}
+		}
+		else
+		{
+			items = inv.GetItemsByTag('MutationIngredient');	
+			
+			for(i=0; i<items.Size(); i+=1)
+			{
+				inv.GiveItemTo( horseInv, items[i], inv.GetItemQuantity(items[i]), false, true, false );
+			}
+		}
 	}
 	
 	//Kolaris - Dynamic Witcher Schematics

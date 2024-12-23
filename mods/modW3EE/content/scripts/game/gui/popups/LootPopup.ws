@@ -653,6 +653,12 @@ class CR4LootPopup extends CR4PopupBase
 				else
 					l_typeStr = GetRandomLootInfo(l_containerInv, l_item);
 					
+				//Kolaris - Loot Popup String Length
+				if( StrLen(l_typeStr) >= 150 )
+					l_typeStr = "<font size = '17' >" + l_typeStr + "</font>";
+				else if( StrLen(l_typeStr) >= 130 )
+					l_typeStr = "<font size = '18' >" + l_typeStr + "</font>";
+				
 				l_lootItemsDataFlashObject.SetMemberFlashString("itemType", l_typeStr );
 				
 				if(l_containerInv.HasItemDurability(l_item))

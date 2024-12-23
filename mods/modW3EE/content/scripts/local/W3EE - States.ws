@@ -696,6 +696,7 @@ state W3EEMeditation in W3PlayerWitcher extends MeditationBase
 		shouldSpinCamera = true;
 		spinReductionThreshold = 0;
 		brewingTime = alchemyManager.GetBrewingDuration();
+		restedTimer += brewingTime; //Kolaris - Brewing Rested Buff
 		
 		BlockGameplayActionsAll(true);
 		fastForwardSystem.BeginFastForward();

@@ -178,7 +178,7 @@ class CR4HudModuleWolfHead extends CR4HudModuleBase
 		UpdateStateByPlayer();
 		
 		// W3EE - Begin
-		if ( isFadingOut || IsVisibleTemporarily() || thePlayer.IsCombatMusicEnabled() /*|| (m_curToxicity > 0.f || m_lockedToxicity > 0.f)*/ || (m_curVitality < m_maxVitality) || thePlayer.GetStat(BCS_Focus) < thePlayer.GetStatMax(BCS_Focus) || thePlayer.GetStat(BCS_Stamina) < thePlayer.GetStatMax(BCS_Stamina) || thePlayer.GetPoiseEffect().GetCurrentPoise() < thePlayer.GetPoiseEffect().GetMaxPoise() )
+		if ( isFadingOut || IsVisibleTemporarily() || thePlayer.IsCombatMusicEnabled() /*|| (m_curToxicity > 0.f || m_lockedToxicity > 0.f)*/ || (thePlayer.GetStatPercents(BCS_Vitality) < 0.999f) || thePlayer.GetStat(BCS_Focus) < thePlayer.GetStatMax(BCS_Focus) || thePlayer.GetStat(BCS_Stamina) < thePlayer.GetStatMax(BCS_Stamina) || thePlayer.GetPoiseEffect().GetCurrentPoise() < thePlayer.GetPoiseEffect().GetMaxPoise() )
 		// W3EE - End
 			SetAlwaysDisplayed( true );
 		else
@@ -438,15 +438,16 @@ class CR4HudModuleWolfHead extends CR4HudModuleBase
 			m_fxSetFocusProgressSFF.InvokeSelfOneArg( FlashArgNumber( focusProgress ) );
 		}
 		
-		if( curFocusPoints < signCost )
+		if( focusProgress < signCost )
 			m_fxSetSignIconDimmed.InvokeSelfOneArg(FlashArgBool(true));
 		else
 		{
+			m_fxSetSignIconDimmed.InvokeSelfOneArg(FlashArgBool(false)); //Kolaris - Mutation Rework
 			if( curFocusPoints >= lastUpdateValue + 1.f )
 			{
 				m_fxSetSignIconDimmed.InvokeSelfOneArg(FlashArgBool(true));
 				m_fxSetSignIconDimmed.InvokeSelfOneArg(FlashArgBool(false));
-				lastUpdateValue = curFocusPoints;
+				lastUpdateValue = focusProgress; //Kolaris - Mutation Rework
 			}
 		}
 		

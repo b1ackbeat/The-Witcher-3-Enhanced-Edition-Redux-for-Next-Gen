@@ -280,10 +280,8 @@ class CR4HudModuleDialog extends CR4HudModuleBase
 		
 		for ( i = 0; i < lastSetChoices.Size(); i += 1 )
 		{
-			//Kolaris - NextGen (Disabled)
-			//this was sending prefixes into the final strings. reverting for now
 			
-			// b1ackbeat's Dialog Choice scaling for NG - Let's think about people with poor eyesight
+			
 			lastSetChoices[ i ].description = "<font size = '"+ IntToString( 23 + choiceScale ) + "' >" + lastSetChoices[ i ].description + "</font>";
 			prefix = "<font size = '" + IntToString( 23 + choiceScale ) + "' >" + IntToString(i + 1) + ". " + "</font>";
 
@@ -319,18 +317,11 @@ class CR4HudModuleDialog extends CR4HudModuleBase
 			
 			
 			choiceFlashObject = flashValueStorage.CreateTempFlashObject();
-			choiceFlashObject.SetMemberFlashString( "prefix",   prefix );	
+			choiceFlashObject.SetMemberFlashString( "prefix",   prefix );
 			choiceFlashObject.SetMemberFlashString( "name",     lastSetChoices[ i ].description );
 			choiceFlashObject.SetMemberFlashInt( "icon",     	lastSetChoices[ i ].dialogAction );		
 			choiceFlashObject.SetMemberFlashBool( "read",     	lastSetChoices[ i ].previouslyChoosen == false );		
 			choiceFlashObject.SetMemberFlashBool( "emphasis", 	lastSetChoices[ i ].emphasised );
-			
-			/*choiceFlashObject = flashValueStorage.CreateTempFlashObject();
-			choiceFlashObject.SetMemberFlashInt( "prefix",      i + 1 );
-			choiceFlashObject.SetMemberFlashString( "name",     lastSetChoices[ i ].description );
-			choiceFlashObject.SetMemberFlashInt( "icon",     	lastSetChoices[ i ].dialogAction );		
-			choiceFlashObject.SetMemberFlashBool( "read",     	lastSetChoices[ i ].previouslyChoosen == false );		
-			choiceFlashObject.SetMemberFlashBool( "emphasis", 	lastSetChoices[ i ].emphasised );*/
 			
 			if (lastSetChoices[i].disabled && lastSetChoices[i].dialogAction == DialogAction_CONTENT_MISSING)
 			{

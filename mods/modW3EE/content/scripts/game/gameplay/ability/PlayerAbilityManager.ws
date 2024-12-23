@@ -4233,7 +4233,6 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		greenPoints = witcher.inv.GetMutationResearchPoints( SC_Green, item );
 		bluePoints = witcher.inv.GetMutationResearchPoints( SC_Blue, item );
 		
-		
 		if(redPoints < 0 || greenPoints < 0 || bluePoints < 0 )
 		{
 			return false;
@@ -4273,7 +4272,7 @@ class W3PlayerAbilityManager extends W3AbilityManager
 		{
 			return false;
 		}
-	
+		
 		witcher.SetMutationSpentMutagens(NameToString(witcher.inv.GetItemName(item)), quantity); //Kolaris - Mutation Rework
 		witcher.inv.RemoveUnusedMutagensCountById( item, quantity );
 		mutations[ idx ].progress.redUsed += redPoints * quantity;
@@ -4556,6 +4555,19 @@ class W3PlayerAbilityManager extends W3AbilityManager
 			OnSkillUnequip(skill);
 			OnSkillEquip(skill);
 		}
+	}
+	//Kolaris - Mutation Rework Fix
+	public function DEBUG_DevelopMutation( mut : EPlayerMutationType )
+	{
+		var tempInt : int;
+		
+		tempInt = GetMutationIndex( mut );
+		mutations[ tempInt ].progress.overallProgress = 100;
+		mutations[ tempInt ].progress.blueUsed = mutations[ tempInt ].progress.blueRequired;
+		mutations[ tempInt ].progress.greenUsed = mutations[ tempInt ].progress.greenRequired;
+		mutations[ tempInt ].progress.redUsed = mutations[ tempInt ].progress.redRequired;
+		mutations[ tempInt ].progress.skillpointsUsed = mutations[ tempInt ].progress.skillpointsRequired;
+		OnMutationFullyResearched( mut );
 	}
 	// W3EE - End
 	

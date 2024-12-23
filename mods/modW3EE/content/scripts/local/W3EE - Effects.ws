@@ -354,7 +354,6 @@ class W3Effect_CombatAdrenaline extends CBaseGameplayEffect
 						gain *= 0.8f;
 					gain *= 1.f - CalculateAttributeValue(playerWitcher.GetAttributeValue('adrenaline_delay_bonus')) / 10.f;
 					RemoveAdrenaline(gain);
-					pointPool = ClampF(pointPool - gain, 0.f, maxAdrenaline);
 					return;
 				}
 			}
@@ -416,9 +415,9 @@ class W3Effect_CombatAdrenaline extends CBaseGameplayEffect
 	
 	public function RemoveAdrenaline( value : float )
 	{
-		//pointPool -= value;
+		pointPool -= value;
 		currentAdrenaline -= value;
-		//pointPool = ClampF(pointPool, 0, maxAdrenaline);
+		pointPool = ClampF(pointPool, 0, maxAdrenaline);
 		currentAdrenaline = ClampF(currentAdrenaline, 0, maxAdrenaline);
 	}
 	

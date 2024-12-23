@@ -581,7 +581,7 @@ import abstract class W3AbilityManager extends IScriptable
         cost *= costMult;
         if( dt )
             cost *= dt;
-            
+			
         return cost;
     }
     

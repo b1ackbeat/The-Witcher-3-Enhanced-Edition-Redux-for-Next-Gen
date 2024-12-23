@@ -4913,12 +4913,18 @@ class W3EEScalingHandler extends W3EEOptionHandler
 	{
 		var npcStats : CCharacterStats;
 		var ciriEntity : W3ReplacerCiri;
-		var damageScale, healthScale : float;
+		var damageScale, healthScale, currentHealthPercent : float;
 		var playerLevel : int;
 		var health : EBaseCharacterStats;
 		var wasNotScaled : bool;
 		var ab : array<CName>;
 		
+		if( NPC.HasAbility('WildHunt_Caranthir') && NPC.GetStatPercents(BCS_Essence) < 0.71f && NPC.GetStatPercents(BCS_Essence) > 0.69f && FactsQuerySum("caranthir_phase2_gogo") > 0 && FactsQuerySum("EER_Caranthir_Scaling_Hack") < 1 )
+		{
+			currentHealthPercent = 0.7f;
+			FactsAdd("EER_Caranthir_Scaling_Hack", 1);
+		}
+		else
 		if( NPC.GetWasScaled() || NPC.HasTag('q702_bloodlust_counter') || opponentStats.opponentType == MC_Animal ) return;
 		
 		NPC.SetWasScaled(true);
@@ -4947,7 +4953,7 @@ class W3EEScalingHandler extends W3EEOptionHandler
 		npcStats.RemoveAbilityAll(theGame.params.MONSTER_BONUS_PER_LEVEL_FIXED);
 		
 		ciriEntity = (W3ReplacerCiri)thePlayer;
-		if( ciriEntity )
+		if( ciriEntity && !NPC.HasTag('IsBoss') )
 		{
 			if( NPC.IsHuman() && NPC.GetStat(BCS_Essence, true) < 0 )
 				npcStats.AddAbility('CirihardcoreDebuffHuman');
@@ -5015,8 +5021,12 @@ class W3EEScalingHandler extends W3EEOptionHandler
 		
 		if( !NPC.HasTag('failedFundamentalsAchievement') )
 		{
+			//currentHealthPercent = NPC.GetStatPercents(health);
 			opponentAbilities.SetStatPointMax(health, opponentStats.healthValue);
-			opponentAbilities.SetStatPointCurrent(health, opponentStats.healthValue);
+			if( NPC.HasAbility('WildHunt_Caranthir') && currentHealthPercent == 0.7f )
+				opponentAbilities.SetStatPointCurrent(health, opponentStats.healthValue  * currentHealthPercent);
+			else
+				opponentAbilities.SetStatPointCurrent(health, opponentStats.healthValue);
 		}
 	}
 	

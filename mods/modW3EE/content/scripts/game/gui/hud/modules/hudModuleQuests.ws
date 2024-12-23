@@ -47,7 +47,7 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 		var flashModule : CScriptedFlashSprite;
 		
 		
-		var inGameConfigWrapper : CInGameConfigWrapper; // b1ackbeat's Quests module for NG
+		var inGameConfigWrapper : CInGameConfigWrapper;
 		
 		m_anchorName = "mcAnchorQuest";
 		
@@ -74,10 +74,8 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 		}
 		
 		
-		// b1ackbeat's Quests module for NG - Start
 		inGameConfigWrapper = (CInGameConfigWrapper)theGame.GetInGameConfigWrapper();
 		objectiveDuringFocusCombat = inGameConfigWrapper.GetVarValue('Hud', 'ObjectiveDuringFocusCombat');
-		// b1ackbeat's Quests module for NG - End
 		
 	}
 	
@@ -87,7 +85,6 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 	}
 
 	
-	// b1ackbeat's Quests module for NG - Start
 	private var isInCombat : bool;
 	private var isInFocus : bool;
 	private var dlgPlaying : bool;
@@ -186,7 +183,6 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 			isFading = false;
 		}
 	}
-	// b1ackbeat's Quests module for NG - End
 	
 
 	event  OnTick( timeDelta : float )
@@ -197,12 +193,11 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 		var sendSystemObjectives : bool = false;
 		
 		
-		var horseRacing : bool; // b1ackbeat's Quests module for NG
+		var horseRacing : bool;
 		
 		
 		UpdateFadeOut( timeDelta ); //modFriendlyHUD
 		
-		// b1ackbeat's Quests module for NG - Start
 		horseRacing = false;
 
 		if(!dlgPlaying && objectiveDuringFocusCombat)
@@ -233,7 +228,6 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 				
 			}
 		}
-		// b1ackbeat's Quests module for NG - End
 		
 
 		if ( CheckIfUpdateIsAllowed() && m_updateEvents.Size() )
@@ -255,7 +249,7 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 						
 						break;
 					case EUET_TrackedQuestObjective:
-						ShowObjectiveOnUpdate(); // b1ackbeat's Quests module for NG
+						ShowObjectiveOnUpdate();	
 						UpdateObjectives();
 						sendSystemObjectives = true;
 						break;
@@ -333,7 +327,7 @@ class CR4HudModuleQuests extends CR4HudModuleBase
 				}
 				theGame.GetJournalManager().SetPrevNextHighlightedObjective( true );
 				
-				ShowObjectiveOnUpdate(); // b1ackbeat's Quests module for NG
+				ShowObjectiveOnUpdate();	
 			}
 		}
 	}

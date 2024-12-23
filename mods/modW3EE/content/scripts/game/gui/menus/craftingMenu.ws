@@ -1589,7 +1589,7 @@ class CR4CraftingMenu extends CR4ListBaseMenu
 				{
 					if( min.valueAdditive == 5 )
 					{
-						sortString = "<font color=\"#a09d9a\">[</font><font color=\"#4db323\">W</font> | <font color=\"#EBEBEB\">";
+						sortString = "<font color=\"#a09d9a\">[</font><font color=\"#4db323\">" + GetLocStringById(1107655) + "</font> | <font color=\"#EBEBEB\">"; //Kolaris - B1ackbeat Suggestion
 						sortTier = StringToInt(StrRight(schematic.craftedItemName, 1));
 						if( l_GroupTag == 'armor' || l_GroupTag == 'steelsword' || l_GroupTag == 'silversword' )
 							sortTier += 1;
@@ -1599,7 +1599,7 @@ class CR4CraftingMenu extends CR4ListBaseMenu
 					}
 					else
 					if( min.valueAdditive == 4 )
-						l_Title = "<font color=\"#a09d9a\">[</font><font color=\"#BF6813\">R</font>] " + l_Title;
+						l_Title = "<font color=\"#a09d9a\">[</font><font color=\"#BF6813\">" + GetLocStringById(1107659) + "</font>] " + l_Title; //Kolaris - B1ackbeat Suggestion
 					else
 						l_Title = "<font color=\"#BFB0B0\"></font>" + l_Title;
 				}

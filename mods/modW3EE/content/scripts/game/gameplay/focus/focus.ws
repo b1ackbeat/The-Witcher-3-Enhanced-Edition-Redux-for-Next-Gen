@@ -202,11 +202,9 @@ import class CFocusModeController extends IGameSystem
 	private function ActivateInternal()
 	{
 		
-		// b1ackbeat's Minimap and Questss modules for NG - Start
 		var hud : CR4ScriptedHud;
 		var minimapModule : CR4HudModuleMinimap2;
 		var objectiveModule : CR4HudModuleQuests;
-		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 	
 		if ( IsActive() || !CanUseFocusMode() )
@@ -214,7 +212,6 @@ import class CFocusModeController extends IGameSystem
 			return;
 		}
 
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		if(thePlayer.IsCiri())
 		{
 			hud = (CR4ScriptedHud)theGame.GetHud();
@@ -235,7 +232,6 @@ import class CFocusModeController extends IGameSystem
 			}
 			return;
 		}
-		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 		SetActive( true );
 		EnableVisuals( true );
@@ -250,11 +246,16 @@ import class CFocusModeController extends IGameSystem
 		if ( theGame.GetEngineTimeAsSeconds() - activationSoundTimer > activationSoundInterval )
 		{
 			activationSoundTimer = theGame.GetEngineTimeAsSeconds();
-			theSound.SoundEvent( 'expl_focus_start' );			
+			theSound.SoundEvent( 'expl_focus_start' );
 		}
 		
+		//Kolaris ++ Mutation Rework
+		/*if( GetWitcherPlayer().IsInDarkPlace() && GetWitcherPlayer().IsMutationActive( EPMT_Mutation12 ) && !thePlayer.HasBuff( EET_Mutation12Cat ) )
+		{
+			thePlayer.AddEffectDefault( EET_Mutation12Cat, thePlayer, "Mutation12 Senses", false );
+		}*/
+		//Kolaris -- Mutation Rework
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		hud = (CR4ScriptedHud)theGame.GetHud();
 		if(hud)
 		{
@@ -271,7 +272,6 @@ import class CFocusModeController extends IGameSystem
 				objectiveModule.SetIsInFocus(true);
 			}
 		}
-		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 	}
 
@@ -281,10 +281,8 @@ import class CFocusModeController extends IGameSystem
 		var module : CR4HudModuleInteractions;
 		
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		var minimapModule : CR4HudModuleMinimap2;
 		var objectiveModule : CR4HudModuleQuests;
-		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 		
 		//---=== modFriendlyHUD ===---
@@ -296,7 +294,6 @@ import class CFocusModeController extends IGameSystem
 
 		ActivateFastFocus( false );
 
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		if(thePlayer.IsCiri())
 		{
 			hud = ( CR4ScriptedHud )theGame.GetHud();
@@ -316,7 +313,6 @@ import class CFocusModeController extends IGameSystem
 				}
 			}
 		}
-		// b1ackbeat's Minimap and Quests modules for NG - End
 
 		if ( !IsActive() )
 		{
@@ -378,7 +374,9 @@ import class CFocusModeController extends IGameSystem
 		}
 		
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
+		//thePlayer.RemoveBuff( EET_Mutation12Cat ); //Kolaris - Mutation Rework
+		
+		
 		if(hud)
 		{
 			minimapModule = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
@@ -394,8 +392,6 @@ import class CFocusModeController extends IGameSystem
 				objectiveModule.SetIsInFocus(false);
 			}
 		}
-		// b1ackbeat's Minimap and Quests modules for NG - End
-		
 	}
 
 	function CanUseFocusMode() : bool
@@ -410,7 +406,7 @@ import class CFocusModeController extends IGameSystem
 		if ( thePlayer )
 		{
 			stateName = thePlayer.GetCurrentStateName();
-			return ( stateName == 'Exploration' || stateName == 'Swimming' || stateName == 'HorseRiding' || stateName == 'Sailing' || stateName == 'SailingPassive' || stateName == 'W3EEAnimation' ) && thePlayer.IsActionAllowed(EIAB_ExplorationFocus);		
+			return ( stateName == 'Exploration' || stateName == 'Swimming' || stateName == 'HorseRiding' || stateName == 'Sailing' || stateName == 'SailingPassive' || stateName == 'W3EEAnimation' ) && thePlayer.IsActionAllowed(EIAB_ExplorationFocus); // W3EE	
 		}
 		
 		return false;
@@ -502,6 +498,25 @@ import class CFocusModeController extends IGameSystem
 				{
 					theSound.EnterGameState( desiredAudioState );
 				}
+				
+				//Kolaris ++ Mutation Rework
+				/*if( GetWitcherPlayer().IsMutationActive( EPMT_Mutation12 ) )
+				{
+					lastDarkPlaceCheck -= timeDelta;
+					if( lastDarkPlaceCheck <= 0.f )
+					{
+						lastDarkPlaceCheck = DARK_PLACE_CHECK_INTERVAL;
+					
+						if( GetWitcherPlayer().IsInDarkPlace() && !thePlayer.HasBuff( EET_Mutation12Cat ) )
+						{
+							thePlayer.AddEffectDefault( EET_Mutation12Cat, thePlayer, "Mutation12 Senses", false );
+						}
+						else if( !GetWitcherPlayer().IsInDarkPlace() && thePlayer.HasBuff( EET_Mutation12Cat ) )
+						{
+							thePlayer.RemoveBuff( EET_Mutation12Cat );
+						}
+					}
+				}*/ //Kolaris -- Mutation Rework
 			}
 			else
 			{

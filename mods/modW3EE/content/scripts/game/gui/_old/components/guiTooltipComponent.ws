@@ -1226,11 +1226,11 @@ class W3TooltipComponent
 				{
 					if( upgradeStatFirst.percentageValue )
 					{
-						upgradeBonusValue = "<font color=\"#fcda63\">+" + RoundMath(upgradeStatFirst.value * 100) + " %</font>";
+						upgradeBonusValue = "<font color=\"#fcda63\">+" + NoTrailZeros(RoundTo(upgradeStatFirst.value * 100, 1)) + " %</font>"; //Kolaris - Upgrade Tooltip Fix
 					}
 					else
 					{
-						upgradeBonusValue = "<font color=\"#fcda63\">+" + RoundMath(upgradeStatFirst.value) + "</font>";
+						upgradeBonusValue = "<font color=\"#fcda63\">+" + NoTrailZeros(RoundTo(upgradeStatFirst.value, 1)) + "</font>"; //Kolaris - Upgrade Tooltip Fix
 					}
 					
 					upgradeBonusDesc = upgradeStatFirst.attributeName + "<br/><font color=\"#7e785f\">" + curUpgradeLocName + "</font>";

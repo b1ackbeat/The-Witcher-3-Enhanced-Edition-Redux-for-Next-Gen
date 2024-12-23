@@ -481,6 +481,26 @@ exec function PrintMutationResearchProgress(mutation : EPlayerMutationType)
 	theGame.GetGuiManager().ShowNotification(GetWitcherPlayer().GetMutationResearchProgress(mutation));
 }
 
+exec function FixMutationProgress()
+{
+	var pam : W3PlayerAbilityManager;
+	var i, researchProgress : int;
+	var mutations : array<SMutation>;
+	
+	pam = (W3PlayerAbilityManager)GetWitcherPlayer().abilityManager;
+	mutations = pam.GetMutations();
+	
+	for(i=0; i<(mutations.Size()); i+=1)
+	{
+		if( mutations[i].type != EPMT_None && mutations[i].type != EPMT_MutationMaster)
+		{
+			researchProgress = pam.GetMutationResearchProgress(mutations[i].type);
+			if( researchProgress > 0 && researchProgress < 100 )
+				pam.DEBUG_DevelopMutation(mutations[i].type);
+		}
+	}
+}
+
 class W3Effect_DeathCounter extends CBaseGameplayEffect
 {
 	default effectType = EET_DeathCounter;	

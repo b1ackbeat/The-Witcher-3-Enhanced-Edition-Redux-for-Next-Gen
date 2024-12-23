@@ -664,11 +664,9 @@ statemachine abstract import class CR4Player extends CPlayer
 		return 0;
 	}
 	
-	// b1ackbeat's DualSense Support - Start
 	public function ApplyCastSettings()
 	{
 	}
-	// b1ackbeat's DualSense Support - End
 	
 	
 	
@@ -990,11 +988,10 @@ statemachine abstract import class CR4Player extends CPlayer
 		theGame.ReleaseNoSaveLock( noSaveLock );
 	}
 
-	// b1ackbeat's DualSense Support - Start
 	public function OnShieldHit()
 	{
 	}
-	// b1ackbeat's DualSense Support - End
+	
 	
 	
 	
@@ -3256,13 +3253,11 @@ statemachine abstract import class CR4Player extends CPlayer
 			mm = (CR4HudModuleMinimap2)hud.GetHudModule("Minimap2Module");
 			qst = (CR4HudModuleQuests)hud.GetHudModule("QuestsModule");
 			
-			// b1ackbeat's Minimap and Quests modules for NG - Start
 			if(mm)
 				mm.SetIsInDlg(true);
 				
 			if(qst)
 				qst.SetIsInDlg(true);
-			// b1ackbeat's Minimap and Quests modules for NG - End	
 		}
 	
 		if( inv.GetItemEquippedOnSlot(EES_SilverSword, silver) && inv.IsItemHeld(silver))
@@ -11342,9 +11337,7 @@ statemachine abstract import class CR4Player extends CPlayer
 				PushCombatActionOnBuffer( EBAT_SpecialAttack_Heavy, BS_Released );
 				ProcessCombatActionBuffer();
 				
-				// b1ackbeat's DualSense Support - Start
 				theGame.HapticStart( "haptic_rend_stop" );
-				// b1ackbeat's DualSense Support - End
 			}
 		}
 	}	
@@ -12310,35 +12303,51 @@ statemachine abstract import class CR4Player extends CPlayer
 			
 		return false;
     }
-
+	
+	//Kolaris - This is fucked. For whatever reason, this function will only receive a 0 from abilityManager.GetVigorActionCost. So its whole purpose is for casting Aard while swimming
     public function HasVigorToUseSkill( skill : ESkill ) : bool
     {
-        var cost, delay : float;
-        var curVigor : float;
-        var mult : float;
+        var cost, curVigor, curStamina : float;
         
-        mult = 1.f;
+        cost = 1.f;
         curVigor = GetStat(BCS_Focus);
-		//Kolaris - Renewing Shield, Kolaris - Bastion
-		if( skill == S_Magic_s04 )
-		{
-			mult *= 1.f - 0.1f * GetSkillLevel(S_Magic_s14);
-			if( HasAbility('Glyphword 24 _Stats', true) )
-				mult *= 0.5f;
-		}
-			
-        abilityManager.GetVigorActionCost(cost, delay, SkillEnumToName(skill), 0, mult);
-        /*if( IsSwimming() )
-        {
-			cost = 1.f;
-			delay = 2.5f;
-		}*/ //Kolaris - Inner Strength
+		curStamina = GetStat(BCS_Stamina);
 		
-        if( curVigor >= cost )
-            return true;
-            
-        IndicateTooLowAdrenaline();
-        return false;
+		//abilityManager.GetVigorActionCost(cost, delay, SkillEnumToName(skill), 0, mult); 
+		
+		if( IsSwimming() )
+		{
+			if( GetWitcherPlayer().IsMutationActive(EPMT_Mutation1) )
+				cost *= 0.5f;
+			if( GetWitcherPlayer().IsMutationActive(EPMT_Mutation9) )
+				cost *= 3.f;
+			if( curVigor >= cost )
+				return true;
+			else
+			{
+				if( CanUseSkill(S_Perk_09) )
+				{
+					cost *= 35.f;
+					cost *= Options().StamCostGlobal();
+					if( GetWitcherPlayer().IsMutationActive(EPMT_Mutation9) )
+						cost *= 0.5f;
+					if( curStamina >= cost )
+						return true;
+					else
+					{
+						IndicateTooLowAdrenaline();
+						return false;
+					}
+				}
+				else
+				{
+					IndicateTooLowAdrenaline();
+					return false;
+				}
+			}
+		}
+		else
+			return true;
     }
 
 	public function DrainFocus(amount : float, optional dt : float )
@@ -12508,40 +12517,59 @@ statemachine abstract import class CR4Player extends CPlayer
 		return '';
 	}
 	
-	public function HasStaminaToUseSkill(skill : ESkill, optional perSec : bool, optional signHack : bool) : bool
+	public function HasStaminaToUseSkill(skill : ESkill, optional perSec : bool, optional signHack : bool, optional checkOnly : bool) : bool
 	{
+		//Kolaris ++ Vigor Cost Cleanup
 		var ret : bool;
-		var cost : float;
+		var cost, vigorCost : float;
 	
 		cost = GetSkillStaminaUseCost(skill, perSec);
 		
 		if( IsSkillSign(skill) )
 		{
+			vigorCost = 1.f;
 			if( ((W3PlayerWitcher)this).HasQuen() && skill == S_Magic_4 )
 				return true;
+		
+			if( GetWitcherPlayer().IsMutationActive(EPMT_Mutation1) )
+			{
+				cost *= 0.5f;
+				vigorCost *= 0.5f;
+			}
+			
+			if( GetWitcherPlayer().IsMutationActive(EPMT_Mutation9) )
+			{
+				cost *= 0.5f;
+				vigorCost *= 3.f;
+			}
+			
+			if( ((W3Effect_SwordCritVigor)GetBuff(EET_SwordCritVigor)).GetReductionActive() )
+			{
+				cost *= 0.6f;
+				vigorCost *= 0.6f;
+			}
 		}
 		
-		ret = ( CanUseSkill(skill) && (abilityManager.GetStat(BCS_Focus/*, signHack*/) >= 1) );
+		ret = ( CanUseSkill(skill) && (abilityManager.GetStat(BCS_Focus) >= vigorCost) );
 		
 		if(!ret && IsSkillSign(skill) && CanUseSkill(S_Perk_09) && GetStat(BCS_Stamina) >= cost)
 		{
 			ret = true;
 		}
 			
-		//Kolaris - Griffin Set
 		/*if( !ret && IsSkillSign( skill ) && GetWitcherPlayer().HasBuff( EET_GryphonSetBonus ) )
 		{
 			ret = true;
 		}*/
 		
-		if(!ret)
+		if(!ret && !checkOnly)
 		{
 			SetCombatActionHeading( GetHeading() );
 			SetShowToLowStaminaIndication(cost);
 		}
 			
 		return ret;
-		// W3EE - End
+		// Kolaris -- Vigor Cost Cleanup
 	}
 	
 	protected function GetSkillStaminaUseCost(skill : ESkill, optional perSec : bool) : float
@@ -13117,9 +13145,6 @@ statemachine abstract import class CR4Player extends CPlayer
 	
 	public function SetShowToLowStaminaIndication( value : float ) : void
 	{
-		// W3EE - Begin
-		//SoundEvent("gui_no_stamina");
-		// W3EE - End
 		fShowToLowStaminaIndication = value;
 	}
 	

@@ -554,10 +554,8 @@ class CR4ScriptedHud extends CR4Hud
 	public function UpdateHudConfigs():void
 	{
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		var minimapModule : CR4HudModuleMinimap2;
 		var objectiveModule : CR4HudModuleQuests;
-		// b1ackbeat's Minimap and Quests modules for NG - End
 		
 
 		UpdateHudConfig('Subtitles', false);
@@ -582,7 +580,6 @@ class CR4ScriptedHud extends CR4Hud
 		
 		
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		minimapModule = (CR4HudModuleMinimap2)GetHudModule("Minimap2Module");
 		if(minimapModule)
 		{
@@ -590,8 +587,7 @@ class CR4ScriptedHud extends CR4Hud
 			{
 				UpdateHudConfig('Minimap2Module', false);
 			}
-		}
-		// b1ackbeat's Minimap and Quests modules for NG - End	
+		}	
 		
 		
 		UpdateHudConfig('DayWeatherIndicator',false);
@@ -602,7 +598,6 @@ class CR4ScriptedHud extends CR4Hud
 		
 		
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		objectiveModule = (CR4HudModuleQuests)GetHudModule("QuestsModule");
 		if(objectiveModule)
 		{
@@ -610,8 +605,7 @@ class CR4ScriptedHud extends CR4Hud
 			{
 				UpdateHudConfig('QuestsModule', false);
 			}
-		}
-		// b1ackbeat's Minimap and Quests modules for NG - End	
+		}	
 		
 		
 		UpdateHudConfig('WolfMedalion',false);
@@ -1711,7 +1705,6 @@ class CR4ScriptedHud extends CR4Hud
 	public function OnCutsceneStarted()
 	{
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		var qst : CR4HudModuleQuests;		
 		var mm : CR4HudModuleMinimap2;
 
@@ -1722,8 +1715,7 @@ class CR4ScriptedHud extends CR4Hud
 			mm.SetIsInDlg(true);
 			
 		if(qst)
-			qst.SetIsInDlg(true);	
-		// b1ackbeat's Minimap and Quests modules for NG - End			
+			qst.SetIsInDlg(true);				
 		
 	
 	
@@ -1735,7 +1727,6 @@ class CR4ScriptedHud extends CR4Hud
 	public function OnCutsceneEnded()
 	{
 		
-		// b1ackbeat's Minimap and Quests modules for NG - Start
 		var qst : CR4HudModuleQuests;		
 		var mm : CR4HudModuleMinimap2;
 
@@ -1746,8 +1737,7 @@ class CR4ScriptedHud extends CR4Hud
 			mm.SetIsInDlg(false);
 			
 		if(qst)
-			qst.SetIsInDlg(false);	
-		// b1ackbeat's Minimap and Quests modules for NG - End			
+			qst.SetIsInDlg(false);				
 		
 	
 		ForceShow( false, HVS_Scene );

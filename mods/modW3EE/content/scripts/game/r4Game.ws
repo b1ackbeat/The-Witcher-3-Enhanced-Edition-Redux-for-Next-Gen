@@ -105,11 +105,9 @@ import class CR4Game extends CCommonGame
 	
 	import final function GetFocusModeController() : CFocusModeController;
 	
-	// b1ackbeat's DualSense Support - Start
 	import final function SetTriggerEffect( t : int, mode : int, param : array<Vector> );
 	import final function ClearTriggerEffect( t : int );
 	import final function HapticStart( t : string );
-	// b1ackbeat's DualSense Support - End
 	public var isRespawningInLastCheckpoint : bool;
 	default isRespawningInLastCheckpoint = false;
 	private var environmentID : int;

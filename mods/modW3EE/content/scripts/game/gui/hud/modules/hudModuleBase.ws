@@ -27,7 +27,7 @@ class CR4HudModuleBase extends CR4HudModule
 	protected var isFadingOut				: bool;
 	protected var hide						: bool;
 	protected var disable					: bool;
-	//protected var fadeOutTime				: float; // b1ackbeat's FHUD fadeout fix
+	//protected var fadeOutTime				: float; //come to think of it... I don't really need this timer
 	protected var fadeOutCfgTime			: float;
 	
 	public function IsEnabledForReason( reason : string ) : bool
@@ -107,7 +107,7 @@ class CR4HudModuleBase extends CR4HudModule
 	{
 		isFadingOut = true;
 		fadeOutCfgTime = GetFHUDConfig().fadeOutTimeSeconds;
-		//fadeOutTime = fadeOutCfgTime; // b1ackbeat's FHUD fadeout fix
+		//fadeOutTime = fadeOutCfgTime;
 	}
 	
 	private function ResetFadeOut()
@@ -125,7 +125,6 @@ class CR4HudModuleBase extends CR4HudModule
 		
 		if( !isFadingOut )
 			return;
-		// b1ackbeat's FHUD fadeout fix - Start
 		fModule = GetModuleFlash();
 		//a proper linear fade that doesn't fight with vanilla fade
 		mAlpha = fModule.GetAlpha() - 100 * timeDelta / fadeOutCfgTime;
@@ -139,11 +138,10 @@ class CR4HudModuleBase extends CR4HudModule
 			//fModule.SetAlpha( mAlpha * ( 1 - timeDelta / fadeOutCfgTime ) );
 			//and that was a bad idea, because it assumes nothing else can change module alpha
 			//fModule.SetAlpha( 100 * MaxF( 0, fadeOutTime / fadeOutCfgTime ) );
-		// b1ackbeat's FHUD fadeout fix - End
 		}
 		else
 		{
-			fModule.SetAlpha( 0 );  // b1ackbeat's FHUD fadeout fix
+			fModule.SetAlpha( 0 );
 			isFadingOut = false;
 			if( hide )
 			{

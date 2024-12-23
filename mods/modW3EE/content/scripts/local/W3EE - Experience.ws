@@ -140,7 +140,7 @@ class W3EEExperienceHandler
 				pathEntry.spentID = "MutationPointsSpent";
 				pathEntry.progressID = "MutationProgress";
 				pathEntry.maxPoints = 20;
-				pathEntry.expValue = RoundMath(750 * Options().GetSkillRateMutagens() * (1.f + 0.15f * playerWitcher.GetMasterMutationStage()));
+				pathEntry.expValue = RoundMath(625 * Options().GetSkillRateMutagens() * (1.f + 0.15f * playerWitcher.GetMasterMutationStage()));
 			break;
 			
 			case ESSP_Alchemy_Grasses:
@@ -521,7 +521,7 @@ class W3EEExperienceHandler
 		if( isDecoction )
 		{
 			ModPathProgress(ESSP_Alchemy_Potions, quantity);
-			ModPathProgress(ESSP_Alchemy_Mutagens, quantity * 5.f);
+			ModPathProgress(ESSP_Alchemy_Mutagens, quantity * 4.f);
 		}
 		else
 		if( isPotion )
@@ -541,8 +541,8 @@ class W3EEExperienceHandler
 	{
 		if( isDecoction )
 		{
-			ModPathProgress(ESSP_Alchemy_Grasses, 5.f);
-			ModPathProgress(ESSP_Alchemy_Mutagens, 5.f);
+			ModPathProgress(ESSP_Alchemy_Grasses, 4.f);
+			ModPathProgress(ESSP_Alchemy_Mutagens, 4.f);
 		}
 		else
 		if( isPotion )

@@ -48,13 +48,11 @@ statemachine class W3PlayerWitcher extends CR4Player
 	private				var usedQuenInCombat			: bool;
 	public				var yrdenEntities				: array<W3YrdenEntity>;
 	public saved		var m_quenReappliedCount		: int;
-	public saved		var m_quickInventorySaveData	: WmkQuickInventorySaveData; // -= WMK:modQuickSlots =-
-	// b1ackbeat's DualSense Support - Start
 	private				var m_quenHitFxTTL				: float;
 	private				var m_TriggerEffectDisablePending : bool;
 	private				var m_TriggerEffectDisabled		: bool;
 	private				var m_TriggerEffectDisableTTW	: float;
-	// b1ackbeat's DualSense Support - End
+	public saved		var m_quickInventorySaveData	: WmkQuickInventorySaveData; // -= WMK:modQuickSlots =-
 	
 	default				equippedSign	= ST_Aard;
 	default				m_quenReappliedCount = 1;
@@ -146,10 +144,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 	private var invUpdateTransaction : bool;
 		default invUpdateTransaction = false;
 	
-	// b1ackbeat's DualSense Support - Start
-	public var lastPressedWithNovigor : bool;
-		default lastPressedWithNovigor = false;
-	// b1ackbeat's DualSense Support - End
+	public var lastPressedWithNostamina : bool;
+		default lastPressedWithNostamina = false;
 	
 	
 	
@@ -786,11 +782,39 @@ statemachine class W3PlayerWitcher extends CR4Player
 		theGame.GameplayFactsAdd( "PlayerIsGeralt" );
 		
 		isInitialized = true;
-		
 		//Kolaris - NextGen Update (Disabled)
 		/*if(IsMutationActive( EPMT_Mutation6 ))
 			if(( (W3PlayerAbilityManager)abilityManager).GetMutationSoundBank(( EPMT_Mutation6 )) != "" ) 
-				theSound.SoundLoadBank(((W3PlayerAbilityManager)abilityManager).GetMutationSoundBank(( EPMT_Mutation6 )), true );*/
+				theSound.SoundLoadBank(((W3PlayerAbilityManager)abilityManager).GetMutationSoundBank(( EPMT_Mutation6 )), true );
+		
+		
+		
+		if( FactsQuerySum("NGE_SkillPointsCheck") < 1 )
+		{
+			
+			ForceSetStat(BCS_Toxicity, 0);
+			wolf = GetBuff(EET_WolfHour);
+			if(wolf)
+				exceptions.PushBack(wolf);
+				
+			RemoveAllPotionEffects(exceptions);
+			
+
+			AddTimer('NGE_FixSkillPoints',1.0f,false);
+		}		
+		
+		
+		
+		ManageSetBonusesSoundbanks(EIST_Lynx);
+		ManageSetBonusesSoundbanks(EIST_Gryphon);
+		ManageSetBonusesSoundbanks(EIST_Bear);*/
+		
+
+		m_quenHitFxTTL = 0;
+		m_TriggerEffectDisablePending = false;
+		m_TriggerEffectDisabled = false;
+		ApplyGamepadTriggerEffect( equippedSign );
+      	AddTimer( 'UpdateGamepadTriggerEffect', 0.1, true );
 		
 		//modNoDuplicates - Begin
 		if(!newGamePlusInitialized && FactsQuerySum("NewGamePlus")<=0)
@@ -799,17 +823,76 @@ statemachine class W3PlayerWitcher extends CR4Player
 			ModNoDuplicatesAddInventoryComponentFacts(GetHorseManager().GetInventoryComponent());
 		}
 		//modNoDuplicates - End
-		
-		// b1ackbeat's DualSense Support - Start
-		m_quenHitFxTTL = 0;
-		m_TriggerEffectDisablePending = false;
-		m_TriggerEffectDisabled = false;
-		ApplyGamepadTriggerEffect( equippedSign );
-      	AddTimer( 'UpdateGamepadTriggerEffect', 0.1, true );
-		// b1ackbeat's DualSense Support - End
 	}
+	
+	//Kolaris - NextGen Update (Disabled)
+	/*private timer function NGE_FixSkillPoints( dt : float, id : int )
+	{
+		((W3PlayerAbilityManager)abilityManager).NGEFixSkillPoints();
+		FixNGESwords();	
+		FactsAdd("NGE_SkillPointsCheck");
+	}*/
+	
+	
+	//Kolaris - NextGen Update (Disabled)
+	/*private function FixNGESwords()
+	{
+		
+		var swords, swordsTemp : array<SItemUniqueId>;
+		var i : int;
+		var equipped : bool;
+		var runesList : array <name>;
 
-	// b1ackbeat's DualSense Support - Start
+		swords = inv.GetItemsByName('sq304 Novigraadan sword 4');
+		if(swords.Size() > 0)
+		{
+			for(i=0;i<swords.Size();i+=1)
+			{
+				if( IsItemEquipped(swords[i]) )
+					equipped = true;
+					
+				if ( inv.GetItemEnhancementCount(swords[i]) > 0 )
+				{
+					inv.GetItemEnhancementItems(swords[i], runesList);
+					for (i = 0; i < runesList.Size(); i+=1)
+					{
+						inv.AddAnItem( runesList[i] );
+					}		
+				}
+				
+				inv.RemoveItem(swords[i],1);
+				swordsTemp = inv.AddAnItem('sq304 Novigraadan sword 4',1,true,true);
+				if(equipped)
+					EquipItem(swordsTemp[0]);
+			}
+		}
+
+		swords = inv.GetItemsByName('q402 Skellige sword 3');
+		if(swords.Size() > 0)
+		{
+			for(i=0;i<swords.Size();i+=1)
+			{
+				if( IsItemEquipped(swords[i]) )
+					equipped = true;
+					
+				if ( inv.GetItemEnhancementCount(swords[i]) > 0 )
+				{
+					inv.GetItemEnhancementItems(swords[i], runesList);
+					for (i = 0; i < runesList.Size(); i+=1)
+					{
+						inv.AddAnItem( runesList[i] );
+					}		
+				}
+				
+				inv.RemoveItem(swords[i],1);
+				swordsTemp = inv.AddAnItem('q402 Skellige sword 3',1,true,true);
+				if(equipped)
+					EquipItem( swordsTemp[0]);
+			}
+		}
+	}*/
+	
+
 	event OnDestroyed()
 	{
 		RemoveTimer( 'UpdateGamepadTriggerEffect' );
@@ -819,7 +902,10 @@ statemachine class W3PlayerWitcher extends CR4Player
 
 		super.OnDestroyed();
 	}
-	// b1ackbeat's DualSense Support - End
+
+	
+	
+	
 	
 	private function HACK_UnequipWolfLiver()
 	{
@@ -2127,8 +2213,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 			SelectQuickslotItem( quickSlotItems[ 0 ] );
 		}
 	}
-		
-	// b1ackbeat's DualSense Support - Start
+
 	public function OnShieldHit()
 	{
 		m_quenHitFxTTL = 0.2;
@@ -2169,22 +2254,22 @@ statemachine class W3PlayerWitcher extends CR4Player
 
 		sign_skill = SignEnumToSkillEnum( type );
 
-		if( !thePlayer.CanUseSkill(sign_skill)  ||  !HasVigorToUseSkill(sign_skill) )
+		if( !thePlayer.CanUseSkill(sign_skill)  ||  !HasStaminaToUseSkill(sign_skill,false,false,true) )
 		{
 			theGame.SetTriggerEffect( 1, GTFX_Off, param );
 			theGame.SetTriggerEffect( 0, GTFX_Off, param );
 			if(theInput.IsActionPressed('CastSign'))
 			{
-				lastPressedWithNovigor = true;
+				lastPressedWithNostamina = true;
 			}
 			return;
 		}
-		if(lastPressedWithNovigor && !theInput.IsActionPressed('CastSign'))
+		if(lastPressedWithNostamina && !theInput.IsActionPressed('CastSign'))
 		{
-			lastPressedWithNovigor = false;
+			lastPressedWithNostamina = false;
 		}
 
-		if(lastPressedWithNovigor)
+		if(lastPressedWithNostamina)
 		{
 			return;
 		}
@@ -2342,8 +2427,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 		}		
 
 	}
-	// b1ackbeat's DualSense Support - End
-
+		
+	
 	function SetEquippedSign( signType : ESignType )
 	{
 		var items : array<SItemUniqueId>;
@@ -2356,9 +2441,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		{
 			equippedSign = signType;
 			FactsSet("CurrentlySelectedSign", equippedSign);
-			// b1ackbeat's DualSense Support - Start
 			ApplyGamepadTriggerEffect( signType );
-			// b1ackbeat's DualSense Support - End
 		}
 		
 		//Kolaris - Invocation
@@ -4001,17 +4084,13 @@ statemachine class W3PlayerWitcher extends CR4Player
 				{
 					SetupCombatAction( EBAT_SpecialAttack_Heavy, BS_Pressed );
 					RemoveTimer('IsSpecialHeavyAttackInputHeld');
-					// b1ackbeat's DualSense Support - Start
 					theGame.HapticStart( "haptic_rend_stop" );
-					// b1ackbeat's DualSense Support - End
 				}
 				else if(!playedSpecialAttackMissingResourceSound)
 				{
 					SetShowToLowStaminaIndication(1.f);
 					playedSpecialAttackMissingResourceSound = true;
-					// b1ackbeat's DualSense Support - Start
 					theGame.HapticStart( "haptic_rend_stop" );
-					// b1ackbeat's DualSense Support - End
 				}
 			}
 		}
@@ -4019,9 +4098,7 @@ statemachine class W3PlayerWitcher extends CR4Player
 		{
 			CancelHoldAttacks();
 			RemoveTimer('IsSpecialHeavyAttackInputHeld');
-			// b1ackbeat's DualSense Support - Start
 			theGame.HapticStart( "haptic_rend_stop" );
-			// b1ackbeat's DualSense Support - End
 		}
 		// W3EE - End
 	}
@@ -7627,10 +7704,8 @@ statemachine class W3PlayerWitcher extends CR4Player
 				target.SignalGameplayEvent( 'DodgeSign' );
 		}
 
-		// b1ackbeat's DualSense Support - Start
 		m_TriggerEffectDisablePending = true;
 		m_TriggerEffectDisableTTW = 0.3; 
-		// b1ackbeat's DualSense Support - End
 		
 		newSignEnt = (W3SignEntity)theGame.CreateEntity( signs[equippedSign].template, spawnPos, GetWorldRotation() );
 		return newSignEnt.Init( signOwner, signs[equippedSign].entity );

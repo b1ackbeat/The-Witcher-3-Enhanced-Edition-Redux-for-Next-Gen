@@ -236,7 +236,7 @@ function ModNoDuplicatesHideInventoryComponentDuplicates(inventoryComponent: CIn
 function ModNoDuplicatesIsItemDuplicateType(inventoryComponent : CInventoryComponent, itemUniqueId : SItemUniqueId) : bool
 {
 
-	return (/*inventoryComponent.ItemHasTag(itemUniqueId,'mod_horse') ||*/ ( (inventoryComponent.ItemHasTag(itemUniqueId,'Weapon') || inventoryComponent.ItemHasTag(itemUniqueId,'Armor') || inventoryComponent.ItemHasTag(itemUniqueId,'Artifact_weapon') )&& inventoryComponent.GetItemQuality(itemUniqueId)==4) ); //W3EE
+	return (/*inventoryComponent.ItemHasTag(itemUniqueId,'mod_horse') ||*/ ( (inventoryComponent.ItemHasTag(itemUniqueId,'Weapon') || /*inventoryComponent.ItemHasTag(itemUniqueId,'Armor') ||*/ inventoryComponent.ItemHasTag(itemUniqueId,'Artifact_weapon') )&& inventoryComponent.GetItemQuality(itemUniqueId)==4) ); //W3EE
 	
 }
 
